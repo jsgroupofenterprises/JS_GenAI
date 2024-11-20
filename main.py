@@ -1,9 +1,14 @@
 from RDKAssistant_Class import RDKAssistant
+import os
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 if __name__ == "__main__":
     assistant = RDKAssistant(
-        code_base_path=r"C:\Users\39629\Downloads\rdkb_24q1\rdkb_24q1\rdkb\components\opensource\ccsp\OneWifi\lib\common\monitor.c",
-        gemini_api_key="AIzaSyAGrz7Fw9flS5OnHu5G-EqvwT1pPVkWV64"
+        code_base_path=os.getenv('CODE_BASE_PATH'),
+        gemini_api_key=os.getenv('GEMINI_API_KEY')
     )
     assistant.initialize()
     assistant.handle_user_interaction()

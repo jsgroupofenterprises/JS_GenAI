@@ -5,8 +5,8 @@ app = Flask(__name__)
 CORS(app)  # Enable CORS
 
 assistant = RDKAssistant(
-    code_base_path=r"C:\Users\39629\Downloads\rdkb_24q1\rdkb_24q1\rdkb\components\opensource\ccsp\OneWifi\source\dml\dml_webconfig",
-    gemini_api_key="AIzaSyAxrAdNHgOau0STj06M17yreQHIOYZP-Zc"
+    code_base_path=os.getenv('CODE_BASE_PATH'),
+    gemini_api_key=os.getenv('GEMINI_API_KEY')
 )
 assistant.initialize()
 

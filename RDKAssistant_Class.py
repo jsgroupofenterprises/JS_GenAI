@@ -20,10 +20,39 @@ from VectorStoreManager import VectorStoreManager
 from ProcessingStateClass import ProcessingState
 import pickle
 
-credential_path = "credentials.json"
-# Load the credentials from the JSON file
-credentials = Credentials.from_service_account_file(credential_path)
+# credential_path = "credentials.json"
+# # Load the credentials from the JSON file
+# credentials = Credentials.from_service_account_file(credential_path)
 
+import os
+from google.oauth2 import service_account
+import os
+from dotenv import load_dotenv
+from google.oauth2 import service_account
+from google.auth import exceptions
+
+# Load environment variables
+load_dotenv()
+
+
+# For development, you can still use local credentials file
+if os.path.exists('credentials.json'):
+    credentials = Credentials.from_service_account_file('credentials.json')
+else:
+    # For production, use environment variables
+    credentials_info = {
+        "type": os.getenv("GOOGLE_TYPE"),
+        "project_id": os.getenv("GOOGLE_PROJECT_ID"),
+        "private_key_id": os.getenv("GOOGLE_PRIVATE_KEY_ID"),
+        "private_key": os.getenv("GOOGLE_PRIVATE_KEY").replace('\\n', '\n'),
+        "client_email": os.getenv("GOOGLE_CLIENT_EMAIL"),
+        "client_id": os.getenv("GOOGLE_CLIENT_ID"),
+        "auth_uri": os.getenv("GOOGLE_AUTH_URI"),
+        "token_uri": os.getenv("GOOGLE_TOKEN_URI"),
+        "auth_provider_x509_cert_url": os.getenv("GOOGLE_AUTH_PROVIDER_CERT_URL"),
+        "client_x509_cert_url": os.getenv("GOOGLE_CLIENT_CERT_URL")
+    }
+    credentials = Credentials.from_service_account_info(credentials_info)
 
 class RDKAssistant:
     def __init__(self, code_base_path: str, gemini_api_key: str,):
