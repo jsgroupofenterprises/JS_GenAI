@@ -1,0 +1,7 @@
+{
+  "entity_name": "_HALCOSA_DML_ETH_PORT_FULL",
+  "component": "hal",
+  "content_hash": "d286d080d69f0799c0fce6dbff554a2e",
+  "response": "1. **Purpose of this structure:**\n   - Represents the full configuration, static information, and dynamic information for an Ethernet port.\n\n2. **Key fields and their significance:**\n   - **Cfg:** Ethernet port configuration, including MAC address, IP address, and VLAN settings.\n   - **StaticInfo:** Static information about the port, such as port identifier, speed, and duplex mode.\n   - **DynamicInfo:** Dynamic information about the port, such as link status and traffic statistics.\n\n3. **Usage context in RDK:**\n   - Used by the HAL (Hardware Abstraction Layer) component for managing Ethernet ports.\n   - Provides a comprehensive data structure for representing port information.\n\n4. **Related components or interfaces:**\n   - HALCOSA_DML_ETH_PORT_CFG: Ethernet port configuration structure.\n   - HALCOSA_DML_ETH_PORT_SINFO: Ethernet port static information structure.\n   - HALCOSA_DML_ETH_PORT_DINFO: Ethernet port dynamic information structure.\n\n5. **Specific RDK-related details:**\n   - Part of the RDK (Reference Design Kit) hardware abstraction layer.\n   - Defines a common set of structures for managing hardware resources across different RDK implementations.",
+  "processed_at": "2024-11-14T15:10:11.292358"
+}

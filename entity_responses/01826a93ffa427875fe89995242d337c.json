@@ -1,0 +1,7 @@
+{
+  "entity_name": "ssp_WifiMbi_GetHealth",
+  "component": "CcspWifiAgent",
+  "content_hash": "01826a93ffa427875fe89995242d337c",
+  "response": "**1. Main purpose and functionality**\n\nThe `ssp_WifiMbi_GetHealth` function returns the current health status of the Wi-Fi MBI component.\n\n**2. Key operations and data flow**\n\nThe function simply returns the value of the `Health` member variable of the `g_pComponent_Common_Dm` global structure.\n\n**3. Interaction with other components (if any)**\n\nThe function does not interact with any other components.\n\n**4. Important parameters and return values**\n\nThe function does not take any parameters. It returns an integer representing the health status of the Wi-Fi MBI component. The possible return values are:\n\n* `0`: The component is healthy.\n* `-1`: The component is not healthy.\n\n**5. Any specific RDK-related operations**\n\nThe function does not perform any RDK-specific operations.",
+  "processed_at": "2024-11-13T14:56:56.065454"
+}

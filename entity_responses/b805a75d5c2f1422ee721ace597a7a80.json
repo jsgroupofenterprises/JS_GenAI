@@ -1,0 +1,7 @@
+{
+  "entity_name": "hostapd_tr181_config_parse_key_mgmt",
+  "component": "CcspWifiAgent",
+  "content_hash": "b805a75d5c2f1422ee721ace597a7a80",
+  "response": "**1. Main purpose and functionality**\n\n   The purpose of the hostapd_tr181_config_parse_key_mgmt function is to parse the key management mode enabled and return the corresponding WPA key management flags.\n\n**2. Key operations and data flow**\n\n   The function takes an integer representing the enabled key management mode as an input parameter. It then switches on the value of this parameter and assigns a corresponding string value to the conf_value variable based on the mode. It then compares the conf_value with known key management modes and sets the appropriate WPA key management flag in the val variable. Finally, the function returns the val variable.\n\n**3. Interaction with other components (if any)**\n\n   This function does not interact with other components.\n\n**4. Important parameters and return values**\n\n   - modeEnabled: The key management mode enabled.\n   - val: The WPA key management flags corresponding to the enabled mode.\n\n**5. Any specific RDK-related operations**\n\n   This function is part of the CcspWifiAgent component in RDK, which is responsible for managing Wi-Fi settings.",
+  "processed_at": "2024-11-13T15:23:15.757970"
+}

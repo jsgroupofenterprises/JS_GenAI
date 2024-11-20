@@ -1,0 +1,7 @@
+{
+  "entity_name": "voice_hal_getRtpSKBMark",
+  "component": "hal",
+  "content_hash": "3444e8d901acc1edf79d253ce03c636e",
+  "response": "## Main purpose and functionality\n\nThe `voice_hal_getRtpSKBMark` function retrieves a mark for the RTP SKB.\n\n## Key operations and data flow\n\nThe function takes three parameters:\n\n- `service`: the voice service affected\n- `profile`: the voice profile affected\n- `mark`: a pointer to a variable that will receive the mark\n\nThe function retrieves the mark for the RTP SKB and stores it in the variable pointed to by `mark`.\n\n## Interaction with other components (if any)\n\nThe function interacts with the following components:\n\n- The RTP stack\n- The voice service manager\n\n## Important parameters and return values\n\nThe following parameters are important:\n\n- `service`: the voice service affected\n- `profile`: the voice profile affected\n- `mark`: a pointer to a variable that will receive the mark\n\nThe function returns a value of 0 if successful, or a negative error code if an error occurs.\n\n## Any specific RDK-related operations\n\nThe function is not specific to RDK.",
+  "processed_at": "2024-11-14T12:09:13.324513"
+}

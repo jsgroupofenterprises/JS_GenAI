@@ -1,0 +1,7 @@
+{
+  "entity_name": "voice_hal_getTelUriFeatureCode",
+  "component": "hal",
+  "content_hash": "10b0e75e343d70fba2da6f3c71782939",
+  "response": "## Main Purpose and Functionality\n\nThe `voice_hal_getTelUriFeatureCode` function in `hal` gets the state of the emergency SIP URI user parameter for a given voice service and profile.\n\n## Key Operations and Data Flow\n\nThe function takes the following inputs:\n\n* `service`: The voice service affected.\n* `profile`: The voice profile affected.\n* `enable`: A pointer to a boolean that will receive the state of the emergency SIP URI user parameter.\n\nThe function retrieves the state of the emergency SIP URI user parameter from the underlying HAL and stores it in the provided `enable` parameter.\n\n## Interaction with Other Components\n\nThis function interacts with the underlying HAL to retrieve the state of the emergency SIP URI user parameter.\n\n## Important Parameters and Return Values\n\n| Parameter | Description | Return Value |\n|---|---|---|\n| `service` | The voice service affected | N/A |\n| `profile` | The voice profile affected | N/A |\n| `enable` | A pointer to a boolean that will receive the state of the emergency SIP URI user parameter | N/A |\n| Return value | The status of the operation. | `RDK_SUCCESS` if successful, `RDK_FAILURE` if any error is detected |\n\n## RDK-Related Operations\n\nThis function is part of the RDK HAL API for voice services.",
+  "processed_at": "2024-11-14T11:59:44.838722"
+}

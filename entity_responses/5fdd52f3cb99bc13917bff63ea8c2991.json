@@ -1,0 +1,7 @@
+{
+  "entity_name": "hapd_reload_radius_server_ip",
+  "component": "CcspWifiAgent",
+  "content_hash": "5fdd52f3cb99bc13917bff63ea8c2991",
+  "response": "**1. Main purpose and functionality**\n\nThis function updates the IP address of the RADIUS server in the hostapd configuration. RADIUS is a protocol used for authenticating and authorizing network users. \n\n**2. Key operations and data flow**\n\nThe function takes as input a pointer to the hostapd data structure, a pointer to the BSS configuration structure, the IP address of the RADIUS server, and a flag indicating whether the RADIUS server is primary or secondary. \n\nIf the RADIUS server is primary, the function updates the IP address of the primary RADIUS server in the hostapd configuration. \n\nIf the RADIUS server is secondary, the function updates the IP address of the secondary RADIUS server in the hostapd configuration. \n\n**3. Interaction with other components (if any)**\n\nThis function does not interact with any other components. \n\n**4. Important parameters and return values**\n\nThe important parameters of this function are:\n\n* `hapd`: Pointer to the hostapd data structure. \n* `conf`: Pointer to the BSS configuration structure. \n* `radiusServerIPAddr`: IP address of the RADIUS server. \n* `isPrimary`: Flag indicating whether the RADIUS server is primary or secondary. \n\nThe function does not return any value. \n\n**5. Any specific RDK-related operations**\n\nThis function is not specific to RDK.",
+  "processed_at": "2024-11-13T15:26:33.782920"
+}

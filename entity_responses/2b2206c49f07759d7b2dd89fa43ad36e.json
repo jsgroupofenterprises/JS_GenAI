@@ -1,0 +1,7 @@
+{
+  "entity_name": "ActiveMeasurement_Step_GetEntryCount",
+  "component": "CcspWifiAgent",
+  "content_hash": "2b2206c49f07759d7b2dd89fa43ad36e",
+  "response": "**1. Main purpose and functionality:**\n\nThe `ActiveMeasurement_Step_GetEntryCount` function is part of CcspWifiAgent, an RDK component responsible for managing active measurements for Wi-Fi networks. This function returns the number of active measurements steps configured in the system.\n\n**2. Key operations and data flow:**\n\n* The function takes one parameter, `hInsContext`, an opaque handle to the parent instance.\n* It returns an unsigned long integer representing the number of active measurement steps configured in the system.\n\n**3. Interaction with other components (if any):**\n\nThe function does not interact directly with any other components.\n\n**4. Important parameters and return values:**\n\n| Parameter | Description |\n|---|---|\n| `hInsContext` | Opaque handle to the parent instance |\n| Return value | Number of active measurement steps configured in the system |\n\n**5. Any specific RDK-related operations:**\n\nThe function is part of CcspWifiAgent, an RDK-specific component.",
+  "processed_at": "2024-11-13T15:02:11.330372"
+}

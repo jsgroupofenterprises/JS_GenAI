@@ -1,0 +1,7 @@
+{
+  "entity_name": "wifi_getApNumDevicesAssociated",
+  "component": "hal",
+  "content_hash": "91bb9285b9babf113d4a73aa4ede38fc",
+  "response": "**1. Main purpose and functionality:**\n\nThe purpose of the wifi_getApNumDevicesAssociated function is to retrieve the number of stations associated with a specified access point (AP).\n\n**2. Key operations and data flow:**\n\nThe function takes two parameters:\n - apIndex: The index of the AP for which to retrieve the number of associated devices.\n - output_ulong: A pointer to a ULONG variable in which to store the number of associated devices.\n\nThe function will retrieve the number of associated devices from the driver and store it in the output_ulong variable.\n\n**3. Interaction with other components (if any):**\n\nThis function interacts with the Wi-Fi driver to retrieve the number of associated devices.\n\n**4. Important parameters and return values:**\n\n* apIndex: The index of the AP for which to retrieve the number of associated devices.\n* output_ulong: A pointer to a ULONG variable in which to store the number of associated devices.\n\nThe function returns RETURN_OK if successful, or RETURN_ERR if an error occurs.\n\n**5. Any specific RDK-related operations:**\n\nThis function is part of the RDK Wi-Fi HAL API and is used by RDK applications to manage Wi-Fi Access Points.",
+  "processed_at": "2024-11-14T12:24:06.138150"
+}

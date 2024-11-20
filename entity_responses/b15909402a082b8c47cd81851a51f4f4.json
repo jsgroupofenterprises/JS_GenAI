@@ -1,0 +1,7 @@
+{
+  "entity_name": "wifidb_update_wifi_macfilter_config",
+  "component": "CcspWifiAgent",
+  "content_hash": "b15909402a082b8c47cd81851a51f4f4",
+  "response": "**1. Main purpose and functionality:**\n- This function updates the WiFi MAC filter configuration in the WiFi database (wifidb) based on the specified access point (AP) index.\n\n**2. Key operations and data flow:**\n- Gets the number of MAC filters configured for the specified AP instance.\n- Iterates through the MAC filters.\n- For each MAC filter, retrieves the MAC address, device name, and instance number from the PSM (Parameter Store Manager).\n- Creates a `COSA_DML_WIFI_AP_MAC_FILTER` data structure with the retrieved information.\n- Adds the MAC filter configuration to the WiFi database using `wifidb_add_wifi_macfilter_config`.\n\n**3. Interaction with other components:** \n- PSM (Parameter Store Manager): Retrieves MAC filter configuration data.\n- WiFi database (wifidb): Updates the MAC filter configuration.\n\n**4. Important parameters and return values:**\n- `apIndex`: The index of the AP for which the MAC filter configuration should be updated.\n- Return value: 0 on success, -1 on failure.\n\n**5. Any specific RDK-related operations:**\n- None.",
+  "processed_at": "2024-11-13T15:33:32.806175"
+}

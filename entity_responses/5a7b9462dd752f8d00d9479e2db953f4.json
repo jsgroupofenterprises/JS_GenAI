@@ -1,0 +1,7 @@
+{
+  "entity_name": "docsis_GetDocsisEventLogItems",
+  "component": "hal",
+  "content_hash": "5a7b9462dd752f8d00d9479e2db953f4",
+  "response": "**1. Main purpose and functionality:**\n   - The `docsis_GetDocsisEventLogItems` function retrieves DOCSIS event log items from the DOCSIS modem.\n\n**2. Key operations and data flow:**\n   - The function takes two parameters: `entryArray`, which is an array of `CMMGMT_CM_EventLogEntry_t` structures to receive the event log items, and `len`, which is the length of the array.\n   - The function retrieves the DOCSIS event log items from the modem and stores them in the `entryArray` parameter.\n\n**3. Interaction with other components (if any):**\n   - The function may interact with the DOCSIS modem driver to retrieve the event log items.\n\n**4. Important parameters and return values:**\n   - `entryArray`: An array of `CMMGMT_CM_EventLogEntry_t` structures to receive the event log items.\n   - `len`: The length of the `entryArray` array.\n   - Return value: The function returns 0 if successful, or -1 if an error occurred.\n\n**5. Any specific RDK-related operations:**\n   - This function is specific to RDK and is used to retrieve DOCSIS event log items from the DOCSIS modem.",
+  "processed_at": "2024-11-14T10:45:07.254381"
+}

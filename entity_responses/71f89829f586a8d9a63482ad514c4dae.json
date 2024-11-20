@@ -1,0 +1,7 @@
+{
+  "entity_name": "INT",
+  "component": "hal",
+  "content_hash": "71f89829f586a8d9a63482ad514c4dae",
+  "response": "**1. Main purpose and functionality**\n\nThe INT function is a callback function that is used to register a frame hook function. A frame hook function is a function that is called when a management frame is received from the HAL.\n\n**2. Key operations and data flow**\n\nThe INT function takes two parameters:\n\n* ap_index: The index of the AP\n* type: The type of management frame\n\nThe INT function registers the frame hook function with the HAL. The HAL will then call the frame hook function when a management frame is received.\n\n**3. Interaction with other components (if any)**\n\nThe INT function interacts with the HAL. The HAL is responsible for managing the frame hook function and calling it when a management frame is received.\n\n**4. Important parameters and return values**\n\nThe INT function takes two parameters:\n\n* ap_index: The index of the AP\n* type: The type of management frame\n\nThe INT function returns an integer value. The integer value is the status of the operation. The status of the operation can be RETURN_OK if successful or RETURN_ERR if any error is detected.\n\n**5. Any specific RDK-related operations**\n\nThe INT function is not specific to RDK. It is a general-purpose function that can be used in any application.",
+  "processed_at": "2024-11-14T12:40:55.470199"
+}

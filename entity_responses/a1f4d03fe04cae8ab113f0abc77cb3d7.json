@@ -1,0 +1,7 @@
+{
+  "entity_name": "file_put",
+  "component": "CcspWifiAgent",
+  "content_hash": "a1f4d03fe04cae8ab113f0abc77cb3d7",
+  "response": "**1. Main purpose and functionality:**\n\nThe `file_put` function writes the contents of the `buf` parameter to the file specified by the `path` parameter. It creates the file if it does not exist, and truncates it if it does.\n\n**2. Key operations and data flow:**\n\n* The function first calculates the length of the `buf` parameter.\n* It then opens the file specified by the `path` parameter with write-only, create, and truncate permissions.\n* If the file cannot be opened, the function returns -1.\n* The function then writes the contents of the `buf` parameter to the file.\n* If the number of bytes written is not equal to the length of the `buf` parameter, the function closes the file and returns -1.\n* The function closes the file and returns 0 if successful.\n\n**3. Interaction with other components (if any):**\n\nThe `file_put` function does not directly interact with other components. However, it may be used by other components to write data to files.\n\n**4. Important parameters and return values:**\n\n* `path`: The path to the file to be written.\n* `buf`: The data to be written to the file.\n* `return value`: 0 if successful, -1 otherwise.\n\n**5. Any specific RDK-related operations:**\n\nThe `file_put` function does not perform any RDK-specific operations.",
+  "processed_at": "2024-11-13T15:49:38.453402"
+}

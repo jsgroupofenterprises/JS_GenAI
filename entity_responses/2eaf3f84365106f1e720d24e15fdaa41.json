@@ -1,0 +1,7 @@
+{
+  "entity_name": "wifi_stop_eapol_rx_thread",
+  "component": "CcspWifiAgent",
+  "content_hash": "2eaf3f84365106f1e720d24e15fdaa41",
+  "response": "**1. Main purpose and functionality**\n\nThe `wifi_stop_eapol_rx_thread` function stops the thread that receives EAPOL (Extensible Authentication Protocol over LAN) packets from the Wi-Fi interface. EAPOL is a protocol used for authentication and key management in 802.11 networks.\n\n**2. Key operations and data flow**\n\nThe function calls the `wifi_hostApCancelRecvEtherThread` function to stop the EAPOL RX thread. The `wifi_hostApCancelRecvEtherThread` function is responsible for receiving EAPOL packets from the Wi-Fi interface and passing them to the EAPOL state machine.\n\n**3. Interaction with other components (if any)**\n\nThe `wifi_stop_eapol_rx_thread` function interacts with the following components:\n\n* The EAPOL state machine\n* The Wi-Fi interface\n\n**4. Important parameters and return values**\n\nThe `wifi_stop_eapol_rx_thread` function does not take any parameters and does not return any value.\n\n**5. Any specific RDK-related operations**\n\nThe `wifi_stop_eapol_rx_thread` function is used in RDK devices to stop the EAPOL RX thread when the Wi-Fi interface is disabled.",
+  "processed_at": "2024-11-13T15:16:21.909359"
+}

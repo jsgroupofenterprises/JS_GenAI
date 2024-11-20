@@ -1,0 +1,7 @@
+{
+  "entity_name": "wifi_getRadioSupportedFrequencyBands",
+  "component": "hal",
+  "content_hash": "b3714136ccc70db4bb3bba0c45d12bd2",
+  "response": "```\nfunction Name:wifi_getRadioChannels\nComponent: hal\nReturn Type: INT\nParameters: INT radioIndex, wifi_channelMap_t *output_map, INT output_map_size\nbrief Description: This function returns a map of current states of each possible channel for given radio.\nThe implementation must fill the map for each channel reported by wifi_getRadioPossibleChannels().\n```",
+  "processed_at": "2024-11-14T13:05:38.255809"
+}

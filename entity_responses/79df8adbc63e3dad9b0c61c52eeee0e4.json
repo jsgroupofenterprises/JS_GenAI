@@ -1,0 +1,7 @@
+{
+  "entity_name": "mon_reset_parent_signals",
+  "component": "OneWifi",
+  "content_hash": "79df8adbc63e3dad9b0c61c52eeee0e4",
+  "response": "**1. Main purpose and functionality:**\nmon_reset_parent_signals function is used to reset the signal handlers installed by the parent process in the mon_start function, allowing the parent process to exit cleanly.\n\n**2. Key operations and data flow:**\n1. The function calls a helper function mon_reset_parent_signal_handler() to reset signal handlers for SIGHUP, SIGINT, SIGTERM, and SIGUSR2.\n2. The function then calls another helper function mon_reset_parent_signal_action() to reset the signal action for SIGCHLD.\n\n**3. Interaction with other components (if any):**\nThis function interacts with the signal handling mechanisms of the parent process, which are used to handle signals such as SIGHUP, SIGINT, SIGTERM, and SIGUSR2.\n\n**4. Important parameters and return values:**\n- **Parameters**: none\n- **Return values**: none\n\n**5. Any specific RDK-related operations:**\nThis function is not specific to RDK and can be used in any Linux process.",
+  "processed_at": "2024-11-19T09:53:58.752306"
+}

@@ -1,0 +1,7 @@
+{
+  "entity_name": "init_ovsdb_tables",
+  "component": "CcspWifiAgent",
+  "content_hash": "e96177c565108ba9235e227bdf6653d1",
+  "response": "1. **Main purpose and functionality:**\n\n   - Initializes the connection to the Open vSwitch Database (OVSDB) and creates the necessary tables for storing Wi-Fi configuration data.\n\n2. **Key operations and data flow:**\n\n   - Initializes the Wifi_Device_Config, Wifi_Security_Config, Wifi_Interworking_Config, Wifi_GAS_Config, Wifi_VAP_Config, Wifi_Radio_Config, Wifi_Global_Config, and Wifi_MacFilter_Config tables in OVSDB.\n   - Connects to the OVSDB socket at the specified path and retries the connection if it fails within a limited number of attempts.\n   - Sets the g_wifidb.ovsdb_sock_path and g_wifidb.ovsdb_fd global variables to store the OVSDB socket path and file descriptor, respectively.\n\n3. **Interaction with other components (if any):**\n\n   - This function interacts with the OVSDB database to create and initialize the necessary tables.\n   - It assumes that the database is running and accessible at the specified socket path.\n\n4. **Important parameters and return values:**\n\n   - None of the parameters passed to this function.\n   - Return 0 on successful initialization, -1 on failure.\n\n5. **Any specific RDK-related operations:**\n\n   - Initializes the Wi-Fi configuration tables in the OVSDB database, which is used by RDK for managing Wi-Fi devices and configurations.",
+  "processed_at": "2024-11-13T15:33:49.112674"
+}

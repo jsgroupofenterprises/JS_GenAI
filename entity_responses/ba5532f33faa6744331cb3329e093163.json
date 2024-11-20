@@ -1,0 +1,7 @@
+{
+  "entity_name": "rotate_and_write_CSIData",
+  "component": "CcspWifiAgent",
+  "content_hash": "ba5532f33faa6744331cb3329e093163",
+  "response": "### Analysis of rotate_and_write_CSIData Function\n\n1. **Main Purpose and Functionality**:\n   - Implements a mechanism to rotate and write CSI (Channel State Information) data into a persistent storage file.\n   - Rotates the existing CSI data by appending new data and discarding oldest data (if the file size exceeds 1MB).\n\n2. **Key Operations and Data Flow**:\n   - Opens two files: a permanent CSI data file (/tmp/CSI.bin) and a temporary file (/tmp/CSI_tmp.bin).\n   - If the CSI file exceeds 1 MB, it rotates the existing data by moving it to the temporary file.\n   - Writes the new CSI data into the temporary file.\n   - Renames the temporary file to replace the original CSI file, effectively rotating and updating the data.\n\n3. **Interaction with Other Components**:\n   - None explicitly mentioned in the code snippet.\n\n4. **Important Parameters and Return Values**:\n   - **Parameters**:\n     - `sta_mac`: MAC address of the station associated with the CSI data.\n     - `csi`: Pointer to the CSI data structure containing frame information and CSI matrix.\n   - **Return Value**:\n     - Void (no explicit return value).\n\n5. **RDK-Related Operations**:\n   - Uses RDK's WIFI_EVENT_CONSUMER_DGB macro for logging purposes.",
+  "processed_at": "2024-11-13T14:54:12.915568"
+}

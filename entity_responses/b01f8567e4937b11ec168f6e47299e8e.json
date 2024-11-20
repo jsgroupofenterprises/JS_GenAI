@@ -1,0 +1,7 @@
+{
+  "entity_name": "voice_hal_setSessionExpires",
+  "component": "hal",
+  "content_hash": "b01f8567e4937b11ec168f6e47299e8e",
+  "response": "## Main Purpose and Functionality\n\nThe `voice_hal_setSessionExpires` function in the RDK Voice HAL sets the session expiry timeout for a specific voice service and profile.\n\n## Key Operations and Data Flow\n\nThe function takes as input:\n- `service`: The voice service to be affected.\n- `profile`: The voice profile to be affected.\n- `timeout`: The session expiry timeout in seconds.\n\nThe function sets the session expiry timeout for the specified service and profile. If the timeout is set to 0, the session will never expire.\n\n## Interaction with Other Components\n\nThis function interacts with the Voice Service Manager (VSM) to set the session expiry timeout.\n\n## Important Parameters and Return Values\n\n- `service`: The voice service to be affected. Valid values are 1-4.\n- `profile`: The voice profile to be affected. Valid values are 1-4.\n- `timeout`: The session expiry timeout in seconds. A value of 0 indicates that the session will never expire.\n- `Return Value`: The function returns RDK_SUCCESS if successful, or RDK_FAILURE if any error is detected.\n\n## Any Specific RDK-related Operations\n\nThis function is part of the RDK Voice HAL, which is a set of C-language APIs that provide a common interface for controlling voice services on RDK-based devices.",
+  "processed_at": "2024-11-14T12:12:24.337741"
+}

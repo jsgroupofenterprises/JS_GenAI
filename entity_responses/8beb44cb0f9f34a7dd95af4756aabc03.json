@@ -1,0 +1,7 @@
+{
+  "entity_name": "hostDetails",
+  "component": "hal",
+  "content_hash": "8beb44cb0f9f34a7dd95af4756aabc03",
+  "response": "**1. Purpose of this structure**\nThe hostDetails structure is used to store information about the host system on which RDK is running. \n\n**2. Key fields and their significance**\n-**hostName** : This field stores the hostname of the host system. The hostname is a unique identifier for the host system on a network.\n\n**3. Usage context in RDK**\nThe hostDetails structure is used by various components in RDK to obtain information about the host system. For example, the RDK Diagnostics component uses the hostName field to identify the host system when generating diagnostic reports.\n\n**4. Related components or interfaces**\nThe hostDetails structure is used by the following components or interfaces in RDK:\n-**RDK Diagnostics**\n-**RDK Software Update**\n-**RDK Provisioning**\n\n**5. Any specific RDK-related details**\nThe hostDetails structure is defined in the hal.h header file in the RDK source code. The structure is typically used in conjunction with the hostDetails GetComponent() API to obtain information about the host system.",
+  "processed_at": "2024-11-14T11:56:42.460199"
+}

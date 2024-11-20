@@ -1,0 +1,509 @@
+241007-14:40:19.437384 [mod=SNMP, lvl=WARN] [tid=1736] RBus is enabled
+241007-14:40:19.438355 [mod=SNMP, lvl=INFO] [tid=1736] rbuscore.c:2326 RBus Enabled
+
+241007-14:40:19.438528 [mod=SNMP, lvl=INFO] [tid=1736] rbuscore.c:643 Broker address: unix:///tmp/rtrouted
+
+241007-14:40:19.454684 [mod=SNMP, lvl=INFO] [tid=1736] connection opened for ccsp.cisco.spvtg.ccsp.snmp
+241007-14:40:19.462729 [mod=SNMP, lvl=WARN] [tid=1736] SNMP:snmp initialzed!
+241007-14:40:19.499276 [mod=SNMP, lvl=WARN] [tid=1736] Register scalar mib group 'rdkbRgIpMgmt'
+241007-14:40:19.499449 [mod=SNMP, lvl=INFO] [tid=1736] Oid:[1.3.6.1.4.1.17270.50.2.3] Len=10
+241007-14:40:19.499631 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1001, MaxOid = 1001
+241007-14:40:19.499706 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.499878 [mod=SNMP, lvl=INFO] [tid=1736] ExtraInfo in DMMapping loaded:
+bridge-static(1),router(2),l2tpv2-client(3),mixed(4),vlan(5)
+241007-14:40:19.500012 [mod=SNMP, lvl=INFO] [tid=1736] ExtraInfo in DMMapping loaded:
+default(0),anyPrivateClass(1),anyClass(2)
+241007-14:40:19.500161 [mod=SNMP, lvl=INFO] [tid=1736] Register table mib 'rdkbRgIpMgmtLanTable'
+241007-14:40:19.500245 [mod=SNMP, lvl=INFO] [tid=1736] Oid:[1.3.6.1.4.1.17270.50.2.3.2] Len=11
+241007-14:40:19.500319 [mod=SNMP, lvl=INFO] [tid=1736] MinOid = 1, MaxOid = 13
+241007-14:40:19.500469 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler for Table Mibs successfully.
+241007-14:40:19.500672 [mod=SNMP, lvl=INFO] [tid=1736] Register table mib 'rdkbRgIpMgmtLanDhcpServerTable'
+241007-14:40:19.500758 [mod=SNMP, lvl=INFO] [tid=1736] Oid:[1.3.6.1.4.1.17270.50.2.3.3] Len=11
+241007-14:40:19.500829 [mod=SNMP, lvl=INFO] [tid=1736] MinOid = 2, MaxOid = 7
+241007-14:40:19.500933 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler for Table Mibs successfully.
+241007-14:40:19.501220 [mod=SNMP, lvl=INFO] [tid=1736] Register table mib 'rdkbRgIpMgmtLanAddrTable'
+241007-14:40:19.501307 [mod=SNMP, lvl=INFO] [tid=1736] Oid:[1.3.6.1.4.1.17270.50.2.3.4] Len=11
+241007-14:40:19.501381 [mod=SNMP, lvl=INFO] [tid=1736] MinOid = 3, MaxOid = 11
+241007-14:40:19.501507 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler for Table Mibs successfully.
+241007-14:40:19.502678 [mod=SNMP, lvl=INFO] [tid=1736] Register table mib 'rdkbRgIpMgmtDhcpFixedIpTable'
+241007-14:40:19.503129 [mod=SNMP, lvl=INFO] [tid=1736] Oid:[1.3.6.1.4.1.17270.50.2.3.6] Len=11
+241007-14:40:19.503216 [mod=SNMP, lvl=INFO] [tid=1736] MinOid = 2, MaxOid = 6
+241007-14:40:19.503382 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler for Table Mibs successfully.
+241007-14:40:19.503483 [mod=SNMP, lvl=WARN] [tid=1736] Table group 'rdkbRgIpMgmtLanExtraSubnetTable' is not enabled,ignore this group.
+241007-14:40:19.503717 [mod=SNMP, lvl=INFO] [tid=1736] Register table mib 'rdkbRgIpMgmtLanConnectedClientsTable'
+241007-14:40:19.503802 [mod=SNMP, lvl=INFO] [tid=1736] Oid:[1.3.6.1.4.1.17270.50.2.3.16] Len=11
+241007-14:40:19.503872 [mod=SNMP, lvl=INFO] [tid=1736] MinOid = 2, MaxOid = 9
+241007-14:40:19.504004 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler for Table Mibs successfully.
+241007-14:40:19.591045 [mod=SNMP, lvl=WARN] [tid=1736] Scalar group 'rdkbRgDot11BssPrimary' is not enabled,ignore this group.
+241007-14:40:19.591221 [mod=SNMP, lvl=WARN] [tid=1736] Scalar group 'rdkbRgDot11PrivacyWps' is not enabled,ignore this group.
+241007-14:40:19.591391 [mod=SNMP, lvl=WARN] [tid=1736] Register scalar mib group 'rdkbRgDot11BandSteering'
+241007-14:40:19.591483 [mod=SNMP, lvl=INFO] [tid=1736] Oid:[1.3.6.1.4.1.17270.50.2.2.8] Len=11
+241007-14:40:19.591627 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 3
+241007-14:40:19.591702 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.591799 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 3
+241007-14:40:19.591869 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.591965 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 3
+241007-14:40:19.592037 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.592283 [mod=SNMP, lvl=WARN] [tid=1736] Register scalar mib group 'rdkbRgDot11'
+241007-14:40:19.601912 [mod=SNMP, lvl=INFO] [tid=1736] Oid:[1.3.6.1.4.1.17270.50.2.2] Len=10
+241007-14:40:19.602205 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1001, MaxOid = 1001
+241007-14:40:19.602285 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.603380 [mod=SNMP, lvl=INFO] [tid=1736] ExtraInfo in DMMapping loaded:
+None(0),WEP-128(1),WEP-64(1),WPA2-Personal(3),WPA2-Enterprise(5),WPA-WPA2-Personal(7),WPA-WPA2-Enterprise(8)
+241007-14:40:19.603567 [mod=SNMP, lvl=INFO] [tid=1736] ExtraInfo in DMMapping loaded:
+allowAny(0),allowList(1),denyList(2)
+241007-14:40:19.603708 [mod=SNMP, lvl=INFO] [tid=1736] Register table mib 'rdkbRgDot11BssTable'
+241007-14:40:19.603795 [mod=SNMP, lvl=INFO] [tid=1736] Oid:[1.3.6.1.4.1.17270.50.2.2.2.1] Len=12
+241007-14:40:19.603875 [mod=SNMP, lvl=INFO] [tid=1736] MinOid = 1, MaxOid = 16
+241007-14:40:19.606931 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler for Table Mibs successfully.
+241007-14:40:19.607222 [mod=SNMP, lvl=INFO] [tid=1736] Register table mib 'rdkbRgDot11AccessMacTable'
+241007-14:40:19.607316 [mod=SNMP, lvl=INFO] [tid=1736] Oid:[1.3.6.1.4.1.17270.50.2.2.2.2] Len=12
+241007-14:40:19.607391 [mod=SNMP, lvl=INFO] [tid=1736] MinOid = 2, MaxOid = 3
+241007-14:40:19.607530 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler for Table Mibs successfully.
+241007-14:40:19.607709 [mod=SNMP, lvl=INFO] [tid=1736] ExtraInfo in DMMapping loaded:
+TKIP(0),AES(1),AES+TKIP(2)
+241007-14:40:19.607840 [mod=SNMP, lvl=INFO] [tid=1736] Register table mib 'rdkbRgDot11WpaTable'
+241007-14:40:19.607926 [mod=SNMP, lvl=INFO] [tid=1736] Oid:[1.3.6.1.4.1.17270.50.2.2.3.1] Len=12
+241007-14:40:19.608001 [mod=SNMP, lvl=INFO] [tid=1736] MinOid = 1, MaxOid = 4
+241007-14:40:19.608116 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler for Table Mibs successfully.
+241007-14:40:19.608375 [mod=SNMP, lvl=INFO] [tid=1736] Register table mib 'rdkbRgDot11RadiusTable'
+241007-14:40:19.608468 [mod=SNMP, lvl=INFO] [tid=1736] Oid:[1.3.6.1.4.1.17270.50.2.2.3.2] Len=12
+241007-14:40:19.608544 [mod=SNMP, lvl=INFO] [tid=1736] MinOid = 1, MaxOid = 8
+241007-14:40:19.608672 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler for Table Mibs successfully.
+241007-14:40:19.608872 [mod=SNMP, lvl=INFO] [tid=1736] ExtraInfo in DMMapping loaded:
+WEP-64(0),WEP-128(1),None(1),WPA2-Personal(1),WPA-WPA2-Personal(1),WPA-Enterprise(1),WPA2-Enterprise(1),WPA-WPA2-Enterprise(1)
+241007-14:40:19.609009 [mod=SNMP, lvl=INFO] [tid=1736] Register table mib 'rdkbRgDot11WepTable'
+241007-14:40:19.609097 [mod=SNMP, lvl=INFO] [tid=1736] Oid:[1.3.6.1.4.1.17270.50.2.2.3.3] Len=12
+241007-14:40:19.609172 [mod=SNMP, lvl=INFO] [tid=1736] MinOid = 1, MaxOid = 3
+241007-14:40:19.609288 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler for Table Mibs successfully.
+241007-14:40:19.609506 [mod=SNMP, lvl=INFO] [tid=1736] Register table mib 'rdkbRgDot11Wep64BitKeyTable'
+241007-14:40:19.609596 [mod=SNMP, lvl=INFO] [tid=1736] Oid:[1.3.6.1.4.1.17270.50.2.2.3.4] Len=12
+241007-14:40:19.609669 [mod=SNMP, lvl=INFO] [tid=1736] MinOid = 2, MaxOid = 2
+241007-14:40:19.609782 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler for Table Mibs successfully.
+241007-14:40:19.626113 [mod=SNMP, lvl=INFO] [tid=1736] ExtraInfo in DMMapping loaded:
+SIZE(13)
+241007-14:40:19.626283 [mod=SNMP, lvl=INFO] [tid=1736] Register table mib 'rdkbRgDot11Wep128BitKeyTable'
+241007-14:40:19.626374 [mod=SNMP, lvl=INFO] [tid=1736] Oid:[1.3.6.1.4.1.17270.50.2.2.3.5] Len=12
+241007-14:40:19.626455 [mod=SNMP, lvl=INFO] [tid=1736] MinOid = 2, MaxOid = 2
+241007-14:40:19.626607 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler for Table Mibs successfully.
+241007-14:40:19.626822 [mod=SNMP, lvl=INFO] [tid=1736] Register table mib 'rdkbRgDot11ClientTable'
+241007-14:40:19.626911 [mod=SNMP, lvl=INFO] [tid=1736] Oid:[1.3.6.1.4.1.17270.50.2.2.4.2] Len=12
+241007-14:40:19.626982 [mod=SNMP, lvl=INFO] [tid=1736] MinOid = 2, MaxOid = 2
+241007-14:40:19.627095 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler for Table Mibs successfully.
+241007-14:40:19.627377 [mod=SNMP, lvl=INFO] [tid=1736] ExtraInfo in DMMapping loaded:
+off(1),local(3)
+241007-14:40:19.627556 [mod=SNMP, lvl=INFO] [tid=1736] ExtraInfo in DMMapping loaded:
+Disabled(2),Auto(1)
+241007-14:40:19.627661 [mod=SNMP, lvl=INFO] [tid=1736] ExtraInfo in DMMapping loaded:
+Auto(0),6000000(6),9000000(9),12000000(12),18000000(18),24000000(24),36000000(36),48000000(48),54000000(54)
+241007-14:40:19.627885 [mod=SNMP, lvl=INFO] [tid=1736] ExtraInfo in DMMapping loaded:
+disable(0),enable(1)
+241007-14:40:19.627986 [mod=SNMP, lvl=INFO] [tid=1736] Register table mib 'rdkbRgDot11ExtMgmtTable'
+241007-14:40:19.628072 [mod=SNMP, lvl=INFO] [tid=1736] Oid:[1.3.6.1.4.1.17270.50.2.2.6.1] Len=12
+241007-14:40:19.628146 [mod=SNMP, lvl=INFO] [tid=1736] MinOid = 1, MaxOid = 24
+241007-14:40:19.628271 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler for Table Mibs successfully.
+241007-14:40:19.628485 [mod=SNMP, lvl=INFO] [tid=1736] ExtraInfo in DMMapping loaded:
+2.4GHz(1),5GHz(2)
+241007-14:40:19.628588 [mod=SNMP, lvl=INFO] [tid=1736] ExtraInfo in DMMapping loaded:
+20MHz(1),40MHz(2),80MHz(3),160MHz(4)
+241007-14:40:19.628695 [mod=SNMP, lvl=INFO] [tid=1736] ExtraInfo in DMMapping loaded:
+AboveControlChannel(1),BelowControlChannel(2)
+241007-14:40:19.628811 [mod=SNMP, lvl=INFO] [tid=1736] Register table mib 'rdkbRgDot11nExtTable'
+241007-14:40:19.628894 [mod=SNMP, lvl=INFO] [tid=1736] Oid:[1.3.6.1.4.1.17270.50.2.2.7.1] Len=12
+241007-14:40:19.628967 [mod=SNMP, lvl=INFO] [tid=1736] MinOid = 1, MaxOid = 8
+241007-14:40:19.629102 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler for Table Mibs successfully.
+241007-14:40:19.629278 [mod=SNMP, lvl=INFO] [tid=1736] Register table mib 'rdkbRgDot11BandSteeringBSTable'
+241007-14:40:19.629362 [mod=SNMP, lvl=INFO] [tid=1736] Oid:[1.3.6.1.4.1.17270.50.2.2.8.4] Len=12
+241007-14:40:19.629432 [mod=SNMP, lvl=INFO] [tid=1736] MinOid = 1, MaxOid = 3
+241007-14:40:19.629539 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler for Table Mibs successfully.
+241007-14:40:19.655937 [mod=SNMP, lvl=INFO] [tid=1736] ExtraInfo in DMMapping loaded:
+Unicast(1),Multicast(2),Broadcast(3)
+241007-14:40:19.656296 [mod=SNMP, lvl=INFO] [tid=1736] ExtraInfo in DMMapping loaded:
+NoAuth(1),SimplePassword(2),MD5(3)
+241007-14:40:19.656424 [mod=SNMP, lvl=WARN] [tid=1736] Register scalar mib group 'rdkbRgRip'
+241007-14:40:19.656513 [mod=SNMP, lvl=INFO] [tid=1736] Oid:[1.3.6.1.4.1.17270.50.2.5.1] Len=11
+241007-14:40:19.658040 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 9
+241007-14:40:19.658164 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.658273 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 9
+241007-14:40:19.658345 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.658442 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 9
+241007-14:40:19.658512 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.658610 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 9
+241007-14:40:19.658681 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.658775 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 9
+241007-14:40:19.658985 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.659089 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 9
+241007-14:40:19.659161 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.659258 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 9
+241007-14:40:19.659330 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.659425 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 9
+241007-14:40:19.659495 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.659578 [mod=SNMP, lvl=WARN] [tid=1736] Scalar group 'rdkbRgQosLanBase' is not enabled,ignore this group.
+241007-14:40:19.661274 [mod=SNMP, lvl=INFO] [tid=1736] Register table mib 'rdkbRgIpMgmtStaticRouteTable'
+241007-14:40:19.661540 [mod=SNMP, lvl=INFO] [tid=1736] Oid:[1.3.6.1.4.1.17270.50.2.3.8] Len=11
+241007-14:40:19.661625 [mod=SNMP, lvl=INFO] [tid=1736] MinOid = 2, MaxOid = 6
+241007-14:40:19.661782 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler for Table Mibs successfully.
+241007-14:40:19.709194 [mod=SNMP, lvl=WARN] [tid=1736] Scalar group 'rdkbRgIpMgmtNat' is not enabled,ignore this group.
+241007-14:40:19.709413 [mod=SNMP, lvl=INFO] [tid=1736] ExtraInfo in DMMapping loaded:
+High(3),Medium(2),Low(1),Custom(4),None(0)
+241007-14:40:19.709565 [mod=SNMP, lvl=WARN] [tid=1736] Register scalar mib group 'rdkbRgFirewallBase'
+241007-14:40:19.709655 [mod=SNMP, lvl=INFO] [tid=1736] Oid:[1.3.6.1.4.1.17270.50.2.4.1] Len=11
+241007-14:40:19.717916 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 4
+241007-14:40:19.718099 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.718246 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 4
+241007-14:40:19.718318 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.718417 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 4
+241007-14:40:19.718487 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.718584 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 4
+241007-14:40:19.718653 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.718813 [mod=SNMP, lvl=WARN] [tid=1736] Register scalar mib group 'rdkbRgFirewallTraffic'
+241007-14:40:19.718902 [mod=SNMP, lvl=INFO] [tid=1736] Oid:[1.3.6.1.4.1.17270.50.2.4.2] Len=11
+241007-14:40:19.719011 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 4, MaxOid = 4
+241007-14:40:19.719080 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.719217 [mod=SNMP, lvl=WARN] [tid=1736] Register scalar mib group 'rdkbRgFirewallReportMgmt'
+241007-14:40:19.719302 [mod=SNMP, lvl=INFO] [tid=1736] Oid:[1.3.6.1.4.1.17270.50.2.4.4.2] Len=12
+241007-14:40:19.719406 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 2
+241007-14:40:19.719474 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.719569 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 2
+241007-14:40:19.719638 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.719805 [mod=SNMP, lvl=WARN] [tid=1736] Register scalar mib group 'rdkbRgFirewallReportEmail'
+241007-14:40:19.719903 [mod=SNMP, lvl=INFO] [tid=1736] Oid:[1.3.6.1.4.1.17270.50.2.4.4.3] Len=12
+241007-14:40:19.720012 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 5
+241007-14:40:19.720083 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.720180 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 5
+241007-14:40:19.720249 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.720346 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 5
+241007-14:40:19.720414 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.720510 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 5
+241007-14:40:19.720579 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.720675 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 5
+241007-14:40:19.720743 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.720899 [mod=SNMP, lvl=WARN] [tid=1736] Register scalar mib group 'rdkbRgFirewallRules'
+241007-14:40:19.720986 [mod=SNMP, lvl=INFO] [tid=1736] Oid:[1.3.6.1.4.1.17270.50.2.4.5] Len=11
+241007-14:40:19.721095 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 4, MaxOid = 6
+241007-14:40:19.721166 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.721262 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 4, MaxOid = 6
+241007-14:40:19.721331 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.721431 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 4, MaxOid = 6
+241007-14:40:19.721502 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.721714 [mod=SNMP, lvl=WARN] [tid=1736] Register scalar mib group 'rdkbRgFirewallUrlKeywordFilterEnable'
+241007-14:40:19.725975 [mod=SNMP, lvl=INFO] [tid=1736] Oid:[1.3.6.1.4.1.17270.50.2.4.5.7] Len=12
+241007-14:40:19.726265 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 1
+241007-14:40:19.726345 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.726558 [mod=SNMP, lvl=WARN] [tid=1736] Register scalar mib group 'rdkbRgFirewall'
+241007-14:40:19.726648 [mod=SNMP, lvl=INFO] [tid=1736] Oid:[1.3.6.1.4.1.17270.50.2.4] Len=10
+241007-14:40:19.726765 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 8, MaxOid = 1002
+241007-14:40:19.726835 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.726934 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 8, MaxOid = 1002
+241007-14:40:19.727005 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.727103 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 8, MaxOid = 1002
+241007-14:40:19.727174 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.727272 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 8, MaxOid = 1002
+241007-14:40:19.727342 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.727442 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 8, MaxOid = 1002
+241007-14:40:19.727511 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.727614 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 8, MaxOid = 1002
+241007-14:40:19.727685 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.727786 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 8, MaxOid = 1002
+241007-14:40:19.727856 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.727937 [mod=SNMP, lvl=WARN] [tid=1736] Scalar group 'rdkbRgParentalControl' is not enabled,ignore this group.
+241007-14:40:19.728123 [mod=SNMP, lvl=INFO] [tid=1736] Register table mib 'rdkbRgFirewallReportEventTable'
+241007-14:40:19.728215 [mod=SNMP, lvl=INFO] [tid=1736] Oid:[1.3.6.1.4.1.17270.50.2.4.4.1] Len=12
+241007-14:40:19.728290 [mod=SNMP, lvl=INFO] [tid=1736] MinOid = 2, MaxOid = 6
+241007-14:40:19.728425 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler for Table Mibs successfully.
+241007-14:40:19.738816 [mod=SNMP, lvl=INFO] [tid=1736] Register table mib 'rdkbRgFirewallIpFilterTable'
+241007-14:40:19.739023 [mod=SNMP, lvl=INFO] [tid=1736] Oid:[1.3.6.1.4.1.17270.50.2.4.5.1] Len=12
+241007-14:40:19.739108 [mod=SNMP, lvl=INFO] [tid=1736] MinOid = 2, MaxOid = 6
+241007-14:40:19.739284 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler for Table Mibs successfully.
+241007-14:40:19.741125 [mod=SNMP, lvl=INFO] [tid=1736] ExtraInfo in DMMapping loaded:
+UDP(1),TCP(2),BOTH(3)
+241007-14:40:19.741342 [mod=SNMP, lvl=INFO] [tid=1736] ExtraInfo in DMMapping loaded:
+Sun(0),Mon(1),Tue(2),Wed(3),Thu(4),Fri(5),Sat(6)
+241007-14:40:19.741455 [mod=SNMP, lvl=INFO] [tid=1736] Register table mib 'rdkbRgFirewallPortFilterTable'
+241007-14:40:19.746013 [mod=SNMP, lvl=INFO] [tid=1736] Oid:[1.3.6.1.4.1.17270.50.2.4.5.2] Len=12
+241007-14:40:19.746175 [mod=SNMP, lvl=INFO] [tid=1736] MinOid = 2, MaxOid = 11
+241007-14:40:19.746355 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler for Table Mibs successfully.
+241007-14:40:19.746595 [mod=SNMP, lvl=INFO] [tid=1736] ExtraInfo in DMMapping loaded:
+Sun(0),Mon(1),Tue(2),Wed(3),Thu(4),Fri(5),Sat(6)
+241007-14:40:19.746709 [mod=SNMP, lvl=INFO] [tid=1736] Register table mib 'rdkbRgFirewallMacFilterTable'
+241007-14:40:19.746796 [mod=SNMP, lvl=INFO] [tid=1736] Oid:[1.3.6.1.4.1.17270.50.2.4.5.3] Len=12
+241007-14:40:19.746870 [mod=SNMP, lvl=INFO] [tid=1736] MinOid = 2, MaxOid = 7
+241007-14:40:19.746985 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler for Table Mibs successfully.
+241007-14:40:19.747163 [mod=SNMP, lvl=INFO] [tid=1736] ExtraInfo in DMMapping loaded:
+UDP(1),TCP(2),BOTH(3)
+241007-14:40:19.747272 [mod=SNMP, lvl=INFO] [tid=1736] Register table mib 'rdkbRgFirewallPortFwdTable'
+241007-14:40:19.747456 [mod=SNMP, lvl=INFO] [tid=1736] Oid:[1.3.6.1.4.1.17270.50.2.4.6] Len=11
+241007-14:40:19.747535 [mod=SNMP, lvl=INFO] [tid=1736] MinOid = 2, MaxOid = 7
+241007-14:40:19.747672 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler for Table Mibs successfully.
+241007-14:40:19.747861 [mod=SNMP, lvl=INFO] [tid=1736] ExtraInfo in DMMapping loaded:
+UDP(1),TCP(2),BOTH(3)
+241007-14:40:19.747967 [mod=SNMP, lvl=INFO] [tid=1736] Register table mib 'rdkbRgFirewallPortTrigTable'
+241007-14:40:19.748054 [mod=SNMP, lvl=INFO] [tid=1736] Oid:[1.3.6.1.4.1.17270.50.2.4.7] Len=11
+241007-14:40:19.748127 [mod=SNMP, lvl=INFO] [tid=1736] MinOid = 2, MaxOid = 8
+241007-14:40:19.748240 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler for Table Mibs successfully.
+241007-14:40:19.748320 [mod=SNMP, lvl=WARN] [tid=1736] Table group 'rdkbRgParentalControlRuleTable' is not enabled,ignore this group.
+241007-14:40:19.748474 [mod=SNMP, lvl=INFO] [tid=1736] ExtraInfo in DMMapping loaded:
+URL(1),Keyword(2)
+241007-14:40:19.748622 [mod=SNMP, lvl=INFO] [tid=1736] ExtraInfo in DMMapping loaded:
+Sun(0),Mon(1),Tue(2),Wed(3),Thu(4),Fri(5),Sat(6)
+241007-14:40:19.748727 [mod=SNMP, lvl=INFO] [tid=1736] Register table mib 'rdkbRgFirewallUrlKeywordFilterTable'
+241007-14:40:19.748814 [mod=SNMP, lvl=INFO] [tid=1736] Oid:[1.3.6.1.4.1.17270.50.2.4.5.7.2] Len=13
+241007-14:40:19.748890 [mod=SNMP, lvl=INFO] [tid=1736] MinOid = 2, MaxOid = 8
+241007-14:40:19.749020 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler for Table Mibs successfully.
+241007-14:40:19.773654 [mod=SNMP, lvl=INFO] [tid=1736] ExtraInfo in DMMapping loaded:
+multiSsid(1),cableHome11(2),Ipv4(3),Ipv6(4),Dualstack(5)
+241007-14:40:19.773991 [mod=SNMP, lvl=INFO] [tid=1736] ExtraInfo in DMMapping loaded:
+Router,Wifi,VoIP(1),Router(2),Wifi(3)
+241007-14:40:19.774128 [mod=SNMP, lvl=INFO] [tid=1736] ExtraInfo in DMMapping loaded:
+Router,Wifi(1),Router(2),Wifi(3)
+241007-14:40:19.774285 [mod=SNMP, lvl=INFO] [tid=1736] ExtraInfo in DMMapping loaded:
+false(0),routerAndWifi(1)
+241007-14:40:19.774506 [mod=SNMP, lvl=WARN] [tid=1736] Register scalar mib group 'rdkbRgDeviceBase'
+241007-14:40:19.774698 [mod=SNMP, lvl=INFO] [tid=1736] Oid:[1.3.6.1.4.1.17270.50.2.1.1] Len=11
+241007-14:40:19.774857 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 1008
+241007-14:40:19.774935 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.775032 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 1008
+241007-14:40:19.775104 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.775208 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 1008
+241007-14:40:19.775284 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.775384 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 1008
+241007-14:40:19.776929 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.777066 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 1008
+241007-14:40:19.777140 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.777237 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 1008
+241007-14:40:19.777307 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.777403 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 1008
+241007-14:40:19.777474 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.777579 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 1008
+241007-14:40:19.777653 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.778225 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 1008
+241007-14:40:19.778303 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.778401 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 1008
+241007-14:40:19.778473 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.778617 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 1008
+241007-14:40:19.778777 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.778880 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 1008
+241007-14:40:19.778953 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.779053 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 1008
+241007-14:40:19.779126 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.779227 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 1008
+241007-14:40:19.779299 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.779718 [mod=SNMP, lvl=WARN] [tid=1736] Scalar group 'rdkbRgDeviceConfigBackup' is not enabled,ignore this group.
+241007-14:40:19.779910 [mod=SNMP, lvl=INFO] [tid=1736] ExtraInfo in DMMapping loaded:
+notSpecified(1),inProgress(2),success(3),errorServer(4),errorFileNotFound(5),errorBadFile(6),download(7)
+241007-14:40:19.780053 [mod=SNMP, lvl=INFO] [tid=1736] ExtraInfo in DMMapping loaded:
+rgWan(0),rgDualIp(1),rgLanIp(2)
+241007-14:40:19.780157 [mod=SNMP, lvl=INFO] [tid=1736] ExtraInfo in DMMapping loaded:
+require(0),notRequire(1),notDownload(2)
+241007-14:40:19.780280 [mod=SNMP, lvl=WARN] [tid=1736] Register scalar mib group 'rdkbRgDeviceConfiguration'
+241007-14:40:19.780368 [mod=SNMP, lvl=INFO] [tid=1736] Oid:[1.3.6.1.4.1.17270.50.2.1.4] Len=11
+241007-14:40:19.780496 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 7
+241007-14:40:19.788393 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.788605 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 7
+241007-14:40:19.788680 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.788778 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 7
+241007-14:40:19.788848 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.788946 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 7
+241007-14:40:19.789020 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.789121 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 7
+241007-14:40:19.789196 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.789293 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 7
+241007-14:40:19.789365 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.789462 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 7
+241007-14:40:19.789533 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.789702 [mod=SNMP, lvl=WARN] [tid=1736] Register scalar mib group 'rdkbRgDeviceIanaContent'
+241007-14:40:19.789794 [mod=SNMP, lvl=INFO] [tid=1736] Oid:[1.3.6.1.4.1.17270.50.2.1.7] Len=11
+241007-14:40:19.789977 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 3
+241007-14:40:19.790055 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.790159 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 3
+241007-14:40:19.790235 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.790342 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 3
+241007-14:40:19.790421 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.790594 [mod=SNMP, lvl=WARN] [tid=1736] Register scalar mib group 'rdkbRgDeviceIapdContent'
+241007-14:40:19.790693 [mod=SNMP, lvl=INFO] [tid=1736] Oid:[1.3.6.1.4.1.17270.50.2.1.8] Len=11
+241007-14:40:19.790828 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 3
+241007-14:40:19.790908 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.791017 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 3
+241007-14:40:19.791095 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.791200 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 3
+241007-14:40:19.791285 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.791468 [mod=SNMP, lvl=WARN] [tid=1736] Register scalar mib group 'rdkbRgDeviceCM'
+241007-14:40:19.791687 [mod=SNMP, lvl=INFO] [tid=1736] Oid:[1.3.6.1.4.1.17270.50.2.1.9] Len=11
+241007-14:40:19.791813 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 4
+241007-14:40:19.791884 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.791981 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 4
+241007-14:40:19.792050 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.792153 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 4
+241007-14:40:19.792229 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.792330 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 4
+241007-14:40:19.792405 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.792550 [mod=SNMP, lvl=WARN] [tid=1736] Register scalar mib group 'rdkbRgDeviceMTA'
+241007-14:40:19.792640 [mod=SNMP, lvl=INFO] [tid=1736] Oid:[1.3.6.1.4.1.17270.50.2.1.10] Len=11
+241007-14:40:19.792760 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 2
+241007-14:40:19.792837 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.792939 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 2
+241007-14:40:19.793013 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.793195 [mod=SNMP, lvl=INFO] [tid=1736] Register table mib 'rdkbRgDeviceIanaTable'
+241007-14:40:19.793291 [mod=SNMP, lvl=INFO] [tid=1736] Oid:[1.3.6.1.4.1.17270.50.2.1.7.4] Len=12
+241007-14:40:19.793367 [mod=SNMP, lvl=INFO] [tid=1736] MinOid = 2, MaxOid = 4
+241007-14:40:19.793510 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler for Table Mibs successfully.
+241007-14:40:19.793688 [mod=SNMP, lvl=INFO] [tid=1736] Register table mib 'rdkbRgDeviceIapdTable'
+241007-14:40:19.793780 [mod=SNMP, lvl=INFO] [tid=1736] Oid:[1.3.6.1.4.1.17270.50.2.1.8.4] Len=12
+241007-14:40:19.802107 [mod=SNMP, lvl=INFO] [tid=1736] MinOid = 2, MaxOid = 5
+241007-14:40:19.802318 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler for Table Mibs successfully.
+241007-14:40:19.807481 [mod=SNMP, lvl=INFO] [tid=1736] ExtraInfo in DMMapping loaded:
+DHCP(1),Static(2),DUALIP(3)
+241007-14:40:19.807665 [mod=SNMP, lvl=WARN] [tid=1736] Register scalar mib group 'rdkbRgIpMgmtWanAddrBase'
+241007-14:40:19.807755 [mod=SNMP, lvl=INFO] [tid=1736] Oid:[1.3.6.1.4.1.17270.50.2.3.9.1] Len=12
+241007-14:40:19.807928 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 1
+241007-14:40:19.807999 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.808134 [mod=SNMP, lvl=WARN] [tid=1736] Register scalar mib group 'rdkbRgIpMgmtWanAddrDynamic'
+241007-14:40:19.808218 [mod=SNMP, lvl=INFO] [tid=1736] Oid:[1.3.6.1.4.1.17270.50.2.3.9.2] Len=12
+241007-14:40:19.808336 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 2
+241007-14:40:19.808406 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.808506 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 2
+241007-14:40:19.808574 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.808744 [mod=SNMP, lvl=WARN] [tid=1736] Register scalar mib group 'rdkbRgIpMgmtWanAddrStatic'
+241007-14:40:19.808829 [mod=SNMP, lvl=INFO] [tid=1736] Oid:[1.3.6.1.4.1.17270.50.2.3.9.3] Len=12
+241007-14:40:19.808938 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 6
+241007-14:40:19.809007 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.809105 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 6
+241007-14:40:19.809173 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.809275 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 6
+241007-14:40:19.809343 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.809442 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 6
+241007-14:40:19.809511 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.809609 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 6
+241007-14:40:19.809756 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.809974 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 6
+241007-14:40:19.810062 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.810142 [mod=SNMP, lvl=WARN] [tid=1736] Scalar group 'rdkbRgIpMgmtWanAddrDualIp' is not enabled,ignore this group.
+241007-14:40:19.810219 [mod=SNMP, lvl=WARN] [tid=1736] Scalar group 'rdkbRgIpMgmtWanAddrBackup' is not enabled,ignore this group.
+241007-14:40:19.810383 [mod=SNMP, lvl=INFO] [tid=1736] Register table mib 'rdkbRgIpMgmtDnsServerTable'
+241007-14:40:19.810469 [mod=SNMP, lvl=INFO] [tid=1736] Oid:[1.3.6.1.4.1.17270.50.2.3.5] Len=11
+241007-14:40:19.810543 [mod=SNMP, lvl=INFO] [tid=1736] MinOid = 3, MaxOid = 4
+241007-14:40:19.810667 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler for Table Mibs successfully.
+241007-14:40:19.856277 [mod=SNMP, lvl=WARN] [tid=1736] Scalar group 'rdkbRgVlan' is not enabled,ignore this group.
+241007-14:40:19.856459 [mod=SNMP, lvl=WARN] [tid=1736] Table group 'rdkbRgVlanTable' is not enabled,ignore this group.
+241007-14:40:19.863705 [mod=SNMP, lvl=WARN] [tid=1736] Register scalar mib group 'rdkbRgWifiHotspotBase'
+241007-14:40:19.864327 [mod=SNMP, lvl=INFO] [tid=1736] Oid:[1.3.6.1.4.1.17270.50.2.13.1] Len=11
+241007-14:40:19.864546 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 7
+241007-14:40:19.864621 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.864733 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 7
+241007-14:40:19.864805 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.865122 [mod=SNMP, lvl=WARN] [tid=1736] Register scalar mib group 'rdkbRgL2ogreBase'
+241007-14:40:19.865215 [mod=SNMP, lvl=INFO] [tid=1736] Oid:[1.3.6.1.4.1.17270.50.2.14.1] Len=11
+241007-14:40:19.865346 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 2, MaxOid = 20
+241007-14:40:19.865420 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.865529 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 2, MaxOid = 20
+241007-14:40:19.865600 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.865706 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 2, MaxOid = 20
+241007-14:40:19.865776 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.868947 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 2, MaxOid = 20
+241007-14:40:19.869044 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.869159 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 2, MaxOid = 20
+241007-14:40:19.869231 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.869344 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 2, MaxOid = 20
+241007-14:40:19.869416 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.869520 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 2, MaxOid = 20
+241007-14:40:19.869592 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.869697 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 2, MaxOid = 20
+241007-14:40:19.869768 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.869955 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 2, MaxOid = 20
+241007-14:40:19.870043 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.870150 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 2, MaxOid = 20
+241007-14:40:19.870223 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.870351 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 2, MaxOid = 20
+241007-14:40:19.870426 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.870530 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 2, MaxOid = 20
+241007-14:40:19.870602 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.870810 [mod=SNMP, lvl=INFO] [tid=1736] Register table mib 'rdkbRgWifiHotspotTable'
+241007-14:40:19.870901 [mod=SNMP, lvl=INFO] [tid=1736] Oid:[1.3.6.1.4.1.17270.50.2.13.1.2] Len=12
+241007-14:40:19.871066 [mod=SNMP, lvl=INFO] [tid=1736] MinOid = 11, MaxOid = 12
+241007-14:40:19.871202 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler for Table Mibs successfully.
+241007-14:40:19.871366 [mod=SNMP, lvl=INFO] [tid=1736] Register table mib 'rdkbRgL2ogreSourceIfTable'
+241007-14:40:19.871452 [mod=SNMP, lvl=INFO] [tid=1736] Oid:[1.3.6.1.4.1.17270.50.2.14.1.12] Len=12
+241007-14:40:19.871523 [mod=SNMP, lvl=INFO] [tid=1736] MinOid = 2, MaxOid = 6
+241007-14:40:19.871642 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler for Table Mibs successfully.
+241007-14:40:19.871835 [mod=SNMP, lvl=INFO] [tid=1736] ExtraInfo in DMMapping loaded:
+DISCOVER(1),OFFER(2),REQUEST(3),ACK(4),NACK(5)
+241007-14:40:19.871933 [mod=SNMP, lvl=INFO] [tid=1736] Register table mib 'rdkbRgWifiHotspotConnectedClientsTable'
+241007-14:40:19.872017 [mod=SNMP, lvl=INFO] [tid=1736] Oid:[1.3.6.1.4.1.17270.50.2.13.1.8] Len=12
+241007-14:40:19.872093 [mod=SNMP, lvl=INFO] [tid=1736] MinOid = 2, MaxOid = 6
+241007-14:40:19.872227 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler for Table Mibs successfully.
+241007-14:40:19.879713 [mod=SNMP, lvl=WARN] [tid=1736] Register scalar mib group 'flatFileBase'
+241007-14:40:19.879874 [mod=SNMP, lvl=INFO] [tid=1736] Oid:[1.3.6.1.4.1.17270.4.1.2] Len=10
+241007-14:40:19.880043 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 1
+241007-14:40:19.880130 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.908342 [mod=SNMP, lvl=INFO] [tid=1736] ExtraInfo in DMMapping loaded:
+disable(0), enable(1)
+241007-14:40:19.922990 [mod=SNMP, lvl=INFO] [tid=1736] ExtraInfo in DMMapping loaded:
+disable(0), enable(1)
+241007-14:40:19.923467 [mod=SNMP, lvl=WARN] [tid=1736] Register scalar mib group 'rdkbTR069ClientConfig'
+241007-14:40:19.923585 [mod=SNMP, lvl=INFO] [tid=1736] Oid:[1.3.6.1.4.1.17270.50.3.1] Len=10
+241007-14:40:19.923795 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 10
+241007-14:40:19.923871 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.923979 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 10
+241007-14:40:19.924049 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.924154 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 10
+241007-14:40:19.924223 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.924324 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 10
+241007-14:40:19.924395 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.924498 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 10
+241007-14:40:19.924569 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.924677 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 10
+241007-14:40:19.924749 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.924852 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 10
+241007-14:40:19.924922 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.925024 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 10
+241007-14:40:19.925094 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.925202 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 10
+241007-14:40:19.925271 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.939957 [mod=SNMP, lvl=WARN] [tid=1736] Register scalar mib group 'xOpsDMObjs'
+241007-14:40:19.940120 [mod=SNMP, lvl=INFO] [tid=1736] Oid:[1.3.6.1.4.1.17270.43.1.2] Len=10
+241007-14:40:19.940267 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 2
+241007-14:40:19.940339 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.940434 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 2
+241007-14:40:19.940502 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.942992 [mod=SNMP, lvl=WARN] [tid=1736] Failed to Ccsp MIB List XML file.
+241007-14:40:19.943224 [mod=SNMP, lvl=WARN] [tid=1736] Failed to load Ccsp Mib file: DEVICE-WEBPA-MIB.xml
+241007-14:40:19.949485 [mod=SNMP, lvl=WARN] [tid=1736] Register scalar mib group 'selfHeal'
+241007-14:40:19.949672 [mod=SNMP, lvl=INFO] [tid=1736] Oid:[1.3.6.1.4.1.17270.44.1.1] Len=10
+241007-14:40:19.949865 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 13
+241007-14:40:19.949953 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.950050 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 13
+241007-14:40:19.950119 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.950212 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 13
+241007-14:40:19.950280 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.950376 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 13
+241007-14:40:19.950444 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.950542 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 13
+241007-14:40:19.950611 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.950711 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 13
+241007-14:40:19.950780 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.950874 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 13
+241007-14:40:19.950942 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.951037 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 13
+241007-14:40:19.951109 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.951204 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 13
+241007-14:40:19.951275 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.951368 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 13
+241007-14:40:19.951438 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.951532 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 13
+241007-14:40:19.951603 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.951697 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 13
+241007-14:40:19.951768 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.951905 [mod=SNMP, lvl=WARN] [tid=1736] Register scalar mib group 'IPPing'
+241007-14:40:19.951991 [mod=SNMP, lvl=INFO] [tid=1736] Oid:[1.3.6.1.4.1.17270.44.1.2] Len=10
+241007-14:40:19.952098 [mod=SNMP, lvl=INFO] [tid=1736]   MinOid = 1, MaxOid = 1
+241007-14:40:19.952168 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler successfully.
+241007-14:40:19.952329 [mod=SNMP, lvl=INFO] [tid=1736] Register table mib 'ipv4PingServerTable'
+241007-14:40:19.952416 [mod=SNMP, lvl=INFO] [tid=1736] Oid:[1.3.6.1.4.1.17270.44.1.1.6.1] Len=12
+241007-14:40:19.969769 [mod=SNMP, lvl=INFO] [tid=1736] MinOid = 2, MaxOid = 3
+241007-14:40:19.970059 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler for Table Mibs successfully.
+241007-14:40:19.970259 [mod=SNMP, lvl=INFO] [tid=1736] Register table mib 'ipv6PingServerTable'
+241007-14:40:19.970350 [mod=SNMP, lvl=INFO] [tid=1736] Oid:[1.3.6.1.4.1.17270.44.1.1.6.2] Len=12
+241007-14:40:19.970425 [mod=SNMP, lvl=INFO] [tid=1736] MinOid = 2, MaxOid = 3
+241007-14:40:19.970533 [mod=SNMP, lvl=INFO] [tid=1736] Register Cache handler for Table Mibs successfully.
+241007-14:40:19.978121 [mod=SNMP, lvl=WARN] [tid=1736] Failed to Ccsp MIB List XML file.
+241007-14:40:19.981218 [mod=SNMP, lvl=WARN] [tid=1736] Failed to load Ccsp Mib file: Ccsp_RDKB-RG-MIB-DSLite.xml

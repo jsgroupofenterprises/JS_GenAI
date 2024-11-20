@@ -1,0 +1,7 @@
+{
+  "entity_name": "Logging_SetParamBoolValue",
+  "component": "CcspWifiAgent",
+  "content_hash": "14d6fbb62d95b634c94eaced96d1e139",
+  "response": "**1. Main purpose and functionality**\n\nThe `Logging_SetParamBoolValue` function is part of the CcspWifiAgent component in RDK and is responsible for setting the value of a boolean parameter in the logging configuration. It takes a parameter name and a boolean value as input and updates the corresponding parameter in the logging configuration. This function is used to configure logging behavior, such as enabling or disabling the flushing of all logs.\n\n**2. Key operations and data flow**\n\nThe function first checks the parameter name to determine which parameter to set. It then sets the corresponding value in the logging configuration. If the parameter name is not recognized, the function returns `FALSE`.\n\n**3. Interaction with other components (if any)**\n\nThis function interacts with the CosaDmlLogging component to set the logging configuration.\n\n**4. Important parameters and return values**\n\n* **hInsContext:** Instance handle of the component calling this function.\n* **ParamName:** Name of the parameter to set.\n* **bValue:** Boolean value to set.\n* **Return value:** `TRUE` if the parameter was set successfully, `FALSE` otherwise.\n\n**5. Any specific RDK-related operations**\n\nThis function uses the RDK-specific CosaDmlLogging component to set the logging configuration.",
+  "processed_at": "2024-11-13T15:03:05.259780"
+}

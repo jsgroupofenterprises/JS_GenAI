@@ -1,0 +1,7 @@
+{
+  "entity_name": "wifi_getApManagementFramePowerControl",
+  "component": "hal",
+  "content_hash": "6f35bf086466eeecbd853e75a7b71e22",
+  "response": "**1. Main purpose and functionality**\n\nThe `wifi_getApManagementFramePowerControl` function in the RDK HAL component provides a way to get the RadioManagementFramePowerControl supported.\n\n**2. Key operations and data flow**\n\nThe function takes two parameters:\n\n  - `apIndex`: The index of the access point.\n  - `output_dBm`: A pointer to the variable that will receive the RadioManagementFramePowerControl value in dBm.\n\nThe function gets the RadioManagementFramePowerControl value and stores it in the variable pointed to by `output_dBm`.\n\n**3. Interaction with other components (if any)**\n\nThis function does not interact with any other components.\n\n**4. Important parameters and return values**\n\nThe following parameters are important:\n\n  - `apIndex`: The index of the access point.\n  - `output_dBm`: A pointer to the variable that will receive the RadioManagementFramePowerControl value in dBm.\n\nThe function returns `RETURN_OK` if successful, or `RETURN_ERR` if any error is detected.\n\n**5. Any specific RDK-related operations**\n\nThis function is specific to RDK and is not available in other operating systems.",
+  "processed_at": "2024-11-14T12:38:34.011842"
+}

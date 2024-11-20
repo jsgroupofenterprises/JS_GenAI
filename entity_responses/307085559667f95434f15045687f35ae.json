@@ -1,0 +1,7 @@
+{
+  "entity_name": "wifi_kickApAclAssociatedDevices",
+  "component": "hal",
+  "content_hash": "307085559667f95434f15045687f35ae",
+  "response": "## **Main purpose and functionality**\nThe purpose of the wifi_kickApAclAssociatedDevices function is to enable or disable the kicking of devices from the AP that are on the ACL blacklist.\nThe function takes two input parameters: \n- apIndex - The index of the AP.\n- enable - A Boolean value indicating whether to enable or disable kicking of devices from the blacklist.\n\n## **Key operations and data flow**\nThe function first checks to see if the AP is enabled. If the AP is not enabled, the function returns an error.\nIf the AP is enabled, the function sets the value of the kickApAclAssociatedDevices parameter in the AP's configuration to the value of the enable parameter.\nThe function then returns RETURN_OK to indicate success.\n\n## **Interaction with other components (if any)**\nThe function interacts with the driver for the AP. The driver is responsible for implementing the kickApAclAssociatedDevices feature.\n\n## **Important parameters and return values**\nThe important parameters of the function are:\n\n* apIndex - The index of the AP.\n* enable - A Boolean value indicating whether to enable or disable kicking of devices from the blacklist.\n\nThe function returns RETURN_OK to indicate success.\n\n## **Any specific RDK-related operations**\nThe function is not specific to RDK. It can be used in any system that uses RDK or another software stack.",
+  "processed_at": "2024-11-14T12:27:29.429322"
+}

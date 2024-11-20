@@ -1,0 +1,7 @@
+{
+  "entity_name": "set_opt_ie",
+  "component": "CcspWifiAgent",
+  "content_hash": "507c5b0920ee915501267ad704a39ef9",
+  "response": "**1. Main purpose and functionality:**\n- This function sets optional information elements (IEs) for Wi-Fi access points managed by CcspWifiAgent.\n\n**2. Key operations and data flow:**\n- Parses and stores IEs provided as input arguments\n- Frees any previously stored IEs\n- Allocates and copies new IEs\n- Sets IEs for both beacon frames and probe response frames\n\n**3. Interaction with other components:**\n- Interacts with the hostapd Wi-Fi driver to set IEs for access points.\n\n**4. Important parameters and return values:**\n- **priv:** Pointer to the driver data structure\n- **ie:** Pointer to the IE data\n- **ie_len:** Length of the IE data\n- **Return value:** 0 on success, negative value on failure.\n\n**5. Any specific RDK-related operations:**\n- Uses the wifi_sethostApGenericeElemOptIE function from the RDK framework to set IEs.",
+  "processed_at": "2024-11-13T15:28:43.982125"
+}

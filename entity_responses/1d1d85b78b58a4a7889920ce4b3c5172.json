@@ -1,0 +1,7 @@
+{
+  "entity_name": "timespec_to_ticks",
+  "component": "CcspWifiAgent",
+  "content_hash": "1d1d85b78b58a4a7889920ce4b3c5172",
+  "response": "**1. Main purpose and functionality:**\n\n   - The `timespec_to_ticks` function converts a `timespec` structure, which represents a time value, into a 64-bit integer representing the number of system clock ticks since the epoch.\n\n**2. Key operations and data flow:**\n   - The function takes a pointer to a `timespec` structure as input.\n   - It extracts the seconds (tv_sec) and nanoseconds (tv_nsec) components of the time value.\n   - It converts the seconds into ticks using the macro `TICKS_S(ts->tv_sec)` and the nanoseconds into ticks using the macro `TICKS_NS(ts->tv_nsec)`.\n   - It adds the converted seconds and nanoseconds to obtain the total number of ticks since the epoch, represented as a 64-bit integer.\n\n**3. Interaction with other components (if any):**\n   - None.\n\n**4. Important parameters and return values:**\n   - Input:\n     - `ts`: Pointer to a `timespec` structure representing the time value.\n   - Return value:\n     - 64-bit integer representing the number of system clock ticks since the epoch.\n\n**5. Any specific RDK-related operations:**\n   - The function does not perform any RDK-specific operations.",
+  "processed_at": "2024-11-13T15:45:52.760437"
+}

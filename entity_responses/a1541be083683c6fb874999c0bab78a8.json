@@ -1,0 +1,7 @@
+{
+  "entity_name": "voice_hal_getSipSKBMark",
+  "component": "hal",
+  "content_hash": "a1541be083683c6fb874999c0bab78a8",
+  "response": "## **Main purpose and functionality**\nThis function is a part of the RDK voice HAL (hardware abstraction layer). \nIts purpose is to get the Ethernet Mark value for RTP SKBs (Socket Kernel Buffers) used for outgoing RTP packets. \n\n## **Key operations and data flow**\n\n1. The function takes 3 parameters:\n    - `uint32_t service`: The voice service affected.\n    - `uint32_t profile`: The voice profile affected.\n    - `uint32_t *mark`: A pointer to a variable where the Ethernet Mark value will be stored.\n2. The function retrieves the Ethernet Mark value for RTP SKBs for the specified service and profile.\n3. The function stores the Ethernet Mark value in the variable pointed to by `mark`.\n4. The function returns `RDK_SUCCESS` if successful, or `RDK_FAILURE` if an error occurred.\n\n## **Interaction with other components (if any)**\nThe function interacts with the underlying hardware (e.g., Ethernet driver) to retrieve the Ethernet Mark value.\n\n## **Important parameters and return values**\n- `service`: The voice service affected.\n- `profile`: The voice profile affected.\n- `mark`: A pointer to a variable where the Ethernet Mark value will be stored.\n- `RDK_SUCCESS`: The function was successful.\n- `RDK_FAILURE`: An error occurred.\n\n## **Any specific RDK-related operations**\nThe function is part of the RDK voice HAL API.",
+  "processed_at": "2024-11-14T12:06:20.669131"
+}

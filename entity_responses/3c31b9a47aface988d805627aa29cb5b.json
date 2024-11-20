@@ -1,0 +1,7 @@
+{
+  "entity_name": "wps_acl_set",
+  "component": "CcspWifiAgent",
+  "content_hash": "3c31b9a47aface988d805627aa29cb5b",
+  "response": "**1. Main purpose and functionality**\n\nThe `wps_acl_set` function is used to set the Wi-Fi Protected Setup (WPS) Access Control List (ACL) for a Wi-Fi interface. The ACL specifies which devices are allowed to connect to the Wi-Fi network using WPS.\n\n**2. Key operations and data flow**\n\nThe function takes two parameters:\n\n* `priv`: A pointer to the private data structure for the Wi-Fi interface.\n* `addr`: The MAC address of the device to be added to the ACL.\n\nThe function first retrieves the `driver_data` structure for the Wi-Fi interface from the `priv` parameter. It then calls the `wifi_hostApSetWpsAcl` function to add the specified MAC address to the WPS ACL for the Wi-Fi interface.\n\n**3. Interaction with other components (if any)**\n\nThe `wps_acl_set` function interacts with the Wi-Fi host driver to set the WPS ACL for the Wi-Fi interface.\n\n**4. Important parameters and return values**\n\nThe `wps_acl_set` function returns the following values:\n\n* `0` if the WPS ACL was successfully set.\n* A negative value if the WPS ACL could not be set.\n\n**5. Any specific RDK-related operations**\n\nThe `wps_acl_set` function is part of the CcspWifiAgent component in RDK. The CcspWifiAgent component is responsible for managing Wi-Fi networks and devices on RDK devices.",
+  "processed_at": "2024-11-13T15:29:00.070630"
+}

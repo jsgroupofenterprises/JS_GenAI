@@ -1,0 +1,7 @@
+{
+  "entity_name": "ev_clock",
+  "component": "CcspWifiAgent",
+  "content_hash": "ff94c31e95fec5005dc094ec8970a9c7",
+  "response": "1. **Main purpose and functionality:**\n   - The `ev_clock` function is responsible for retrieving the current system time in seconds with nanosecond precision.\n\n2. **Key operations and data flow:**\n   - The function first checks if the CLOCK_MONOTONIC clock is available. If it is, it uses clock_gettime() to retrieve the current time from that clock. If CLOCK_MONOTONIC is not available, it uses clock_gettime() to retrieve the current time from the CLOCK_REALTIME clock instead.\n   - The function then returns the current time as a double-precision floating-point number in seconds with nanosecond precision.\n\n3. **Interaction with other components:**\n   - The function does not interact with any other components.\n\n4. **Important parameters and return values:**\n   - The function takes no parameters.\n   - The function returns a double-precision floating-point number representing the current time in seconds with nanosecond precision.\n\n5. **Any specific RDK-related operations:**\n   - The function does not perform any specific RDK-related operations.",
+  "processed_at": "2024-11-13T15:46:43.129714"
+}

@@ -1,0 +1,7 @@
+{
+  "entity_name": "voice_hal_setMaxPreferredCodecs",
+  "component": "hal",
+  "content_hash": "f5ceb6de0b68d2f64e9749c2895f241b",
+  "response": "### Main purpose and functionality\nThe voice_hal_setMaxPreferredCodecs function is used to set the maximum number of preferred codecs for a given voice service and profile.\n\n### Key operations and data flow\nThe function takes the following input parameters:\n- `service`: The voice service affected\n- `profile`: The voice profile affected\n- `maxPrefCodecs`: The maximum number of preferred codecs\n\nThe function then sets the maximum number of preferred codecs for the given service and profile.\n\n### Interaction with other components (if any)\nThis function interacts with the voice service manager to set the maximum number of preferred codecs.\n\n### Important parameters and return values\nThe following parameters are important:\n- `service`: The voice service affected\n- `profile`: The voice profile affected\n- `maxPrefCodecs`: The maximum number of preferred codecs\n\nThe function returns the following values:\n- `RDK_SUCCESS`: if the operation is successful\n- `RDK_FAILURE`: if any error is detected\n\n### Any specific RDK-related operations\nThis function is specific to RDK and is used to set the maximum number of preferred codecs for a given voice service and profile.",
+  "processed_at": "2024-11-14T12:00:28.933904"
+}

@@ -1,0 +1,7 @@
+{
+  "entity_name": "wifi_setApSecuritySecondaryRadiusServer",
+  "component": "hal",
+  "content_hash": "1aff909595b3b492cf8de276f50d8d5f",
+  "response": "1. **Main purpose and functionality**:\n   - The function is used to set the IP address, port, and secret of the secondary RADIUS server for the Wi-Fi access point.\n\n2. **Key operations and data flow**:\n   - The function takes the following parameters: apIndex, IPAddress, port, and RadiusSecret.\n   - It sets the secondary RADIUS server's IP address and port number to the specified values.\n   - The function also sets the RadiusSecret, which is a shared secret used for authentication with the RADIUS server.\n\n3. **Interaction with other components (if any)**:\n   - The function interacts with the Wi-Fi access point driver to set the secondary RADIUS server configuration.\n\n4. **Important parameters and return values**:\n   - Important parameters:\n     - **apIndex**: Index of the access point to configure.\n     - **IPAddress**: IP Address of the secondary RADIUS server.\n     - **port**: Port number of the secondary RADIUS server.\n     - **RadiusSecret**: Shared secret used for authentication with the RADIUS server.\n   - Return values: The function returns INT.\n\n5. **Any specific RDK-related operations**:\n   - The function is part of the RDK Wi-Fi HAL and is used to configure the Wi-Fi access point's security settings.",
+  "processed_at": "2024-11-14T12:37:33.184826"
+}

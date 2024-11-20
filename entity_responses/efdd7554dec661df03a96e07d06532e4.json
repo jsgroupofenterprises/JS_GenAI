@@ -1,0 +1,7 @@
+{
+  "entity_name": "wifi_disableApEncryption",
+  "component": "hal",
+  "content_hash": "efdd7554dec661df03a96e07d06532e4",
+  "response": "## **Main purpose and functionality**\n\nThe `wifi_disableApEncryption()` function disables encryption on the specified access point. This function is used to change the hardware settings to disable encryption on the AP.\n\n## **Key operations and data flow**\n\nThe key operations and data flow of the `wifi_disableApEncryption()` function are as follows:\n\n1. The function takes the AP index as an input parameter.\n2. The function gets the current encryption settings for the AP.\n3. The function disables encryption for the AP.\n4. The function saves the new encryption settings to the AP.\n\n## **Interaction with other components (if any)**\n\nThe `wifi_disableApEncryption()` function interacts with the following components:\n\n* The Wi-Fi driver\n* The AP configuration file\n\n## **Important parameters and return values**\n\nThe `wifi_disableApEncryption()` function has the following important parameters and return values:\n\n* **apIndex:** The index of the AP to disable encryption for.\n* **Return value:** The status of the operation.\n\n## **Any specific RDK-related operations**\n\nThe `wifi_disableApEncryption()` function does not have any specific RDK-related operations.",
+  "processed_at": "2024-11-14T12:23:59.831350"
+}

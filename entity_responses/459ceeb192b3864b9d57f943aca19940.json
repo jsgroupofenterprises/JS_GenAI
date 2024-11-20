@@ -1,0 +1,7 @@
+{
+  "entity_name": "ActiveMeasurements_Plan_Commit",
+  "component": "CcspWifiAgent",
+  "content_hash": "459ceeb192b3864b9d57f943aca19940",
+  "response": "**1. Main purpose and functionality:**\n\nThe ActiveMeasurements_Plan_Commit function in the CcspWifiAgent component is responsible for committing changes to the active measurement plan to the device.\n\n**2. Key operations and data flow:**\n\n- The function first retrieves the pointers to the necessary data structures, including the Wifi object and the harvester object.\n- It then checks if the active measurement plan ID has changed. If it has, it sets the corresponding flag to false and calls the CosaDmlWiFiClient_SetActiveMsmtPlanId function to set the new active measurement plan ID.\n\n**3. Interaction with other components (if any):**\n\nThis function interacts with the following components:\n- CosaDmlWiFiClient: This component provides the interface to set the active measurement plan ID.\n\n**4. Important parameters and return values:**\n\n- hInsContext: Handle to the instance context. This parameter is not used in the function.\n- Return value: The function returns 0 on success.\n\n**5. Any specific RDK-related operations:**\n\nThis function does not perform any specific RDK-related operations.",
+  "processed_at": "2024-11-13T15:02:01.226131"
+}

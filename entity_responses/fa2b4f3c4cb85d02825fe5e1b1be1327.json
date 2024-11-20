@@ -1,0 +1,7 @@
+{
+  "entity_name": "hapd_receive_pkt",
+  "component": "CcspWifiAgent",
+  "content_hash": "fa2b4f3c4cb85d02825fe5e1b1be1327",
+  "response": "**1. Main purpose and functionality**\n\n- The `hapd_receive_pkt` function is part of the Host Assisted Protocol Daemon (HAPD) component in CcspWifiAgent. It is responsible for receiving and processing packets from the wireless network interface.\n\n**2. Key operations and data flow**\n\n- The function takes a pointer to a `driver_data` structure as its only argument.\n- It calls the `wifi_setHostApSetAppFilter` function to set the application filter for the host AP.\n- The application filter specifies which packets should be forwarded to the host application and which packets should be dropped.\n\n**3. Interaction with other components (if any)**\n\n- The `hapd_receive_pkt` function interacts with the following components:\n    - The wireless network interface driver\n    - The host AP application\n\n**4. Important parameters and return values**\n\n- The `drv` parameter is a pointer to a `driver_data` structure that contains information about the wireless network interface.\n- The function returns an integer value that indicates the status of the operation. A return value of 0 indicates success.\n\n**5. Any specific RDK-related operations**\n\n- The `hapd_receive_pkt` function is not specific to RDK. It is a general-purpose function that can be used in any HAPD implementation.",
+  "processed_at": "2024-11-13T15:28:34.572566"
+}

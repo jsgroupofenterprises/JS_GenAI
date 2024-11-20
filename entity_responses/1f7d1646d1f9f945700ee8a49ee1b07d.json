@@ -1,0 +1,7 @@
+{
+  "entity_name": "wifi_getApWmmUapsdEnable",
+  "component": "hal",
+  "content_hash": "1f7d1646d1f9f945700ee8a49ee1b07d",
+  "response": "**1. Main purpose and functionality**\n\nThe wifi_getApWmmUapsdEnable function is used to get the Automatic Power Save Delivery (U-APSD) enable/disable value for a specified Access Point (AP).\n\n**2. Key operations and data flow**\n\nThe function takes two parameters:\n- apIndex: The index of the AP for which the U-APSD enable/disable value is to be retrieved.\n- output: A pointer to a BOOL variable that will receive the U-APSD enable/disable value.\n\nThe function retrieves the U-APSD enable/disable value from the HAL and stores it in the output variable.\n\n**3. Interaction with other components (if any)**\n\nThis function interacts with the HAL to retrieve the U-APSD enable/disable value.\n\n**4. Important parameters and return values**\n\n- apIndex: The index of the AP for which the U-APSD enable/disable value is to be retrieved.\n- output: A pointer to a BOOL variable that will receive the U-APSD enable/disable value.\n- RETURN_OK: The operation was successful.\n- RETURN_ERR: An error occurred.\n\n**5. Any specific RDK-related operations**\n\nThis function is not specific to RDK.",
+  "processed_at": "2024-11-14T12:36:05.239410"
+}

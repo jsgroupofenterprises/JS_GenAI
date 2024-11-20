@@ -1,0 +1,7 @@
+{
+  "entity_name": "wifi_getApDASRadiusServer",
+  "component": "hal",
+  "content_hash": "1b4b7f90041ece4a109de87febc3f5f5",
+  "response": "**1. Main purpose and functionality:**\n   - Retrieve the IP Address, port number, and Radius DAS secret of the specified access point.\n\n**2. Key operations and data flow:**\n   - Input: Access point index (apIndex)\n   - Output: Buffer to store IP Address (IP_output), buffer to store port number (Port_output), and buffer to store Radius DAS secret (RadiusdasSecret_output)\n   - The function queries the Device.WiFi.AccessPoint.{i} object to retrieve the specified parameters.\n\n**3. Interaction with other components (if any):**\n   - None mentioned in the documentation.\n\n**4. Important parameters and return values:**\n   - **apIndex:** Index of the access point for which the parameters are to be retrieved.\n   - **IP_output:** Buffer to store the IP Address of the Radius DAS server.\n   - **Port_output:** Buffer to store the port number of the Radius DAS server.\n   - **RadiusdasSecret_output:** Buffer to store the Radius DAS secret.\n   - **Return value:** INT, indicating the status of the operation.\n\n**5. Any specific RDK-related operations:**\n   - This function is part of the RDK HAL component, which provides a generic interface for interacting with hardware devices.",
+  "processed_at": "2024-11-14T12:37:37.569134"
+}

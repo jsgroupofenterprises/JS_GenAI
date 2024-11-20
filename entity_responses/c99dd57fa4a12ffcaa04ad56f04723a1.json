@@ -1,0 +1,7 @@
+{
+  "entity_name": "wifidb_del_interworking_entry",
+  "component": "CcspWifiAgent",
+  "content_hash": "c99dd57fa4a12ffcaa04ad56f04723a1",
+  "response": "**1. Main purpose and functionality:**\n   - The `wifidb_del_interworking_entry` function deletes all interworking entries from the database.\n\n**2. Key operations and data flow:**\n   - The function opens the Wi-Fi database using the `wifidb_open()` function.\n   - It then calls the `sqlite3_exec()` function to execute the `DELETE` statement to delete all interworking entries.\n   - Finally, the function closes the database using the `wifidb_close()` function.\n\n**3. Interaction with other components:**\n   - This function uses the Wi-Fi database to store and retrieve data.\n\n**4. Important parameters and return values:**\n   - **Return value:** Returns `0` if the operation is successful, or a negative error code otherwise.\n\n**5. Any specific RDK-related operations:**\n   - This function does not perform any RDK-specific operations.",
+  "processed_at": "2024-11-13T15:34:15.979137"
+}

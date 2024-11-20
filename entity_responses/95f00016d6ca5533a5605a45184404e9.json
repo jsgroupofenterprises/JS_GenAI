@@ -1,0 +1,7 @@
+{
+  "entity_name": "CosaGetParamValueBool",
+  "component": "CcspWifiAgent",
+  "content_hash": "95f00016d6ca5533a5605a45184404e9",
+  "response": "**1. Main purpose and functionality**\n\nThe `CosaGetParamValueBool` function retrieves the value of a boolean parameter specified by the `pParamName` parameter. It is used to obtain the current value of a parameter that is stored in the RDK configuration database.\n\n**2. Key operations and data flow**\n\nThe function first looks up the Component Registrar (CR) to find the correct component to handle the request. If the component is a Provisioning and Management (P&M) component, the function calls the global variable `g_GetParamValueBool` to retrieve the parameter value.\n\n**3. Interaction with other components (if any)**\n\nThe function interacts with the CR to find the correct component to handle the request. It also interacts with the P&M component to retrieve the parameter value if the component is a P&M component.\n\n**4. Important parameters and return values**\n\n* **pParamName:** The name of the parameter to retrieve the value of.\n* **Return value:** TRUE if the parameter value was successfully retrieved, FALSE otherwise.\n\n**5. Any specific RDK-related operations**\n\nThe function uses the RDK CR to find the correct component to handle the request. It also uses the RDK P&M component to retrieve the parameter value if the component is a P&M component.",
+  "processed_at": "2024-11-13T14:57:53.190665"
+}

@@ -1,0 +1,7 @@
+{
+  "entity_name": "COSA_IsObjSupported",
+  "component": "CcspWifiAgent",
+  "content_hash": "b7c7c641c0a123a0d5073db012fbbf95",
+  "response": "**Main purpose and functionality**\nThe COSA_IsObjSupported function is used to check if a specified object is supported by the CcspWifiAgent component. It returns TRUE if the object is supported, and FALSE if it is not.\n\n**Key operations and data flow**\nThe function takes a single parameter, which is the name of the object to be checked. It then compares the object name to a list of supported objects. If the object name is found in the list of supported objects, the function returns TRUE. Otherwise, it returns FALSE.\n\n**Interaction with other components (if any)**\nThe COSA_IsObjSupported function does not interact with any other components.\n\n**Important parameters and return values**\nThe only parameter to the COSA_IsObjSupported function is the name of the object to be checked. The function returns a Boolean value, which is TRUE if the object is supported, and FALSE if it is not.\n\n**Any specific RDK-related operations**\nThe COSA_IsObjSupported function is used by the CcspWifiAgent component to check if a specified object is supported. The CcspWifiAgent component is part of the RDK, which is a software platform for connected devices.",
+  "processed_at": "2024-11-13T15:06:03.309808"
+}

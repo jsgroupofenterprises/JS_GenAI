@@ -1,0 +1,7 @@
+{
+  "entity_name": "Tunnel_event_callback",
+  "component": "CcspWifiAgent",
+  "content_hash": "99fad5661090b2e5cc8e38d44136b781",
+  "response": "1. **Main purpose and functionality:**\n   - The Tunnel_event_callback function is a callback function that handles tunnel events (TUNNEL_UP or TUNNEL_DOWN) and updates the Wi-Fi configuration accordingly.\n\n2. **Key operations and data flow:**\n   - The function takes two parameters: info and data. Info indicates the type of event (TUNNEL_UP or TUNNEL_DOWN), and data contains additional information about the event.\n   - The function first checks the value of info to determine the type of event.\n   - If info is \"TUNNEL_DOWN\", the function disables all Wi-Fi virtual access points (VAPs).\n   - If info is \"TUNNEL_UP\", the function enables all Wi-Fi VAPs that are configured in the data model.\n\n3. **Interaction with other components (if any):**\n   - The function interacts with the Wi-Fi driver to enable and disable VAPs.\n\n4. **Important parameters and return values:**\n   - **Parameters:**\n     - **info:** A string indicating the type of event (TUNNEL_UP or TUNNEL_DOWN).\n     - **data:** Additional information about the event.\n   - **Return value:** None.\n\n5. **Any specific RDK-related operations:**\n   - The function uses the wifi_apply_ssid_config() function to enable and disable VAPs. This function is part of the RDK Wi-Fi API.",
+  "processed_at": "2024-11-13T15:43:47.229814"
+}

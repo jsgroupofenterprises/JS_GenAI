@@ -1,0 +1,7 @@
+{
+  "entity_name": "wifi_getApBeaconRate",
+  "component": "hal",
+  "content_hash": "4f1585adfab50ac40030253c9ed0ee60",
+  "response": "## **Main purpose and functionality**\nThe `wifi_getApBeaconRate` function is used to get the beacon rate for the specified Access Point (AP) index.\n\n## **Key operations and data flow**\nThe function takes two parameters:\n\n* `apIndex`: The index of the AP for which the beacon rate is to be retrieved.\n* `output_BeaconRate`: A pointer to a character array where the beacon rate will be stored.\n\nThe function retrieves the beacon rate from the AP and stores it in the provided character array.\n\n## **Interaction with other components**\nThe function interacts with the Wi-Fi driver to retrieve the beacon rate from the AP.\n\n## **Important parameters and return values**\nThe following parameters are important to note:\n\n* `apIndex`: The index of the AP for which the beacon rate is to be retrieved. This parameter must be a valid AP index.\n* `output_BeaconRate`: A pointer to a character array where the beacon rate will be stored. This parameter must point to a valid character array with sufficient space to store the beacon rate.\n\nThe function returns one of the following values:\n\n* `RETURN_OK`: The function was successful.\n* `RETURN_ERR`: The function failed.\n\n## **Any specific RDK-related operations**\nThe function is not specific to RDK.",
+  "processed_at": "2024-11-14T12:36:39.731876"
+}

@@ -1,0 +1,7 @@
+{
+  "entity_name": "wifi_setApRetryLimit",
+  "component": "hal",
+  "content_hash": "447a64e48b983208b2d0329bf9a27954",
+  "response": "**1. Main purpose and functionality**\n\nThe wifi_setApRetryLimit function is used to set the retry limit for an Access Point (AP). The retry limit is the maximum number of times that a device will try to connect to an AP before giving up.\n\n**2. Key operations and data flow**\n\nThe wifi_setApRetryLimit function takes two parameters:\n\n* `apIndex`: The index of the AP that you want to set the retry limit for.\n* `number`: The new retry limit.\n\nThe function sets the retry limit for the specified AP. If the retry limit is set to 0, then the device will not retry connecting to the AP after it fails to connect once.\n\n**3. Interaction with other components (if any)**\n\nThe wifi_setApRetryLimit function does not interact with any other components.\n\n**4. Important parameters and return values**\n\nThe wifi_setApRetryLimit function returns an INT value. The following table describes the possible return values:\n\n* `RETURN_OK`: The function was successful.\n* `RETURN_ERR`: The function failed.\n\n**5. Any specific RDK-related operations**\n\nThe wifi_setApRetryLimit function is not specific to RDK. It can be used in any embedded system that uses the RDK HAL library.",
+  "processed_at": "2024-11-14T12:33:22.925661"
+}

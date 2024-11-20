@@ -1,0 +1,7 @@
+{
+  "entity_name": "wifievents_get_max_vaps",
+  "component": "CcspWifiAgent",
+  "content_hash": "59cea049b24853d06cab09977430c32a",
+  "response": "**1. Main purpose and functionality:**\n\nThe `wifievents_get_max_vaps` function retrieves the maximum number of virtual access points (VAPs) supported by the device's Wi-Fi interface. This information is stored in the `g_max_vaps` global variable.\n\n**2. Key operations and data flow:**\n\n- The function calls `rbus_get` to retrieve the value of the \"Device.WiFi.SSIDNumberOfEntries\" parameter.\n- If the parameter is successfully retrieved, the function converts the value to an unsigned 32-bit integer and stores it in `g_max_vaps`.\n- If the parameter cannot be retrieved, the function prints an error message and returns without updating `g_max_vaps`.\n\n**3. Interaction with other components (if any):**\n\nThe function interacts with the RBUS (RDK Bus) library to communicate with the underlying RDK framework.\n\n**4. Important parameters and return values:**\n\n- The function has no input parameters.\n- The function returns `void`.\n- The function updates the `g_max_vaps` global variable with the maximum number of supported VAPs.\n\n**5. Any specific RDK-related operations:**\n\nThe function uses the RBUS library, which is a specific RDK-related component that provides a message-based communication mechanism between different RDK components.",
+  "processed_at": "2024-11-13T14:53:34.542447"
+}

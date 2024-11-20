@@ -1,0 +1,7 @@
+{
+  "entity_name": "u",
+  "component": "hal",
+  "content_hash": "7b54346b606784dde7f19fdf35853065",
+  "response": "**1. Purpose of this structure**\n\nThe `u` structure is used to represent a Wi-Fi virtual access point (VAP) in RDK. It contains information about the VAP's index, name, radio index, bridge name, mode, and repurposed VAP name. It also contains a union that can be used to represent either a front-haul BSS or a back-haul STA.\n\n**2. Key fields and their significance**\n\n* `vap_index`: The index of the VAP.\n* `vap_name`: The name of the VAP.\n* `radio_index`: The index of the radio that the VAP is associated with.\n* `bridge_name`: The name of the bridge that the VAP is associated with.\n* `vap_mode`: The mode of the VAP.\n* `repurposed_vap_name`: The name of the repurposed VAP.\n* `bss_info`: Information about the front-haul BSS.\n* `sta_info`: Information about the back-haul STA.\n\n**3. Usage context in RDK**\n\nThe `u` structure is used in the RDK Wi-Fi HAL component to represent VAPs. It is used by the HAL to configure and manage VAPs.\n\n**4. Related components or interfaces**\n\nThe `u` structure is related to the following components and interfaces:\n\n* Wi-Fi HAL component\n* Wi-Fi VAP interface\n\n**5. Specific RDK-related details**\n\nThe `u` structure is defined in the RDK Wi-Fi HAL API header file.",
+  "processed_at": "2024-11-14T12:46:01.062478"
+}

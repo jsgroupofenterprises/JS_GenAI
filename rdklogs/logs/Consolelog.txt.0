@@ -1,0 +1,946 @@
+241118-09:28:49.235667 [DEBUG] --OUT function backupnvram2logs
+tftp: timeout
+241118-09:29:02.204637 Logupload http_ret value = 1
+241118-09:29:02.212762 Preserve Logupload not success because of http val 1
+No dca-utility pid -------
+241118-09:30:01.199481 Telemetry Folder does not exist . Creating now
+241118-09:30:01.219782 dca: Trigger type is :1
+triggertype------------1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    53    0    53    0     0     47      0 --:--:--  0:00:01 --:--:--    47
+241118-09:30:02.424783 sync logs to nvram2
+sleep for :------------------
+702
+calling processJsonResponse--------
+after calling processJsonResponse-----------
+after calling clearTelemetryConfig-----------
+after calling generateTelemetryConfig--------
+schedulecronjob!!
+: dca: Empty cron value so set default as 15mins
+after calling scheduleCron-------------------
+cp: missing destination file operand after `/rdklogs/logs/ADVSEClog.txt.0'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/ADVSEClog.txt.1'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/ArmConsolelog.txt.0'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/BootTime.log'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/CRlog.txt.0'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/CRlog.txt.1'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/CapDebug.txt'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/CellularManagerLog.txt.0'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/Consolelog.txt.0'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/DNSInternetCheck.txt.0'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/DNSInternetCheck.txt.1'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/ETHAGENTLog.txt.0'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/ETHAGENTLog.txt.1'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/FirewallDebug.txt'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/FwUpgradeManagerLog.txt.0'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/FwUpgradeManagerLog.txt.1'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/LM.txt.0'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/LM.txt.1'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/MeshAgentLog.txt.0'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/MeshAgentLog.txt.1'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/MnetDebug.txt'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/NOTIFYLog.txt.0'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/NOTIFYLog.txt.1'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/OnBoardingLog.txt.0'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/PAMlog.txt.0'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/PAMlog.txt.1'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/PARODUSlog.txt.0'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/PARODUSlog.txt.1'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/PSMlog.txt.0'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/PSMlog.txt.1'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/RXTX100Log.txt'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/SNMP.txt.0'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/SNMP.txt.1'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/SelfHeal.txt.0'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/SelfHealAggressive.txt'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/TDMlog.txt.0'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/TDMlog.txt.1'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/TR69log.txt.0'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/TR69log.txt.1'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/VLANManagerLog.txt.0'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/VLANManagerLog.txt.1'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/WANMANAGERLog.txt.0'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/WANMANAGERLog.txt.1'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/WEBPAlog.txt.0'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/WEBPAlog.txt.1'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/WiFilog.txt.0'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/WiFilog.txt.1'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/XDNSlog.txt.0'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/XDNSlog.txt.1'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/agent.txt'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/dcmProcessing.log'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/dcmrfc.log'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/dcmscript.log'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/eth_telemetry.txt'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/lighttpderror.log'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/ocsp-support.log'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/response.txt'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/rtrouted.log'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/swupdate.log'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/telemetry.log'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/telemetry2_0.txt.0'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/telemetry2_0.txt.1'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/webui.log'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/wifiAnalytics.txt'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/wifiApps.txt'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/wifiConnAdmissionCtrl.txt'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/wifiCtrl.txt'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/wifiDMCLI.txt'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/wifiDb.txt'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/wifiHal.txt'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/wifiMgr.txt'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/wifiMon.txt'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/wifiPsm.txt'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/wifiWebConfig.txt'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/wifihealth.txt'
+Try `cp --help' for more information.
+cp: missing destination file operand after `/rdklogs/logs/xconf_curl_httpcode'
+Try `cp --help' for more information.
+/rdklogger/logfiles.sh: line 914: /nvram/logbackupreboot/TR69log.txt.0: No such file or directory
+/rdklogger/logfiles.sh: line 914: /nvram/logbackupreboot/TR69log.txt.1: No such file or directory
+/rdklogger/logfiles.sh: line 914: /nvram/logbackupreboot/PAMlog.txt.0: No such file or directory
+/rdklogger/logfiles.sh: line 914: /nvram/logbackupreboot/PAMlog.txt.1: No such file or directory
+/rdklogger/logfiles.sh: line 914: /nvram/logbackupreboot/PSMlog.txt.0: No such file or directory
+/rdklogger/logfiles.sh: line 914: /nvram/logbackupreboot/PSMlog.txt.1: No such file or directory
+/rdklogger/logfiles.sh: line 914: /nvram/logbackupreboot/CRlog.txt.0: No such file or directory
+/rdklogger/logfiles.sh: line 914: /nvram/logbackupreboot/CRlog.txt.1: No such file or directory
+/rdklogger/logfiles.sh: line 914: /nvram/logbackupreboot/TDMlog.txt.0: No such file or directory
+/rdklogger/logfiles.sh: line 914: /nvram/logbackupreboot/TDMlog.txt.1: No such file or directory
+/rdklogger/logfiles.sh: line 914: /nvram/logbackupreboot/WiFilog.txt.0: No such file or directory
+/rdklogger/logfiles.sh: line 914: /nvram/logbackupreboot/WiFilog.txt.1: No such file or directory
+/rdklogger/logfiles.sh: line 914: /nvram/logbackupreboot/Consolelog.txt.0: No such file or directory
+/rdklogger/logfiles.sh: line 914: /nvram/logbackupreboot/LM.txt.0: No such file or directory
+/rdklogger/logfiles.sh: line 914: /nvram/logbackupreboot/LM.txt.1: No such file or directory
+/rdklogger/logfiles.sh: line 914: /nvram/logbackupreboot/SNMP.txt.0: No such file or directory
+/rdklogger/logfiles.sh: line 914: /nvram/logbackupreboot/SNMP.txt.1: No such file or directory
+/rdklogger/logfiles.sh: line 914: /nvram/logbackupreboot/ArmConsolelog.txt.0: No such file or directory
+/rdklogger/logfiles.sh: line 914: /nvram/logbackupreboot/lighttpderror.log: No such file or directory
+/rdklogger/logfiles.sh: line 914: /nvram/logbackupreboot/wifihealth.txt: No such file or directory
+/rdklogger/logfiles.sh: line 914: /nvram/logbackupreboot/wifiDb.txt: No such file or directory
+/rdklogger/logfiles.sh: line 914: /nvram/logbackupreboot/MeshAgentLog.txt.0: No such file or directory
+/rdklogger/logfiles.sh: line 914: /nvram/logbackupreboot/MeshAgentLog.txt.1: No such file or directory
+/rdklogger/logfiles.sh: line 914: /nvram/logbackupreboot/telemetry2_0.txt.0: No such file or directory
+/rdklogger/logfiles.sh: line 914: /nvram/logbackupreboot/telemetry2_0.txt.1: No such file or directory
+/rdklogger/logfiles.sh: line 914: /nvram/logbackupreboot/rtrouted.log: No such file or directory
+/rdklogger/logfiles.sh: line 914: /nvram/logbackupreboot/webui.log: No such file or directory
+Cdm_Term: Internal Error
+free(): invalid size
+==> sync logs to nvram before reboot
+241118-09:31:00.006888 sync logs to nvram2
+/usr/ccsp/advsec/advsec.sh: line 231: /usr/bin/launch-cujo-agent: No such file or directory
+/usr/ccsp/advsec/advsec.sh: line 392: [: : integer expression expected
+/usr/ccsp/advsec/advsec.sh: line 463: ipset: command not found
+/usr/ccsp/advsec/advsec.sh: line 464: ipset: command not found
+/usr/ccsp/advsec/advsec.sh: line 465: ipset: command not found
+/usr/ccsp/advsec/advsec.sh: line 466: ipset: command not found
+/usr/ccsp/advsec/advsec.sh: line 467: ipset: command not found
+241007-14:39:59.250247 RFC DNSTRICT ORDER is not defined or Enabled 
+241007-14:39:59.260911 Starting dnsmasq with option:  
+ln: creating symbolic link `/crontabs': File exists
+241007-14:40:00.395539 *******************************************************************
+241007-14:40:00.408192 *                                                                  
+241007-14:40:00.416477 [utopia][init] P-UNIT status
+cat: /proc/P-UNIT/status: No such file or directory
+241007-14:40:00.435641 *                                                                  
+241007-14:40:00.443233 *******************************************************************
+241007-14:40:00.474296 Starting log module..
+ln: creating symbolic link `/etc/syslog.conf': File exists
+grep: /etc/syslog.conf: No such file or directory
+grep: /etc/syslog.conf: No such file or directory
+mkdir: cannot create directory `': No such file or directory
+mkdir -p 
+mkdir: cannot create directory `': No such file or directory
+241007-14:40:00.607298 [utopia][init] Starting syscfg using file store (/nvram/syscfg.db)
+241007-14:40:00.725038 [utopia][init] Setting lan domain to NULL
+cat: /proc/P-UNIT/status: No such file or directory
+cat: /proc/P-UNIT/status: No such file or directory
+241007-14:40:00.888596 [utopia][init] Cannot read the reset duration value from /proc/P-UNIT/status
+/etc/utopia/utopia_init.sh: line 231: test: : integer expression expected
+241007-14:40:00.936205 *** HTTPS root certificate for TR69 ***
+241007-14:40:00.942981 HTTPS root certificate for TR69 is missing...
+mq msg_max :100
+241007-14:40:01.064495 [utopia][init] Starting sysevent subsystem
+241007-14:40:02.182408 [utopia][init] Setting any unset system values to default
+[utopia] [init] syscfg_get <$Version, 11>
+[utopia] [init] syscfg_get <$last_erouter_mode, 3>
+[utopia] [init] syscfg_get <$wan_physical_ifname, erouter0>
+[utopia] [init] syscfg_get <$wan_bridge_ifname, lbr0>
+[utopia] [init] syscfg_get <$wan_mtu, 0>
+[utopia] [init] syscfg_get <$wan_proto, dhcp>
+[utopia] [init] syscfg_get <$pptp_address_static, 0>
+[utopia] [init] syscfg_get <$l2tp_address_static, 0>
+[utopia] [init] syscfg_get <$lan_ifname, brlan0>
+[utopia] [init] syscfg_get <$lan_ethernet_physical_ifnames, eth1>
+[utopia] [init] syscfg_get <$band_steering_enable, 0>
+[utopia] [init] syscfg_get <$RssiThreshold0, -100>
+[utopia] [init] syscfg_get <$RssiThreshold1, -100>
+[utopia] [init] syscfg_get <$lan_ipaddr, 10.0.0.1>
+[utopia] [init] syscfg_get <$lan_netmask, 255.255.255.0>
+[utopia] [init] apply_system_defaults set <$lan_domain, utopia.net> force=0
+[utopia] [init] syscfg_get <$StaticRouteCount, 0>
+[utopia] [init] syscfg_get <$dhcp_nameserver_enabled, 0>
+[utopia] [init] syscfg_get <$dhcp_server_enabled, 1>
+[utopia] [init] syscfg_get <$dhcp_start, 10.0.0.2>
+[utopia] [init] syscfg_get <$dhcp_end, 10.0.0.253>
+[utopia] [init] syscfg_get <$dhcp_num, 252>
+[utopia] [init] syscfg_get <$dhcp_lease_time, 7d>
+[utopia] [init] syscfg_get <$dhcp_server_propagate_wan_domain, 1>
+[utopia] [init] syscfg_get <$dhcp_server_propagate_wan_nameserver, 1>
+[utopia] [init] syscfg_get <$dhcp_server_slow_start, 1>
+[utopia] [init] syscfg_get <$dhcp_num_static_hosts, 0>
+[utopia] [init] syscfg_get <$ddns_enable, 0>
+[utopia] [init] syscfg_get <$ddns_update_days, 28>
+[utopia] [init] syscfg_get <$ddns_last_update, 0>
+[utopia] [init] syscfg_get <$ddns_enable1, 0>
+[utopia] [init] syscfg_get <$ddns_enable2, 0>
+[utopia] [init] syscfg_get <$ddns_service1, dyndns>
+[utopia] [init] syscfg_get <$ddns_service2, tzo>
+[utopia] [init] syscfg_get <$ddns_username1, admin1>
+[utopia] [init] syscfg_get <$ddns_username2, admin2>
+[utopia] [init] syscfg_get <$ddns_hostname1, cisco.com>
+[utopia] [init] syscfg_get <$ddns_hostname2, cisco.com>
+[utopia] [init] syscfg_get <$ddns_password1, admin1>
+[utopia] [init] syscfg_get <$ddns_password2, admin2>
+[utopia] [init] syscfg_get <$ntp_enabled, 1>
+[utopia] [init] syscfg_get <$ntp_server1, time.nist.gov>
+[utopia] [init] syscfg_get <$ntp_server2, nist1-ny.glassey.com>
+[utopia] [init] syscfg_get <$TZ, GMT+00:00>
+[utopia] [init] syscfg_get <$ntp_cityindex, 0>
+[utopia] [init] syscfg_get <$auto_dst, 1>
+[utopia] [init] syscfg_get <$ntp_daylightenable, 0>
+[utopia] [init] syscfg_get <$ntp_daylightoffset, 60>
+[utopia] [init] syscfg_get <$igmpproxy_enabled, 1>
+[utopia] [init] syscfg_get <$mldproxy_enabled, 1>
+[utopia] [init] syscfg_get <$upnp_igd_enabled, 1>
+[utopia] [init] syscfg_get <$igd_allow_userconfig, 1>
+[utopia] [init] syscfg_get <$igd_allow_wandisable, 0>
+[utopia] [init] syscfg_get <$upnp_igd_advr_expire, 1800>
+[utopia] [init] syscfg_get <$upnp_igd_advr_ttl, 5>
+[utopia] [init] syscfg_get <$http_admin_user, admin>
+[utopia] [init] syscfg_get <$http_admin_password, TSLIIHauhEfGE>
+[utopia] [init] syscfg_get <$http_admin_port, 80>
+[utopia] [init] syscfg_get <$http_admin_is_default, 1>
+[utopia] [init] syscfg_get <$user_count, 3>
+[utopia] [init] syscfg_get <$user_name_1, mso>
+[utopia] [init] syscfg_get <$user_name_2, cusadmin>
+[utopia] [init] syscfg_get <$user_name_3, admin>
+[utopia] [init] syscfg_get <$user_password_3, password>
+[utopia] [init] syscfg_get <$user_insNum_1, 1>
+[utopia] [init] syscfg_get <$user_insNum_2, 2>
+[utopia] [init] syscfg_get <$user_insNum_3, 3>
+[utopia] [init] syscfg_get <$mgmt_http_enable, 1>
+[utopia] [init] syscfg_get <$mgmt_https_enable, 0>
+[utopia] [init] syscfg_get <$mgmt_wifi_access, 1>
+[utopia] [init] syscfg_get <$mgmt_wan_access, 1>
+[utopia] [init] syscfg_get <$mgmt_wan_httpaccess_ert, 1>
+[utopia] [init] syscfg_get <$mgmt_wan_httpaccess, 0>
+[utopia] [init] syscfg_get <$mgmt_wan_httpsaccess, 1>
+[utopia] [init] syscfg_get <$mgmt_wan_sshaccess, 1>
+[utopia] [init] syscfg_get <$mgmt_wan_telnetaccess, 0>
+[utopia] [init] syscfg_get <$mgmt_wan_httpport, 8080>
+[utopia] [init] syscfg_get <$mgmt_wan_httpsport, 8181>
+[utopia] [init] syscfg_get <$mgmt_wan_sshport, 22>
+[utopia] [init] syscfg_get <$mgmt_wan_telnetport, 23>
+[utopia] [init] syscfg_get <$mgmt_wan_srcany, 1>
+[utopia] [init] syscfg_get <$mgmt_wan_srcstart_ip, 255.255.255.255>
+[utopia] [init] syscfg_get <$mgmt_wan_srcend_ip, 255.255.255.255>
+[utopia] [init] syscfg_get <$mgmt_wan_fwupgrade, 0>
+[utopia] [init] syscfg_get <$mgmt_lan_telnetaccess, 0>
+[utopia] [init] syscfg_get <$mgmt_lan_sshaccess, 0>
+[utopia] [init] syscfg_get <$mgmt_mta_telnetaccess, 0>
+[utopia] [init] syscfg_get <$mgmt_mta_sshaccess, 0>
+[utopia] [init] syscfg_get <$nat_enabled, 1>
+[utopia] [init] syscfg_get <$firewall_enabled, 1>
+[utopia] [init] syscfg_get <$firewall_level, Low>
+[utopia] [init] syscfg_get <$firewall_levelv6, Low>
+[utopia] [init] syscfg_get <$block_rfc1918, 0>
+[utopia] [init] syscfg_get <$block_ping, 0>
+[utopia] [init] syscfg_get <$block_multicast, 0>
+[utopia] [init] syscfg_get <$block_nat_redirection, 1>
+[utopia] [init] syscfg_get <$nat_hairping_enable, 1>
+[utopia] [init] syscfg_get <$block_ident, 0>
+[utopia] [init] syscfg_get <$firewall_development_override, 0>
+[utopia] [init] syscfg_get <$dmz_enabled, 0>
+[utopia] [init] syscfg_get <$block_webproxy, 0>
+[utopia] [init] syscfg_get <$block_java, 0>
+[utopia] [init] syscfg_get <$block_activex, 0>
+[utopia] [init] syscfg_get <$block_cookies, 0>
+[utopia] [init] syscfg_get <$portscan_enabled, 0>
+[utopia] [init] syscfg_get <$IPSecPassthrough, 1>
+[utopia] [init] syscfg_get <$PPTPPassthrough, 1>
+[utopia] [init] syscfg_get <$SinglePortForwardCount, 0>
+[utopia] [init] syscfg_get <$PortRangeForwardCount, 0>
+[utopia] [init] syscfg_get <$PortRangeTriggerCount, 0>
+[utopia] [init] syscfg_get <$InternetAccessPolicyCount, 0>
+[utopia] [init] syscfg_get <$W2LWellKnownFirewallRuleCount, 0>
+[utopia] [init] syscfg_get <$6to4_enable, 0>
+[utopia] [init] syscfg_get <$aiccu_enable, 0>
+[utopia] [init] syscfg_get <$he_enable, 0>
+[utopia] [init] syscfg_get <$ipv6_bridging_enable, 0>
+[utopia] [init] syscfg_get <$ipv6_ndp_proxy_enable, 0>
+[utopia] [init] syscfg_get <$dhcpv6c_enable, 0>
+[utopia] [init] syscfg_get <$dhcpv6s_enable, 0>
+[utopia] [init] syscfg_get <$6rd_enable, 0>
+[utopia] [init] syscfg_get <$ipv6_static_enable, 0>
+[utopia] [init] syscfg_get <$router_adv_enable, 1>
+[utopia] [init] syscfg_get <$router_managed_flag, 1>
+[utopia] [init] syscfg_get <$router_other_flag, 1>
+[utopia] [init] syscfg_get <$router_adv_provisioning_enable, 1>
+[utopia] [init] syscfg_get <$locale, en-us>
+[utopia] [init] syscfg_get <$rip_enabled, 0>
+[utopia] [init] syscfg_get <$cosa_usgv2_rip00::Version, 2>
+[utopia] [init] syscfg_get <$cosa_usgv2_rip00::ConnectedMetric, 1>
+[utopia] [init] syscfg_get <$cosa_usgv2_rip00::DefaultMetric, 1>
+[utopia] [init] syscfg_get <$cosa_usgv2_rip00::UpdateTime, 30>
+[utopia] [init] syscfg_get <$cosa_usgv2_rip00::CollectionTime, 120>
+[utopia] [init] syscfg_get <$cosa_usgv2_rip00::TimoutTime, 180>
+[utopia] [init] syscfg_get <$cosa_usgv2_rip00::If1Enable, 1>
+[utopia] [init] syscfg_get <$cosa_usgv2_rip00::If1KeyChainName, keychain1>
+[utopia] [init] syscfg_get <$cosa_usgv2_rip00::If1Name, erouter0>
+[utopia] [init] syscfg_get <$cosa_usgv2_rip00::If1Alias, Ethernet>
+[utopia] [init] syscfg_get <$cosa_usgv2_rip00::If1AuthenticateType, 3>
+[utopia] [init] syscfg_get <$cosa_usgv2_rip00::If1ReceiveEnable, 1>
+[utopia] [init] syscfg_get <$cosa_usgv2_rip00::If1ReceiveVersion, 2>
+[utopia] [init] syscfg_get <$cosa_usgv2_rip00::If1SendEnable, 1>
+[utopia] [init] syscfg_get <$cosa_usgv2_rip00::If1SendVersion, 2>
+[utopia] [init] syscfg_get <$cosa_usgv2_rip00::If1Neighbor, 0>
+[utopia] [init] syscfg_get <$cosa_usgv2_rip00::If1KeyID, 0>
+[utopia] [init] syscfg_get <$log_level, 2>
+[utopia] [init] syscfg_get <$log_remote, 0>
+[utopia] [init] syscfg_get <$qos_enable, 1>
+[utopia] [init] syscfg_get <$bridge_mode, 0>
+[utopia] [init] syscfg_get <$wifi_bridge_mode, 0>
+[utopia] [init] syscfg_get <$moca_lof_channel, 0>
+[utopia] [init] syscfg_get <$moca_freq_mode, auto>
+[utopia] [init] syscfg_get <$moca_freq_plan, 1150>
+[utopia] [init] syscfg_get <$moca_constant_tx_power, auto>
+[utopia] [init] syscfg_get <$moca_dig_offset, 0>
+[utopia] [init] syscfg_get <$moca_preferred_nc, 1>
+[utopia] [init] syscfg_get <$moca_enable_privacy, 0>
+[utopia] [init] syscfg_get <$moca_password_seed, 99999999988888888>
+[utopia] [init] syscfg_get <$moca_enabled, 1>
+[utopia] [init] syscfg_get <$moca_scan_enabled, 0>
+[utopia] [init] syscfg_get <$moca_node_taboo_enabled, 1>
+[utopia] [init] syscfg_get <$moca_node_taboo_mask, eaaefe00>
+[utopia] [init] syscfg_get <$moca_mixed_mode, 1>
+[utopia] [init] syscfg_get <$moca_pwr_apc_enable, 1>
+[utopia] [init] syscfg_get <$moca_maximum_tx_power, 10>
+[utopia] [init] syscfg_get <$moca_phy_rate, 235>
+[utopia] [init] syscfg_get <$moca_beacon_pwr_level, 9>
+[utopia] [init] syscfg_get <$dhcpv6s00::serverenable, 1>
+[utopia] [init] syscfg_get <$dhcpv6s00::servertype, 1>
+[utopia] [init] syscfg_get <$dhcpv6s00::poolnumber, 1>
+[utopia] [init] syscfg_get <$dhcpv6spool00::instancenumber, 1>
+[utopia] [init] syscfg_get <$dhcpv6spool00::bEnabled, 1>
+[utopia] [init] syscfg_get <$dhcpv6spool00::Interface, Device.IP.Interface.2.>
+[utopia] [init] syscfg_get <$dhcpv6spool00::IANAEnable, 1>
+[utopia] [init] syscfg_get <$dhcpv6spool00::IANAPrefixes, Device.IP.Interface.1.IPv6Prefix.1.>
+[utopia] [init] syscfg_get <$dhcpv6spool00::LeaseTime, 604800>
+[utopia] [init] syscfg_get <$dhcpv6spool00::PrefixRangeBegin, 0:0:0:0001>
+[utopia] [init] syscfg_get <$dhcpv6spool00::PrefixRangeEnd, 0:0:0:fffe>
+[utopia] [init] syscfg_get <$dhcpv6spool00::EUI64Enable, 1>
+[utopia] [init] syscfg_get <$dhcpv6spool00::RapidEnable, 0>
+[utopia] [init] syscfg_get <$dhcpv6spool00::UnicastEnable, 0>
+[utopia] [init] syscfg_get <$dhcpv6spool00::IANAAmount, 255>
+[utopia] [init] syscfg_get <$dhcpv6spool00::optionnumber, 2>
+[utopia] [init] syscfg_get <$dhcpv6spool0option0::bEnabled, 1>
+[utopia] [init] syscfg_get <$dhcpv6spool0option0::Tag, 23>
+[utopia] [init] syscfg_get <$dhcpv6spool0option0::PassthroughClient, Device.DHCPv6.Client.1.>
+[utopia] [init] syscfg_get <$dhcpv6spool0option1::bEnabled, 1>
+[utopia] [init] syscfg_get <$dhcpv6spool0option1::Tag, 24>
+[utopia] [init] syscfg_get <$dhcpv6spool0option1::PassthroughClient, Device.DHCPv6.Client.1.>
+[utopia] [init] syscfg_get <$CaptivePortal_Enable, true>
+[utopia] [init] syscfg_get <$redirection_flag, true>
+[utopia] [init] syscfg_get <$ccsp_recovery_enable, 1>
+[utopia] [init] syscfg_get <$cmdiag_ifname, lan0>
+[utopia] [init] syscfg_get <$cmdiag_enabled, 1>
+[utopia] [init] syscfg_get <$ecm_wan_ifname, erouter0>
+[utopia] [init] syscfg_get <$emta_wan_ifname, mta0>
+[utopia] [init] syscfg_get <$managedsites_enabled, 0>
+[utopia] [init] syscfg_get <$managedservices_enabled, 1>
+[utopia] [init] syscfg_get <$manageddevices_enabled, 0>
+[utopia] [init] syscfg_get <$manageddevices_allow_all, 0>
+[utopia] [init] syscfg_get <$ManagedSiteBlockCount, 0>
+[utopia] [init] syscfg_get <$ManagedSiteTrustCount, 0>
+[utopia] [init] syscfg_get <$ManagedServiceBlockCount, 0>
+[utopia] [init] syscfg_get <$ManagedServiceTrustCount, 0>
+[utopia] [init] syscfg_get <$ManagedDeviceCount, 0>
+[utopia] [init] syscfg_get <$CosaNAT::port_trigger_enabled, 0>
+[utopia] [init] syscfg_get <$CosaNAT::port_forward_enabled, 1>
+[utopia] [init] syscfg_get <$CosaNAT::port_hs_forward_enabled, 1>
+[utopia] [init] syscfg_get <$email_notification_sendlogs, 0>
+[utopia] [init] syscfg_get <$email_notification_firewallbreach, 0>
+[utopia] [init] syscfg_get <$email_notification_parentalcontrolbreach, 0>
+[utopia] [init] syscfg_get <$email_notification_alertswarning, 0>
+[utopia] [init] syscfg_get <$email_notification_enabled, 0>
+[utopia] [init] syscfg_get <$email_notification_fromaddr, admin@rdkb.dev>
+[utopia] [init] syscfg_get <$rlog_enable, 0>
+[utopia] [init] syscfg_get <$rlog_host, 192.168.0.120>
+[utopia] [init] syscfg_get <$rlog_port, 514>
+[utopia] [init] syscfg_get <$FW_LOG_FILE_PATH, /nvram2/log/firewall>
+[utopia] [init] syscfg_get <$FW_LOG_COMPRESSED_FILE_SIZE, 10>
+[utopia] [init] syscfg_get <$SYS_LOG_COMMPRESSED_FILE_SIZE, 10>
+[utopia] [init] syscfg_get <$EVT_LOG_COMMPRESSED_FILE_SIZE, 10>
+[utopia] [init] syscfg_get <$mta_dsx_log_enable, true>
+[utopia] [init] syscfg_get <$MoCAExtRadioInstanceNumber0, 1>
+[utopia] [init] syscfg_get <$MoCAExtRadioID0, RADIO_2.4GHz>
+[utopia] [init] syscfg_get <$MoCAExtRadioEnable0, 1>
+[utopia] [init] syscfg_get <$MoCAExtRadioMode0, 14>
+[utopia] [init] syscfg_get <$MoCAExtRadioChannelWidth0, 1>
+[utopia] [init] syscfg_get <$MoCAExtRadioChannel0, 6>
+[utopia] [init] syscfg_get <$MoCAExtRadioSecChannel0, 3>
+[utopia] [init] syscfg_get <$MoCAExtRadioBeaconInterval0, 100>
+[utopia] [init] syscfg_get <$MoCAExtRadioDTIMInterval0, 2>
+[utopia] [init] syscfg_get <$MoCAExtRadioGuardInterval0, 400>
+[utopia] [init] syscfg_get <$MoCAExtRadioCoexistance0, 1>
+[utopia] [init] syscfg_get <$MoCAExtRadioInstanceNumber1, 2>
+[utopia] [init] syscfg_get <$MoCAExtRadioID1, RADIO_5GHz>
+[utopia] [init] syscfg_get <$MoCAExtRadioEnable1, 1>
+[utopia] [init] syscfg_get <$MoCAExtRadioMode1, 9>
+[utopia] [init] syscfg_get <$MoCAExtRadioChannelWidth1, 2>
+[utopia] [init] syscfg_get <$MoCAExtRadioChannel1, 40>
+[utopia] [init] syscfg_get <$MoCAExtRadioSecChannel1, 3>
+[utopia] [init] syscfg_get <$MoCAExtRadioBeaconInterval1, 100>
+[utopia] [init] syscfg_get <$MoCAExtRadioDTIMInterval1, 2>
+[utopia] [init] syscfg_get <$MoCAExtRadioGuardInterval1, 400>
+[utopia] [init] syscfg_get <$MoCAExtRadioCoexistance1, 1>
+[utopia] [init] syscfg_get <$MoCAExtSsidWpsEnabled, 1>
+[utopia] [init] syscfg_get <$MoCAExtSsidWpsPinCode, 12345678>
+[utopia] [init] syscfg_get <$MoCAExtSsidWpsSsidIndex, 10001000>
+[utopia] [init] syscfg_get <$MoCAExtSsidNum, 0>
+[utopia] [init] syscfg_get <$staticdns_enable, 0>
+[utopia] [init] syscfg_get <$wan_ipaddr, 0.0.0.0>
+[utopia] [init] syscfg_get <$wan_netmask, 0.0.0.0>
+[utopia] [init] syscfg_get <$wan_default_gateway, 0.0.0.0>
+[utopia] [init] syscfg_get <$nameserver1, 0.0.0.0>
+[utopia] [init] syscfg_get <$nameserver2, 0.0.0.0>
+[utopia] [init] syscfg_get <$hostname, RaspberryPi-Gateway>
+[utopia] [init] syscfg_get <$ems_server_url, dummyurl>
+[utopia] [init] syscfg_get <$todays_reset_count, 0>
+[utopia] [init] syscfg_get <$todays_reboot_count, 0>
+[utopia] [init] syscfg_get <$lastActiontakentime, 1731854505>
+[utopia] [init] syscfg_get <$last_router_reboot_time, 0>
+[utopia] [init] syscfg_get <$router_reboot_Interval, 28800>
+[utopia] [init] syscfg_get <$ConnTest_PingInterval, 60>
+[utopia] [init] syscfg_get <$selfheal_ping_DataBlockSize, 56>
+[utopia] [init] syscfg_get <$selfheal_dns_pingtest_enable, true>
+[utopia] [init] syscfg_get <$selfheal_dns_pingtest_url, www.google.com>
+[utopia] [init] syscfg_get <$ConnTest_CorrectiveAction, true>
+[utopia] [init] syscfg_get <$selfheal_enable, true>
+[utopia] [init] syscfg_get <$max_reset_count, 3>
+[utopia] [init] syscfg_get <$max_reboot_count, 3>
+[utopia] [init] syscfg_get <$highloadavg_reboot_count, 0>
+[utopia] [init] syscfg_get <$avg_cpu_threshold, 100>
+[utopia] [init] syscfg_get <$avg_memory_threshold, 100>
+[utopia] [init] syscfg_get <$resource_monitor_interval, 15>
+[utopia] [init] syscfg_get <$ConnTest_NumPingsPerServer, 3>
+[utopia] [init] syscfg_get <$ConnTest_MinNumPingServer, 1>
+[utopia] [init] syscfg_get <$ConnTest_PingRespWaitTime, 1000>
+[utopia] [init] syscfg_get <$AggressiveInterval, 5>
+[utopia] [init] syscfg_get <$IPv6subPrefix, true>
+[utopia] [init] syscfg_get <$dslite_enable, 0>
+[utopia] [init] syscfg_get <$dslite_count, 1>
+[utopia] [init] syscfg_get <$dslite_InsNum_1, 1>
+[utopia] [init] syscfg_get <$dslite_active_1, 0>
+[utopia] [init] syscfg_get <$dslite_alias_1, Dslite.Tunnel.1>
+[utopia] [init] syscfg_get <$dslite_mode_1, 1>
+[utopia] [init] syscfg_get <$dslite_addr_type_1, 2>
+[utopia] [init] syscfg_get <$dslite_addr_fqdn_1, none>
+[utopia] [init] syscfg_get <$dslite_addr_ipv6_1, ::>
+[utopia] [init] syscfg_get <$dslite_mss_clamping_enable_1, 0>
+[utopia] [init] syscfg_get <$dslite_tcpmss_1, 1420>
+[utopia] [init] syscfg_get <$dslite_ipv6_frag_enable_1, 0>
+[utopia] [init] syscfg_get <$dynamic_dns_enable, 0>
+[utopia] [init] syscfg_get <$ddns_service_providers_list, no-ip,dyndns,duckdns,afraid,easydns>
+[utopia] [init] syscfg_get <$ddns_server_checkinterval_1, 0>
+[utopia] [init] syscfg_get <$ddns_server_maxretries_1, 10>
+[utopia] [init] syscfg_get <$ddns_server_retryinterval_1, 660>
+[utopia] [init] syscfg_get <$ddns_server_checkinterval_2, 0>
+[utopia] [init] syscfg_get <$ddns_server_maxretries_2, 10>
+[utopia] [init] syscfg_get <$ddns_server_retryinterval_2, 660>
+[utopia] [init] syscfg_get <$ddns_server_checkinterval_3, 0>
+[utopia] [init] syscfg_get <$ddns_server_maxretries_3, 10>
+[utopia] [init] syscfg_get <$ddns_server_retryinterval_3, 660>
+[utopia] [init] syscfg_get <$ddns_server_checkinterval_4, 0>
+[utopia] [init] syscfg_get <$ddns_server_maxretries_4, 10>
+[utopia] [init] syscfg_get <$ddns_server_retryinterval_4, 660>
+[utopia] [init] syscfg_get <$ddns_server_checkinterval_5, 0>
+[utopia] [init] syscfg_get <$ddns_server_maxretries_5, 10>
+[utopia] [init] syscfg_get <$ddns_server_retryinterval_5, 660>
+[utopia] [init] syscfg_get <$X_RDKCENTRAL-COM_LogLevel, 4>
+[utopia] [init] syscfg_get <$X_RDKCENTRAL-COM_TR69_LogLevel, 4>
+[utopia] [init] syscfg_get <$X_RDKCENTRAL-COM_PAM_LogLevel, 4>
+[utopia] [init] syscfg_get <$X_RDKCENTRAL-COM_PSM_LogLevel, 4>
+[utopia] [init] syscfg_get <$X_RDKCENTRAL-COM_WiFi_LogLevel, 4>
+[utopia] [init] syscfg_get <$X_RDKCENTRAL-COM_CR_LogLevel, 4>
+[utopia] [init] syscfg_get <$X_RDKCENTRAL-COM_Harvester_LogLevel, 4>
+[utopia] [init] syscfg_get <$X_RDKCENTRAL-COM_NotifyComp_LogLevel, 4>
+[utopia] [init] syscfg_get <$X_RDKCENTRAL-COM_EthAgent_LogLevel, 4>
+[utopia] [init] syscfg_get <$X_RDKCENTRAL-COM_FwUpgradeManager_LogLevel, 4>
+[utopia] [init] syscfg_get <$X_RDKCENTRAL-COM_LoggerEnable, 1>
+[utopia] [init] syscfg_get <$X_RDKCENTRAL-COM_TR69_LoggerEnable, 1>
+[utopia] [init] syscfg_get <$X_RDKCENTRAL-COM_PAM_LoggerEnable, 1>
+[utopia] [init] syscfg_get <$X_RDKCENTRAL-COM_PSM_LoggerEnable, 1>
+[utopia] [init] syscfg_get <$X_RDKCENTRAL-COM_WiFi_LoggerEnable, 1>
+[utopia] [init] syscfg_get <$X_RDKCENTRAL-COM_CR_LoggerEnable, 1>
+[utopia] [init] syscfg_get <$X_RDKCENTRAL-COM_Harvester_LoggerEnable, 1>
+[utopia] [init] syscfg_get <$X_RDKCENTRAL-COM_NotifyComp_LoggerEnable, 1>
+[utopia] [init] syscfg_get <$X_RDKCENTRAL-COM_EthAgent_LoggerEnable, 1>
+[utopia] [init] syscfg_get <$X_RDKCENTRAL-COM_FwUpgradeManager_LoggerEnable, 1>
+[utopia] [init] syscfg_get <$unique_telemetry_enable, false>
+[utopia] [init] syscfg_get <$unique_telemetry_interval, 0>
+[utopia] [init] syscfg_get <$MessageBusSource, true>
+[utopia] [init] syscfg_get <$T2Enable, true>
+[utopia] [init] syscfg_get <$T2Version, 2.0.1>
+[utopia] [init] syscfg_get <$tr_dhcpv6c_enabled, 1>
+[utopia] [init] syscfg_get <$tr_dhcpv6c_iana_enabled, 1>
+[utopia] [init] syscfg_get <$tr_dhcpv6c_iapd_enabled, 1>
+[utopia] [init] syscfg_get <$DeferFWDownloadReboot, 290>
+[utopia] [init] syscfg_get <$Atm_NumOfIfcs, 1>
+[utopia] [init] syscfg_get <$maxauthreq, 5>
+[utopia] [init] syscfg_get <$AutoReboot, true>
+[utopia] [init] syscfg_get <$EnableOCSPStapling, false>
+[utopia] [init] syscfg_get <$EnableOCSPCA, false>
+[utopia] [init] syscfg_get <$PresenceDetectEnabled, false>
+[utopia] [init] syscfg_get <$Advsecurity_DeviceFingerPrint, 1>
+[utopia] [init] syscfg_get <$Advsecurity_SafeBrowsing, 0>
+[utopia] [init] syscfg_get <$Advsecurity_Softflowd, 0>
+[utopia] [init] syscfg_get <$Adv_PCActivate, 0>
+[utopia] [init] syscfg_get <$Adv_PPActivate, 0>
+[utopia] [init] syscfg_get <$Advsecurity_LoggingPeriod, 1440>
+[utopia] [init] syscfg_get <$Advsecurity_LogLevel, 2>
+[utopia] [init] syscfg_get <$Advsecurity_LookupTimeout, 350>
+[utopia] [init] syscfg_get <$Adv_PrivProtRFCEnable, 1>
+[utopia] [init] syscfg_get <$Adv_PCRFCEnable, 1>
+[utopia] [init] syscfg_get <$Adv_DFICMPv6RFCEnable, 1>
+[utopia] [init] syscfg_get <$Adv_WSDisAnaRFCEnable, 1>
+[utopia] [init] syscfg_get <$Adv_AdvSecOTMRFCEnable, 1>
+[utopia] [init] syscfg_get <$router_mtu, 1500>
+[utopia] [init] syscfg_get <$custom_data_model_enabled, 0>
+[utopia] [init] syscfg_get <$custom_data_model_file_name, /usr/ccsp/tr069pa/custom_mapper.xml>
+[utopia] [init] syscfg_get <$DLCaStoreEnabled, false>
+[utopia] [init] syscfg_get <$X_RDKCENTRAL-COM_LastRebootReason, unknown>
+[utopia] [init] syscfg_get <$X_RDKCENTRAL-COM_LastRebootCounter, 0>
+[utopia] [init] syscfg_get <$cloud_enable_flag, 0>
+[utopia] [init] syscfg_get <$cloud_capable_flag, 1>
+[utopia] [init] syscfg_get <$EnableTR69Binary, true>
+[utopia] [init] apply_system_defaults set <@wan_ifname, erouter0, 0x0>
+[utopia] [init] apply_system_defaults set <@model_name, USGv2, 0x4>
+[utopia] [init] apply_system_defaults set <@firmware_version, 0.0, 0x4>
+[utopia] [init] apply_system_defaults set <@current_wan_ipaddr, 0.0.0.0, 0x0>
+[utopia] [init] apply_system_defaults set <@lan-status, stopped, 0x0>
+[utopia] [init] apply_system_defaults set <@wan-status, stopped, 0x0>
+[utopia] [init] apply_system_defaults set <@bridge-status, stopped, 0x0>
+[utopia] [init] apply_system_defaults set <@forwarding-status, stopped, 0x0>
+[utopia] [init] apply_system_defaults set <@current_wan_state, down, 0x0>
+[utopia] [init] apply_system_defaults set <@desired_wan_state, down, 0x0>
+[utopia] [init] apply_system_defaults set <@phylink_wan_state, up, 0x0>
+[utopia] [init] apply_system_defaults set <@current_ipv4_wan_state, down, 0x0>
+[utopia] [init] apply_system_defaults set <@current_ipv4_link_state, down, 0x0>
+[utopia] [init] apply_system_defaults set <@desired_ipv4_wan_state, down, 0x0>
+[utopia] [init] apply_system_defaults set <@desired_ipv4_link_state, down, 0x0>
+[utopia] [init] apply_system_defaults set <@lan_ip_webaccess, 1, 0x0>
+[utopia] [init] apply_system_defaults set <@cm_ip_webaccess, 1, 0x0>
+[utopia] [init] apply_system_defaults set <@rg_ip_webaccess, 0, 0x0>
+[utopia] [init] committing default syscfg values
+
+ READ version ######## etc: major 8 minor 15 
+
+ READ version ######## nvram: major 8 minor 15
+
+ NVRAM VERSION FOUND
+[utopia][init] SEC: Syscfg stored in /nvram/syscfg.db
+241007-14:40:02.632413 [utopia][init] lan_ipaddr = 10.0.0.1 lan_netmask = 255.255.255.0
+241007-14:40:02.681948 [utopia][init] lost_and_found_enable = 
+241007-14:40:02.765765 [utopia][init] Value of unit_activated got is : 
+241007-14:40:02.772907 [utopia][init] Applying iptables settings
+241007-14:40:03.053671 [utopia][init] Processing registration
+vconfig: ioctl error for add: No such device
+--SW handler, adding vlan 500 on net 0 for  sw_6
+--SW handler, swctl -c 20 -p 7
+/etc/utopia/service.d/service_multinet/handle_sw.sh: line 295: swctl: command not found
+--SW handler, swctl -c 16 -p 7 -v 500 -m 2 -q 1
+/etc/utopia/service.d/service_multinet/handle_sw.sh: line 310: swctl: command not found
+--SW handler, swctl -c 20 -p 0
+/etc/utopia/service.d/service_multinet/handle_sw.sh: line 355: swctl: command not found
+SW Init
+--SW handler, swctl -c 16 -p 0 -v 500 -m 2 -q 1
+/etc/utopia/service.d/service_multinet/handle_sw.sh: line 363: swctl: command not found
+ifconfig: SIOCSIFADDR: No such device
+vconfig: ioctl error for add: No such device
+--SW handler, adding vlan 4090 on net 0 for  sw_6
+--SW handler, swctl -c 16 -p 7 -v 4090 -m 2 -q 1
+/etc/utopia/service.d/service_multinet/handle_sw.sh: line 310: swctl: command not found
+--SW handler, swctl -c 16 -p 0 -v 4090 -m 2 -q 1
+/etc/utopia/service.d/service_multinet/handle_sw.sh: line 363: swctl: command not found
+ifconfig: SIOCSIFADDR: No such device
+vconfig: ioctl error for add: No such device
+--SW handler, adding vlan 1060 on net 0 for  sw_6
+--SW handler, swctl -c 16 -p 7 -v 1060 -m 2 -q 1
+/etc/utopia/service.d/service_multinet/handle_sw.sh: line 310: swctl: command not found
+--SW handler, swctl -c 16 -p 0 -v 1060 -m 2 -q 1
+/etc/utopia/service.d/service_multinet/handle_sw.sh: line 363: swctl: command not found
+ifconfig: SIOCGIFFLAGS: No such device
+sh: /etc/utopia/registration.d/15_wecb: No such file or directory
+interface l2sd0.1060 does not exist!
+241007-14:40:04.394602 88E6172: Do not egress flood unicast with unknown DA
+/etc/utopia/utopia_init.sh: line 522: swctl: command not found
+/etc/utopia/utopia_init.sh: line 525: swctl: command not found
+/etc/utopia/utopia_init.sh: line 526: swctl: command not found
+vconfig: ioctl error for add: No such device
+ifconfig: SIOCGIFFLAGS: No such device
+interface l2sd0.106 does not exist!
+241007-14:40:04.646694 [utopia][init] X_RDKCENTRAL-COM_LastRebootReason (unknown)
+cat: /proc/P-UNIT/status: No such file or directory
+cat: /proc/P-UNIT/status: No such file or directory
+241007-14:40:04.826304 SERVICE_CROND : event crond-start
+241007-14:40:04.835606 SERVICE_CROND : starting crond service
+241007-14:40:04.858916 [utopia][init] Starting rpcserver in arm
+killall: crond: no process killed
+241007-14:40:04.925063 SERVICE_CROND : Starting cron daemon
+241007-14:40:04.923602 [utopia][init] setting Multicast MAC before any switch configs
+241007-14:40:04.946779 [utopia][init] started dropbear process
+241007-14:40:05.233448 RDKB_SYSTEM_BOOT_UP_LOG : lan_handler called with lan-start 0
+241007-14:40:05.241169 [utopia] sshd sshd-start received
+241007-14:40:05.555902 [utopia] starting sshd service
+241007-14:40:05.568628 RDKB_SYSTEM_BOOT_UP_LOG : L3Net is null \n
+/etc/utopia/service.d/service_sshd.sh: line 200: getConfigFile: command not found
+/etc/utopia/service.d/service_sshd.sh: line 201: getConfigFile: command not found
+241007-14:40:06.575236 RDKB_SYSTEM_BOOT_UP_LOG : service_ipv4 called with ipv4-up 4 ipv4-up
+241007-14:40:07.059458 RDKB_SYSTEM_BOOT_UP_LOG : In resync_instance to bring up an instance.
+241007-14:40:07.208777 [utopia] /var/run/dropbear.pid file is created. PID : 803
+241007-14:40:07.875102 getPartnerId() called from: /rdklogger/rdkbLogMonitor.sh -  partner_id retrieved from syscfg.db : RDKM
+241007-14:40:07.986762 [utopia] sshd bridge-status received
+241007-14:40:08.519488 rdkbLogMonitor: Trigger type is 
+Got the first instance running
+241007-14:40:08.934754 Waiting for time synchronization between processors before logbackup
+241007-14:40:08.986468 RDKB_SYSTEM_BOOT_UP_LOG : Syncing l3 instance (4), NV_ETHLOWER:1, NV_LOWER:1 , NV_ENABLED:true , NV_IP:10.0.0.1 , NV_SUBNET:255.255.255.0 , LOWER: , CUR_IPV4_ADDR: , CUR_IPV4_SUBNET:
+241007-14:40:09.107435 Time is not synced. Sleeping.. Retry:1
+241007-14:40:10.824667 service_ipv4 PARTIAL_STATUS:partial READY_STATUS:ready
+241007-14:40:10.886163 Box Type is rpi
+241007-14:40:10.985155 getPartnerId() called from: /lib/rdk/RFCbase.sh -  partner_id retrieved from syscfg.db : RDKM
+241007-14:40:11.753614 [utopia] sshd bridge-status received
+241007-14:40:11.888020 RDKB_SYSTEM_BOOT_UP_LOG : lan_handler called with pnm-status up
+--SW handler, adding vlan 100 on net 1 for  sw_1 sw_2 sw_3 sw_4
+241007-14:40:12.019609 RDKB_SYSTEM_BOOT_UP_LOG : service_ipv4 called with multinet_1-status partial 4
+241007-14:40:12.300476 service_ipv4 PARTIAL_STATUS:partial READY_STATUS:ready
+241007-14:40:12.460762 Box Type is rpi
+241007-14:40:12.490757 SO FAR SO GOOD ALL IS WELL SENDING L3 NET EVENT
+241007-14:40:12.577299 [utopia] stopping sshd service
+--SW handler, swctl -c 4 -p 0
+/etc/utopia/service.d/service_multinet/handle_sw.sh: line 217: swctl: command not found
+--SW handler, swctl -c 0 -p 0 -v 100 -m 1 -q 1
+/etc/utopia/service.d/service_multinet/handle_sw.sh: line 223: swctl: command not found
+/etc/utopia/service.d/service_multinet/handle_sw.sh: line 228: swctl: command not found
+241007-14:40:13.705525 service_ipv4 IFNAME:brlan0 STATIC_IPV4ADDR: STATIC_IPV4SUBNET:
+241007-14:40:13.925575 [utopia] starting sshd service
+--SW handler, swctl -c 4 -p 1
+/etc/utopia/service.d/service_multinet/handle_sw.sh: line 217: swctl: command not found
+--SW handler, swctl -c 0 -p 1 -v 100 -m 1 -q 1
+/etc/utopia/service.d/service_multinet/handle_sw.sh: line 223: swctl: command not found
+/etc/utopia/service.d/service_multinet/handle_sw.sh: line 228: swctl: command not found
+--SW handler, swctl -c 4 -p 2
+/etc/utopia/service.d/service_multinet/handle_sw.sh: line 217: swctl: command not found
+--SW handler, swctl -c 0 -p 2 -v 100 -m 1 -q 1
+/etc/utopia/service.d/service_multinet/handle_sw.sh: line 223: swctl: command not found
+/etc/utopia/service.d/service_multinet/handle_sw.sh: line 228: swctl: command not found
+/etc/utopia/service.d/service_sshd.sh: line 200: getConfigFile: command not found
+/etc/utopia/service.d/service_sshd.sh: line 201: getConfigFile: command not found
+241007-14:40:14.731573 service_ipv4 : Triggering apply_config
+--SW handler, swctl -c 4 -p 3
+/etc/utopia/service.d/service_multinet/handle_sw.sh: line 217: swctl: command not found
+241007-14:40:16.236704 [utopia] /var/run/dropbear.pid file is created. PID : 1557
+--SW handler, swctl -c 0 -p 3 -v 100 -m 1 -q 1
+/etc/utopia/service.d/service_multinet/handle_sw.sh: line 223: swctl: command not found
+/etc/utopia/service.d/service_multinet/handle_sw.sh: line 228: swctl: command not found
+--SW handler, swctl -c 16 -p 7 -v 100 -m 2 -q 1
+/etc/utopia/service.d/service_multinet/handle_sw.sh: line 310: swctl: command not found
+--SW handler, swctl -c 20 -p 2
+/etc/utopia/service.d/service_multinet/handle_sw.sh: line 322: swctl: command not found
+--SW handler, swctl -c 4 -p 5
+/etc/utopia/service.d/service_multinet/handle_sw.sh: line 328: swctl: command not found
+--SW handler, swctl -c 16 -p 2 -v 100 -m 2 -q 1
+--SW handler, swctl -c 0 -p 5 -v 100 -m 2 -q 1
+/etc/utopia/service.d/service_multinet/handle_sw.sh: line 338: swctl: command not found
+/etc/utopia/service.d/service_multinet/handle_sw.sh: line 340: swctl: command not found
+241007-14:40:22.942925 Starting execution of DCMscript.sh
+/lib/rdk/DCMscript.sh: line 96: /bin/timestamp: No such file or directory
+241007-14:40:23.766671 URL: https://xconf.rdkcentral.com:19092/loguploader/getSettings
+241007-14:40:23.842715 BOOT_FLAG: 0
+241007-14:40:23.868779 CHECK_ON_REBOOT: 1
+--SW handler, adding vlan 100 on net 1 for  sw_5
+rdk_dyn_log_initg_dl_socket = 5 __progname = telemetry2_0 
+Conf file /etc/debug.ini open success
+rdk_logger_init /etc/debug.ini Already Stack Level Logging processed... not processing again.
+241007-14:40:25.823572 Syncing from PSM True Static IP Enable:, IP:, SUBNET:, GATEWAY:
+--SW handler, swctl -c 16 -p 3 -v 100 -m 1 -q 1
+/etc/utopia/service.d/service_multinet/handle_sw.sh: line 223: swctl: command not found
+/etc/utopia/service.d/service_multinet/handle_sw.sh: line 228: swctl: command not found
+--SW handler, adding vlan 100 on net 1 for  ath0 ath1
+241007-14:40:27.076424 service_ipv4 : Triggering RDKB_FIREWALL_RESTART
+241007-14:40:27.161252 RDKB_SYSTEM_BOOT_UP_LOG : lan_handler called with ipv4_4-status up
+IPv4 address is set for brlan0 MOCA interface is UP
+lan_handler.sh last_erouter_mode: 3
+241007-14:40:27.685199 service_ipv4 : Starting lan-status
+--SW handler, swctl -c 16 -p 0 -v 100 -m 2 -q 1
+/etc/utopia/service.d/service_multinet/handle_sw.sh: line 363: swctl: command not found
+241007-14:40:29.141285 Waiting for time synchronization between processors before logbackup
+241007-14:40:29.296134 Time is not synced. Sleeping.. Retry:2
+241007-14:40:29.686030 RDKB_SYSTEM_BOOT_UP_LOG : service_ipv4 called with multinet_1-status ready 4
+241007-14:40:29.777265 service_ipv4 PARTIAL_STATUS:partial READY_STATUS:ready
+241007-14:40:29.960823 Box Type is rpi
+241007-14:40:30.118362 LAN HANDLER : Triggering DHCP server using LAN status
+241007-14:40:30.293032 LAN HANDLER : Triggering RDKB_FIREWALL_RESTART
+cat: /var/tmp/networkresponse.txt: No such file or directory
+WEBGUI : NotifyWiFiChanges is true
+WEBGUI : redirection_flag val is true
+241007-14:40:31.486804 LAN HANDLER : DHCP configuration status got is : 
+241007-14:40:31.508672 LAN HANDLER : Triggering dhcp start based on last erouter mode
+WEBGUI : Set event
+241007-14:40:32.080525 SERVICE DHCP : Got lan_status
+241007-14:40:32.089206 SERVICE DHCP : Inside lan status change with started and 
+241007-14:40:32.125715 SERVICE DHCP : Current lan status is : started
+LAN HANDLER : PHY_ETH_IFNAME = eth1
+ifconfig: SIOCGIFFLAGS: No such device
+interface eth1 does not exist!
+241007-14:40:32.405438 LAN HANDLER : Triggering RDKB_FIREWALL_RESTART after nfqhandler
+241007-14:40:32.477786 SERVICE DHCP :  Call start DHCP server from lan status change with 
+BootUpTime info for Laninit_complete is already present not adding it again 
+241007-14:40:32.906306 [utopia] sshd current_wan_ifname received
+241007-14:40:32.964845 SERVICE DHCP : dhcp_server-progress is set to inProgress from dhcp_server_start
+241007-14:40:33.344979 [utopia] stopping sshd service
+DHCP SERVER : Prepare DHCP configuration
+241118-09:32:02.345150 [utopia] starting sshd service
+service_dynamic_dns: current_wan_ipaddr 192.168.160.110
+241118-09:32:03.479877 DHCP_SERVER : NAMESERVERENABLED = 0
+241118-09:32:03.508407 DHCP_SERVER : WAN_DHCP_NS = 
+/etc/utopia/service.d/service_sshd.sh: line 200: getConfigFile: command not found
+/etc/utopia/service.d/service_sshd.sh: line 201: getConfigFile: command not found
+cat: /var/tmp/networkresponse.txt: No such file or directory
+DHCP SERVER : redirection_flag val is true
+DHCP SERVER : NotifyWiFiChanges is true
+DHCP SERVER : CaptivePortal_Enabled is true
+DHCP SERVER : RF CP is , RF CP feature state is 
+DHCP SERVER : WiFi SSID and Passphrase are already modified or no network response ,set CAPTIVE_PORTAL_MODE to false
+241118-09:32:05.098372 [utopia] /var/run/dropbear.pid file is created. PID : 3521
+grep: /etc/syslog.conf: No such file or directory
+grep: /etc/syslog.conf: No such file or directory
+241118-09:32:05.789729 [utopia] sshd sshd-restart received
+DHCP_SERVER: Start IP is 10.0.0.2 LAN Subnet is 10.0.0.0
+dhcp_start:10.0.0.2
+241118-09:32:05.906701 [utopia] stopping sshd service
+START_SUBNET is: 10.0.0.0, LAN_SUBNET=10.0.0.0
+DHCP_SERVER: DHCP START Address:10.0.0.2 is valid
+dhcp_end:10.0.0.253
+DHCP_SERVER: DHCP END Address:10.0.0.253 is valid
+241118-09:32:06.105894 DHCP_SERVER : brlan1 not available, cannot enter details in dnsmasq.conf
+241118-09:32:06.184833 [utopia] starting sshd service
+IOT_LOG : DHCP server configuring for Mesh
+DHCP SERVER : Completed preparing DHCP configuration
+/etc/utopia/service.d/service_sshd.sh: line 200: getConfigFile: command not found
+/etc/utopia/service.d/service_sshd.sh: line 201: getConfigFile: command not found
+RFC DNSTRICT ORDER is not defined or Enabled
+241118-09:32:07.017657 RDKB_SYSTEM_BOOT_UP_LOG : starting dhcp-server_from_dhcp_server_start:09:32:06up0min
+241118-09:32:07.055868 dnsmasq process started successfully
+241118-09:32:07.248908 RDKB_SYSTEM_BOOT_UP_LOG : Call gw_lan_refresh_from_dhcpscript:09:32:07up0min
+/etc/utopia/service.d/service_dhcp_server.sh: line 609: gw_lan_refresh: command not found
+241118-09:32:07.289560 dhcp_server_start is called for the first time private LAN initization is complete
+241118-09:32:07.358521 LAN initization is complete notify SSID broadcast
+ARM / ATOM Interface IP is not present: 
+241118-09:32:07.392418 Xfinityhome service is not UP yet
+241118-09:32:07.528718 [utopia] /var/run/dropbear.pid file is created. PID : 3883
+241118-09:32:07.735583 DHCP SERVICE :dhcp_server-progress_is_set_to_completed:09:32:07up0min
+241118-09:32:07.743700 RDKB_DNS_INFO is : -------  resolv_conf_dump  -------
+nameserver 192.168.160.2
+nameserver 192.168.160.3
+241118-09:32:08.891890 SERVICE DHCP : Got lan_status
+241118-09:32:08.909193 SERVICE DHCP : Inside lan status change with started and 
+241118-09:32:08.919371 SERVICE DHCP : Current lan status is : started
+241118-09:32:08.983624 SERVICE DHCP :  Call start DHCP server from lan status change with 
+241118-09:32:09.107734 SERVICE DHCP : dhcp_server-progress is set to inProgress from dhcp_server_start
+DHCP SERVER : Prepare DHCP configuration
+241118-09:32:09.918673 DHCP_SERVER : NAMESERVERENABLED = 0
+241118-09:32:09.946072 DHCP_SERVER : WAN_DHCP_NS = 
+cat: /var/tmp/networkresponse.txt: No such file or directory
+DHCP SERVER : redirection_flag val is true
+DHCP SERVER : NotifyWiFiChanges is true
+DHCP SERVER : CaptivePortal_Enabled is true
+DHCP SERVER : RF CP is , RF CP feature state is 
+DHCP SERVER : WiFi SSID and Passphrase are already modified or no network response ,set CAPTIVE_PORTAL_MODE to false
+service_dynamic_dns: wan-status started
+DHCP_SERVER: Start IP is 10.0.0.2 LAN Subnet is 10.0.0.0
+dhcp_start:10.0.0.2
+START_SUBNET is: 10.0.0.0, LAN_SUBNET=10.0.0.0
+DHCP_SERVER: DHCP START Address:10.0.0.2 is valid
+241118-09:32:11.317043 getPartnerId() called from: /lib/rdk/RFCbase.sh -  partner_id retrieved from syscfg.db : RDKM
+dhcp_end:10.0.0.253
+RFC: Sending request to URL=https://xconf.rdkcentral.com:19092/featureControl/getSettings?
+/lib/rdk/RFCbase.sh: line 1: exec_curl_mtls: not found
+DHCP_SERVER: DHCP END Address:10.0.0.253 is valid
+241118-09:32:11.428115 DHCP_SERVER : brlan1 not available, cannot enter details in dnsmasq.conf
+IOT_LOG : DHCP server configuring for Mesh
+DHCP SERVER : Completed preparing DHCP configuration
+241118-09:32:12.874069 SERVICE DHCP : Got start.. call dhcp_server_start
+241118-09:32:13.030519 SERVICE DHCP : dhcp_server-progress is set to inProgress from dhcp_server_start
+awk: /tmp/rfc_curl_httpcode: No such file or directory
+sh: 0: unknown operand
+DHCP SERVER : Prepare DHCP configuration
+241118-09:32:13.914556 DHCP_SERVER : NAMESERVERENABLED = 0
+241118-09:32:13.924395 DHCP_SERVER : WAN_DHCP_NS = 
+cat: /var/tmp/networkresponse.txt: No such file or directory
+DHCP SERVER : redirection_flag val is true
+DHCP SERVER : NotifyWiFiChanges is true
+DHCP SERVER : CaptivePortal_Enabled is true
+DHCP SERVER : RF CP is , RF CP feature state is 
+DHCP SERVER : WiFi SSID and Passphrase are already modified or no network response ,set CAPTIVE_PORTAL_MODE to false
+DHCP_SERVER: Start IP is 10.0.0.2 LAN Subnet is 10.0.0.0
+dhcp_start:10.0.0.2
+START_SUBNET is: 10.0.0.0, LAN_SUBNET=10.0.0.0
+DHCP_SERVER: DHCP START Address:10.0.0.2 is valid
+dhcp_end:10.0.0.253
+DHCP_SERVER: DHCP END Address:10.0.0.253 is valid
+241118-09:32:15.325557 DHCP_SERVER : brlan1 not available, cannot enter details in dnsmasq.conf
+IOT_LOG : DHCP server configuring for Mesh
+DHCP SERVER : Completed preparing DHCP configuration
+241118-09:32:16.696775 Waiting for time synchronization between processors before logbackup
+241118-09:32:16.836478 Time is not synced. Sleeping.. Retry:3
+DHCP SERVER : Prepare DHCP configuration
+241118-09:32:18.065546 DHCP_SERVER : NAMESERVERENABLED = 0
+241118-09:32:18.075948 DHCP_SERVER : WAN_DHCP_NS = 
+cat: /var/tmp/networkresponse.txt: No such file or directory
+DHCP SERVER : redirection_flag val is true
+DHCP SERVER : NotifyWiFiChanges is true
+DHCP SERVER : CaptivePortal_Enabled is true
+DHCP SERVER : RF CP is , RF CP feature state is 
+DHCP SERVER : WiFi SSID and Passphrase are already modified or no network response ,set CAPTIVE_PORTAL_MODE to false
+DHCP_SERVER: Start IP is 10.0.0.2 LAN Subnet is 10.0.0.0
+dhcp_start:10.0.0.2
+START_SUBNET is: 10.0.0.0, LAN_SUBNET=10.0.0.0
+DHCP_SERVER: DHCP START Address:10.0.0.2 is valid
+dhcp_end:10.0.0.253
+DHCP_SERVER: DHCP END Address:10.0.0.253 is valid
+241118-09:32:19.506322 DHCP_SERVER : brlan1 not available, cannot enter details in dnsmasq.conf
+IOT_LOG : DHCP server configuring for Mesh
+DHCP SERVER : Completed preparing DHCP configuration
+RFC DNSTRICT ORDER is not defined or Enabled
+241118-09:32:20.015798 SERVICE DHCP : Got restart with NULL.. Call dhcp_server_start
+241118-09:32:20.184437 SERVICE DHCP : dhcp_server-progress is set to inProgress from dhcp_server_start
+DHCP SERVER : Prepare DHCP configuration
+241118-09:32:21.236923 DHCP_SERVER : NAMESERVERENABLED = 0
+241118-09:32:21.245687 DHCP_SERVER : WAN_DHCP_NS = 
+cat: /var/tmp/networkresponse.txt: No such file or directory
+DHCP SERVER : redirection_flag val is true
+DHCP SERVER : NotifyWiFiChanges is true
+DHCP SERVER : CaptivePortal_Enabled is true
+DHCP SERVER : RF CP is , RF CP feature state is 
+DHCP SERVER : WiFi SSID and Passphrase are already modified or no network response ,set CAPTIVE_PORTAL_MODE to false
+DHCP_SERVER: Start IP is 10.0.0.2 LAN Subnet is 10.0.0.0
+dhcp_start:10.0.0.2
+START_SUBNET is: 10.0.0.0, LAN_SUBNET=10.0.0.0
+DHCP_SERVER: DHCP START Address:10.0.0.2 is valid
+dhcp_end:10.0.0.253
+DHCP_SERVER: DHCP END Address:10.0.0.253 is valid
+241118-09:32:23.812101 DHCP_SERVER : brlan1 not available, cannot enter details in dnsmasq.conf
+IOT_LOG : DHCP server configuring for Mesh
+DHCP SERVER : Completed preparing DHCP configuration
+RFC DNSTRICT ORDER is not defined or Enabled
+241118-09:32:24.594634 RDKB_SYSTEM_BOOT_UP_LOG : starting dhcp-server_from_dhcp_server_start:09:32:24up1min
+/lib/rdk/RFCbase.sh: line 1147: getAccountId: not found
+241118-09:32:24.627682 dnsmasq process started successfully
+241118-09:32:24.757331 RDKB_SYSTEM_BOOT_UP_LOG : Call gw_lan_refresh_from_dhcpscript:09:32:24up1min
+/etc/utopia/service.d/service_dhcp_server.sh: line 609: gw_lan_refresh: command not found
+241118-09:32:24.769433 Xfinityhome service is not UP yet
+241118-09:32:24.797440 getPartnerId() called from: /lib/rdk/RFCbase.sh -  partner_id retrieved from syscfg.db : RDKM
+RFC: Sending request to URL=https://xconf.rdkcentral.com:19092/featureControl/getSettings?
+/lib/rdk/RFCbase.sh: line 1: exec_curl_mtls: not found
+241118-09:32:24.980582 DHCP SERVICE :dhcp_server-progress_is_set_to_completed:09:32:24up1min
+241118-09:32:24.987910 RDKB_DNS_INFO is : -------  resolv_conf_dump  -------
+nameserver 192.168.160.2
+nameserver 192.168.160.3
+awk: /tmp/rfc_curl_httpcode: No such file or directory
+sh: 0: unknown operand
+241118-09:32:36.858654 Waiting for time synchronization between processors before logbackup
+241118-09:32:36.949362 Time is not synced. Sleeping.. Retry:4
+241118-09:32:56.968325 Waiting for time synchronization between processors before logbackup
+241118-09:32:57.054711 Time is not synced. Sleeping.. Retry:5
+/lib/rdk/RFCbase.sh: line 1147: getAccountId: not found
+241118-09:32:58.177877 getPartnerId() called from: /lib/rdk/RFCbase.sh -  partner_id retrieved from syscfg.db : RDKM
+RFC: Sending request to URL=https://xconf.rdkcentral.com:19092/featureControl/getSettings?
+/lib/rdk/RFCbase.sh: line 1: exec_curl_mtls: not found
+awk: /tmp/rfc_curl_httpcode: No such file or directory
+sh: 0: unknown operand

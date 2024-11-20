@@ -1,0 +1,7 @@
+{
+  "entity_name": "voice_hal_getIpWanAddress",
+  "component": "hal",
+  "content_hash": "f854ccb144d1de42558a0f1f97fbec6c",
+  "response": "**1. Main purpose and functionality**\nThe RDK voice_hal function `voice_hal_getIpWanAddress` gets the IP WAN address for a specified service and interface.\n\n**2. Key operations and data flow**\nThe function takes the service and interface as input and returns the IP WAN address in the boundIpAddress parameter. The length of the buffer is also returned in the pLength parameter.\n\n**3. Interaction with other components (if any)**\nThis function interacts with the low-level drivers to retrieve the IP WAN address for the specified interface.\n\n**4. Important parameters and return values**\n- **service**: The voice service for which to retrieve the IP WAN address.\n- **phy_interface**: The physical interface for which to retrieve the IP WAN address.\n- **boundIpAddress**: Output parameter to receive the IP WAN address.\n- **pLength**: Input/output parameter to specify the length of the boundIpAddress buffer.\n- **RDK_SUCCESS**: The function was successful.\n- **RDK_FAILURE**: The function failed.\n- **RDK_ERROR_OOM**: The function failed due to insufficient memory.\n\n**5. Any specific RDK-related operations**\nThis function is part of the RDK voice HAL API and is used to retrieve the IP WAN address for a specified service and interface.",
+  "processed_at": "2024-11-14T11:17:39.204923"
+}

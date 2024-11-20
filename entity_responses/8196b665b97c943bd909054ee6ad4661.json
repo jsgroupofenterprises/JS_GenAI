@@ -1,0 +1,7 @@
+{
+  "entity_name": "wifi_getRadioDCSChannelPool",
+  "component": "hal",
+  "content_hash": "8196b665b97c943bd909054ee6ad4661",
+  "response": "## Function: wifi_getRadioDCSChannelMetrics\n\n**1. Main purpose and functionality**\n\nThe `wifi_getRadioDCSChannelMetrics` function retrieves channel metrics for a specified radio's DCS channel pool.\n\n**2. Key operations and data flow**\n\n- The function takes as input the radio index and a pointer to an array of `wifi_channelMetrics_t` structures.\n- It populates the array with channel metrics for each channel in the radio's DCS channel pool.\n- The number of channels returned is dependent on the size of the array provided.\n\n**3. Interaction with other components (if any)**\n\nThis function interacts with the radio driver to retrieve the channel metrics.\n\n**4. Important parameters and return values**\n\n- `radioIndex`: The index of the radio for which to retrieve channel metrics.\n- `input_output_channelMetrics_array`: A pointer to an array of `wifi_channelMetrics_t` structures.\n- `array_size`: The size of the array provided.\n- `RETURN_OK`: The function was successful.\n- `RETURN_ERR`: The function failed.\n\n**5. Any specific RDK-related operations**\n\nThis function is RDK-specific and is used to retrieve channel metrics for DCS (Dynamic Channel Selection) operation.",
+  "processed_at": "2024-11-14T13:32:21.468740"
+}

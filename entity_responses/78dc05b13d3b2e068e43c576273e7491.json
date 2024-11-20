@@ -1,0 +1,7 @@
+{
+  "entity_name": "wifi_setInterworkingAccessNetworkType",
+  "component": "hal",
+  "content_hash": "78dc05b13d3b2e068e43c576273e7491",
+  "response": "**1. Main purpose and functionality:**\n\nThe `wifi_setInterworkingAccessNetworkType` function sets the interworking access network type for the specified access point (AP) index. The interworking access network type indicates the type of network that is available through the AP, such as public, private, or guest.\n\n**2. Key operations and data flow:**\n\nThe function takes two parameters:\n\n* `apIndex`: The index of the AP for which to set the interworking access network type.\n* `accessNetworkType`: The interworking access network type to set.\n\nThe function sets the interworking access network type for the specified AP index. If the AP index is invalid, the function returns an error.\n\n**3. Interaction with other components (if any):**\n\nThe function interacts with the Wi-Fi driver to set the interworking access network type for the specified AP index.\n\n**4. Important parameters and return values:**\n\n* `apIndex`: The index of the AP for which to set the interworking access network type.\n* `accessNetworkType`: The interworking access network type to set.\n* `return value`: The function returns 0 if successful, or an error code if the AP index is invalid.\n\n**5. Any specific RDK-related operations:**\n\nThe function is part of the RDK Wi-Fi HAL API. It is used to set the interworking access network type for an AP.",
+  "processed_at": "2024-11-14T12:39:41.232934"
+}

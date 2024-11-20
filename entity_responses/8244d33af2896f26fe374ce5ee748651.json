@@ -1,0 +1,7 @@
+{
+  "entity_name": "wifi_8021x_data_rx_callback_register",
+  "component": "CcspWifiAgent",
+  "content_hash": "8244d33af2896f26fe374ce5ee748651",
+  "response": "**1. Main purpose and functionality:**\n\n* The `wifi_8021x_data_rx_callback_register` function registers a callback function to be executed when an 802.1X data frame is received.\n\n**2. Key operations and data flow:**\n\n* The function takes a callback function as a parameter.\n* When an 802.1X data frame is received, the callback function will be executed.\n\n**3. Interaction with other components (if any):**\n\n* The function interacts with the 802.1X module to receive 802.1X data frames.\n\n**4. Important parameters and return values:**\n\n* The `func` parameter is a pointer to the callback function to be executed when an 802.1X data frame is received.\n* The function does not return a value.\n\n**5. Any specific RDK-related operations:**\n\n* The function is part of the RDK Central Wifi Agent component.",
+  "processed_at": "2024-11-13T15:14:30.089373"
+}

@@ -1,0 +1,7 @@
+{
+  "entity_name": "wifi_getInterworkingAccessNetworkType",
+  "component": "hal",
+  "content_hash": "164617b7de438b27d3363edb808ae136",
+  "response": "**1. Main purpose and functionality**\n\nThe wifi_getInterworkingAccessNetworkType() function is used to retrieve the Access Network Type value for the specified access point (AP). The Access Network Type is included in the Interworking IE (Information Element) in beacons, as defined in the IEEE 802.11-2012 standard.\n\n**2. Key operations and data flow**\n\nThe function takes two parameters: the index of the AP and a pointer to a variable where the Access Network Type value will be stored. It retrieves the Access Network Type value from the AP's configuration and stores it in the specified variable.\n\n**3. Interaction with other components (if any)**\n\nThis function interacts with the AP's driver to retrieve the Access Network Type value.\n\n**4. Important parameters and return values**\n\n- **apIndex**: Index of the AP.\n- **output_uint**: Pointer to a variable where the Access Network Type value will be stored.\n- **Return value**: Returns 0 on success, or a negative error code on failure.\n\n**5. Any specific RDK-related operations**\n\nThis function is not specific to RDK, but it can be used in RDK applications to retrieve the Access Network Type value for an AP.",
+  "processed_at": "2024-11-14T12:39:36.500255"
+}

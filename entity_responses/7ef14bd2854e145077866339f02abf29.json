@@ -1,0 +1,7 @@
+{
+  "entity_name": "platform_hal_getFactoryCmVariant",
+  "component": "hal",
+  "content_hash": "7ef14bd2854e145077866339f02abf29",
+  "response": "**1. Main purpose and functionality**\n\nThe `platform_hal_getFactoryCmVariant` function is used to retrieve the factory-set CM variant from the device. The CM variant determines the voice stack that is supported by the device.\n\n**2. Key operations and data flow**\n\nThe function takes a single parameter, `pValue`, which is a pointer to a character buffer. The function will copy the factory-set CM variant into the buffer pointed to by `pValue`.\n\n**3. Interaction with other components (if any)**\n\nThis function does not interact with any other components.\n\n**4. Important parameters and return values**\n\n| Parameter | Description |\n|---|---|\n| `pValue` | Pointer to a character buffer to store the factory-set CM variant |\n| Return value | The status of the operation. `RETURN_OK` if successful, `RETURN_ERR` otherwise |\n\n**5. Any specific RDK-related operations**\n\nThis function is specific to the RDK platform. It is used to retrieve the factory-set CM variant, which is a device-specific setting that determines the voice stack that is supported by the device.",
+  "processed_at": "2024-11-14T10:53:47.581991"
+}

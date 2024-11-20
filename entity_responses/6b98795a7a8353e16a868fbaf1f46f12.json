@@ -1,0 +1,7 @@
+{
+  "entity_name": "radius_reinit_auth",
+  "component": "CcspWifiAgent",
+  "content_hash": "6b98795a7a8353e16a868fbaf1f46f12",
+  "response": "**1. Main purpose and functionality**\n\nThe `radius_reinit_auth` function reinitializes the RADIUS authentication backend for the hostapd access point. It is called when the RADIUS configuration has changed.\n\n**2. Key operations and data flow**\n\nThe function first checks if the RADIUS backend has already been initialized. If it has, it deinitializes the backend and then reinitializes it with the new configuration. If the backend is not initialized, the function logs an error message and returns an error code.\n\n**3. Interaction with other components (if any)**\n\nThe `radius_reinit_auth` function interacts with the following components:\n\n* The hostapd access point\n* The RADIUS authentication backend\n\n**4. Important parameters and return values**\n\nThe following parameters are important to note:\n\n* `hapd`: A pointer to the hostapd data structure\n* `return value`: 0 if the RADIUS backend was successfully reinitialized, -1 otherwise\n\n**5. Any specific RDK-related operations**\n\nThe `radius_reinit_auth` function does not perform any specific RDK-related operations.",
+  "processed_at": "2024-11-13T15:26:29.324271"
+}

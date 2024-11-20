@@ -1,0 +1,42 @@
+Enable RFC feature
+241007-14:40:11.534784 [RFC]:: rfc-agent process not running. Not waiting rfc_blob_processing
+241007-14:40:11.557997 [RFC]:: RFC: Starting service, creating lock 
+241007-14:40:11.565783 [RFC]:: RFC: Waiting for IP Acquistion...
+241118-09:32:09.958210 [RFC]:: Acquired Box estb ip : 192.168.160.110 , Count = 3
+241118-09:32:09.964737 [RFC]:: Starting execution of RFCbase.sh
+241118-09:32:09.990935 [RFC]:: CALLING Direct override from local rfc.properties, state LOCAL
+241118-09:32:09.997709 [RFC]:: Calling request to NEW XConf...
+241118-09:32:10.003466 [RFC]::     URL: https://xconf.rdkcentral.com:19092/featureControl/getSettings
+241118-09:32:10.009794 [RFC]:: RFC: CodebigFirst support is not available
+241118-09:32:11.024569 [RFC]:: CallXconf: Box IP is 192.168.160.110
+241118-09:32:11.357265 [RFC]:: MTLS enabled
+241118-09:32:13.385752 [RFC]:: RFC_TM_Track : Curl return code TLSRet =  http_code: 
+241118-09:32:13.405929 [RFC]:: RFC_TM_Track : uptime =  09:32:13 up 0 min,  load average: 7.13, 1.97, 0.67
+241118-09:32:13.412224 [RFC]:: HTTP request failed
+241118-09:32:13.420628 [RFC]:: resp = 1
+241118-09:32:13.427162 [RFC]:: RFC: configsethash=CLEARED at configsettime=0
+241118-09:32:13.434122 [RFC]:: sendHttpRequestToServer returned 1
+241118-09:32:13.478538 [RFC]:: Processing Response Failed!!
+241118-09:32:13.486834 [RFC]:: count = 1. Sleeping 10 seconds ...
+241118-09:32:24.530419 [RFC]:: CallXconf: Box IP is 192.168.160.110
+241118-09:32:24.830520 [RFC]:: MTLS enabled
+241118-09:32:26.853727 [RFC]:: RFC_TM_Track : Curl return code TLSRet =  http_code: 
+241118-09:32:26.866336 [RFC]:: RFC_TM_Track : uptime =  09:32:26 up 1 min,  load average: 6.20, 2.02, 0.71
+241118-09:32:26.872854 [RFC]:: HTTP request failed
+241118-09:32:26.879240 [RFC]:: resp = 1
+241118-09:32:26.885110 [RFC]:: RFC: configsethash=CLEARED at configsettime=0
+241118-09:32:26.891465 [RFC]:: sendHttpRequestToServer returned 1
+241118-09:32:26.902948 [RFC]:: Processing Response Failed!!
+241118-09:32:26.908865 [RFC]:: count = 2. Sleeping 30 seconds ...
+241118-09:32:57.932640 [RFC]:: CallXconf: Box IP is 192.168.160.110
+241118-09:32:58.210246 [RFC]:: MTLS enabled
+241118-09:33:00.236839 [RFC]:: RFC_TM_Track : Curl return code TLSRet =  http_code: 
+241118-09:33:00.252644 [RFC]:: RFC_TM_Track : uptime =  09:33:00 up 1 min,  load average: 3.82, 1.84, 0.69
+241118-09:33:00.289084 [RFC]:: HTTP request failed
+241118-09:33:00.307111 [RFC]:: resp = 1
+241118-09:33:00.315779 [RFC]:: RFC: configsethash=CLEARED at configsettime=0
+241118-09:33:00.327513 [RFC]:: sendHttpRequestToServer returned 1
+241118-09:33:00.370090 [RFC]:: Processing Response Failed!!
+241118-09:33:00.386024 [RFC]:: 3 tries failed. Giving up...
+241118-09:33:00.471322 [RFC]:: START CONFIGURING RFC CRON
+241118-09:33:00.546470 [RFC]:: RFC: Completed service, deleting lock 

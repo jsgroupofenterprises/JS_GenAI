@@ -1,0 +1,7 @@
+{
+  "entity_name": "docsis_GetMddIpModeOverride",
+  "component": "hal",
+  "content_hash": "bca11c2ccc1a2727e13fba0e89b8262a",
+  "response": "## 1. Main purpose and functionality\n\nThe `docsis_GetMddIpModeOverride` function gets the current global MIMO status.\n\n## 2. Key operations and data flow\n\nThe function takes a character pointer `pValue` as input and returns an integer. It sets the current global MIMO status to the value specified by `pValue`. The possible values for `pValue` are:\n\n- \"ipv4Only\" (0)\n- \"ipv6Only\" (1)\n- \"APM\" (2)\n- \"DualStack\" (3)\n- \"honorMdd\" (4)\n- \"\"\n\n## 3. Interaction with other components (if any)\n\nThis function may interact with other components in the RDK to set the global MIMO status.\n\n## 4. Important parameters and return values\n\nThe important parameters and return values are:\n\n- `pValue`: A character pointer that specifies the value to set the global MIMO status to.\n- Return value: An integer indicating the status of the operation.\n\n## 5. Any specific RDK-related operations\n\nThis function is specific to the RDK and is used to set the global MIMO status.",
+  "processed_at": "2024-11-14T10:44:42.090536"
+}

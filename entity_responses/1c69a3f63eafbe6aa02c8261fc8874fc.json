@@ -1,0 +1,7 @@
+{
+  "entity_name": "platform_hal_getDscpClientList",
+  "component": "hal",
+  "content_hash": "1c69a3f63eafbe6aa02c8261fc8874fc",
+  "response": "**1. Main purpose and functionality**\n\nThe `platform_hal_getDscpClientList` function is used to retrieve the list of DSCP clients for a given WAN interface.\n\n**2. Key operations and data flow**\n\nThe function takes two parameters:\n\n* `WAN_INTERFACE interfaceType`: The type of WAN interface for which you want to get the DSCP client list.\n* `pDSCP_list_t pDSCP_List`: A pointer to a structure that will be filled with the DSCP client list.\n\nThe function will fill the `pDSCP_List` structure with the following information:\n\n* The number of DSCP clients on the WAN interface.\n* The DSCP value for each client.\n* The IP address of each client.\n\n**3. Interaction with other components (if any)**\n\nThis function does not interact with any other components.\n\n**4. Important parameters and return values**\n\nThe following are the important parameters and return values for this function:\n\n* `WAN_INTERFACE interfaceType`: The type of WAN interface for which you want to get the DSCP client list.\n* `pDSCP_list_t pDSCP_List`: A pointer to a structure that will be filled with the DSCP client list.\n* `INT`: The status of the operation. The function will return `RETURN_OK` if successful, or `RETURN_ERR` if an error occurs.\n\n**5. Any specific RDK-related operations**\n\nThis function is not specific to RDK.",
+  "processed_at": "2024-11-14T10:56:37.963288"
+}

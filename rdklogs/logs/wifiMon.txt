@@ -1,0 +1,301 @@
+[OneWifi] 241118-09:28:53.818678<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:28:53.819141<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:28:53.819460<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:28:53.819947<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:28:53.820259<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:28:53.820606<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:28:53.821166<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:28:58.823515<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:28:58.824249<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:28:58.824616<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:28:58.825198<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:28:58.825530<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:28:58.825858<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:28:58.826443<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:03.856298<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:03.856735<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:03.857045<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:03.857345<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:03.857621<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:03.857917<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:03.858197<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:08.864481<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:08.864893<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:08.865205<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:08.865516<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:08.865805<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:08.866117<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:08.866401<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:13.907296<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:13.907795<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:13.908406<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:13.908725<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:13.909010<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:13.909316<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:13.909606<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:18.898218<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:18.898604<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:18.898908<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:18.899283<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:18.899557<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:18.899937<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:18.900245<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:23.981323<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:23.981719<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:23.982046<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:23.982447<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:23.982761<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:23.983149<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:23.983455<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:29.064745<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:29.065162<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:29.065483<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:29.065793<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:29.066084<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:29.066393<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:29.066683<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:34.173385<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:34.173781<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:34.174100<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:34.174417<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:34.174707<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:34.175016<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:34.175340<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:39.155623<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:39.156246<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:39.156581<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:39.156895<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:39.157189<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:39.157499<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:39.157792<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:44.171746<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:44.172366<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:44.172694<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:44.173007<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:44.173296<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:44.173679<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:44.173968<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:49.263624<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:49.264082<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:49.264411<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:49.264718<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:49.265003<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:49.265310<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:49.265593<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:54.346562<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:54.346956<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:54.347315<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:54.347626<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:54.348011<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:54.348336<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:54.348629<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:59.429042<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:59.429435<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:59.429751<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:59.430067<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:59.430363<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:59.430673<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:29:59.430968<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:04.555307<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:04.555728<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:04.556578<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:04.556942<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:04.557248<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:04.557567<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:04.558014<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:09.605431<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:09.605814<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:09.606121<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:09.606424<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:09.606703<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:09.607002<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:09.607285<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:14.631950<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:14.632338<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:14.632664<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:14.632973<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:14.633259<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:14.633564<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:14.633850<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:19.757732<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:19.758282<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:19.758703<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:19.759043<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:19.759350<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:19.759672<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:19.760054<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:24.770951<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:24.771429<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:24.772003<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:24.772346<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:24.772648<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:24.773066<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:24.773363<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:29.786291<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:29.786761<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:29.787082<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:29.787511<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:29.787884<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:29.788222<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:29.788514<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:34.799935<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:34.800360<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:34.800685<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:34.802919<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:34.803363<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:34.803701<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:34.804260<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:39.800591<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:39.801007<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:39.801412<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:39.801726<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:39.802018<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:39.802331<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:39.802621<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:44.849932<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:44.850290<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:44.850743<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:44.851060<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:44.851355<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:44.851660<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:44.852338<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:49.845535<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:49.845979<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:49.846400<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:49.846733<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:49.847035<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:49.847357<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:49.847706<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:54.946086<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:54.946487<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:54.946816<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:54.947284<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:54.947587<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:54.947964<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:30:54.948671<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241007-14:40:29.067409<I>  start_wifi_monitor:2808: Opened sysevent
+[OneWifi] 241007-14:40:30.280462<I>  coordinator_check_stats_config:3826: created task for key : 03-00 for app  16384
+[OneWifi] 241007-14:40:30.281688<I>  coordinator_check_stats_config:3826: created task for key : 03-02 for app  16384
+[OneWifi] 241007-14:40:30.282220<I>  coordinator_check_stats_config:3826: created task for key : 03-04 for app  16384
+[OneWifi] 241007-14:40:30.284844<I>  coordinator_check_stats_config:3826: created task for key : 03-06 for app  16384
+[OneWifi] 241007-14:40:30.285357<I>  coordinator_check_stats_config:3826: created task for key : 03-08 for app  16384
+[OneWifi] 241007-14:40:30.285881<I>  coordinator_check_stats_config:3826: created task for key : 03-10 for app  16384
+[OneWifi] 241007-14:40:30.286362<I>  coordinator_check_stats_config:3826: created task for key : 03-12 for app  16384
+[OneWifi] 241007-14:40:30.286891<I>  coordinator_check_stats_config:3826: created task for key : 03-01 for app  16384
+[OneWifi] 241007-14:40:30.287374<I>  coordinator_check_stats_config:3826: created task for key : 03-03 for app  16384
+[OneWifi] 241007-14:40:30.287843<I>  coordinator_check_stats_config:3826: created task for key : 03-05 for app  16384
+[OneWifi] 241007-14:40:30.288511<I>  coordinator_check_stats_config:3826: created task for key : 03-07 for app  16384
+[OneWifi] 241007-14:40:30.288999<I>  coordinator_check_stats_config:3826: created task for key : 03-09 for app  16384
+[OneWifi] 241007-14:40:30.289441<I>  coordinator_check_stats_config:3826: created task for key : 03-11 for app  16384
+[OneWifi] 241007-14:40:30.290041<I>  coordinator_check_stats_config:3826: created task for key : 03-13 for app  16384
+[OneWifi] 241007-14:40:30.297060<I>  coordinator_check_stats_config:3826: created task for key : 01-00 for app  8192
+[OneWifi] 241007-14:40:30.297573<I>  coordinator_check_stats_config:3826: created task for key : 01-01 for app  8192
+[OneWifi] 241007-14:40:30.298104<I>  collector_task_update:3673: New collector interval : 900000 for key : 01-00
+[OneWifi] 241007-14:40:30.298571<I>  collector_task_update:3673: New collector interval : 900000 for key : 01-01
+[OneWifi] 241007-14:40:30.299056<I>  collector_task_update:3673: New collector interval : 5000 for key : 03-00
+[OneWifi] 241007-14:40:30.299533<I>  collector_task_update:3673: New collector interval : 5000 for key : 03-02
+[OneWifi] 241007-14:40:30.300006<I>  collector_task_update:3673: New collector interval : 5000 for key : 03-04
+[OneWifi] 241007-14:40:30.300480<I>  collector_task_update:3673: New collector interval : 5000 for key : 03-06
+[OneWifi] 241007-14:40:30.300969<I>  collector_task_update:3673: New collector interval : 5000 for key : 03-08
+[OneWifi] 241007-14:40:30.301453<I>  collector_task_update:3673: New collector interval : 5000 for key : 03-10
+[OneWifi] 241007-14:40:30.316181<I>  collector_task_update:3673: New collector interval : 5000 for key : 03-12
+[OneWifi] 241007-14:40:30.316753<I>  collector_task_update:3673: New collector interval : 5000 for key : 03-01
+[OneWifi] 241007-14:40:30.317229<I>  collector_task_update:3673: New collector interval : 5000 for key : 03-03
+[OneWifi] 241007-14:40:30.317674<I>  collector_task_update:3673: New collector interval : 5000 for key : 03-05
+[OneWifi] 241007-14:40:30.318166<I>  collector_task_update:3673: New collector interval : 5000 for key : 03-07
+[OneWifi] 241007-14:40:30.318607<I>  collector_task_update:3673: New collector interval : 5000 for key : 03-09
+[OneWifi] 241007-14:40:30.319090<I>  collector_task_update:3673: New collector interval : 5000 for key : 03-11
+[OneWifi] 241007-14:40:30.319540<I>  collector_task_update:3673: New collector interval : 5000 for key : 03-13
+[OneWifi] 241007-14:40:30.319991<I>  coordinator_check_stats_config:3826: created task for key : 02-00-01 for app  8192
+[OneWifi] 241007-14:40:30.320416<I>  coordinator_check_stats_config:3826: created task for key : 02-01-01 for app  8192
+[OneWifi] 241118-09:32:02.774044<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:02.774513<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:02.774861<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:02.813481<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:02.814455<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:02.824951<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:02.825359<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:07.776324<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:07.776705<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:07.777228<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:07.777789<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:07.778310<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:07.778849<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:07.779493<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:12.783778<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:12.784316<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:12.784770<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:12.785098<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:12.785404<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:12.785721<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:12.786022<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:17.856878<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:17.857999<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:17.872619<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:17.874568<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:17.875522<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:17.876759<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:17.877607<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:22.970667<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:22.972115<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:22.973134<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:22.974324<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:22.974907<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:22.985620<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:22.986176<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:27.937406<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:27.937791<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:27.938108<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:27.938417<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:27.938704<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:27.939016<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:27.939307<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:32.951136<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:32.951548<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:32.951870<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:32.952569<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:32.952962<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:32.953296<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:32.953646<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:37.952878<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:37.953338<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:37.953654<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:37.953956<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:37.954243<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:37.954552<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:37.954834<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:42.964207<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:42.964598<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:42.964913<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:42.965216<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:42.965502<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:42.965808<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:42.966094<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:47.969720<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:47.970102<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:47.970420<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:47.970725<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:47.971008<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:47.971309<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:47.971593<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:52.976346<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:52.976825<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:52.977138<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:52.977653<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:52.978309<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:52.978747<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:52.979037<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:58.027590<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:58.028009<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:58.028567<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:58.028886<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:58.029177<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:58.029491<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:32:58.029815<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:33:03.078003<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:33:03.078404<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:33:03.078731<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:33:03.079120<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:33:03.079404<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:33:03.079705<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1
+[OneWifi] 241118-09:33:03.079988<I>  execute_assoc_client_stats_api:137 radio_presence is false for radio : 1

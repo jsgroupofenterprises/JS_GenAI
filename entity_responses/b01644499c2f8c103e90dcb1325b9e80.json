@@ -1,0 +1,7 @@
+{
+  "entity_name": "ovsdb_jsonrpc_id_new",
+  "component": "CcspWifiAgent",
+  "content_hash": "b01644499c2f8c103e90dcb1325b9e80",
+  "response": "**1. Main purpose and functionality:**\n\nThe `ovsdb_jsonrpc_id_new` function generates unique JSON-RPC IDs for use in Open vSwitch Database (OVSDB) JSON-RPC messages.\n\n**2. Key operations and data flow:**\n\n- The function maintains a static variable `jsonrpc_id` initialized to 1, representing the starting sequence number for RPC IDs.\n- Each time the function is called, it returns the current `jsonrpc_id` and increments it by 1.\n- The incremented value is stored back in `jsonrpc_id` for the next call.\n\n**3. Interaction with other components (if any):**\n\nThis function is internally used by the RDK Component: CcspWifiAgent to generate unique RPC IDs in JSON-RPC requests sent to the OVSDB.\n\n**4. Important parameters and return values:**\n\n- **Return Value**: An integer representing the unique JSON-RPC ID.\n\n**5. Any specific RDK-related operations:**\n\nThis function depends on RDK's OVSDB integration to generate unique RPC IDs for OVSDB-based communication.",
+  "processed_at": "2024-11-13T16:04:37.725486"
+}

@@ -1,0 +1,7 @@
+{
+  "entity_name": "mon_install_child_signals",
+  "component": "OneWifi",
+  "content_hash": "b28c8ac1f8b738aaf5ccb8312a1b9ffa",
+  "response": "1. **Main purpose and functionality**:\n   - The `mon_install_child_signals` function initializes signal handlers for various signals in the child process.\n\n2. **Key operations and data flow**:\n   - The function sets up signal handlers for `SIGABRT`, `SIGSEGV`, `SIGILL`, `SIGFPE`, `SIGBUS` and `SIGUSR2` signals.\n   - It uses the `sigaction` function to set the signal handlers.\n   - For `SIGABRT`, `SIGSEGV`, `SIGILL`, `SIGFPE`, and `SIGBUS` signals, it sets the signal handler to `mon_sig_crash` and sets the `SA_RESETHAND` flag to reset the signal handler after it has been triggered.\n   - For `SIGUSR2` signal, it sets the signal handler to `mon_sig_crash` and clears the `SA_RESETHAND` flag, indicating that the signal handler should not be reset after being triggered.\n\n3. **Interaction with other components**:\n   - The function interacts with the Linux kernel's signal handling mechanism.\n   - It does not directly interact with any other RDK components.\n\n4. **Important parameters and return values**:\n   - The function takes no parameters and has no return value.\n\n5. **Any specific RDK-related operations**:\n   - The function does not perform any RDK-specific operations.",
+  "processed_at": "2024-11-19T10:01:15.120835"
+}

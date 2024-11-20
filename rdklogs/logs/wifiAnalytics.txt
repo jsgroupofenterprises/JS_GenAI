@@ -1,0 +1,13 @@
+<I>  @startuml
+<I>  hide footbox
+<I>  skinparam SequenceMessageAlign center
+<I>  
+<I>  participant WEBCONFIG as "Webconfig"
+<I>  participant OVSM as "Ctrl/Ovsm"
+<I>  participant DML as "Dml"
+<I>  participant MGR as "Mgr"
+<I>  participant CORE as "Core"
+<I>  participant HAL as "HAL"
+<I>  participant HOSTAP as "LibHostap"
+<I>  MGR -> CORE : start : 
+<I>  CORE -> OVSM : status : webconfig_subdoc_type_dml

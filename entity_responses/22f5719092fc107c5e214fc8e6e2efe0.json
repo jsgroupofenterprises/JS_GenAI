@@ -1,0 +1,7 @@
+{
+  "entity_name": "init_easy_connect",
+  "component": "CcspWifiAgent",
+  "content_hash": "22f5719092fc107c5e214fc8e6e2efe0",
+  "response": "**1. Main purpose and functionality:**\n   - The `init_easy_connect` initializes the Easy Connect feature in the Wi-Fi agent.\n   - It sets up the configuration for DPP (Device Provisioning Protocol) and registers callbacks for DPP frame events.\n\n**2. Key operations and data flow:**\n   - Initializes the `g_easy_connect` global structure.\n   - Sets up the channels on AP (Access Point).\n   - For each DPP VAP (Virtual Access Point)\n     - Creates a DPP Reconfiguration Context.\n     - Creates a DPP CSign Instance.\n   - Registers callbacks for DPP frame events (auth response, config request, config result, reconfig announce, and reconfig auth response).\n   - Starts receiving DPP test frames.\n\n**3. Interaction with other components:**\n   - Interacts with the Wi-Fi data model (`pWifiDataModel`) to retrieve configuration.\n\n**4. Important parameters and return values:**\n   - `PCOSA_DATAMODEL_WIFI pWifiDataModel`: Pointer to the Wi-Fi data model.\n   - Return value (`int`): 0 on success, negative error code otherwise.\n\n**5. Specific RDK-related operations:**\n   - Uses RDK-specific Wi-Fi DPP APIs (e.g., `wifi_dppCreateReconfigContext`, `wifi_dppCreateCSignIntance`).\n   - Interacts with the Wi-Fi data model managed by the RDK.",
+  "processed_at": "2024-11-13T15:19:25.968704"
+}

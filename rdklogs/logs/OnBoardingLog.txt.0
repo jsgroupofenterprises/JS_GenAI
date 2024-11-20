@@ -1,0 +1,57 @@
+241007-14:40:12 [PAM] Device reboot due to reason unknown
+241007-14:40:12 Lan_init_start:18
+241007-14:40:27 RDKB_FIREWALL_RESTART:33
+241007-14:40:28 [Utopia] [handle_defconfig][307] Received [deconfig] event from udhcpc 
+241007-14:40:28 [Utopia] [get_and_fill_env_data-1288] Server id is not available in dhcp ack 
+241007-14:40:28 [Utopia] [send_dhcp_data_to_wanmanager-1505] Created socket endpoint 
+241007-14:40:28 [Utopia] [send_dhcp_data_to_wanmanager-1515] Connected to server socket [tcp://127.0.0.1:50321] 
+241007-14:40:28 [Utopia] Successfully send 968 bytes to wanmanager 
+241007-14:40:31 [Utopia] [handle_wan][971] Received [bound] event from udhcpc 
+241007-14:40:31 [Utopia] hex[00054600] decimal[345600]
+241007-14:40:31 [Utopia] hex[00093a80] decimal[604800]
+241007-14:40:31 [Utopia] [get_and_fill_env_data-1421] Timezone is not available in dhcp ack 
+241007-14:40:31 [Utopia] [get_and_fill_env_data-1432] Timeoffset is not available in dhcp ack 
+241007-14:40:31 [Utopia] [get_and_fill_env_data-1442] Upstreamrate is not available in dhcp ack 
+241007-14:40:31 [Utopia] [get_and_fill_env_data-1452] Upstreamrate is not available in dhcp ack 
+241007-14:40:31 [Utopia] [handle_wan][986] ===============DHCPv4 Configuration Received==============================
+241007-14:40:31 [Utopia] [handle_wan][987] Address assigned = 1 
+241007-14:40:31 [Utopia] [handle_wan][988] is expired      = 0 
+241007-14:40:31 [Utopia] [handle_wan][989] ip              = 192.168.160.110
+241007-14:40:31 [Utopia] [handle_wan][990] mask            = 255.255.254.0 
+241007-14:40:31 [Utopia] [handle_wan][991] gateway         = 192.168.160.1 
+241007-14:40:31 [Utopia] [handle_wan][992] dnsserver1      = 192.168.160.2 
+241007-14:40:31 [Utopia] [handle_wan][993] dnsserver2      = 192.168.160.3 
+241007-14:40:31 [Utopia] [handle_wan][994] Interface       = erouter0 
+241007-14:40:31 [Utopia] [handle_wan][995] Lease time      = 691200 
+241007-14:40:31 [Utopia] [handle_wan][996] Renewal Time    = 345600 
+241007-14:40:31 [Utopia] [handle_wan][997] Rebinding Time  = 604800 
+241007-14:40:31 [Utopia] [handle_wan][998] Time offset     = 0 
+241007-14:40:31 [Utopia] [handle_wan][999] TimeZone        =  
+241007-14:40:31 [Utopia] [handle_wan][1000] DHCP Server ID  = 192.168.160.2 
+241007-14:40:31 [Utopia] [handle_wan][1001] DHCP State      = bound 
+241007-14:40:31 [Utopia] [send_dhcp_data_to_wanmanager-1505] Created socket endpoint 
+241007-14:40:31 [Utopia] [send_dhcp_data_to_wanmanager-1515] Connected to server socket [tcp://127.0.0.1:50321] 
+241007-14:40:31 [Utopia] Successfully send 968 bytes to wanmanager 
+241007-14:40:32 Lan_init_complete:38
+241118-09:32:10 [WEBPA] WebPA is now ready to process requests
+241118-09:32:10 [WEBPA] Ethernet WAN is enabled
+241118-09:32:10 [WEBPA] event:device-status/mac:d83add0aa977/operational/1731922281
+241118-09:32:10 [WEBPA] Parameter name Device.DeviceInfo.X_RDKCENTRAL-COM_DeviceFingerPrint.Enable is not supported. ret = 204
+241118-09:32:10 [WEBPA] Failed to GetValue for Device.DeviceInfo.X_RDKCENTRAL-COM_DeviceFingerPrint.Enable
+241118-09:32:10 [WEBPA] Parameter name Device.DeviceInfo.X_RDKCENTRAL-COM_DeviceFingerPrint.Enable is not supported. ret = 204
+241118-09:32:10 [WEBPA] Parameter name Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.PrivacyProtection.Enable is not supported. ret = 204
+241118-09:32:10 [WEBPA] Parameter name Device.DeviceInfo.X_RDKCENTRAL-COM_PrivacyProtection.Activate is not supported. ret = 204
+241118-09:32:10 [WEBPA] Parameter name Device.MoCA.Interface.1.Enable is not supported. ret = 204
+241118-09:32:10 [WEBPA] Parameter name Device.DeviceInfo.X_RDKCENTRAL-COM_AdvancedSecurity.SafeBrowsing.Enable is not supported. ret = 204
+241118-09:32:10 [WEBPA] Parameter name Device.DeviceInfo.X_RDKCENTRAL-COM_AdvancedSecurity.Softflowd.Enable is not supported. ret = 204
+241118-09:32:13 [WEBPA] Parameter name Device.DeviceInfo.X_RDKCENTRAL-COM_DeviceFingerPrint.Enable is not supported. ret = 204
+241118-09:32:13 [WEBPA] Parameter name Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.PrivacyProtection.Enable is not supported. ret = 204
+241118-09:32:13 [WEBPA] Parameter name Device.DeviceInfo.X_RDKCENTRAL-COM_PrivacyProtection.Activate is not supported. ret = 204
+241118-09:32:13 [WEBPA] Parameter name Device.MoCA.Interface.1.Enable is not supported. ret = 204
+241118-09:32:13 [WEBPA] Parameter name Device.DeviceInfo.X_RDKCENTRAL-COM_AdvancedSecurity.SafeBrowsing.Enable is not supported. ret = 204
+241118-09:32:13 [WEBPA] Parameter name Device.DeviceInfo.X_RDKCENTRAL-COM_AdvancedSecurity.Softflowd.Enable is not supported. ret = 204
+241118-09:32:20 [WEBPA] Parameter name Device.MoCA.Interface.1.Enable is not supported. ret = 204
+241118-09:32:30 [WEBPA] Unable to get component for object Device.MoCA.
+241118-09:32:36 [WEBPA] Parameter name Device.MoCA.Interface.1.Enable is not supported. ret = 204
+241118-09:33:00 [WEBPA] Unable to get component for object Device.X_CISCO_COM_MTA.
+241118-09:33:07 [WEBPA] Parameter name Device.MoCA.Interface.1.Enable is not supported. ret = 204

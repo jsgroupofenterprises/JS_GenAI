@@ -1,0 +1,7 @@
+{
+  "entity_name": "eapol_frame_sent",
+  "component": "CcspWifiAgent",
+  "content_hash": "87c7fc3d3b5ec31fa67deebffe4b3e99",
+  "response": "1. **Main purpose and functionality**:\n   - The `eapol_frame_sent` function is responsible for handling the sending of EAPOL frames from the Wi-Fi agent to the data plane.\n\n\n2. **Key operations and data flow**:\n   - The function takes as parameters the AP index, STA MAC address, EAPOL type, data and length of the EAPOL frame.\n   - It allocates memory for the `wifi_8021x_data_t` structure and populates it with the provided data.\n   - The function then queues the EAPOL frame in the data plane queue for transmission.\n\n\n3. **Interaction with other components**:\n   - The function interacts with the data plane component to send the EAPOL frame.\n\n\n4. **Important parameters and return values**:\n   - `ap_index`: The index of the access point that sent the EAPOL frame.\n   - `sta`: The MAC address of the station that sent the EAPOL frame.\n   - `type`: The type of EAPOL frame that was sent.\n   - `data`: The data contained in the EAPOL frame.\n   - `len`: The length of the data in the EAPOL frame.\n\n\n5. **Any specific RDK-related operations**:\n   - The function uses the `data_plane_queue_push` function from the RDK data plane API to queue the EAPOL frame for transmission.",
+  "processed_at": "2024-11-13T15:15:50.850602"
+}

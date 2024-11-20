@@ -1,0 +1,7 @@
+{
+  "entity_name": "CosaDmlLogging_GetConfiguration",
+  "component": "CcspWifiAgent",
+  "content_hash": "c9a8edd3e6bbf1bf828cf65248bbcc81",
+  "response": "**1. Main purpose and functionality**\n\nThe `CosaDmlLogging_GetConfiguration` function retrieves the current logging configuration from the RDK. This configuration includes the `bFlushAllLogs` flag, which indicates whether all logs should be flushed.\n\n**2. Key operations and data flow**\n\nThe function first verifies that the input parameter pLoggingConfig is not NULL. If it is NULL, the function returns ANSC_STATUS_FAILURE.\nOtherwise, the function sets the value of pLoggingConfig->bFlushAllLogs to the current value of the `bFlushAllLogs` flag. The function then returns ANSC_STATUS_SUCCESS.\n\n**3. Interaction with other components (if any)**\n\nThe `CosaDmlLogging_GetConfiguration` function does not interact with any other components.\n\n**4. Important parameters and return values**\n\n| Parameter | Description |\n|---|---|\n| pLoggingConfig | A pointer to a `COSA_DML_LOGGING_CONFIG` structure that will receive the current logging configuration |\n| ANSC_STATUS | The status of the operation. ANSC_STATUS_SUCCESS if the operation was successful, or ANSC_STATUS_FAILURE if the operation failed |\n\n**5. Any specific RDK-related operations**\n\nThe `CosaDmlLogging_GetConfiguration` function is a RDK-specific function that is used to retrieve the logging configuration from the RDK.",
+  "processed_at": "2024-11-13T15:07:06.678176"
+}

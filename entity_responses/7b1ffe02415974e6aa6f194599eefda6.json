@@ -1,0 +1,7 @@
+{
+  "entity_name": "wifi_kickApAssociatedDevice",
+  "component": "hal",
+  "content_hash": "7b1ffe02415974e6aa6f194599eefda6",
+  "response": "### Main purpose and functionality\n\nThe `wifi_kickApAssociatedDevice` function manually removes any active wi-fi association with the device specified on this ap.\n\n### Key operations and data flow\n\n1. The function takes two parameters: `apIndex`, which is the index of the access point to be removed, and `client_mac`, which is the mac address of the device to be removed.\n\n\n2. The function sends a command to the driver to remove the association.\n\n\n3. The driver removes the association.\n\n\n4. The function returns a status code indicating the success or failure of the operation.\n\n### Interaction with other components\n\nThe function interacts with the following components:\n\n1. The Wi-Fi driver\n\n\n2. The Wi-Fi configuration file\n\n\n3. The Wi-Fi management daemon\n\n### Important parameters and return values\n\nThe function takes two parameters:\n\n1. `apIndex`: The index of the access point to be removed\n2 `client_mac`: The mac address of the device to be removed\n\n\nThe function returns a status code indicating the success or failure of the operation. The following status codes are possible:\n\n1. `RETURN_OK` if the operation was successful\n2. `RETURN_ERR` if the operation failed\n\n### Any specific RDK-related operations\n\nThe function is not specific to RDK.",
+  "processed_at": "2024-11-14T12:24:12.593453"
+}

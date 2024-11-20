@@ -1,0 +1,7 @@
+{
+  "entity_name": "qm_conn_send_raw",
+  "component": "CcspWifiAgent",
+  "content_hash": "c0ca182aeaef1771a3b3d907e4a96bb5",
+  "response": "**1. Main purpose and functionality**\n\nThe `qm_conn_send_raw()` function in `CcspWifiAgent` is responsible for sending raw data over a QM connection. It takes as input a topic, raw data, and the size of the data, and sends the data to the specified topic. The function returns true if the data was successfully sent, and false otherwise.\n\n**2. Key operations and data flow**\n\nThe function first checks if the QM connection is initialized, and if not, it initializes it. It then creates a new QM message, sets the topic and data, and sends the message. The function waits for a response from the remote end, and if the response is successful, it returns true. Otherwise, it returns false.\n\n**3. Interaction with other components (if any)**\n\nThe function interacts with the QM library to send and receive messages.\n\n**4. Important parameters and return values**\n\n* **topic**: The topic to which the data should be sent.\n* **data**: The raw data to be sent.\n* **data_size**: The size of the data in bytes.\n* **res**: A pointer to a `qm_response_t` structure, which will be filled with the response from the remote end.\n* **return value**: True if the data was successfully sent, false otherwise.\n\n**5. Any specific RDK-related operations**\n\nThe function uses the QM library, which is an RDK-specific library for sending and receiving messages over a network.",
+  "processed_at": "2024-11-13T16:30:38.678110"
+}

@@ -1,0 +1,7 @@
+{
+  "entity_name": "platform_hal_GetWebUITimeout",
+  "component": "hal",
+  "content_hash": "7b8f1507e4a5ff6917b3f97b4f6cb9e4",
+  "response": "### Main purpose and functionality\n\nThe `platform_hal_GetWebUITimeout` function retrieves the WebUI timeout value. The WebUI timeout is the amount of time that the WebUI will remain active before it times out and the user is logged out.\n\n### Key operations and data flow\n\nThe function takes a pointer to a ULONG variable as its input parameter. The function will store the current WebUI timeout value in the variable pointed to by the input parameter.\n\n### Interaction with other components (if any)\n\nThis function does not interact with any other components.\n\n### Important parameters and return values\n\n| Parameter | Type | Description |\n|---|---|---|\n| *pValue | ULONG * | Pointer to a ULONG variable to store the WebUI timeout value. |\n| Return value | INT | The status of the operation. |\n\n### Any specific RDK-related operations\n\nThis function is used to retrieve the WebUI timeout value as set by the RDK system.",
+  "processed_at": "2024-11-14T10:48:40.890287"
+}

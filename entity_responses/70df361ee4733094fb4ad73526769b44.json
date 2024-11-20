@@ -1,0 +1,7 @@
+{
+  "entity_name": "pjs_sub_to_json",
+  "component": "CcspWifiAgent",
+  "content_hash": "70df361ee4733094fb4ad73526769b44",
+  "response": "**1. Main purpose and functionality:**\nThe pjs_sub_to_json function converts a pjs_sub_t structure to JSON format. \n   \n**2. Key operations and data flow:**\n- The function takes as input a pjs_sub_to_json_cb_t callback, a pointer to data, the size of the data, a json_t object, a name for the JSON object, and a pjs_errmsg_t error message.\n- It then creates a pjs_sub_args structure and initializes it with the input arguments.\n- Finally, it calls the pjs_basic_to_json function to convert the pjs_sub_t structure to JSON format.\n\n**3. Interaction with other components:**\nThe function interacts with the pjs_basic_to_json function to convert the pjs_sub_t structure to JSON format.\n\n**4. Important parameters and return values:**\n- The function takes as input a pjs_sub_to_json_cb_t callback, which is called after the conversion is complete.\n- The function returns true if the conversion was successful, and false otherwise.\n\n**5. Any specific RDK-related operations:**\nThe function is specific to the RDK and is used to convert RDK data structures to JSON format.",
+  "processed_at": "2024-11-13T16:21:32.759932"
+}

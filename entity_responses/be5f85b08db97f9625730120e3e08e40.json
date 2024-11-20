@@ -1,0 +1,7 @@
+{
+  "entity_name": "CosaUtilGetLowerLayers",
+  "component": "CcspWifiAgent",
+  "content_hash": "be5f85b08db97f9625730120e3e08e40",
+  "response": "**1. Main purpose and functionality**:\nThe purpose of this function is to find a lower layer object in the data model based on a given keyword. The function takes a table name and a keyword and returns a lower layer path if found.\n\n**2. Key operations and data flow**:\nThe function iterates through the tables specified by the input table name, and for each table, it checks each instance for a parameter with the name \"Name\" and value equal to the keyword. If a match is found, the function returns the full path to the lower layer object.\n\n**3. Interaction with other components (if any)**:\nThis function does not interact with other components directly.\n\n**4. Important parameters and return values**:\n\n- **pTableName**: The name of the table to search.\n- **pKeyword**: The keyword to search for.\n- **Return value**: A pointer to a string containing the full path to the lower layer object, or NULL if no match is found.\n\n**5. Any specific RDK-related operations**:\nThis function uses the CosaGetParamValueXXX() APIs to retrieve parameter values from the data model. These APIs are specific to RDK.",
+  "processed_at": "2024-11-13T14:58:19.195765"
+}

@@ -1,0 +1,47 @@
+241007-14:40:24.785370 [mod=T2, lvl=INFO] [tid=2286] Starting Telemetry 2.0 Process
+241007-14:40:24.853443 [mod=T2, lvl=INFO] [tid=2309] Initializing Telemetry 2.0 Component
+241007-14:40:24.854787 [mod=T2, lvl=INFO] [tid=2309] rbus.c:2765 rbus open for component: telemetry2_0
+
+241007-14:40:24.855184 [mod=T2, lvl=INFO] [tid=2309] rbuscore.c:2326 RBus Enabled
+
+241007-14:40:24.855382 [mod=T2, lvl=INFO] [tid=2309] rbuscore.c:643 Broker address: unix:///tmp/rtrouted
+
+241007-14:40:24.894002 [mod=T2, lvl=INFO] [tid=2309] rbus.c:2841  rbus open (telemetry2_0) success
+
+241007-14:40:24.924235 [mod=T2, lvl=ERROR] [tid=2309] getParameterValue partner id failed
+241007-14:40:24.924627 [mod=T2, lvl=INFO] [tid=2309] rbuscore.c:2326 RBus Enabled
+
+241007-14:40:24.924882 [mod=T2, lvl=INFO] [tid=2309] rbus_subscriptions.c:447 file /tmp/rbus_subs_telemetry2_0
+
+241007-14:40:25.122164 [mod=T2, lvl=INFO] [tid=2309] NonRoot feature is enabled, dropping root privileges for Telemetry 2.0 Process
+241007-14:40:25.318191 [mod=T2, lvl=INFO] [tid=2309] Filename : DCMresponse.txt Size : 53
+241007-14:40:25.331228 [mod=T2, lvl=INFO] [tid=2309] Returning 1 local configurations 
+241007-14:40:25.331513 [mod=T2, lvl=ERROR] [tid=2309] Incomplete profile information, unable to create profile
+241007-14:40:25.331752 [mod=T2, lvl=INFO] [tid=2309] Failed to open persistence folder : /tmp/t2reportprofiles/, creating folder
+241007-14:40:25.350087 [mod=T2, lvl=INFO] [tid=2309] loadReportProfilesFromDisk 
+241007-14:40:25.369962 [mod=T2, lvl=INFO] [tid=2309] JSON: loadReportProfilesFromDisk 
+241007-14:40:25.451634 [mod=T2, lvl=INFO] [tid=2309] Returning 0 local configurations 
+241007-14:40:25.451834 [mod=T2, lvl=INFO] [tid=2309] Completed processing 0 profiles on the disk,trying to fetch new/updated profiles
+241007-14:40:25.471972 [mod=T2, lvl=INFO] [tid=2383] process_rp_thread: Waiting for event from tr-181 
+241007-14:40:25.473000 [mod=T2, lvl=INFO] [tid=2385] process_tmprp_thread: Waiting for event from tr-181 
+241007-14:40:25.472278 [mod=T2, lvl=INFO] [tid=2309] rbuscore.c:2326 RBus Enabled
+
+241007-14:40:25.659207 [mod=T2, lvl=INFO] [tid=2419] rbuscore.c:2326 RBus Enabled
+
+241007-14:40:25.659424 [mod=T2, lvl=INFO] [tid=2419] rbus.c:2765 rbus open for component: telemetry2_0_wbcfg
+
+241007-14:40:25.659941 [mod=T2, lvl=INFO] [tid=2419] rbus.c:2841  rbus open (telemetry2_0_wbcfg) success
+
+241007-14:40:25.678015 [mod=T2, lvl=ERROR] [tid=2309] rbus.c:3777 set by telemetry2_0_wbcfg failed; Received error 12 from RBUS Daemon for the object webconfigSignal
+
+241007-14:40:25.742065 [mod=T2, lvl=INFO] [tid=2309] Init ReportProfiles Successful
+241007-14:40:25.742620 [mod=T2, lvl=INFO] [tid=2309] Init Xconf Client Success
+241007-14:40:25.742750 [mod=T2, lvl=INFO] [tid=2309] Telemetry 2.0 Component Init Success
+241007-14:40:25.754571 [mod=T2, lvl=ERROR] [tid=2430] URL doesn't start with https or is invalid !!! URL value received :  .
+241007-14:40:25.754795 [mod=T2, lvl=INFO] [tid=2430] Waiting for 60 sec before trying getRemoteConfigURL
+241118-09:32:02.146428 [mod=T2, lvl=INFO] [tid=2430] TIMEDOUT -- trying fetchConfigURLs again
+241118-09:32:02.943480 [mod=T2, lvl=ERROR] [tid=2430] URL doesn't start with https or is invalid !!! URL value received :  .
+241118-09:32:02.943670 [mod=T2, lvl=INFO] [tid=2430] Waiting for 60 sec before trying getRemoteConfigURL
+241118-09:33:02.000271 [mod=T2, lvl=INFO] [tid=2430] TIMEDOUT -- trying fetchConfigURLs again
+241118-09:33:02.003290 [mod=T2, lvl=ERROR] [tid=2430] URL doesn't start with https or is invalid !!! URL value received :  .
+241118-09:33:02.003677 [mod=T2, lvl=INFO] [tid=2430] Waiting for 60 sec before trying getRemoteConfigURL

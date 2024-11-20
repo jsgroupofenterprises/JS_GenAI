@@ -1,0 +1,7 @@
+{
+  "entity_name": "parseVaps",
+  "component": "CcspWifiAgent",
+  "content_hash": "e79d54113358db8455544255705975b6",
+  "response": "**1. Main purpose and functionality:**\n\n- The `parseVaps` function parses a comma-separated list of virtual access points (VAPs) and stores them in a global array (`g_vaps_list`).\n\n**2. Key operations and data flow:**\n\n- The function iterates through the input string, tokenizing it by comma using `strtok_r`.\n- Each token is converted to an integer and stored in the `g_vaps_list` array.\n- The function checks if the VAP number is within a valid range (1 to `g_max_vaps`).\n- The count of parsed VAPs (`g_vaps_cnt`) is incremented.\n\n**3. Interaction with other components (if any):**\n\n- The `parseVaps` function is called from within the `CcspWifiAgent` component.\n\n**4. Important parameters and return values:**\n\n- **Parameters:**\n  - `vap_list`: A comma-separated string of VAP numbers.\n- **Return value:**\n  - `true` if the parsing was successful, `false` otherwise.\n\n**5. Any specific RDK-related operations:**\n\n- The `parseVaps` function utilizes RDK-specific global variables such as `g_vaps_list` and `g_max_vaps`.",
+  "processed_at": "2024-11-13T14:54:39.518181"
+}

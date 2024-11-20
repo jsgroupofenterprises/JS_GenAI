@@ -1,0 +1,196 @@
+241007-14:40:20.319656 [mod=TDM, lvl=WARN] [tid=1744] Register empty object : com.
+241007-14:40:20.338341 [mod=TDM, lvl=WARN] [tid=1744] Register empty object : com.cisco.
+241007-14:40:20.338483 [mod=TDM, lvl=WARN] [tid=1744] Register empty object : com.cisco.spvtg.
+241007-14:40:20.338582 [mod=TDM, lvl=WARN] [tid=1744] Register empty object : com.cisco.spvtg.ccsp.
+241007-14:40:20.475352 [mod=TDM, lvl=WARN] [tid=1744] DM Library module name = CCSP Base Data Model
+241007-14:40:20.528207 [mod=TDM, lvl=WARN] [tid=1744] DM Library module name = TestAndDiagnostic
+241007-14:40:20.558191 [mod=TDM, lvl=WARN] [tid=1744] Loading DM library libdmltad.so...
+241007-14:40:20.657238 [mod=TDM, lvl=WARN] [tid=1744] CosaDiagInitialize syscfg_get failed  for Enable_Speedtest
+241007-14:40:20.657432 [mod=TDM, lvl=NOTICE] [tid=1744] Executing Speedtest to acquire version
+241007-14:40:20.733192 [mod=TDM, lvl=WARN] [tid=1744] RDK_LOG_WARN,TDM CosaDiagInitialize :Calling PSM GET to get Capability flag value
+241007-14:40:20.742102 [mod=TDM, lvl=WARN] [tid=1744] RDK_LOG_WARN,TDM CosaDiagInitialize :Capability [0]
+241007-14:40:20.742301 [mod=TDM, lvl=WARN] [tid=1744] CosaDmlInitializeRxTxStats syscfg_get failed  for RxTxStats Interfacelist
+241007-14:40:20.742392 [mod=TDM, lvl=WARN] [tid=1744] CosaDmlInitializeRxTxStats syscfg_get failed for RxTxStats Portlist
+241007-14:40:21.350786 [mod=TDM, lvl=INFO] [tid=1744] rbuscore.c:2326 RBus Enabled
+
+241007-14:40:21.369739 [mod=TDM, lvl=INFO] [tid=1744] rbus.c:2765 rbus open for component: WanCnctvtyChkEventConsumer
+
+241007-14:40:21.370581 [mod=TDM, lvl=INFO] [tid=1744] rbus.c:2841  rbus open (WanCnctvtyChkEventConsumer) success
+
+241007-14:40:21.370809 [mod=TDM, lvl=INFO] [tid=1744] rbus_subscriptions.c:447 file /tmp/rbus_subs_WanCnctvtyChkEventConsumer
+
+241007-14:40:22.402461 [mod=TDM, lvl=WARN] [tid=1744] Try to create empty object : Device.IP.
+241007-14:40:22.402634 [mod=TDM, lvl=WARN] [tid=1744] Register empty object : Device.IP.
+241007-14:40:22.402806 [mod=TDM, lvl=WARN] [tid=1744] Empty parameter name.
+241007-14:40:22.600192 [mod=TDM, lvl=WARN] [tid=1744] Search for empty object in 'dslhCpeCheckEmptyObject'
+241007-14:40:23.769972 [mod=TDM, lvl=INFO] [tid=1744] Test & Diagnostic Module loaded successfully...
+241007-14:40:23.770190 [mod=TDM, lvl=INFO] [tid=1744] rbuscore.c:2326 RBus Enabled
+
+241007-14:40:23.770283 [mod=TDM, lvl=INFO] [tid=1744] rbus.c:2765 rbus open for component: TestAndDiagnosticsRbus
+
+241007-14:40:23.770804 [mod=TDM, lvl=INFO] [tid=1744] rbus.c:2841  rbus open (TestAndDiagnosticsRbus) success
+
+241007-14:40:23.770972 [mod=TDM, lvl=INFO] [tid=1744] rbus_subscriptions.c:447 file /tmp/rbus_subs_TestAndDiagnosticsRbus
+
+241007-14:40:23.782374 [mod=TDM, lvl=ERROR] [tid=1744] syscfg_get failed for the parameter 'LatencyMeasure_IPv4Enable'
+241007-14:40:23.782587 [mod=TDM, lvl=ERROR] [tid=1744] syscfg_get failed for the parameter 'LatencyMeasure_IPv6Enable'
+241007-14:40:23.782667 [mod=TDM, lvl=ERROR] [tid=1744] syscfg_get failed for the parameter 'LatencyMeasure_PercentileCalc_Enable'
+241007-14:40:23.782746 [mod=TDM, lvl=ERROR] [tid=1744] syscfg_get failed for the parameter 'LatencyMeasure_TCPReportInterval'
+241007-14:40:23.787433 [mod=TDM, lvl=INFO] [tid=1744] sysevent_open success.
+241007-14:40:25.331166 [mod=TDM, lvl=WARN] [tid=2364] rbusValueChange_pollingThreadFunc: start
+241007-14:40:25.390296 [mod=TDM, lvl=WARN] [tid=1747] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241007-14:40:25.390524 [mod=TDM, lvl=WARN] [tid=1747] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241007-14:40:25.409212 [mod=TDM, lvl=WARN] [tid=1747] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241007-14:40:25.409352 [mod=TDM, lvl=WARN] [tid=1747] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241007-14:40:26.342173 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241007-14:40:26.342354 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241007-14:40:27.342912 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241007-14:40:27.343075 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241007-14:40:28.343496 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241007-14:40:28.343653 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241007-14:40:29.344077 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241007-14:40:29.344242 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241007-14:40:30.344683 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241007-14:40:30.344838 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241007-14:40:31.345283 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241007-14:40:31.345482 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241007-14:40:32.346189 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241007-14:40:32.346374 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241007-14:40:33.346807 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241007-14:40:33.346968 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241007-14:40:34.347380 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241007-14:40:34.347543 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241118-09:32:02.722669 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241118-09:32:02.722878 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241118-09:32:03.723459 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241118-09:32:03.723655 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241118-09:32:04.726269 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241118-09:32:04.726428 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241118-09:32:05.726945 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241118-09:32:05.727116 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241118-09:32:06.727584 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241118-09:32:06.727737 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241118-09:32:07.728317 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241118-09:32:07.728582 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241118-09:32:08.732437 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241118-09:32:08.732598 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241118-09:32:09.733086 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241118-09:32:09.733253 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241118-09:32:10.733831 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241118-09:32:10.734042 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241118-09:32:11.736340 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241118-09:32:11.736491 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241118-09:32:12.736956 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241118-09:32:12.737131 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241118-09:32:13.739119 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241118-09:32:13.739288 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241118-09:32:14.739754 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241118-09:32:14.739871 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241118-09:32:15.740388 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241118-09:32:15.740545 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241118-09:32:16.752821 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241118-09:32:16.752998 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241118-09:32:17.762182 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241118-09:32:17.771078 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241118-09:32:18.771687 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241118-09:32:18.771856 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241118-09:32:19.772387 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241118-09:32:19.772562 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241118-09:32:20.773344 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241118-09:32:20.773534 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241118-09:32:21.774038 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241118-09:32:21.774203 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241118-09:32:22.774702 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241118-09:32:22.774921 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241118-09:32:23.778085 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241118-09:32:23.778270 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241118-09:32:24.778741 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241118-09:32:24.778914 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241118-09:32:25.779382 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241118-09:32:25.779540 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241118-09:32:26.780002 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241118-09:32:26.780190 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241118-09:32:27.780749 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241118-09:32:27.780899 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241118-09:32:28.781341 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241118-09:32:28.781495 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241118-09:32:29.781944 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241118-09:32:29.782103 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241118-09:32:30.782586 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241118-09:32:30.782706 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241118-09:32:31.783176 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241118-09:32:31.783360 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241118-09:32:32.783819 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241118-09:32:32.783983 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241118-09:32:33.784627 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241118-09:32:33.784775 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241118-09:32:34.785236 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241118-09:32:34.785389 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241118-09:32:35.785898 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241118-09:32:35.786066 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241118-09:32:36.786539 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241118-09:32:36.786706 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241118-09:32:37.787159 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241118-09:32:37.787337 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241118-09:32:38.787783 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241118-09:32:38.787925 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241118-09:32:39.788450 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241118-09:32:39.788593 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241118-09:32:40.789145 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241118-09:32:40.789298 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241118-09:32:41.789900 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241118-09:32:41.790038 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241118-09:32:42.790571 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241118-09:32:42.790733 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241118-09:32:43.791238 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241118-09:32:43.791489 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241118-09:32:44.791990 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241118-09:32:44.792260 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241118-09:32:45.792773 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241118-09:32:45.792938 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241118-09:32:46.793409 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241118-09:32:46.793559 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241118-09:32:47.794088 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241118-09:32:47.794281 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241118-09:32:48.794775 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241118-09:32:48.794932 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241118-09:32:49.795422 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241118-09:32:49.795569 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241118-09:32:50.796268 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241118-09:32:50.796584 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241118-09:32:51.797216 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241118-09:32:51.797367 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241118-09:32:52.798139 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241118-09:32:52.798272 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241118-09:32:53.798784 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241118-09:32:53.798973 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241118-09:32:54.799435 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241118-09:32:54.799572 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241118-09:32:55.800023 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241118-09:32:55.800210 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241118-09:32:56.800945 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241118-09:32:56.801259 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241118-09:32:57.801740 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241118-09:32:57.801896 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241118-09:32:58.802386 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241118-09:32:58.802564 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241118-09:32:59.803073 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241118-09:32:59.803325 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241118-09:33:00.804479 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241118-09:33:00.804668 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241118-09:33:01.805196 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241118-09:33:01.805338 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241118-09:33:02.805833 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241118-09:33:02.805993 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241118-09:33:03.806493 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241118-09:33:03.806722 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241118-09:33:04.807188 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241118-09:33:04.807361 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241118-09:33:05.807820 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241118-09:33:05.807973 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241118-09:33:06.808490 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241118-09:33:06.808642 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241118-09:33:07.809123 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241118-09:33:07.809305 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.
+241118-09:33:08.809761 [mod=TDM, lvl=WARN] [tid=2364] !!! RDK_SpeedTest_GetParamUlongValue syscfg_get SubscriberUnPauseTimeOut Failed 
+241118-09:33:08.809917 [mod=TDM, lvl=WARN] [tid=2364] Failed to get parameter value of 'SubscriberUnPauseTimeOut'.

@@ -1,0 +1,7 @@
+{
+  "entity_name": "voice_hal_getMaxPreferredCodecs",
+  "component": "hal",
+  "content_hash": "ebd62adf01dcda25e23bbf877f9de12f",
+  "response": "## Main Functionality\n\n`voice_hal_getMaxPreferredCodecs` is an RDK HAL function that gets the maximum number of codecs which is preferred by the hardware or voice service.\n\n## Key Operations and Data Flow\n\nThis function takes as input the voice service, profile, and a pointer to an integer which will store the maximum number of preferred codecs. It then queries the underlying HAL implementation to obtain this information and returns the result.\n\n## Interaction with Other Components\n\nThis function interacts with the HAL implementation to obtain the maximum number of preferred codecs.\n\n## Important Parameters and Return Values\n\n- `service`: The voice service for which to obtain the maximum number of preferred codecs.\n- `profile`: The voice profile for which to obtain the maximum number of preferred codecs.\n- `maxPrefCodecs`: A pointer to an integer which will store the maximum number of preferred codecs.\n- Return value: The function returns RDK_SUCCESS if successful, otherwise RDK_FAILURE.\n\n## Specific RDK-Related Operations\n\nThis function is part of the RDK HAL API for voice services. It provides a common interface for interacting with the HAL implementation, regardless of the underlying hardware or software.",
+  "processed_at": "2024-11-14T12:02:58.717415"
+}

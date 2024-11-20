@@ -1,0 +1,7 @@
+{
+  "entity_name": "queue_push",
+  "component": "CcspWifiAgent",
+  "content_hash": "733587116e88146a7ce2ca79f5815c8e",
+  "response": "**1. Main purpose and functionality:**\n   - This function adds a new element to the head of a queue.\n\n**2. Key operations and data flow:**\n   - Allocates memory for a new element.\n   - Initializes the new element's data.\n   - If the queue is empty, sets the new element as the head.\n   - Otherwise, sets the new element as the head and points it to the previous head.\n\n**3. Interaction with other components (if any):**\n   - None specified in the provided code.\n\n**4. Important parameters and return values:**\n   - **q**: Pointer to the queue to which the element is being added.\n   - **data**: Pointer to the data to be added to the queue.\n   - **Return value**: 0 on success, -1 on failure to allocate memory.\n\n**5. Any specific RDK-related operations:**\n   - None specified in the provided code.",
+  "processed_at": "2024-11-13T15:06:41.819970"
+}

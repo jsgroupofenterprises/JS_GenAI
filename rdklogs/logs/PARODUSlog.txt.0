@@ -1,0 +1,93 @@
+241007-14:40:24.310467 [mod=PARODUS, lvl=INFO] [tid=2236] PARODUS: RAND_MAX is 2147483647 (0x7fffffff)
+241007-14:40:24.311416 [mod=PARODUS, lvl=INFO] [tid=2236] PARODUS: ********** Starting component: Parodus **********
+ 241007-14:40:24.320270 [mod=PARODUS, lvl=INFO] [tid=2236] PARODUS: rbusEvent_Subscribe was successful
+241007-14:40:24.332517 [mod=PARODUS, lvl=INFO] [tid=2236] PARODUS: Register xmidt sendData method Device.X_RDK_Xmidt.SendData success
+241007-14:40:24.333778 [mod=PARODUS, lvl=INFO] [tid=2236] PARODUS: processXmidtData thread created Successfully
+241007-14:40:24.337148 [mod=PARODUS, lvl=INFO] [tid=2236] PARODUS: Setting default values to parodusCfg
+241007-14:40:24.337265 [mod=PARODUS, lvl=INFO] [tid=2236] PARODUS:  cfg->webpa_protocol is PARODUS-2.0-2.0.0-123-gdf7df9d
+241007-14:40:24.337334 [mod=PARODUS, lvl=INFO] [tid=2236] PARODUS: Default cloud_status is offline
+241007-14:40:24.337401 [mod=PARODUS, lvl=INFO] [tid=2236] PARODUS: Parsing parodus command line arguments..
+241007-14:40:24.337485 [mod=PARODUS, lvl=INFO] [tid=2236] PARODUS: hw-model is RPI
+241007-14:40:24.337555 [mod=PARODUS, lvl=INFO] [tid=2236] PARODUS: hw_serial_number is 100000002eb49f1b
+241007-14:40:24.337621 [mod=PARODUS, lvl=INFO] [tid=2236] PARODUS: hw_manufacturer is Raspberry
+241007-14:40:24.337688 [mod=PARODUS, lvl=INFO] [tid=2236] PARODUS: hw_last_reboot_reason is unknown
+241007-14:40:24.337755 [mod=PARODUS, lvl=INFO] [tid=2236] PARODUS: fw_name is rdkb-generic-broadband-image_rdkb-2024q1-dunfell_20241114094225
+241007-14:40:24.337866 [mod=PARODUS, lvl=INFO] [tid=2236] PARODUS: boot_time is 1728311992
+241007-14:40:24.338369 [mod=PARODUS, lvl=INFO] [tid=2236] PARODUS: hw_mac is d83add0aa977
+241007-14:40:24.338454 [mod=PARODUS, lvl=INFO] [tid=2236] PARODUS: webpa_ping_timeout is 180
+241007-14:40:24.338523 [mod=PARODUS, lvl=INFO] [tid=2236] PARODUS: webpa_interface_used is erouter0
+241007-14:40:24.338602 [mod=PARODUS, lvl=INFO] [tid=2236] PARODUS: webpa_url is http://webpa.rdkcentral.com:8080
+241007-14:40:24.338672 [mod=PARODUS, lvl=INFO] [tid=2236] PARODUS: webpa_backoff_max is 9
+241007-14:40:24.338741 [mod=PARODUS, lvl=INFO] [tid=2236] PARODUS: parodus local_url is tcp://127.0.0.1:6666
+241007-14:40:24.338870 [mod=PARODUS, lvl=INFO] [tid=2236] PARODUS: partner_id is comcast
+241007-14:40:24.338941 [mod=PARODUS, lvl=INFO] [tid=2236] PARODUS: cert_path is /etc/ssl/certs/ca-certificates.crt
+241007-14:40:24.339008 [mod=PARODUS, lvl=INFO] [tid=2236] PARODUS: Force IPv4
+241007-14:40:24.371114 [mod=PARODUS, lvl=INFO] [tid=2236] PARODUS: Subscribing to Device.X_RDK_WanManager.CurrentActiveInterface Event
+241007-14:40:24.371465 [mod=PARODUS, lvl=INFO] [tid=2236] PARODUS: Received reboot_reason as:unknown
+241007-14:40:24.371547 [mod=PARODUS, lvl=INFO] [tid=2236] PARODUS: Received reconnect_reason as:webpa_process_starts
+241007-14:40:24.371632 [mod=PARODUS, lvl=INFO] [tid=2236] PARODUS: User-Agent: PARODUS-2.0-2.0.0-123-gdf7df9d (rdkb-generic-broadband-image_rdkb-2024q1-dunfell_20241114094225; RPI/Raspberry;)
+241007-14:40:24.382664 [mod=PARODUS, lvl=INFO] [tid=2261] PARODUS: subscribeAsyncHandler event Device.X_RDK_WanManager.CurrentActiveInterface, error 0 - ok
+241007-14:40:24.383146 [mod=PARODUS, lvl=INFO] [tid=2236] PARODUS: X-WebPA-Convey Header: [356]{"hw-model":"RPI","hw-serial-number":"100000002eb49f1b","hw-manufacturer":"Raspberry","fw-name":"rdkb-generic-broadband-image_rdkb-2024q1-dunfell_20241114094225","boot-time":1728311992,"webpa-protocol":"PARODUS-2.0-2.0.0-123-gdf7df9d","webpa-interface-used":"erouter0","hw-last-reboot-reason":"unknown","webpa-last-reconnect-reason":"webpa_process_starts"}
+241007-14:40:24.383390 [mod=PARODUS, lvl=INFO] [tid=2236] PARODUS: Device_id mac:d83add0aa977
+241007-14:40:24.383473 [mod=PARODUS, lvl=INFO] [tid=2236] PARODUS: full url: http://webpa.rdkcentral.com:8080
+241007-14:40:24.386242 [mod=PARODUS, lvl=INFO] [tid=2236] PARODUS: server address copied from url
+241007-14:40:24.386390 [mod=PARODUS, lvl=INFO] [tid=2236] PARODUS: server webpa.rdkcentral.com, port 8080, http_match 1
+241007-14:40:24.386461 [mod=PARODUS, lvl=INFO] [tid=2236] PARODUS: default server_Address webpa.rdkcentral.com
+241007-14:40:24.386625 [mod=PARODUS, lvl=INFO] [tid=2236] PARODUS: default port 8080
+241007-14:40:24.398146 [mod=PARODUS, lvl=ERROR] [tid=2236] PARODUS: ../../git/src/nopoll_conn.c:304 unable to resolve v4 host name webpa.rdkcentral.com, errno=11 
+241007-14:40:24.398394 [mod=PARODUS, lvl=ERROR] [tid=2236] PARODUS: ../../git/src/nopoll_conn.c:946 Failed to connect to remote host webpa.rdkcentral.com:8080 
+241007-14:40:24.400577 [mod=PARODUS, lvl=ERROR] [tid=2236] PARODUS: getaddrinfo: Temporary failure in name resolution
+241007-14:40:24.400738 [mod=PARODUS, lvl=INFO] [tid=2236] PARODUS: Waiting max delay 3 backoffRetryTime 3 secs 0 usecs
+241007-14:40:24.404426 [mod=PARODUS, lvl=INFO] [tid=2263] PARODUS: Initial cloud connection is not established, Xmidt wait till connection up
+241007-14:40:27.400898 [mod=PARODUS, lvl=INFO] [tid=2236] PARODUS: full url: http://webpa.rdkcentral.com:8080
+241007-14:40:27.401056 [mod=PARODUS, lvl=INFO] [tid=2236] PARODUS: server address copied from url
+241007-14:40:27.401147 [mod=PARODUS, lvl=INFO] [tid=2236] PARODUS: server webpa.rdkcentral.com, port 8080, http_match 1
+241007-14:40:27.401218 [mod=PARODUS, lvl=INFO] [tid=2236] PARODUS: default server_Address webpa.rdkcentral.com
+241007-14:40:27.401286 [mod=PARODUS, lvl=INFO] [tid=2236] PARODUS: default port 8080
+241007-14:40:27.403101 [mod=PARODUS, lvl=ERROR] [tid=2236] PARODUS: ../../git/src/nopoll_conn.c:304 unable to resolve v4 host name webpa.rdkcentral.com, errno=11 
+241007-14:40:27.403264 [mod=PARODUS, lvl=ERROR] [tid=2236] PARODUS: ../../git/src/nopoll_conn.c:946 Failed to connect to remote host webpa.rdkcentral.com:8080 
+241007-14:40:27.404272 [mod=PARODUS, lvl=ERROR] [tid=2236] PARODUS: getaddrinfo: Temporary failure in name resolution
+241007-14:40:27.404396 [mod=PARODUS, lvl=INFO] [tid=2236] PARODUS: Waiting max delay 7 backoffRetryTime 4 secs 257741 usecs
+241007-14:40:31.662287 [mod=PARODUS, lvl=INFO] [tid=2236] PARODUS: full url: http://webpa.rdkcentral.com:8080
+241007-14:40:31.662450 [mod=PARODUS, lvl=INFO] [tid=2236] PARODUS: server address copied from url
+241007-14:40:31.662527 [mod=PARODUS, lvl=INFO] [tid=2236] PARODUS: server webpa.rdkcentral.com, port 8080, http_match 1
+241007-14:40:31.662597 [mod=PARODUS, lvl=INFO] [tid=2236] PARODUS: default server_Address webpa.rdkcentral.com
+241007-14:40:31.662664 [mod=PARODUS, lvl=INFO] [tid=2236] PARODUS: default port 8080
+241007-14:40:31.663655 [mod=PARODUS, lvl=ERROR] [tid=2236] PARODUS: ../../git/src/nopoll_conn.c:304 unable to resolve v4 host name webpa.rdkcentral.com, errno=11 
+241007-14:40:31.663810 [mod=PARODUS, lvl=ERROR] [tid=2236] PARODUS: ../../git/src/nopoll_conn.c:946 Failed to connect to remote host webpa.rdkcentral.com:8080 
+241007-14:40:31.664880 [mod=PARODUS, lvl=ERROR] [tid=2236] PARODUS: getaddrinfo: Temporary failure in name resolution
+241007-14:40:31.665034 [mod=PARODUS, lvl=INFO] [tid=2236] PARODUS: Waiting max delay 15 backoffRetryTime 8 secs 256400 usecs
+241007-14:40:33.244606 [mod=PARODUS, lvl=INFO] [tid=2260] PARODUS: Consumer received ValueChange event for param Device.X_RDK_WanManager.CurrentActiveInterface
+241007-14:40:33.244755 [mod=PARODUS, lvl=INFO] [tid=2260] PARODUS: New Value: erouter0 Old Value:  New Interface Value: erouter0
+241118-09:32:07.295823 [mod=PARODUS, lvl=INFO] [tid=2236] PARODUS: full url: http://webpa.rdkcentral.com:8080
+241118-09:32:07.296003 [mod=PARODUS, lvl=INFO] [tid=2236] PARODUS: server address copied from url
+241118-09:32:07.296315 [mod=PARODUS, lvl=INFO] [tid=2236] PARODUS: server webpa.rdkcentral.com, port 8080, http_match 1
+241118-09:32:07.296391 [mod=PARODUS, lvl=INFO] [tid=2236] PARODUS: default server_Address webpa.rdkcentral.com
+241118-09:32:07.296460 [mod=PARODUS, lvl=INFO] [tid=2236] PARODUS: default port 8080
+241118-09:32:07.357359 [mod=PARODUS, lvl=INFO] [tid=2236] PARODUS: ../../git/src/nopoll_conn.c:336 IPv4 address of webpa.rdkcentral.com is 52.88.248.43 
+ 
+241118-09:32:07.357698 [mod=PARODUS, lvl=INFO] [tid=2236] PARODUS: ../../git/src/nopoll_conn.c:382 Create socket with non blocking-mode 
+241118-09:32:07.620877 [mod=PARODUS, lvl=INFO] [tid=2236] PARODUS: ../../git/src/nopoll_conn.c:263 Result of wait after connect EINPROGRESS = 0
+ 
+241118-09:32:07.889739 [mod=PARODUS, lvl=INFO] [tid=2236] PARODUS: ../../git/src/nopoll_conn.c:5393 *****End nopoll_conn_wait_for_status_until_connection_ready **** 
+241118-09:32:07.889905 [mod=PARODUS, lvl=INFO] [tid=2236] PARODUS: Connected to server
+241118-09:32:07.890014 [mod=PARODUS, lvl=INFO] [tid=2236] PARODUS: connect_time-diff-boot_time=47
+241118-09:32:07.890205 [mod=PARODUS, lvl=INFO] [tid=2236] PARODUS: metadata encoding is successful with size 400
+241118-09:32:07.890349 [mod=PARODUS, lvl=INFO] [tid=2263] PARODUS: Received cloud status signal proceed to event processing
+241118-09:32:07.890472 [mod=PARODUS, lvl=INFO] [tid=2236] PARODUS: cloud_status set as online after successful connection
+241118-09:32:07.892142 [mod=PARODUS, lvl=INFO] [tid=2236] PARODUS: libseshat disabled, Hence proceeding without registration
+241118-09:32:07.896842 [mod=PARODUS, lvl=INFO] [tid=3987] PARODUS: No clients are registered, waiting ..
+241118-09:32:07.899460 [mod=PARODUS, lvl=INFO] [tid=3984] PARODUS: nanomsg server gone into the listening mode...
+241118-09:32:10.137666 [mod=PARODUS, lvl=INFO] [tid=3984] PARODUS: Upstream message received from nanomsg client
+241118-09:32:10.138182 [mod=PARODUS, lvl=INFO] [tid=3985] PARODUS: 
+ Nanomsg client Registration for Upstream
+241118-09:32:10.139229 [mod=PARODUS, lvl=INFO] [tid=3985] PARODUS: Adding first client to list
+241118-09:32:10.139340 [mod=PARODUS, lvl=INFO] [tid=3985] PARODUS: client service config is added to list with url: tcp://192.168.101.3:6667
+241118-09:32:10.139407 [mod=PARODUS, lvl=INFO] [tid=3985] PARODUS: sending auth status to reg client
+241118-09:32:10.139527 [mod=PARODUS, lvl=INFO] [tid=3985] PARODUS: Client config Registered successfully. Sending Acknowledgement... 
+ 241118-09:32:10.139595 [mod=PARODUS, lvl=INFO] [tid=3985] PARODUS: Sending ack:new_node->sock 1 service:config
+241118-09:32:10.169924 [mod=PARODUS, lvl=INFO] [tid=3984] PARODUS: Upstream message received from nanomsg client
+241118-09:32:10.170165 [mod=PARODUS, lvl=INFO] [tid=3985] PARODUS:  Received upstream event data: dest 'event:device-status/mac:d83add0aa977/operational/1731922281'
+241118-09:32:10.170373 [mod=PARODUS, lvl=INFO] [tid=3985] PARODUS: Sending response to server
+241118-09:32:10.170452 [mod=PARODUS, lvl=INFO] [tid=3985] PARODUS: sendMessage length 652
+241118-09:32:52.888529 [mod=PARODUS, lvl=INFO] [tid=2236] PARODUS: Ping received with payload mac:d83add0aa977, opcode 9

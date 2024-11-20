@@ -1,0 +1,7 @@
+{
+  "entity_name": "rdk_wifi_GetRapidReconnectEnable",
+  "component": "CcspWifiAgent",
+  "content_hash": "9546dc4b2f4c0fdeaf34f462173ac8b4",
+  "response": "**1. Main purpose and functionality**\n\nThe function `rdk_wifi_GetRapidReconnectEnable` retrieves the Rapid Reconnect Enable setting for the specified WLAN interface.\n\n**2. Key operations and data flow**\n\nThe function first calls `rdk_wifi_vap_get_from_index` to retrieve the VAP (Virtual Access Point) map associated with the specified index. The VAP map contains information about the specified WLAN interface. If the call is successful, the function then retrieves the Rapid Reconnect Enable setting from the VAP map and stores it in the provided `reconnectCountEnable` pointer.\n\n**3. Interaction with other components (if any)**\n\nThe function interacts with the RDK Wifi VAP Manager component to retrieve the VAP map.\n\n**4. Important parameters and return values**\n\n* **wlanIndex**: The index of the WLAN interface for which the Rapid Reconnect Enable setting is to be retrieved.\n* **reconnectCountEnable**: A pointer to a boolean variable that will receive the Rapid Reconnect Enable setting. The setting is a 0 or a 1, where 0 indicates that Rapid Reconnect is disabled and 1 indicates that it is enabled.\n* The function returns a CCSP status code, which indicates the success or failure of the operation.\n\n**5. Any specific RDK-related operations**\n\nThe function uses the RDK Wifi VAP Manager API to retrieve the VAP map.",
+  "processed_at": "2024-11-13T15:35:54.257530"
+}

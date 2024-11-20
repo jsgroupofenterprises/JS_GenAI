@@ -1,0 +1,12 @@
+[OneWifi] 241007-14:40:21.449304<E>  init_wifimgr: drop_root function failed!
+[OneWifi] 241007-14:40:21.625766<E>  init_wifi_hal: ow core thread disabled
+[OneWifi] 241007-14:40:21.739985<I>  WiFiDB FRcase factory_reset is false
+[OneWifi] 241007-14:40:22.304558<I>  init_wifimgr: wifi ctrl initalization success
+[OneWifi] 241007-14:40:23.546937<I>  start_dml_main:718:ssp_main thread started
+[OneWifi] 241007-14:40:23.547229<I>  start_wifimgr: waiting for dml init
+[OneWifi] 241007-14:40:24.856390<I>  get_all_param_from_psm_and_set_into_db 
+[OneWifi] 241007-14:40:24.858575<I>  get_all_param_from_psm_and_set_into_db 
+[OneWifi] 241007-14:40:26.589622<I>  get_all_param_from_psm_and_set_into_db Done
+[OneWifi] 241007-14:40:26.689501<I>  set_dml_init_status Marking DML Init Complete. Start Wifi Ctrl
+[OneWifi] 241007-14:40:26.689935<I>  start_wifimgr: dml init complete
+[OneWifi] 241007-14:40:28.639980<E>  [validate_and_sync_private_vap_credentials:1594] Rbus error in setting: Device.X_RDK_WebConfig.webcfgSubdocForceReset

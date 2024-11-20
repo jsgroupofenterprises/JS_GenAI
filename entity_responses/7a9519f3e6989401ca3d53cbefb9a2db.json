@@ -1,0 +1,7 @@
+{
+  "entity_name": "pjs_real_t_from_json",
+  "component": "CcspWifiAgent",
+  "content_hash": "7a9519f3e6989401ca3d53cbefb9a2db",
+  "response": "**1. Main purpose and functionality**:\n   - Convert a JSON value into a double-precision floating-point number.\n\n**2. Key operations and data flow**:\n   - Checks if the input JSON value is valid and is a number.\n   - If valid, it extracts the double value from the JSON data and stores it in the provided memory location.\n\n**3. Interaction with other components (if any)**:\n   - None mentioned in the provided code.\n\n**4. Important parameters and return values**:\n   - **data**: Pointer to the memory location where the converted double value will be stored.\n   - **idx**: Not used in the current implementation.\n   - **jsdata**: JSON value to be converted.\n   - **Return value**: Boolean indicating success or failure of the conversion.\n\n**5. Any specific RDK-related operations**:\n   - None mentioned in the provided code.",
+  "processed_at": "2024-11-13T16:28:43.554418"
+}

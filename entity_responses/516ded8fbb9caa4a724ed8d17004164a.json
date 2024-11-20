@@ -1,0 +1,7 @@
+{
+  "entity_name": "wifi_getApATMAirTimePercent",
+  "component": "hal",
+  "content_hash": "516ded8fbb9caa4a724ed8d17004164a",
+  "response": "1. **Main purpose and functionality**\n   - DPP (Device Provisioning Protocol) is a protocol used by Wi-Fi devices to securely establish a Wi-Fi connection between a device and an access point (AP). It's a secure and easy way to connect devices to a Wi-Fi network without having to manually enter a password.\n\n2. **Key operations and data flow**\n   - DPP involves two main steps:\n     - Device discovery: The device and AP discover each other and exchange information such as their MAC addresses and supported security protocols.\n     - Authentication and key exchange: The device and AP authenticate each other and establish a secure connection using a Diffie-Hellman key exchange.\n\n3. **Interaction with other components (if any)**\n   - DPP interacts with the Wi-Fi driver and the network management system.\n\n4. **Important parameters and return values**\n   - Important parameters include the device's MAC address, the AP's MAC address, and the security protocol used.\n   - Return values indicate the success or failure of the DPP process.\n\n5. **Any specific RDK-related operations**\n   - RDK provides a DPP module that can be used by device manufacturers to implement DPP in their devices. The RDK DPP module provides a set of APIs that can be used to perform DPP operations, such as device discovery, authentication, and key exchange.",
+  "processed_at": "2024-11-14T12:57:06.043127"
+}

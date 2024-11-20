@@ -1,0 +1,7 @@
+{
+  "entity_name": "hapd_reload_radius_server_port",
+  "component": "CcspWifiAgent",
+  "content_hash": "9e0cc3dd5fa70c621a10c2cb8bb9ef1b",
+  "response": "### Function Analysis\n\n**1. Main Purpose and Functionality**\n\nThe `hapd_reload_radius_server_port` function reloads the RADIUS server port configuration in the hostapd configuration. It updates either the port of the primary RADIUS server or the port of the secondary RADIUS server, depending on the value of the `isPrimary` parameter.\n\n**2. Key Operations and Data Flow**\n\n- Checks if the RADIUS server is primary.\n- If primary, updates the port of the primary RADIUS server in the hostapd configuration.\n- If not primary, updates the port of the secondary RADIUS server in the hostapd configuration.\n\n**3. Interaction with Other Components (if any)**\n\nThis function interacts with the hostapd component to update the RADIUS server port configuration.\n\n**4. Important Parameters and Return Values**\n\n- `hapd`: Pointer to the hostapd data structure.\n- `conf`: Pointer to the hostapd BSS configuration structure.\n- `radiusServerPort`: The new port number for the RADIUS server.\n- `isPrimary`: Indicates whether the updated port belongs to the primary or secondary RADIUS server.\n- Return Value: None (void function).\n\n**5. Any Specific RDK-related Operations**\n\nThis function is not directly related to RDK-specific operations. It is used for reloading the RADIUS server port configuration in the hostapd component.",
+  "processed_at": "2024-11-13T15:26:43.299624"
+}

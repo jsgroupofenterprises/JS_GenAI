@@ -1,0 +1,7 @@
+{
+  "entity_name": "wifi_newApAssociatedDevice_callback_register",
+  "component": "hal",
+  "content_hash": "33b33538a4582076d57fdfddc8441f20",
+  "response": "1. **Main purpose and functionality**: \nThe `wifi_newApAssociatedDevice_callback_register` function in the RDK hal component allows registering a callback function that will be invoked when a new device associates with an Access Point (AP). \n2. **Key operations and data flow**: \n- The function takes a callback function as an argument, which should have the following signature:\n```\ntypedef INT (*wifi_newApAssociatedDevice_callback)(INT apIndex, char *MAC);\n```\n- When a new device associates with an AP, the registered callback function will be invoked with the AP index and the MAC address of the associated device.\n3. **Interaction with other components (if any)**:\n - This function interacts with the Wi-Fi driver to register the callback function. \n4. **Important parameters and return values**:\n - **callback_proc**: The callback function to be registered.\n - **Return value**: None.  \n5. **Any specific RDK-related operations**: \n - None.",
+  "processed_at": "2024-11-14T12:38:55.212550"
+}

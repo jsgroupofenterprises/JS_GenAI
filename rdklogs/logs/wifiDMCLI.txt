@@ -1,0 +1,8 @@
+[OneWifi] 241007-14:40:26.591519<I>  rbus_dmlwebconfig_register  rbus open success
+[OneWifi] 241007-14:40:26.639418<I>  init 609 rbus_get WIFI_WEBCONFIG_INIT_DML_DATA successfull 
+[OneWifi] 241007-14:40:26.674523<I>  init 634 webconfig_decode success 
+[OneWifi] 241007-14:40:26.781529<I>  Enter:push_rfc_dml_cache_to_one_wifidb  
+[OneWifi] 241007-14:40:26.810225<I>  Enter:push_rfc_dml_cache_to_one_wifidb  
+[OneWifi] 241007-14:40:31.844542<I>  set_webconfig_dml_data:351: hal capability update
+[OneWifi] 241007-14:40:31.866398<I>  set_webconfig_dml_data 358 webconfig_decode success 
+[OneWifi] 241007-14:40:31.867060<I>  dml_cache_update:306 subdoc parse and update dml global cache:10

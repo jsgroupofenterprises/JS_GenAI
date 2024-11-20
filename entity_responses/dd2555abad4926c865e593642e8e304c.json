@@ -1,0 +1,7 @@
+{
+  "entity_name": "voice_hal_getVoiceProcessState",
+  "component": "hal",
+  "content_hash": "dd2555abad4926c865e593642e8e304c",
+  "response": "**1. Main purpose and functionality**\n\nThe `voice_hal_getVoiceProcessState` function is used to retrieve the current execution state of the voice process under HAL. This state can be VOIC_PROCESS_STATUS_STOPPED, VOICE_PROCESS_STATUS_STARTING, VOICE_PROCESS_STATUS_STARTED, or VOICE_PROCESS_STATUS_STOPPING.\n\n**2. Key operations and data flow**\n\nThe function takes a service parameter that identifies the voice service to be queried, and a pointer to a `VoiceProcessStateRequest_e` enumeration that will be updated with the current state of the voice process.\n\n**3. Interaction with other components (if any)**\n\nThis function interacts with the underlying voice processing software to retrieve the current state of the voice process.\n\n**4. Important parameters and return values**\n\nThe following parameters are important to note:\n\n* `service`: The voice service to be queried.\n* `pvoice_state`: A pointer to a `VoiceProcessStateRequest_e` enumeration that will be updated with the current state of the voice process.\n\nThe function returns an integer status code. A value of RDK_SUCCESS indicates that the function was successful, while a value of RDK_FAILURE indicates that an error occurred.\n\n**5. Any specific RDK-related operations**\n\nThis function is specific to the RDK voice HAL and is not available in other platforms.",
+  "processed_at": "2024-11-14T10:57:00.263001"
+}

@@ -1,0 +1,7 @@
+{
+  "entity_name": "CcspHalExtSw_setEthWanPort",
+  "component": "hal",
+  "content_hash": "f86e7bbc00cd1482254285321d28bbb9",
+  "response": "1. **Main purpose and functionality**:\n\nThe `CcspHalExtSw_setEthWanPort` function sets the WAN port for the external switch. It takes a port number as input and sets the WAN port accordingly.\n\n2. **Key operations and data flow**:\n\nThe function first checks if the port number is valid. If it is not, it returns an error. Otherwise, it sets the WAN port to the specified port number.\n\n3. **Interaction with other components (if any)**:\n\nThis function interacts with the external switch to set the WAN port.\n\n4. **Important parameters and return values**:\n\n- `Port`: The port number to set as the WAN port.\n- `RETURN_OK`: The function was successful.\n- `RETURN_ERR`: The function failed.\n\n5. **Any specific RDK-related operations**:\n\nThis function is specific to RDK and is used to set the WAN port for the external switch.",
+  "processed_at": "2024-11-14T10:43:20.407005"
+}

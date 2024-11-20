@@ -1,0 +1,7 @@
+{
+  "entity_name": "voice_hal_getCountProfiles",
+  "component": "hal",
+  "content_hash": "e46c1aa8931d9ab5ed55f99e5a400edd",
+  "response": "### Main purpose and functionality\n\nThe function `voice_hal_getCountProfiles` gets the count of voice profiles present on the device.\n\n### Key operations and data flow\n\nThe function takes the service as input and returns the count of profiles.\n\n### Interaction with other components (if any)\n\nThis function interacts with the voice service manager to get the count of profiles.\n\n### Important parameters and return values\n\n- `service`: The voice service for which the count of profiles is being queried.\n- `profileCount`: The output parameter that will contain the count of profiles.\n\n### Any specific RDK-related operations\n\nThis function is part of the RDK voice HAL API.",
+  "processed_at": "2024-11-14T11:05:13.980292"
+}

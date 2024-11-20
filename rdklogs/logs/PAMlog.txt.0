@@ -1,0 +1,760 @@
+241007-14:40:07.885116 [mod=PAM, lvl=WARN] [tid=927] 
+Subsystem is eRT.
+241007-14:40:07.888952 [mod=PAM, lvl=INFO] [tid=927] PAM_DBG:------- daemonize call hit -----------
+241007-14:40:07.889407 [mod=PAM, lvl=INFO] [tid=927] PAM_DBG:---------------------daemonize calls fork------------------------
+241007-14:40:07.892671 [mod=PAM, lvl=INFO] [tid=927] PAM_DBG:--------------waiting for child process to initialize------------
+241007-14:40:07.893157 [mod=PAM, lvl=INFO] [tid=944] PAM_DBG:--------------child process begins---------------
+241007-14:40:07.896553 [mod=PAM, lvl=INFO] [tid=927] PAM_DBG:------------uptime before waiting for sem is 15 seconds ---------------
+241007-14:40:07.897005 [mod=PAM, lvl=INFO] [tid=927] PAM_DBG:----------------sem_getvalue returns value = 0 -------------
+241007-14:40:07.897053 [mod=PAM, lvl=INFO] [tid=944] Connect to bus daemon...
+241007-14:40:07.898152 [mod=PAM, lvl=WARN] [tid=944] RBus is enabled
+241007-14:40:07.898497 [mod=PAM, lvl=INFO] [tid=944] rbuscore.c:2326 RBus Enabled
+
+241007-14:40:07.898707 [mod=PAM, lvl=INFO] [tid=944] rbuscore.c:643 Broker address: unix:///tmp/rtrouted
+
+241007-14:40:07.908572 [mod=PAM, lvl=INFO] [tid=944] connection opened for eRT.com.cisco.spvtg.ccsp.pam
+241007-14:40:07.924700 [mod=PAM, lvl=INFO] [tid=944] eRT.com.cisco.spvtg.ccsp.pam start to check eRT.com.cisco.spvtg.ccsp.psm status
+241007-14:40:07.931209 [mod=PAM, lvl=INFO] [tid=944] eRT.com.cisco.spvtg.ccsp.psm is ready, eRT.com.cisco.spvtg.ccsp.pam continue
+241007-14:40:07.931345 [mod=PAM, lvl=INFO] [tid=944] !!! Connected to message bus... bus_handle: 0x0x19cabe30 !!!
+241007-14:40:08.931981 [mod=PAM, lvl=INFO] [tid=944] CcspBaseIf_Register_Event_rbus : rbus_registerEvent called for event: currentSessionIDSignal
+241007-14:40:08.934595 [mod=PAM, lvl=INFO] [tid=944] rbuscore.c:742 Subscription for _rbus_session_mgr::currentSessionIDSignal is now active.
+
+241007-14:40:08.935875 [mod=PAM, lvl=WARN] [tid=944] Register empty object : com.
+241007-14:40:08.936025 [mod=PAM, lvl=WARN] [tid=944] Register empty object : com.cisco.
+241007-14:40:08.936123 [mod=PAM, lvl=WARN] [tid=944] Register empty object : com.cisco.spvtg.
+241007-14:40:08.936258 [mod=PAM, lvl=WARN] [tid=944] Register empty object : com.cisco.spvtg.ccsp.
+241007-14:40:08.937498 [mod=PAM, lvl=WARN] [tid=944] DM Library module name = CCSP Base Data Model
+241007-14:40:09.026757 [mod=PAM, lvl=WARN] [tid=944] DM Library module name = COSA_TR181_USGv2
+241007-14:40:09.030517 [mod=PAM, lvl=WARN] [tid=944] Loading DM library libtr181.so...
+241007-14:40:09.194210 [mod=PAM, lvl=WARN] [tid=944] RDKB_SYSTEM_BOOT_UP_LOG : Entering CosaBackEndManagerCreate 243
+241007-14:40:09.194381 [mod=PAM, lvl=WARN] [tid=944] CosaBackEndManagerInitialize...
+241007-14:40:09.194479 [mod=PAM, lvl=WARN] [tid=944] RDKB_SYSTEM_BOOT_UP_LOG : PandM DM initialize...
+241007-14:40:09.205441 [mod=PAM, lvl=WARN] [tid=944] CosaDmlNatInit Error get HS port forward enabled
+241007-14:40:09.243006 [mod=PAM, lvl=INFO] [tid=944] !!! Ready to Utopia_GetDMZSettings !!!
+241007-14:40:09.243224 [mod=PAM, lvl=INFO] [tid=944] !!! After Utopia_GetDMZSettings !!!
+241007-14:40:09.243328 [mod=PAM, lvl=WARN] [tid=944] !!!!!!!! in CosaNatSyncPortTrigger !!!!!!!!
+241007-14:40:09.243520 [mod=PAM, lvl=WARN] [tid=944] !!!!!! In CosaNatRegGetNatInfo !!!!!!
+241007-14:40:09.257175 [mod=PAM, lvl=WARN] [tid=944] !!!!!! ulEntryCount for PortTrigger: 0 !!!!!!
+241007-14:40:09.259009 [mod=PAM, lvl=WARN] [tid=944]   CosaNatCreate done!
+241007-14:40:09.259229 [mod=PAM, lvl=WARN] [tid=944]   CosaProcStatusCreate done!
+241007-14:40:09.263613 [mod=PAM, lvl=WARN] [tid=944] syscfg_get failed
+241007-14:40:09.270357 [mod=PAM, lvl=WARN] [tid=944] syscfg_get failed
+241007-14:40:09.272171 [mod=PAM, lvl=INFO] [tid=944] CosaDeriveSyndicationPartnerID 
+241007-14:40:09.274212 [mod=PAM, lvl=WARN] [tid=944] CosaDmlDiUiBrandingInit : Partner = RDKM 
+241007-14:40:09.275110 [mod=PAM, lvl=WARN] [tid=944] FillPartnerIDValues - AllowEthernetWAN is NULL
+241007-14:40:09.275250 [mod=PAM, lvl=WARN] [tid=944] FillPartnerIDValues - SyndicationFlowControl.Enable Object is NULL
+241007-14:40:09.275457 [mod=PAM, lvl=WARN] [tid=944] FillPartnerIDValues - InitialForwardedMark is NULL
+241007-14:40:09.275557 [mod=PAM, lvl=WARN] [tid=944] FillPartnerIDValues - InitialOutputMark is NULL
+241007-14:40:09.275647 [mod=PAM, lvl=WARN] [tid=944] FillPartnerIDValues - TR69CertLocation Object is found
+241007-14:40:09.275741 [mod=PAM, lvl=WARN] [tid=944] FillPartnerIDValues - MeshRedirectorURL Object is found
+241007-14:40:09.275833 [mod=PAM, lvl=WARN] [tid=944] FillPartnerIDValues - AdvsecRedirectorURL Object is found
+241007-14:40:09.275931 [mod=PAM, lvl=WARN] [tid=944] FillPartnerIDValues - XconfURL Object is found
+241007-14:40:09.276027 [mod=PAM, lvl=WARN] [tid=944] FillPartnerIDValues - LogUploadURL Object is found
+241007-14:40:09.276126 [mod=PAM, lvl=WARN] [tid=944] FillPartnerIDValues - Telemetry Object is found
+241007-14:40:09.276223 [mod=PAM, lvl=WARN] [tid=944] FillPartnerIDValues - CrashPortal Object is found
+241007-14:40:09.276300 [mod=PAM, lvl=WARN] [tid=944] FillPartnerIDValues -Disabling SSH on WAN side
+241007-14:40:09.295495 [mod=PAM, lvl=WARN] [tid=944]   CosaDeviceInfoCreate done!
+241007-14:40:09.297574 [mod=PAM, lvl=WARN] [tid=944]   CosaUserinterfaceCreate done!
+241007-14:40:09.300797 [mod=PAM, lvl=NOTICE] [tid=944] _getMac...
+241007-14:40:09.330209 [mod=PAM, lvl=NOTICE] [tid=944] _getMac...
+241007-14:40:09.330499 [mod=PAM, lvl=NOTICE] [tid=944] _getMac...
+241007-14:40:09.344343 [mod=PAM, lvl=NOTICE] [tid=944] CosaDmlEthMlanInit...
+241007-14:40:09.365444 [mod=PAM, lvl=INFO] [tid=944] Ignoring saveID for ifName: sw_1, pAlias: Interface1, ulInstanceNumber: 1
+241007-14:40:09.379318 [mod=PAM, lvl=INFO] [tid=944] Ignoring saveID for ifName: sw_2, pAlias: Interface2, ulInstanceNumber: 2
+241007-14:40:09.394353 [mod=PAM, lvl=INFO] [tid=944] Ignoring saveID for ifName: sw_3, pAlias: Interface3, ulInstanceNumber: 3
+241007-14:40:09.410552 [mod=PAM, lvl=INFO] [tid=944] Ignoring saveID for ifName: sw_4, pAlias: Interface4, ulInstanceNumber: 4
+241007-14:40:09.410881 [mod=PAM, lvl=NOTICE] [tid=944] getIfStatus...
+241007-14:40:09.411135 [mod=PAM, lvl=NOTICE] [tid=944] getIfStatus...
+241007-14:40:09.411339 [mod=PAM, lvl=INFO] [tid=944] Ignoring saveID for ifName: erouter0, pAlias: Interface5, ulInstanceNumber: 5
+241007-14:40:09.411429 [mod=PAM, lvl=NOTICE] [tid=944] getIfStatus...
+241007-14:40:09.426474 [mod=PAM, lvl=NOTICE] [tid=944] getIfStatus...
+241007-14:40:09.441093 [mod=PAM, lvl=INFO] [tid=944] Ignoring saveID for ifName: lbr0, pAlias: Interface6, ulInstanceNumber: 6
+241007-14:40:09.450937 [mod=PAM, lvl=NOTICE] [tid=944] CosaDmlEthLinkGetNumberOfEntries...
+241007-14:40:09.451095 [mod=PAM, lvl=NOTICE] [tid=944] CosaDmlEthLinkLoadPsm...
+241007-14:40:09.494702 [mod=PAM, lvl=NOTICE] [tid=944] CosaUtilGetLinkTypePath: 1
+241007-14:40:09.494903 [mod=PAM, lvl=NOTICE] [tid=944] CosaUtilGetLinkTypePath: return index 0
+241007-14:40:09.495012 [mod=PAM, lvl=NOTICE] [tid=944] Device.Ethernet.Interface.5, size 27, buf len 256
+241007-14:40:09.499392 [mod=PAM, lvl=ERROR] [tid=944] GetParameterValues for param[0]=Device.Ethernet.Interface.5.Name failed with Error: 12
+241007-14:40:09.499573 [mod=PAM, lvl=WARN] [tid=944] CosaUtilGetLowerLayerName -- failure 4294967295, to retrieve Device.Ethernet.Interface.5.Name
+241007-14:40:09.499678 [mod=PAM, lvl=WARN] [tid=944] CosaDmlEthLinkLoadPsm -- failed to retrieve LowerLayer name parameter, error code 4294967295
+241007-14:40:09.501602 [mod=PAM, lvl=WARN] [tid=944] CosaDmlEthLinkLoadPsm -- failed to retrieve 'Name' parameter, error code 102, type 2
+241007-14:40:09.540161 [mod=PAM, lvl=WARN] [tid=944] CosaDmlEthLinkLoadPsm -- failed to retrieve 'LowerLayerType' parameter, error code 102, type 3
+241007-14:40:09.547238 [mod=PAM, lvl=WARN] [tid=944] CosaDmlEthLinkLoadPsm -- failed to retrieve 'Name' parameter, error code 102, type 0
+241007-14:40:09.547399 [mod=PAM, lvl=NOTICE] [tid=944] _getMac...
+241007-14:40:09.594404 [mod=PAM, lvl=WARN] [tid=944] CosaDmlEthLinkLoadPsm -- failed to retrieve 'LowerLayerType' parameter, error code 102, type 3
+241007-14:40:09.608525 [mod=PAM, lvl=WARN] [tid=944] CosaDmlEthLinkLoadPsm -- failed to retrieve 'Name' parameter, error code 102, type 0
+241007-14:40:09.608776 [mod=PAM, lvl=NOTICE] [tid=944] _getMac...
+241007-14:40:09.670846 [mod=PAM, lvl=WARN] [tid=944] CosaDmlEthLinkLoadPsm -- failed to retrieve 'LowerLayerType' parameter, error code 102, type 3
+241007-14:40:09.694608 [mod=PAM, lvl=WARN] [tid=944] CosaDmlEthLinkLoadPsm -- failed to retrieve 'Name' parameter, error code 102, type 0
+241007-14:40:09.694767 [mod=PAM, lvl=NOTICE] [tid=944] _getMac...
+241007-14:40:09.704134 [mod=PAM, lvl=NOTICE] [tid=944] CosaDmlEthLinkGetEntry...
+241007-14:40:09.704285 [mod=PAM, lvl=NOTICE] [tid=944] getIfStatus...
+241007-14:40:09.704367 [mod=PAM, lvl=NOTICE] [tid=944] CosaDmlEthLinkGetEntry...
+241007-14:40:09.704443 [mod=PAM, lvl=NOTICE] [tid=944] getIfStatus...
+241007-14:40:09.734375 [mod=PAM, lvl=NOTICE] [tid=944] CosaDmlEthLinkGetEntry...
+241007-14:40:09.734553 [mod=PAM, lvl=NOTICE] [tid=944] getIfStatus...
+241007-14:40:09.743029 [mod=PAM, lvl=NOTICE] [tid=944] CosaDmlEthLinkGetEntry...
+241007-14:40:09.743191 [mod=PAM, lvl=NOTICE] [tid=944] getIfStatus...
+241007-14:40:09.805033 [mod=PAM, lvl=WARN] [tid=944] CosaEthWanTelementryLogger EthWan_TelementryLogger_Thread Created
+241007-14:40:09.817370 [mod=PAM, lvl=WARN] [tid=944]   CosaEthernetCreate done!
+241007-14:40:09.805339 [mod=PAM, lvl=INFO] [tid=1107] RDK_LOG_INFO , Ethernet WAN is enabled
+241007-14:40:09.823647 [mod=PAM, lvl=WARN] [tid=944] webui_login_password: PWD_Empty!
+241007-14:40:09.823786 [mod=PAM, lvl=WARN] [tid=944]   CosaUsersCreate done!
+241007-14:40:09.870041 [mod=PAM, lvl=WARN] [tid=944]   CosaDynamicDnsCreate done!
+241007-14:40:09.870228 [mod=PAM, lvl=WARN] [tid=944]   CosaFirewallCreate done!
+241007-14:40:09.884016 [mod=PAM, lvl=WARN] [tid=944]   CosaSecurityCreate done!
+241007-14:40:09.884187 [mod=PAM, lvl=WARN] [tid=944] CosaDmlIpMlanInit...
+241007-14:40:09.890503 [mod=PAM, lvl=NOTICE] [tid=944] CosaDmlIpIfMlanGetNumberOfEntries...
+241007-14:40:09.890657 [mod=PAM, lvl=NOTICE] [tid=944] CosaDmlIpIfMlanLoadPsm...
+241007-14:40:09.940888 [mod=PAM, lvl=NOTICE] [tid=944] CosaDmlIpIfGetEntry...
+241007-14:40:09.944787 [mod=PAM, lvl=NOTICE] [tid=944] CosaDmlIpIfGetV4Addr...
+241007-14:40:09.945096 [mod=PAM, lvl=WARN] [tid=944] Cannot get ipv4 address of netdev:erouter0
+241007-14:40:09.948830 [mod=PAM, lvl=NOTICE] [tid=944] CosaDmlIpIfGetEntry...
+241007-14:40:09.952775 [mod=PAM, lvl=NOTICE] [tid=944] CosaDmlIpIfGetV4Addr...
+241007-14:40:09.957613 [mod=PAM, lvl=NOTICE] [tid=944] CosaDmlIpIfGetEntry...
+241007-14:40:09.957737 [mod=PAM, lvl=NOTICE] [tid=944] CosaDmlIpIfMlanGetEntry...
+241007-14:40:09.957865 [mod=PAM, lvl=NOTICE] [tid=944] getIfStatus...
+241007-14:40:10.002307 [mod=PAM, lvl=NOTICE] [tid=944] CosaDmlIpIfMlanGetV4Addr...
+241007-14:40:10.010158 [mod=PAM, lvl=NOTICE] [tid=944] CosaDmlIpIfGetEntry...
+241007-14:40:10.010308 [mod=PAM, lvl=NOTICE] [tid=944] CosaDmlIpIfMlanGetEntry...
+241007-14:40:10.010394 [mod=PAM, lvl=NOTICE] [tid=944] getIfStatus...
+241007-14:40:10.059479 [mod=PAM, lvl=NOTICE] [tid=944] CosaDmlIpIfMlanGetV4Addr...
+241007-14:40:10.080569 [mod=PAM, lvl=NOTICE] [tid=944] CosaDmlIpIfGetEntry...
+241007-14:40:10.080737 [mod=PAM, lvl=NOTICE] [tid=944] CosaDmlIpIfMlanGetEntry...
+241007-14:40:10.080817 [mod=PAM, lvl=NOTICE] [tid=944] getIfStatus...
+241007-14:40:10.106328 [mod=PAM, lvl=NOTICE] [tid=944] CosaDmlIpIfMlanGetV4Addr...
+241007-14:40:10.126450 [mod=PAM, lvl=WARN] [tid=944]   CosaIPCreate done!
+241007-14:40:10.131011 [mod=PAM, lvl=NOTICE] [tid=944] readDHCPv4ServerPoolFromPSM: poolCnt = 2
+241007-14:40:10.131169 [mod=PAM, lvl=NOTICE] [tid=944] readDHCPv4ServerPoolFromPSM: pool instance 2
+241007-14:40:10.145420 [mod=PAM, lvl=NOTICE] [tid=944] getDHCPv4ServerPoolParametersFromPSM Error 102 reading dmsb.dhcpv4.server.pool.2.Alias (null)
+241007-14:40:10.156662 [mod=PAM, lvl=NOTICE] [tid=944] getDHCPv4ServerPoolParametersFromPSM Error 102 reading dmsb.dhcpv4.server.pool.2.DomainName (null)
+241007-14:40:10.164767 [mod=PAM, lvl=NOTICE] [tid=944] getDHCPv4ServerPoolParametersFromPSM Error 102 reading dmsb.dhcpv4.server.pool.2.Order (null)
+241007-14:40:10.167744 [mod=PAM, lvl=NOTICE] [tid=944] getDHCPv4ServerPoolParametersFromPSM Error 102 reading dmsb.dhcpv4.server.pool.2.TimeOffset (null)
+241007-14:40:10.169194 [mod=PAM, lvl=WARN] [tid=944] CosaDhcpInitJournal : Partner = RDKM 
+241007-14:40:10.175350 [mod=PAM, lvl=NOTICE] [tid=944] readDHCPv4ServerPoolFromPSM: Can't find DHCPv4 Server Pool SADDR entry dmsb.dhcpv4.server.pool.2.StaticAddress.
+241007-14:40:10.179618 [mod=PAM, lvl=NOTICE] [tid=944] readDHCPv4ServerPoolFromPSM: Can't find DHCPv4 Server Pool OPTION entry dmsb.dhcpv4.server.pool.2.Option.
+241007-14:40:10.188015 [mod=PAM, lvl=NOTICE] [tid=944] readDHCPv4ServerPoolFromPSM: pool instance 3
+241007-14:40:10.212915 [mod=PAM, lvl=NOTICE] [tid=944] getDHCPv4ServerPoolParametersFromPSM Error 102 reading dmsb.dhcpv4.server.pool.3.Alias (null)
+241007-14:40:10.224939 [mod=PAM, lvl=NOTICE] [tid=944] getDHCPv4ServerPoolParametersFromPSM Error 102 reading dmsb.dhcpv4.server.pool.3.DomainName (null)
+241007-14:40:10.231551 [mod=PAM, lvl=NOTICE] [tid=944] getDHCPv4ServerPoolParametersFromPSM Error 102 reading dmsb.dhcpv4.server.pool.3.Order (null)
+241007-14:40:10.233290 [mod=PAM, lvl=NOTICE] [tid=944] getDHCPv4ServerPoolParametersFromPSM Error 102 reading dmsb.dhcpv4.server.pool.3.TimeOffset (null)
+241007-14:40:10.234860 [mod=PAM, lvl=WARN] [tid=944] CosaDhcpInitJournal : Partner = RDKM 
+241007-14:40:10.238210 [mod=PAM, lvl=NOTICE] [tid=944] readDHCPv4ServerPoolFromPSM: Can't find DHCPv4 Server Pool SADDR entry dmsb.dhcpv4.server.pool.3.StaticAddress.
+241007-14:40:10.241061 [mod=PAM, lvl=NOTICE] [tid=944] readDHCPv4ServerPoolFromPSM: Can't find DHCPv4 Server Pool OPTION entry dmsb.dhcpv4.server.pool.3.Option.
+241007-14:40:10.300026 [mod=PAM, lvl=NOTICE] [tid=944] CosaDmlDhcpsGetPool: ulIndex = 0
+241007-14:40:10.348988 [mod=PAM, lvl=NOTICE] [tid=944] CosaDmlDhcpsGetPool: ulIndex = 1
+241007-14:40:10.349130 [mod=PAM, lvl=NOTICE] [tid=944] CosaDmlDhcpsGetPool: getting DHCPv4 Server pool index 1
+241007-14:40:10.349206 [mod=PAM, lvl=NOTICE] [tid=944] CosaDmlDhcpsGetPool:found index 1, instancenum 2
+241007-14:40:10.355823 [mod=PAM, lvl=NOTICE] [tid=944] find_dhcpv4_pool_by_instancenum: found DHCPv4 Server Pool for instance number 2
+241007-14:40:10.356043 [mod=PAM, lvl=NOTICE] [tid=944] CosaDmlDhcpsGetPool: ulIndex = 2
+241007-14:40:10.356121 [mod=PAM, lvl=NOTICE] [tid=944] CosaDmlDhcpsGetPool: getting DHCPv4 Server pool index 2
+241007-14:40:10.356191 [mod=PAM, lvl=NOTICE] [tid=944] CosaDmlDhcpsGetPool:found index 2, instancenum 3
+241007-14:40:10.356276 [mod=PAM, lvl=NOTICE] [tid=944] find_dhcpv4_pool_by_instancenum: found DHCPv4 Server Pool for instance number 3
+241007-14:40:10.377365 [mod=PAM, lvl=WARN] [tid=944]   CosaDhcpv4Create done!
+241007-14:40:10.377531 [mod=PAM, lvl=WARN] [tid=944]   CosaHostsCreate done!
+241007-14:40:10.381967 [mod=PAM, lvl=WARN] [tid=944]   CosaDNSCreate done!
+241007-14:40:10.386294 [mod=PAM, lvl=WARN] [tid=944] CosaDmlRoutingRouterGetCfg Alias Router2
+241007-14:40:10.389505 [mod=PAM, lvl=WARN] [tid=944] -CosaDmlRoutingGetNumberOfV4Entries 0 entry in syscfg-
+241007-14:40:10.389689 [mod=PAM, lvl=WARN] [tid=944] -CosaDmlRoutingGetNumberOfV4Entries 0 entry in backend-
+241007-14:40:10.733540 [mod=PAM, lvl=WARN] [tid=944] pCfg->Enable :FALSE
+241007-14:40:10.733737 [mod=PAM, lvl=WARN] [tid=944] pCfg->Mode :3
+241007-14:40:10.734191 [mod=PAM, lvl=WARN] [tid=944] pCfg->X_CISCO_COM_UpdateInterval :30
+241007-14:40:10.734292 [mod=PAM, lvl=WARN] [tid=944] pCfg->X_CISCO_COM_DefaultMetric :1
+241007-14:40:10.734371 [mod=PAM, lvl=WARN] [tid=944] pEntry->InstanceNumber :1
+241007-14:40:10.734440 [mod=PAM, lvl=WARN] [tid=944] pEntry->Enable :TRUE
+241007-14:40:10.734509 [mod=PAM, lvl=WARN] [tid=944] pEntry->AcceptRA :TRUE
+241007-14:40:10.734577 [mod=PAM, lvl=WARN] [tid=944] pEntry->SendRA :TRUE
+241007-14:40:10.734644 [mod=PAM, lvl=WARN] [tid=944] pEntry->X_CISCO_COM_ReceiveVersion :2
+241007-14:40:10.734712 [mod=PAM, lvl=WARN] [tid=944] pEntry->X_CISCO_COM_SendVersion :2
+241007-14:40:10.734780 [mod=PAM, lvl=WARN] [tid=944] pEntry->Status :1
+241007-14:40:10.734935 [mod=PAM, lvl=WARN] [tid=944] pEntry->X_CISCO_COM_Neighbor :0X0
+241007-14:40:10.735007 [mod=PAM, lvl=WARN] [tid=944] pEntry->X_CISCO_COM_AuthenticationType :3
+241007-14:40:10.735075 [mod=PAM, lvl=WARN] [tid=944] pEntry->X_CISCO_COM_Md5KeyID :0
+241007-14:40:10.735143 [mod=PAM, lvl=WARN] [tid=944] pEntry->X_CISCO_COM_Md5KeyValue :
+241007-14:40:10.735210 [mod=PAM, lvl=WARN] [tid=944] pEntry->Alias :Ethernet
+241007-14:40:10.735276 [mod=PAM, lvl=WARN] [tid=944] pEntry->Interface :erouter0
+241007-14:40:10.738494 [mod=PAM, lvl=WARN] [tid=944]   CosaRoutingCreate done!
+241007-14:40:10.740346 [mod=PAM, lvl=INFO] [tid=944] ------CosaDmlBrgGetNumberOfEntries...
+241007-14:40:10.740478 [mod=PAM, lvl=NOTICE] [tid=944] <HL> CosaDmlBrgGetNumberOfEntries 
+241007-14:40:10.740614 [mod=PAM, lvl=NOTICE] [tid=944] <HL> Start Bridge/Port Initiation CosaDmlBrgInit
+241007-14:40:10.745090 [mod=PAM, lvl=NOTICE] [tid=944] HSVLAN_CORRUPT:[CosaDmlBrgInit,665]PSM_VALUE=ath5
+241007-14:40:10.745241 [mod=PAM, lvl=NOTICE] [tid=944] <HL> _Psm_GetDefaultSetting 
+241007-14:40:10.748461 [mod=PAM, lvl=NOTICE] [tid=944] _Psm_GetDefaultSetting: retPsmGet == CCSP_SUCCESS reading dmsb.bridgeVlanRange
+241007-14:40:10.748647 [mod=PAM, lvl=NOTICE] [tid=944] <HL>_Psm_GetDefaultSetting vlanLowBound=164 vlanHighBound=512
+241007-14:40:10.750524 [mod=PAM, lvl=NOTICE] [tid=944] _Psm_GetDefaultSetting: retPsmGet == CCSP_SUCCESS reading dmsb.BridgeNamePrefix
+241007-14:40:10.750687 [mod=PAM, lvl=NOTICE] [tid=944] <HL>_Psm_GetDefaultSetting bridgeNamePrefix=brlan%d
+241007-14:40:10.755127 [mod=PAM, lvl=NOTICE] [tid=944] <HL> CosaDmlBrgInit Bridge Init: count=9
+241007-14:40:10.761542 [mod=PAM, lvl=NOTICE] [tid=944] <HL> CosaDmlBrgInit VLAN Init: count=1
+241007-14:40:10.761698 [mod=PAM, lvl=NOTICE] [tid=944] <HL> _Psm_GetBVlan 
+241007-14:40:10.768693 [mod=PAM, lvl=NOTICE] [tid=944] <HL> CosaDmlBrgInit Port Init: count=3
+241007-14:40:10.784718 [mod=PAM, lvl=NOTICE] [tid=944] <HL> CosaDmlBrgInit VLAN Init: count=1
+241007-14:40:10.784872 [mod=PAM, lvl=NOTICE] [tid=944] <HL> _Psm_GetBVlan 
+241007-14:40:10.791437 [mod=PAM, lvl=NOTICE] [tid=944] <HL> CosaDmlBrgInit Port Init: count=3
+241007-14:40:10.808223 [mod=PAM, lvl=NOTICE] [tid=944] <HL> CosaDmlBrgInit VLAN Init: count=1
+241007-14:40:10.808401 [mod=PAM, lvl=NOTICE] [tid=944] <HL> _Psm_GetBVlan 
+241007-14:40:10.818824 [mod=PAM, lvl=NOTICE] [tid=944] <HL> CosaDmlBrgInit Port Init: count=9
+241007-14:40:10.855640 [mod=PAM, lvl=NOTICE] [tid=944] <HL> CosaDmlBrgInit VLAN Init: count=1
+241007-14:40:10.855786 [mod=PAM, lvl=NOTICE] [tid=944] <HL> _Psm_GetBVlan 
+241007-14:40:10.862811 [mod=PAM, lvl=NOTICE] [tid=944] <HL> CosaDmlBrgInit Port Init: count=3
+241007-14:40:10.880635 [mod=PAM, lvl=NOTICE] [tid=944] <HL> CosaDmlBrgInit VLAN Init: count=1
+241007-14:40:10.880786 [mod=PAM, lvl=NOTICE] [tid=944] <HL> _Psm_GetBVlan 
+241007-14:40:10.892782 [mod=PAM, lvl=NOTICE] [tid=944] <HL> CosaDmlBrgInit Port Init: count=3
+241007-14:40:10.908246 [mod=PAM, lvl=NOTICE] [tid=944] <HL> CosaDmlBrgInit VLAN Init: count=1
+241007-14:40:10.908407 [mod=PAM, lvl=NOTICE] [tid=944] <HL> _Psm_GetBVlan 
+241007-14:40:10.915600 [mod=PAM, lvl=NOTICE] [tid=944] <HL> CosaDmlBrgInit Port Init: count=3
+241007-14:40:10.931930 [mod=PAM, lvl=NOTICE] [tid=944] <HL> CosaDmlBrgInit VLAN Init: count=1
+241007-14:40:10.932089 [mod=PAM, lvl=NOTICE] [tid=944] <HL> _Psm_GetBVlan 
+241007-14:40:10.938613 [mod=PAM, lvl=NOTICE] [tid=944] <HL> CosaDmlBrgInit Port Init: count=3
+241007-14:40:10.959703 [mod=PAM, lvl=NOTICE] [tid=944] <HL> CosaDmlBrgInit VLAN Init: count=1
+241007-14:40:10.959856 [mod=PAM, lvl=NOTICE] [tid=944] <HL> _Psm_GetBVlan 
+241007-14:40:10.967589 [mod=PAM, lvl=NOTICE] [tid=944] <HL> CosaDmlBrgInit Port Init: count=1
+241007-14:40:10.976624 [mod=PAM, lvl=NOTICE] [tid=944] <HL> CosaDmlBrgInit VLAN Init: count=1
+241007-14:40:10.976780 [mod=PAM, lvl=NOTICE] [tid=944] <HL> _Psm_GetBVlan 
+241007-14:40:10.983990 [mod=PAM, lvl=NOTICE] [tid=944] <HL> CosaDmlBrgInit Port Init: count=4
+241007-14:40:11.000833 [mod=PAM, lvl=NOTICE] [tid=944] HSVLAN_CORRUPT:[CosaDmlBrgInit,801]PSM_VALUE=ath5
+241007-14:40:11.001147 [mod=PAM, lvl=NOTICE] [tid=944] <HL> CosaDmlBrgGetNumberOfEntries numOfEntries = 9
+241007-14:40:11.003375 [mod=PAM, lvl=NOTICE] [tid=944] <HL>CosaBridgingInitialize pSlapVariable == NULL
+241007-14:40:11.003554 [mod=PAM, lvl=NOTICE] [tid=944] <HL> CosaDmlBrgPortGetNumberOfEntries ulBrgInstanceNumber=4 numOfPorts=3
+241007-14:40:11.003823 [mod=PAM, lvl=INFO] [tid=944] ------lanBrPCtlGetEnabled, port:ath5...
+241007-14:40:11.023739 [mod=PAM, lvl=INFO] [tid=944] ------lanBrPCtlGetEnabled, port:gretap0...
+241007-14:40:11.026829 [mod=PAM, lvl=NOTICE] [tid=944] <HL>CosaBridgingInitialize pSlapVariable == NULL
+241007-14:40:11.026975 [mod=PAM, lvl=NOTICE] [tid=944] <HL> CosaDmlBrgVlanGetNumberOfEntries ulBrgInstanceNumber=4 numOfVlans=1
+241007-14:40:11.027057 [mod=PAM, lvl=NOTICE] [tid=944] <HL> CosaDmlBrgVlanGetEntry ulIndex=0
+241007-14:40:11.027128 [mod=PAM, lvl=INFO] [tid=944] ------CosaDmlBrgPortGetEntry,instancenum:1,alias:CPE-VLAN1
+241007-14:40:11.029010 [mod=PAM, lvl=NOTICE] [tid=944] <HL>CosaBridgingInitialize pSlapVariable == NULL
+241007-14:40:11.029135 [mod=PAM, lvl=NOTICE] [tid=944] <HL> CosaDmlBrgPortGetNumberOfEntries ulBrgInstanceNumber=8 numOfPorts=3
+241007-14:40:11.030213 [mod=PAM, lvl=INFO] [tid=944] ------lanBrPCtlGetEnabled, port:ath9...
+241007-14:40:11.052161 [mod=PAM, lvl=INFO] [tid=944] ------lanBrPCtlGetEnabled, port:gretap0...
+241007-14:40:11.058348 [mod=PAM, lvl=NOTICE] [tid=944] <HL>CosaBridgingInitialize pSlapVariable == NULL
+241007-14:40:11.058519 [mod=PAM, lvl=NOTICE] [tid=944] <HL> CosaDmlBrgVlanGetNumberOfEntries ulBrgInstanceNumber=8 numOfVlans=1
+241007-14:40:11.058594 [mod=PAM, lvl=NOTICE] [tid=944] <HL> CosaDmlBrgVlanGetEntry ulIndex=0
+241007-14:40:11.058667 [mod=PAM, lvl=INFO] [tid=944] ------CosaDmlBrgPortGetEntry,instancenum:1,alias:CPE-VLAN1
+241007-14:40:11.060563 [mod=PAM, lvl=NOTICE] [tid=944] <HL>CosaBridgingInitialize pSlapVariable == NULL
+241007-14:40:11.060697 [mod=PAM, lvl=NOTICE] [tid=944] <HL> CosaDmlBrgPortGetNumberOfEntries ulBrgInstanceNumber=1 numOfPorts=9
+241007-14:40:11.061010 [mod=PAM, lvl=INFO] [tid=944] ------lanBrPCtlGetEnabled, port:sw_3...
+241007-14:40:11.079565 [mod=PAM, lvl=INFO] [tid=944] ------lanBrPCtlGetEnabled, port:ath0...
+241007-14:40:11.092095 [mod=PAM, lvl=INFO] [tid=944] ------lanBrPCtlGetEnabled, port:sw_5...
+241007-14:40:11.106601 [mod=PAM, lvl=INFO] [tid=944] ------lanBrPCtlGetEnabled, port:sw_4...
+241007-14:40:11.116727 [mod=PAM, lvl=INFO] [tid=944] ------lanBrPCtlGetEnabled, port:ath1...
+241007-14:40:11.129793 [mod=PAM, lvl=INFO] [tid=944] ------lanBrPCtlGetEnabled, port:...
+241007-14:40:11.146725 [mod=PAM, lvl=INFO] [tid=944] ------lanBrPCtlGetEnabled, port:sw_1...
+241007-14:40:11.176964 [mod=PAM, lvl=INFO] [tid=944] ------lanBrPCtlGetEnabled, port:sw_2...
+241007-14:40:11.205109 [mod=PAM, lvl=NOTICE] [tid=944] <HL>CosaBridgingInitialize pSlapVariable == NULL
+241007-14:40:11.205279 [mod=PAM, lvl=NOTICE] [tid=944] <HL> CosaDmlBrgVlanGetNumberOfEntries ulBrgInstanceNumber=1 numOfVlans=1
+241007-14:40:11.205357 [mod=PAM, lvl=NOTICE] [tid=944] <HL> CosaDmlBrgVlanGetEntry ulIndex=0
+241007-14:40:11.205430 [mod=PAM, lvl=INFO] [tid=944] ------CosaDmlBrgPortGetEntry,instancenum:1,alias:CPE-VLAN1
+241007-14:40:11.208057 [mod=PAM, lvl=NOTICE] [tid=944] <HL>CosaBridgingInitialize pSlapVariable == NULL
+241007-14:40:11.208209 [mod=PAM, lvl=NOTICE] [tid=944] <HL> CosaDmlBrgPortGetNumberOfEntries ulBrgInstanceNumber=7 numOfPorts=3
+241007-14:40:11.209353 [mod=PAM, lvl=INFO] [tid=944] ------lanBrPCtlGetEnabled, port:gretap0...
+241007-14:40:11.209685 [mod=PAM, lvl=INFO] [tid=944] ------lanBrPCtlGetEnabled, port:ath8...
+241007-14:40:11.239208 [mod=PAM, lvl=NOTICE] [tid=944] <HL>CosaBridgingInitialize pSlapVariable == NULL
+241007-14:40:11.239420 [mod=PAM, lvl=NOTICE] [tid=944] <HL> CosaDmlBrgVlanGetNumberOfEntries ulBrgInstanceNumber=7 numOfVlans=1
+241007-14:40:11.239510 [mod=PAM, lvl=NOTICE] [tid=944] <HL> CosaDmlBrgVlanGetEntry ulIndex=0
+241007-14:40:11.239586 [mod=PAM, lvl=INFO] [tid=944] ------CosaDmlBrgPortGetEntry,instancenum:1,alias:CPE-VLAN1
+241007-14:40:11.247175 [mod=PAM, lvl=NOTICE] [tid=944] <HL>CosaBridgingInitialize pSlapVariable == NULL
+241007-14:40:11.247338 [mod=PAM, lvl=NOTICE] [tid=944] <HL> CosaDmlBrgPortGetNumberOfEntries ulBrgInstanceNumber=6 numOfPorts=3
+241007-14:40:11.247590 [mod=PAM, lvl=INFO] [tid=944] ------lanBrPCtlGetEnabled, port:ath7...
+241007-14:40:11.272143 [mod=PAM, lvl=INFO] [tid=944] ------lanBrPCtlGetEnabled, port:ath6...
+241007-14:40:11.309079 [mod=PAM, lvl=NOTICE] [tid=944] <HL>CosaBridgingInitialize pSlapVariable == NULL
+241007-14:40:11.309248 [mod=PAM, lvl=NOTICE] [tid=944] <HL> CosaDmlBrgVlanGetNumberOfEntries ulBrgInstanceNumber=6 numOfVlans=1
+241007-14:40:11.309328 [mod=PAM, lvl=NOTICE] [tid=944] <HL> CosaDmlBrgVlanGetEntry ulIndex=0
+241007-14:40:11.309404 [mod=PAM, lvl=INFO] [tid=944] ------CosaDmlBrgPortGetEntry,instancenum:1,alias:CPE-VLAN1
+241007-14:40:11.316070 [mod=PAM, lvl=NOTICE] [tid=944] <HL>CosaBridgingInitialize pSlapVariable == NULL
+241007-14:40:11.316260 [mod=PAM, lvl=NOTICE] [tid=944] <HL> CosaDmlBrgPortGetNumberOfEntries ulBrgInstanceNumber=5 numOfPorts=3
+241007-14:40:11.319728 [mod=PAM, lvl=INFO] [tid=944] ------lanBrPCtlGetEnabled, port:ath15...
+241007-14:40:11.339383 [mod=PAM, lvl=INFO] [tid=944] ------lanBrPCtlGetEnabled, port:ath14...
+241007-14:40:11.367530 [mod=PAM, lvl=NOTICE] [tid=944] <HL>CosaBridgingInitialize pSlapVariable == NULL
+241007-14:40:11.367708 [mod=PAM, lvl=NOTICE] [tid=944] <HL> CosaDmlBrgVlanGetNumberOfEntries ulBrgInstanceNumber=5 numOfVlans=1
+241007-14:40:11.367788 [mod=PAM, lvl=NOTICE] [tid=944] <HL> CosaDmlBrgVlanGetEntry ulIndex=0
+241007-14:40:11.367864 [mod=PAM, lvl=INFO] [tid=944] ------CosaDmlBrgPortGetEntry,instancenum:1,alias:CPE-VLAN1
+241007-14:40:11.371257 [mod=PAM, lvl=NOTICE] [tid=944] <HL>CosaBridgingInitialize pSlapVariable == NULL
+241007-14:40:11.371477 [mod=PAM, lvl=NOTICE] [tid=944] <HL> CosaDmlBrgPortGetNumberOfEntries ulBrgInstanceNumber=3 numOfPorts=3
+241007-14:40:11.372930 [mod=PAM, lvl=INFO] [tid=944] ------lanBrPCtlGetEnabled, port:gretap0...
+241007-14:40:11.373391 [mod=PAM, lvl=INFO] [tid=944] ------lanBrPCtlGetEnabled, port:ath4...
+241007-14:40:11.398816 [mod=PAM, lvl=NOTICE] [tid=944] <HL>CosaBridgingInitialize pSlapVariable == NULL
+241007-14:40:11.398993 [mod=PAM, lvl=NOTICE] [tid=944] <HL> CosaDmlBrgVlanGetNumberOfEntries ulBrgInstanceNumber=3 numOfVlans=1
+241007-14:40:11.399074 [mod=PAM, lvl=NOTICE] [tid=944] <HL> CosaDmlBrgVlanGetEntry ulIndex=0
+241007-14:40:11.399151 [mod=PAM, lvl=INFO] [tid=944] ------CosaDmlBrgPortGetEntry,instancenum:1,alias:CPE-VLAN1
+241007-14:40:11.401639 [mod=PAM, lvl=NOTICE] [tid=944] <HL>CosaBridgingInitialize pSlapVariable == NULL
+241007-14:40:11.401842 [mod=PAM, lvl=NOTICE] [tid=944] <HL> CosaDmlBrgPortGetNumberOfEntries ulBrgInstanceNumber=9 numOfPorts=1
+241007-14:40:11.406789 [mod=PAM, lvl=NOTICE] [tid=944] <HL>CosaBridgingInitialize pSlapVariable == NULL
+241007-14:40:11.406993 [mod=PAM, lvl=NOTICE] [tid=944] <HL> CosaDmlBrgVlanGetNumberOfEntries ulBrgInstanceNumber=9 numOfVlans=1
+241007-14:40:11.407075 [mod=PAM, lvl=NOTICE] [tid=944] <HL> CosaDmlBrgVlanGetEntry ulIndex=0
+241007-14:40:11.407148 [mod=PAM, lvl=INFO] [tid=944] ------CosaDmlBrgPortGetEntry,instancenum:1,alias:CPE-VLAN1
+241007-14:40:11.410372 [mod=PAM, lvl=NOTICE] [tid=944] <HL>CosaBridgingInitialize pSlapVariable == NULL
+241007-14:40:11.410545 [mod=PAM, lvl=NOTICE] [tid=944] <HL> CosaDmlBrgPortGetNumberOfEntries ulBrgInstanceNumber=2 numOfPorts=4
+241007-14:40:11.410836 [mod=PAM, lvl=INFO] [tid=944] ------lanBrPCtlGetEnabled, port:sw_4...
+241007-14:40:11.423243 [mod=PAM, lvl=INFO] [tid=944] ------lanBrPCtlGetEnabled, port:ath3...
+241007-14:40:11.435839 [mod=PAM, lvl=INFO] [tid=944] ------lanBrPCtlGetEnabled, port:ath2...
+241007-14:40:11.454835 [mod=PAM, lvl=NOTICE] [tid=944] <HL>CosaBridgingInitialize pSlapVariable == NULL
+241007-14:40:11.455017 [mod=PAM, lvl=NOTICE] [tid=944] <HL> CosaDmlBrgVlanGetNumberOfEntries ulBrgInstanceNumber=2 numOfVlans=1
+241007-14:40:11.455097 [mod=PAM, lvl=NOTICE] [tid=944] <HL> CosaDmlBrgVlanGetEntry ulIndex=0
+241007-14:40:11.455254 [mod=PAM, lvl=INFO] [tid=944] ------CosaDmlBrgPortGetEntry,instancenum:1,alias:CPE-VLAN1
+241007-14:40:11.460251 [mod=PAM, lvl=NOTICE] [tid=944] HSVLAN_CORRUPT:[CosaBridgingInitialize,677]PSM_VALUE=ath5
+241007-14:40:11.460406 [mod=PAM, lvl=WARN] [tid=944]   CosaBridgingCreate done!
+241007-14:40:11.460484 [mod=PAM, lvl=WARN] [tid=944]   CosaIFStackCreate done!
+241007-14:40:11.489248 [mod=PAM, lvl=WARN] [tid=944]   CosaPPPCreate done!
+241007-14:40:11.490654 [mod=PAM, lvl=WARN] [tid=944] CosaDmlDhcpv6Init -- 2107 register lan-status to event dispatcher 
+241007-14:40:11.492261 [mod=PAM, lvl=WARN] [tid=1303] Ipv6ModeHandler_thrd started
+241007-14:40:11.494383 [mod=PAM, lvl=WARN] [tid=944] CosaDhcpv6BackendGetDhcpv6Info -- CosaDmlDhcpv6cGetServerCfg() return error:4294967295.
+241007-14:40:11.503501 [mod=PAM, lvl=WARN] [tid=944]   CosaDhcpv6Create done!
+241007-14:40:11.533521 [mod=PAM, lvl=WARN] [tid=944]   CosaDeviceControlCreate done!
+241007-14:40:11.542962 [mod=PAM, lvl=WARN] [tid=944]   CosaIPv6rdCreate done!
+241007-14:40:11.575497 [mod=PAM, lvl=WARN] [tid=944]   CosaRACreate done!
+241007-14:40:11.583994 [mod=PAM, lvl=WARN] [tid=944]   CosaDsliteCreate done!
+241007-14:40:11.594124 [mod=PAM, lvl=WARN] [tid=944]   CosaNeighdiscCreate done!
+241007-14:40:11.594292 [mod=PAM, lvl=WARN] [tid=944]   CosaMldCreate done!
+241007-14:40:11.594367 [mod=PAM, lvl=NOTICE] [tid=944] CosaDmlMlanInit...
+241007-14:40:11.594440 [mod=PAM, lvl=WARN] [tid=944]   CosaDmlMlanInit -- status 0!
+241007-14:40:11.703674 [mod=PAM, lvl=WARN] [tid=944]   CosaDiagnosticsCreate done!
+241007-14:40:11.705960 [mod=PAM, lvl=WARN] [tid=944] CosaNTPInitJournal : Partner = RDKM 
+241007-14:40:11.706995 [mod=PAM, lvl=WARN] [tid=944]   CosaTimeCreate done!
+241007-14:40:11.707116 [mod=PAM, lvl=WARN] [tid=944]   CosaLanManagementCreate done!
+241007-14:40:11.707397 [mod=PAM, lvl=WARN] [tid=944]   CosaUpnpCreate done!
+241007-14:40:11.708010 [mod=PAM, lvl=WARN] [tid=944] CosaParentalControlInitialize -- ulBlkUrlCnt = 0 ...
+241007-14:40:11.773502 [mod=PAM, lvl=WARN] [tid=944]   CosaParentalControlCreate done - hParentalControl = 0x0x1a20f2d0!
+241007-14:40:11.869568 [mod=PAM, lvl=WARN] [tid=944]   CosaRLogCreate done!
+241007-14:40:11.869730 [mod=PAM, lvl=INFO] [tid=944] rbuscore.c:2326 RBus Enabled
+
+241007-14:40:11.870045 [mod=PAM, lvl=INFO] [tid=944] rbus.c:2765 rbus open for component: CcspPandMSsp
+
+241007-14:40:11.871218 [mod=PAM, lvl=INFO] [tid=944] rbus.c:2841  rbus open (CcspPandMSsp) success
+
+241007-14:40:11.871455 [mod=PAM, lvl=INFO] [tid=944] rbus_subscriptions.c:447 file /tmp/rbus_subs_CcspPandMSsp
+
+241007-14:40:11.875976 [mod=PAM, lvl=INFO] [tid=944] sysevent_open success.
+241007-14:40:11.876213 [mod=PAM, lvl=INFO] [tid=944] CosaGreInitialize 78 - Entry
+241007-14:40:11.876290 [mod=PAM, lvl=INFO] [tid=944] CosaDml_GreInit 458 - Entry
+241007-14:40:11.878289 [mod=PAM, lvl=INFO] [tid=944] sysevent_open success
+241007-14:40:11.879809 [mod=PAM, lvl=INFO] [tid=944] CosaDml_GreInit 473 - Acquiring shared memory
+241007-14:40:11.880000 [mod=PAM, lvl=INFO] [tid=944] CosaDml_GreInit 480 - Attaching shared memory shmid:1
+241007-14:40:11.880138 [mod=PAM, lvl=INFO] [tid=944] CosaDml_GreInit 488 - Creating circuit_id_init_thread thread
+241007-14:40:11.880479 [mod=PAM, lvl=INFO] [tid=944] CosaDml_GreInit 492 - Init Hotspot GRE Done
+241007-14:40:11.880572 [mod=PAM, lvl=INFO] [tid=944] CosaGreInitialize 88 - GreIfCount:1
+241007-14:40:11.880645 [mod=PAM, lvl=INFO] [tid=944] CosaDml_GreIfGetEntryByIndex 542 - Entry
+241007-14:40:11.922902 [mod=PAM, lvl=INFO] [tid=944] CosaDml_GreIfGetEntryByIndex 592 - Exit
+241007-14:40:11.923055 [mod=PAM, lvl=INFO] [tid=944] CosaGreInitialize 107 - Exit
+241007-14:40:11.923152 [mod=PAM, lvl=WARN] [tid=944]   CosaGreCreate done!
+241007-14:40:12.020516 [mod=PAM, lvl=WARN] [tid=944]   CosaGreTunnelCreate done!
+241007-14:40:12.020686 [mod=PAM, lvl=INFO] [tid=944] HOTSPOT_LIB : Entering register_callbackHotspot....
+241007-14:40:12.124802 [mod=PAM, lvl=WARN] [tid=944]   CosaCGreCreate done!
+241007-14:40:12.166287 [mod=PAM, lvl=WARN] [tid=944]   CosaHotspotCreate done!
+241007-14:40:12.166537 [mod=PAM, lvl=WARN] [tid=944]   CosaFileTransferCreate done!
+241007-14:40:12.166639 [mod=PAM, lvl=WARN] [tid=944] !!!!!! CosaDmlTSIPLoadMappingFile 1 !!!!!!
+241007-14:40:12.166842 [mod=PAM, lvl=WARN] [tid=944] !!!!!!!!!! CosaDmlTSIPLoadMappingFile: mapping file open error!!!!!!!!!
+241007-14:40:12.177104 [mod=PAM, lvl=WARN] [tid=944]   CosaTSIPCreate done!
+241007-14:40:12.177271 [mod=PAM, lvl=WARN] [tid=944]   CosaXpcCreate done!
+241007-14:40:12.177453 [mod=PAM, lvl=WARN] [tid=944]   CosaOnboardLoggingCreate done!
+241007-14:40:12.177861 [mod=PAM, lvl=WARN] [tid=944]   Initializing WebConfig Framework!
+241007-14:40:12.178033 [mod=PAM, lvl=INFO] [tid=944] Inside FUNC register_sub_docs LINE 240
+241007-14:40:12.178155 [mod=PAM, lvl=INFO] [tid=944] Inside FUNC initMessageQueue LINE 1109 
+241007-14:40:12.201268 [mod=PAM, lvl=INFO] [tid=944] Inside FUNC initMessageQueueMaster LINE 2406 
+241007-14:40:12.206846 [mod=PAM, lvl=INFO] [tid=944] eventRegisterMaster for process  CcspPandMSsp 
+241007-14:40:12.207080 [mod=PAM, lvl=INFO] [tid=1372] Inside FUNC messageQueueProcessingMultiComp LINE 1783 
+241007-14:40:12.201623 [mod=PAM, lvl=INFO] [tid=1369] Inside FUNC messageQueueProcessing LINE 899 
+241007-14:40:12.201673 [mod=PAM, lvl=INFO] [tid=1370] Inside FUNC display_subDocs LINE 88
+241007-14:40:12.203555 [mod=PAM, lvl=INFO] [tid=1371] rbuscore.c:2326 RBus Enabled
+
+241007-14:40:12.213070 [mod=PAM, lvl=INFO] [tid=1371] Entering rbusInit
+241007-14:40:12.213186 [mod=PAM, lvl=INFO] [tid=1371] rbus.c:2765 rbus open for component: CcspPandMSsp_wbcfg
+
+241007-14:40:12.213719 [mod=PAM, lvl=INFO] [tid=1371] rbus.c:2841  rbus open (CcspPandMSsp_wbcfg) success
+
+241007-14:40:12.213873 [mod=PAM, lvl=INFO] [tid=1371] isWebCfgRbusEnabled: rbus enabled is 1 
+241007-14:40:12.213996 [mod=PAM, lvl=INFO] [tid=1371] subscribeSubdocForceReset: Discover component for event 'Device.X_RDK_WebConfig.webcfgSubdocForceReset' 
+241007-14:40:12.214048 [mod=PAM, lvl=INFO] [tid=944] isWebCfgRbusEnabled: rbus enabled is 1 
+241007-14:40:12.214267 [mod=PAM, lvl=INFO] [tid=944] rbus_subscriptions.c:447 file /tmp/rbus_subs_CcspPandMSsp_wbcfg
+
+241007-14:40:12.214078 [mod=PAM, lvl=INFO] [tid=1371] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+241007-14:40:12.218064 [mod=PAM, lvl=INFO] [tid=1371] webcfg_rbus_discover_component: (0-1)ret[FALSE]
+241007-14:40:12.221932 [mod=PAM, lvl=WARN] [tid=944] wbInitializeHotspot : WebConfig RFC value is false
+241007-14:40:12.222099 [mod=PAM, lvl=WARN] [tid=944] wbInitializeHotspot : WebConfig RFC is not enabled, returning
+241007-14:40:12.222172 [mod=PAM, lvl=WARN] [tid=944]   Initializing WebConfig Framework done!
+241007-14:40:12.222290 [mod=PAM, lvl=WARN] [tid=944] RDKB_SYSTEM_BOOT_UP_LOG : PandM DM initialization done!
+241007-14:40:12.222446 [mod=PAM, lvl=WARN] [tid=944]  /var/tmp/lastrebootreason File doesn't exist --Create new file
+241007-14:40:12.271740 [mod=PAM, lvl=WARN] [tid=944] RDKB_SYSTEM_BOOT_UP_LOG : PARODUS call!
+241007-14:40:12.272107 [mod=PAM, lvl=INFO] [tid=944] connect_parodus thread created Successfully
+241007-14:40:12.272243 [mod=PAM, lvl=WARN] [tid=944] Auto reboot parameter value during bootup true 
+241007-14:40:12.272346 [mod=PAM, lvl=INFO] [tid=944] CosaDmlScheduleAutoReboot Device uptime in days 0 
+241007-14:40:12.272421 [mod=PAM, lvl=INFO] [tid=944] CosaDmlScheduleAutoReboot Scheduling reboot after 120 days 
+241007-14:40:12.272527 [mod=PAM, lvl=INFO] [tid=944] CosaDmlScheduleAutoReboot Scheduling cron sh /etc/ScheduleAutoReboot.sh 120 1& 
+241007-14:40:12.273438 [mod=PAM, lvl=INFO] [tid=1377] max_retry_sleep is 31
+241007-14:40:12.275950 [mod=PAM, lvl=INFO] [tid=1377] Configurations => service_name : pam parodus_url : tcp://127.0.0.1:6666 client_url : NULL
+241007-14:40:12.292377 [mod=PAM, lvl=INFO] [tid=1377] Init for parodus Success..!!
+241007-14:40:12.428018 [mod=PAM, lvl=WARN] [tid=944] Empty object.
+241007-14:40:12.487472 [mod=PAM, lvl=INFO] [tid=944] KickstartTable_GetEntryCount: hInsContext = 0x0
+241007-14:40:12.487796 [mod=PAM, lvl=INFO] [tid=944] KickstartTable_GetEntryCount: pKickstart = 0x1a1ce4a0
+241007-14:40:12.487882 [mod=PAM, lvl=INFO] [tid=944] KickstartTable_GetEntryCount: TableNumberOfEntries = 5
+241007-14:40:12.487955 [mod=PAM, lvl=INFO] [tid=944] KickstartTable_GetEntryCount: ulEntries = 5
+241007-14:40:12.488031 [mod=PAM, lvl=INFO] [tid=944] KickstartTable_GetEntry: hInsContext = 0x0
+241007-14:40:12.488101 [mod=PAM, lvl=INFO] [tid=944] KickstartTable_GetEntry: pKickstart = 0x1a1ce4a0
+241007-14:40:12.488171 [mod=PAM, lvl=INFO] [tid=944] KickstartTable_GetEntry: nIndex = 0, *pInsNumber = 1
+241007-14:40:12.488241 [mod=PAM, lvl=INFO] [tid=944] KickstartTable_GetEntry: TableNumberOfEntries = 5
+241007-14:40:12.488313 [mod=PAM, lvl=INFO] [tid=944] KickstartTable_GetEntry: pKickstartTable = 0x1a1ce4ac
+241007-14:40:12.488382 [mod=PAM, lvl=INFO] [tid=944] KickstartTable_GetEntry: returning 0x1a1ce4ac
+241007-14:40:12.488489 [mod=PAM, lvl=INFO] [tid=944] KickstartTable_GetEntry: hInsContext = 0x0
+241007-14:40:12.493212 [mod=PAM, lvl=INFO] [tid=944] KickstartTable_GetEntry: pKickstart = 0x1a1ce4a0
+241007-14:40:12.493336 [mod=PAM, lvl=INFO] [tid=944] KickstartTable_GetEntry: nIndex = 1, *pInsNumber = 2
+241007-14:40:12.493410 [mod=PAM, lvl=INFO] [tid=944] KickstartTable_GetEntry: TableNumberOfEntries = 5
+241007-14:40:12.493482 [mod=PAM, lvl=INFO] [tid=944] KickstartTable_GetEntry: pKickstartTable = 0x1a1ce4ac
+241007-14:40:12.493554 [mod=PAM, lvl=INFO] [tid=944] KickstartTable_GetEntry: returning 0x1a1ce544
+241007-14:40:12.493670 [mod=PAM, lvl=INFO] [tid=944] KickstartTable_GetEntry: hInsContext = 0x0
+241007-14:40:12.493744 [mod=PAM, lvl=INFO] [tid=944] KickstartTable_GetEntry: pKickstart = 0x1a1ce4a0
+241007-14:40:12.493873 [mod=PAM, lvl=INFO] [tid=944] KickstartTable_GetEntry: nIndex = 2, *pInsNumber = 3
+241007-14:40:12.493961 [mod=PAM, lvl=INFO] [tid=944] KickstartTable_GetEntry: TableNumberOfEntries = 5
+241007-14:40:12.494031 [mod=PAM, lvl=INFO] [tid=944] KickstartTable_GetEntry: pKickstartTable = 0x1a1ce4ac
+241007-14:40:12.494100 [mod=PAM, lvl=INFO] [tid=944] KickstartTable_GetEntry: returning 0x1a1ce5dc
+241007-14:40:12.494191 [mod=PAM, lvl=INFO] [tid=944] KickstartTable_GetEntry: hInsContext = 0x0
+241007-14:40:12.494264 [mod=PAM, lvl=INFO] [tid=944] KickstartTable_GetEntry: pKickstart = 0x1a1ce4a0
+241007-14:40:12.494335 [mod=PAM, lvl=INFO] [tid=944] KickstartTable_GetEntry: nIndex = 3, *pInsNumber = 4
+241007-14:40:12.494405 [mod=PAM, lvl=INFO] [tid=944] KickstartTable_GetEntry: TableNumberOfEntries = 5
+241007-14:40:12.494475 [mod=PAM, lvl=INFO] [tid=944] KickstartTable_GetEntry: pKickstartTable = 0x1a1ce4ac
+241007-14:40:12.494545 [mod=PAM, lvl=INFO] [tid=944] KickstartTable_GetEntry: returning 0x1a1ce674
+241007-14:40:12.494638 [mod=PAM, lvl=INFO] [tid=944] KickstartTable_GetEntry: hInsContext = 0x0
+241007-14:40:12.494714 [mod=PAM, lvl=INFO] [tid=944] KickstartTable_GetEntry: pKickstart = 0x1a1ce4a0
+241007-14:40:12.494783 [mod=PAM, lvl=INFO] [tid=944] KickstartTable_GetEntry: nIndex = 4, *pInsNumber = 5
+241007-14:40:12.494851 [mod=PAM, lvl=INFO] [tid=944] KickstartTable_GetEntry: TableNumberOfEntries = 5
+241007-14:40:12.494919 [mod=PAM, lvl=INFO] [tid=944] KickstartTable_GetEntry: pKickstartTable = 0x1a1ce4ac
+241007-14:40:12.494987 [mod=PAM, lvl=INFO] [tid=944] KickstartTable_GetEntry: returning 0x1a1ce70c
+241007-14:40:12.564925 [mod=PAM, lvl=WARN] [tid=944] Failed to parse process 758 information!
+241007-14:40:12.576456 [mod=PAM, lvl=WARN] [tid=944] Failed to open /proc/1366/stat!
+241007-14:40:12.576838 [mod=PAM, lvl=WARN] [tid=944] Failed to open /proc/1375/stat!
+241007-14:40:12.577274 [mod=PAM, lvl=WARN] [tid=944] Failed to open /proc/1396/stat!
+241007-14:40:12.585006 [mod=PAM, lvl=WARN] [tid=944] 
+ COSADmlGetProcessInfo 1693  ProcessNumberOfEntries:176
+241007-14:40:12.590924 [mod=PAM, lvl=WARN] [tid=944] InterfaceStack_Synchronize()..... '
+241007-14:40:12.597065 [mod=PAM, lvl=NOTICE] [tid=944] CosaDmlEthLinkGetCfg...
+241007-14:40:12.597244 [mod=PAM, lvl=NOTICE] [tid=944] CosaDmlEthLinkFindByInstNum...
+241007-14:40:12.597480 [mod=PAM, lvl=NOTICE] [tid=944] CosaDmlEthLinkGetCfg...
+241007-14:40:12.597565 [mod=PAM, lvl=NOTICE] [tid=944] CosaDmlEthLinkFindByInstNum...
+241007-14:40:12.597903 [mod=PAM, lvl=NOTICE] [tid=944] CosaDmlEthLinkGetCfg...
+241007-14:40:12.598020 [mod=PAM, lvl=NOTICE] [tid=944] CosaDmlEthLinkFindByInstNum...
+241007-14:40:12.598129 [mod=PAM, lvl=NOTICE] [tid=944] CosaDmlEthLinkGetCfg...
+241007-14:40:12.598207 [mod=PAM, lvl=NOTICE] [tid=944] CosaDmlEthLinkFindByInstNum...
+241007-14:40:12.598975 [mod=PAM, lvl=NOTICE] [tid=944] CosaDmlIPGetIPv6Addresses...
+241007-14:40:12.599125 [mod=PAM, lvl=NOTICE] [tid=944] IPIF_getEntry_for_Ipv6Addr...
+241007-14:40:12.599714 [mod=PAM, lvl=INFO] [tid=944] CosaUtilGetIpv6AddrInfo,Interface scope is : 32
+241007-14:40:12.604974 [mod=PAM, lvl=NOTICE] [tid=944] CosaDmlIPGetIPv6Prefixes...
+241007-14:40:12.605585 [mod=PAM, lvl=INFO] [tid=944] CosaUtilGetIpv6AddrInfo,Interface scope is : 32
+241007-14:40:12.618543 [mod=PAM, lvl=NOTICE] [tid=944] CosaDmlIPGetIPv6Addresses...
+241007-14:40:12.618704 [mod=PAM, lvl=NOTICE] [tid=944] IPIF_getEntry_for_Ipv6Addr...
+241007-14:40:12.619322 [mod=PAM, lvl=INFO] [tid=944] CosaUtilGetIpv6AddrInfo,Interface scope is : 16
+241007-14:40:12.620157 [mod=PAM, lvl=NOTICE] [tid=944] CosaDmlIPGetIPv6Prefixes...
+241007-14:40:12.620694 [mod=PAM, lvl=INFO] [tid=944] CosaUtilGetIpv6AddrInfo,Interface scope is : 16
+241007-14:40:12.621283 [mod=PAM, lvl=NOTICE] [tid=944] CosaDmlIPGetIPv6Addresses...
+241007-14:40:12.621406 [mod=PAM, lvl=NOTICE] [tid=944] IPIF_getEntry_for_Ipv6Addr...
+241007-14:40:12.621986 [mod=PAM, lvl=INFO] [tid=944] CosaUtilGetIpv6AddrInfo,Interface scope is : 32
+241007-14:40:12.622868 [mod=PAM, lvl=NOTICE] [tid=944] CosaDmlIPGetIPv6Addresses...
+241007-14:40:12.623098 [mod=PAM, lvl=NOTICE] [tid=944] CosaDmlIPGetIPv6Addresses...
+241007-14:40:13.247068 [mod=PAM, lvl=WARN] [tid=944] DynPortMappingCount is 0, we are not adding entry to TR-181/database since these are dynamic entries CosaDmlNatGetPortMappings
+241007-14:40:13.247609 [mod=PAM, lvl=WARN] [tid=944] Client2_Synchronize: is_usg_in_bridge_mode call failed. 
+241007-14:40:13.247710 [mod=PAM, lvl=NOTICE] [tid=944] CosaDmlDhcpsGetPoolCfg: pCfg->InstanceNumber =1
+241007-14:40:13.249478 [mod=PAM, lvl=NOTICE] [tid=944] Entered Inside _cosa_get_dhcps_client
+241007-14:40:13.249678 [mod=PAM, lvl=NOTICE] [tid=944] Opening COSA_DML_DHCP_LEASES_FILE failed _cosa_get_dhcps_client
+241007-14:40:13.250029 [mod=PAM, lvl=WARN] [tid=944] Client2_Synchronize: is_usg_in_bridge_mode call failed. 
+241007-14:40:13.250138 [mod=PAM, lvl=NOTICE] [tid=944] CosaDmlDhcpsGetPoolCfg: pCfg->InstanceNumber =2
+241007-14:40:13.250215 [mod=PAM, lvl=NOTICE] [tid=944] find_dhcpv4_pool_by_instancenum: found DHCPv4 Server Pool for instance number 2
+241007-14:40:13.250327 [mod=PAM, lvl=WARN] [tid=944] CosaDmlDhcpsGetClient CosaGetParamValueString Failed
+241007-14:40:13.250402 [mod=PAM, lvl=NOTICE] [tid=944] Entered Inside _cosa_get_dhcps_client
+241007-14:40:13.250510 [mod=PAM, lvl=NOTICE] [tid=944] Opening COSA_DML_DHCP_LEASES_FILE failed _cosa_get_dhcps_client
+241007-14:40:13.250724 [mod=PAM, lvl=WARN] [tid=944] Client2_Synchronize: is_usg_in_bridge_mode call failed. 
+241007-14:40:13.250815 [mod=PAM, lvl=NOTICE] [tid=944] CosaDmlDhcpsGetPoolCfg: pCfg->InstanceNumber =3
+241007-14:40:13.250891 [mod=PAM, lvl=NOTICE] [tid=944] find_dhcpv4_pool_by_instancenum: found DHCPv4 Server Pool for instance number 3
+241007-14:40:13.250997 [mod=PAM, lvl=WARN] [tid=944] CosaDmlDhcpsGetClient CosaGetParamValueString Failed
+241007-14:40:13.251068 [mod=PAM, lvl=NOTICE] [tid=944] Entered Inside _cosa_get_dhcps_client
+241007-14:40:13.251173 [mod=PAM, lvl=NOTICE] [tid=944] Opening COSA_DML_DHCP_LEASES_FILE failed _cosa_get_dhcps_client
+241007-14:40:13.252244 [mod=PAM, lvl=NOTICE] [tid=944] <HL >Port_GetEntryCount bridge instance = 1 get num of port entries=9
+241007-14:40:13.252683 [mod=PAM, lvl=NOTICE] [tid=944] <HL >Port_GetEntryCount bridge instance = 2 get num of port entries=4
+241007-14:40:13.252916 [mod=PAM, lvl=NOTICE] [tid=944] <HL >Port_GetEntryCount bridge instance = 3 get num of port entries=3
+241007-14:40:13.253216 [mod=PAM, lvl=NOTICE] [tid=944] <HL >Port_GetEntryCount bridge instance = 4 get num of port entries=3
+241007-14:40:13.253415 [mod=PAM, lvl=NOTICE] [tid=944] <HL >Port_GetEntryCount bridge instance = 5 get num of port entries=3
+241007-14:40:13.253606 [mod=PAM, lvl=NOTICE] [tid=944] <HL >Port_GetEntryCount bridge instance = 6 get num of port entries=3
+241007-14:40:13.254023 [mod=PAM, lvl=NOTICE] [tid=944] <HL >Port_GetEntryCount bridge instance = 7 get num of port entries=3
+241007-14:40:13.254346 [mod=PAM, lvl=NOTICE] [tid=944] <HL >Port_GetEntryCount bridge instance = 8 get num of port entries=3
+241007-14:40:13.254559 [mod=PAM, lvl=NOTICE] [tid=944] <HL >Port_GetEntryCount bridge instance = 9 get num of port entries=1
+241007-14:40:13.255421 [mod=PAM, lvl=WARN] [tid=944] PcBlkURL_GetEntryCount -- pParCtrl = 0x0x1a20f2d0
+241007-14:40:13.267024 [mod=PAM, lvl=WARN] [tid=944] PcBlkURL_GetEntryCount -- ulCount = 0...
+241007-14:40:13.267221 [mod=PAM, lvl=WARN] [tid=944] PcTrustedUser_GetEntryCount...
+241007-14:40:13.267334 [mod=PAM, lvl=WARN] [tid=944] MSServ_GetEntryCount...
+241007-14:40:13.267438 [mod=PAM, lvl=WARN] [tid=944] MSTrustedUser_GetEntryCount...
+241007-14:40:13.267549 [mod=PAM, lvl=WARN] [tid=944] MDDev_GetEntryCount...
+241007-14:40:13.292284 [mod=PAM, lvl=WARN] [tid=944] CosaDmlRipCallback -- starts.
+241007-14:40:13.292876 [mod=PAM, lvl=WARN] [tid=944] CosaDmlGenerateRipdConfigFile -- starts.
+241007-14:40:13.293055 [mod=PAM, lvl=WARN] [tid=944] CosaTimeGetRipdConfStaticPart -- g_pCosaBEManager->hRouting is not NULL
+241007-14:40:13.293130 [mod=PAM, lvl=WARN] [tid=944] CosaTimeGetRipdConfStaticPart -- pSListEntry is not NULL.
+241007-14:40:13.293203 [mod=PAM, lvl=WARN] [tid=944] CosTimeGetRipdConfStaticPart -- exits.
+241007-14:40:13.293615 [mod=PAM, lvl=WARN] [tid=944] CosaDmlGenerateRipdConfigFile -- exits.
+241007-14:40:13.293700 [mod=PAM, lvl=WARN] [tid=944] CosaDmlRipCallback -- exits.
+241007-14:40:13.342371 [mod=PAM, lvl=WARN] [tid=944] Search for empty object in 'dslhCpeCheckEmptyObject'
+241007-14:40:13.342624 [mod=PAM, lvl=WARN] [tid=944] Register a dummy param 'Device.DeviceInfo.X_RDKCENTRAL-COM_EthernetWAN.CcspDummy'
+241007-14:40:13.349320 [mod=PAM, lvl=WARN] [tid=1454] dhcpv6c_dbg_thrd sysevent_fd_global is 23
+241007-14:40:16.507969 [mod=PAM, lvl=WARN] [tid=944] PandMInit:ssp_engage_pnm PandM registered with CR ,setting the health to Green...
+241007-14:40:16.508148 [mod=PAM, lvl=INFO] [tid=944] Provision & Management Module loaded successfully...
+241007-14:40:16.508262 [mod=PAM, lvl=INFO] [tid=944] Inside FUNC check_component_crash LINE 359, init file is /tmp/pam_initialized_bootup 
+241007-14:40:16.508459 [mod=PAM, lvl=INFO] [tid=944] /tmp/pam_initialized_bootup file not present, need to send component init event to webconfig 
+241007-14:40:16.508543 [mod=PAM, lvl=INFO] [tid=944] notifyVersion_to_Webconfig : doc name portforwarding , doc version 0
+241007-14:40:16.508619 [mod=PAM, lvl=INFO] [tid=944] isWebCfgRbusEnabled: rbus enabled is 1 
+241007-14:40:16.508690 [mod=PAM, lvl=INFO] [tid=944] sendWebConfigSignal : rbus_set :: event_name : webconfigSignal :: 
+241007-14:40:16.509715 [mod=PAM, lvl=ERROR] [tid=944] rbus.c:3777 set by CcspPandMSsp_wbcfg failed; Received error 12 from RBUS Daemon for the object webconfigSignal
+
+241007-14:40:16.510244 [mod=PAM, lvl=ERROR] [tid=944] sendWebConfigSignal rbus_set for webconfigSignal failed & returns with Err: 6
+241007-14:40:16.510367 [mod=PAM, lvl=INFO] [tid=944] notifyVersion_to_Webconfig : doc name wan , doc version 0
+241007-14:40:16.510441 [mod=PAM, lvl=INFO] [tid=944] isWebCfgRbusEnabled: rbus enabled is 1 
+241007-14:40:16.510509 [mod=PAM, lvl=INFO] [tid=944] sendWebConfigSignal : rbus_set :: event_name : webconfigSignal :: 
+241007-14:40:16.511298 [mod=PAM, lvl=ERROR] [tid=944] rbus.c:3777 set by CcspPandMSsp_wbcfg failed; Received error 12 from RBUS Daemon for the object webconfigSignal
+
+241007-14:40:16.511379 [mod=PAM, lvl=ERROR] [tid=944] sendWebConfigSignal rbus_set for webconfigSignal failed & returns with Err: 6
+241007-14:40:16.511538 [mod=PAM, lvl=INFO] [tid=944] notifyVersion_to_Webconfig : doc name macbinding , doc version 0
+241007-14:40:16.511612 [mod=PAM, lvl=INFO] [tid=944] isWebCfgRbusEnabled: rbus enabled is 1 
+241007-14:40:16.511681 [mod=PAM, lvl=INFO] [tid=944] sendWebConfigSignal : rbus_set :: event_name : webconfigSignal :: 
+241007-14:40:16.512428 [mod=PAM, lvl=ERROR] [tid=944] rbus.c:3777 set by CcspPandMSsp_wbcfg failed; Received error 12 from RBUS Daemon for the object webconfigSignal
+
+241007-14:40:16.512509 [mod=PAM, lvl=ERROR] [tid=944] sendWebConfigSignal rbus_set for webconfigSignal failed & returns with Err: 6
+241007-14:40:16.512582 [mod=PAM, lvl=INFO] [tid=944] notifyVersion_to_Webconfig : doc name lan , doc version 0
+241007-14:40:16.512653 [mod=PAM, lvl=INFO] [tid=944] isWebCfgRbusEnabled: rbus enabled is 1 
+241007-14:40:16.512720 [mod=PAM, lvl=INFO] [tid=944] sendWebConfigSignal : rbus_set :: event_name : webconfigSignal :: 
+241007-14:40:16.513429 [mod=PAM, lvl=ERROR] [tid=944] rbus.c:3777 set by CcspPandMSsp_wbcfg failed; Received error 12 from RBUS Daemon for the object webconfigSignal
+
+241007-14:40:16.513506 [mod=PAM, lvl=ERROR] [tid=944] sendWebConfigSignal rbus_set for webconfigSignal failed & returns with Err: 6
+241007-14:40:16.513577 [mod=PAM, lvl=INFO] [tid=944] notifyVersion_to_Webconfig : doc name hotspot , doc version 0
+241007-14:40:16.513646 [mod=PAM, lvl=INFO] [tid=944] isWebCfgRbusEnabled: rbus enabled is 1 
+241007-14:40:16.513713 [mod=PAM, lvl=INFO] [tid=944] sendWebConfigSignal : rbus_set :: event_name : webconfigSignal :: 
+241007-14:40:16.514512 [mod=PAM, lvl=ERROR] [tid=944] rbus.c:3777 set by CcspPandMSsp_wbcfg failed; Received error 12 from RBUS Daemon for the object webconfigSignal
+
+241007-14:40:16.514602 [mod=PAM, lvl=ERROR] [tid=944] sendWebConfigSignal rbus_set for webconfigSignal failed & returns with Err: 6
+241007-14:40:16.514673 [mod=PAM, lvl=INFO] [tid=944] notifyVersion_to_Webconfig : doc name connectedbuilding , doc version 0
+241007-14:40:16.514743 [mod=PAM, lvl=INFO] [tid=944] isWebCfgRbusEnabled: rbus enabled is 1 
+241007-14:40:16.514810 [mod=PAM, lvl=INFO] [tid=944] sendWebConfigSignal : rbus_set :: event_name : webconfigSignal :: 
+241007-14:40:16.515499 [mod=PAM, lvl=ERROR] [tid=944] rbus.c:3777 set by CcspPandMSsp_wbcfg failed; Received error 12 from RBUS Daemon for the object webconfigSignal
+
+241007-14:40:16.515576 [mod=PAM, lvl=ERROR] [tid=944] sendWebConfigSignal rbus_set for webconfigSignal failed & returns with Err: 6
+241007-14:40:16.515647 [mod=PAM, lvl=INFO] [tid=944] PAM_DBG:----------------------touch /tmp/pam_initialized-------------------
+241007-14:40:16.627843 [mod=PAM, lvl=INFO] [tid=944] PAM_DEBUG:------------sem_getvalue returns value = 0 ------------
+241007-14:40:16.628018 [mod=PAM, lvl=INFO] [tid=944] PAM_DBG:----------------Before calling sem_post--------------------
+241007-14:40:16.628239 [mod=PAM, lvl=INFO] [tid=944] Searching for ATOM ARP IP
+241007-14:40:16.628525 [mod=PAM, lvl=WARN] [tid=944] RDKB_SYSTEM_BOOT_UP_LOG : Entering P&M loop... 
+241007-14:40:17.922661 [mod=PAM, lvl=INFO] [tid=927] PAM_DBG:---------------sem_trywait() returns 0 ---------------------
+241007-14:40:17.922845 [mod=PAM, lvl=INFO] [tid=927] PAM_DBG:---------------uptime after waiting for sem is 25 seconds ---------------------
+241007-14:40:17.923095 [mod=PAM, lvl=INFO] [tid=927] PAM_DBG:------------diff time is 10 -------------
+241007-14:40:21.239629 [mod=PAM, lvl=INFO] [tid=948] [Pam_GetFirstIpInterfaceObjectName] -- Enter 
+241007-14:40:21.239937 [mod=PAM, lvl=NOTICE] [tid=948] CosaUtilGetLinkTypePath: 2
+241007-14:40:21.240040 [mod=PAM, lvl=NOTICE] [tid=948] CosaUtilGetLinkTypePath: return index 1
+241007-14:40:21.240275 [mod=PAM, lvl=NOTICE] [tid=948] CosaUtilGetLinkTypePath: 1
+241007-14:40:21.240378 [mod=PAM, lvl=NOTICE] [tid=948] CosaUtilGetLinkTypePath: return index 0
+241007-14:40:21.240472 [mod=PAM, lvl=NOTICE] [tid=948] Device.Ethernet.Interface.5, size 27, buf len 256
+241007-14:40:21.254676 [mod=PAM, lvl=ERROR] [tid=948] GetParameterValues for param[0]=Device.Ethernet.Interface.5.Name failed with Error: 12
+241007-14:40:21.254927 [mod=PAM, lvl=WARN] [tid=948] CosaUtilGetLowerLayerName -- failure 4294967295, to retrieve Device.Ethernet.Interface.5.Name
+241007-14:40:21.255009 [mod=PAM, lvl=WARN] [tid=948] Link_GetParamStringValue -- failed to retrieve LowerLayer name parameter, error code 4294967295
+241007-14:40:21.255342 [mod=PAM, lvl=NOTICE] [tid=948] CosaUtilGetLinkTypePath: 2
+241007-14:40:21.255426 [mod=PAM, lvl=NOTICE] [tid=948] CosaUtilGetLinkTypePath: return index 1
+241007-14:40:21.255570 [mod=PAM, lvl=NOTICE] [tid=948] CosaUtilGetLinkTypePath: 10
+241007-14:40:21.255647 [mod=PAM, lvl=NOTICE] [tid=948] CosaUtilGetLinkTypePath: return index 9
+241007-14:40:21.255729 [mod=PAM, lvl=NOTICE] [tid=948] Device.Bridging.Bridge.1.Port.1, size 31, buf len 256
+241007-14:40:21.330686 [mod=PAM, lvl=NOTICE] [tid=948] CosaUtilGetLinkTypePath: 2
+241007-14:40:21.330838 [mod=PAM, lvl=NOTICE] [tid=948] CosaUtilGetLinkTypePath: return index 1
+241007-14:40:21.330981 [mod=PAM, lvl=NOTICE] [tid=948] CosaUtilGetLinkTypePath: 10
+241007-14:40:21.331055 [mod=PAM, lvl=NOTICE] [tid=948] CosaUtilGetLinkTypePath: return index 9
+241007-14:40:21.331140 [mod=PAM, lvl=NOTICE] [tid=948] Device.Bridging.Bridge.2.Port.1, size 31, buf len 256
+241007-14:40:21.413020 [mod=PAM, lvl=NOTICE] [tid=948] CosaUtilGetLinkTypePath: 2
+241007-14:40:21.413149 [mod=PAM, lvl=NOTICE] [tid=948] CosaUtilGetLinkTypePath: return index 1
+241007-14:40:21.413301 [mod=PAM, lvl=NOTICE] [tid=948] CosaUtilGetLinkTypePath: 10
+241007-14:40:21.413377 [mod=PAM, lvl=NOTICE] [tid=948] CosaUtilGetLinkTypePath: return index 9
+241007-14:40:21.413449 [mod=PAM, lvl=NOTICE] [tid=948] Device.Bridging.Bridge.5.Port.1, size 31, buf len 256
+241007-14:40:21.478708 [mod=PAM, lvl=INFO] [tid=948] [Pam_GetFirstIpInterfaceObjectName] -- Exit returnStatus: 4294967280
+241007-14:40:21.478877 [mod=PAM, lvl=INFO] [tid=948] [Pam_GetFirstIpInterfaceObjectName] -- Enter 
+241007-14:40:21.479032 [mod=PAM, lvl=NOTICE] [tid=948] CosaUtilGetLinkTypePath: 2
+241007-14:40:21.479109 [mod=PAM, lvl=NOTICE] [tid=948] CosaUtilGetLinkTypePath: return index 1
+241007-14:40:21.479299 [mod=PAM, lvl=NOTICE] [tid=948] CosaUtilGetLinkTypePath: 1
+241007-14:40:21.479382 [mod=PAM, lvl=NOTICE] [tid=948] CosaUtilGetLinkTypePath: return index 0
+241007-14:40:21.479456 [mod=PAM, lvl=NOTICE] [tid=948] Device.Ethernet.Interface.5, size 27, buf len 256
+241007-14:40:21.486422 [mod=PAM, lvl=ERROR] [tid=948] GetParameterValues for param[0]=Device.Ethernet.Interface.5.Name failed with Error: 12
+241007-14:40:21.486597 [mod=PAM, lvl=WARN] [tid=948] CosaUtilGetLowerLayerName -- failure 4294967295, to retrieve Device.Ethernet.Interface.5.Name
+241007-14:40:21.486672 [mod=PAM, lvl=WARN] [tid=948] Link_GetParamStringValue -- failed to retrieve LowerLayer name parameter, error code 4294967295
+241007-14:40:21.584423 [mod=PAM, lvl=INFO] [tid=948] [Pam_GetFirstIpInterfaceObjectName] -- Exit returnStatus: 4294967280
+241007-14:40:21.584581 [mod=PAM, lvl=WARN] [tid=948] Failed to get parameter value of 'FirstUpstreamIpInterface'.
+241007-14:40:21.616893 [mod=PAM, lvl=INFO] [tid=948] <<< DslhWmpdoMpaSetParameterAttributes pSetParameterAttribArray[0].RequesterID 4 >>>
+241007-14:40:21.617061 [mod=PAM, lvl=INFO] [tid=948] <<< DslhVarroSetNotification pMyObject->RequesterID 4 >>>
+241007-14:40:21.617314 [mod=PAM, lvl=WARN] [tid=948] Cannot get ipv4 address of netdev:erouter0
+241007-14:40:21.617469 [mod=PAM, lvl=INFO] [tid=948] <<<  pDslhVarRecord->RequesterID 4 >>>
+241007-14:40:21.641334 [mod=PAM, lvl=WARN] [tid=948] Cannot get ipv4 address of netdev:erouter0
+241007-14:40:21.902139 [mod=PAM, lvl=INFO] [tid=1355] circuit_id_init_thread : Waiting for WiFi to be initialized...
+241007-14:40:22.206625 [mod=PAM, lvl=INFO] [tid=948] rbus.c:1014 Consumer=rbus.OneWifi.INBOX.1961 SUBSCRIBED to event=Device.X_RDKCENTRAL-COM_DeviceControl.DeviceNetworkingMode
+
+241007-14:40:22.238244 [mod=PAM, lvl=WARN] [tid=948] Event devctrl sub handler called.
+241007-14:40:22.238376 [mod=PAM, lvl=WARN] [tid=948] Subscribers count changed, new value=1
+241007-14:40:22.242059 [mod=PAM, lvl=INFO] [tid=1371] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+241007-14:40:22.243862 [mod=PAM, lvl=INFO] [tid=1371] webcfg_rbus_discover_component: (0-1)ret[FALSE]
+241007-14:40:22.253527 [mod=PAM, lvl=WARN] [tid=2034] rbusValueChange_pollingThreadFunc: start
+241007-14:40:22.318106 [mod=PAM, lvl=INFO] [tid=948] rbus.c:1014 Consumer=rbus.OneWifi.INBOX.1961 SUBSCRIBED to event=multiCompBroadCastSignal
+
+241007-14:40:22.318261 [mod=PAM, lvl=INFO] [tid=948] eventSubHandlerWbFramework called:
+	action=subscribe
+	eventName=multiCompBroadCastSignal
+241007-14:40:23.544708 [mod=PAM, lvl=WARN] [tid=948] Getting Device Networking Mode value for non-xle devices, new value = '0'
+241007-14:40:24.897026 [mod=PAM, lvl=ERROR] [tid=948] syscfg_get failed for MTLS
+241007-14:40:24.897210 [mod=PAM, lvl=WARN] [tid=948] Failed to get parameter value of 'Enable'.
+241007-14:40:25.750067 [mod=PAM, lvl=WARN] [tid=948] Failed to get parameter value of 'ConfigURL'.
+241007-14:40:26.543593 [mod=PAM, lvl=INFO] [tid=948] rbus.c:1014 Consumer=rbus.wanmanager.INBOX.851 SUBSCRIBED to event=Device.X_RDKCENTRAL-COM_DeviceControl.DeviceNetworkingMode
+
+241007-14:40:26.543701 [mod=PAM, lvl=WARN] [tid=948] Event devctrl sub handler called.
+241007-14:40:26.543779 [mod=PAM, lvl=WARN] [tid=948] Subscribers count changed, new value=2
+241007-14:40:26.546283 [mod=PAM, lvl=WARN] [tid=948] Getting Device Networking Mode value for non-xle devices, new value = '0'
+241007-14:40:26.902702 [mod=PAM, lvl=INFO] [tid=1355] circuit_id_init_thread : Waiting for WiFi to be initialized...
+241007-14:40:27.786249 [mod=PAM, lvl=WARN] [tid=1367] CosaDmlDhcpv6sRestartOnLanStarted -- lan status is started. 
+241007-14:40:28.467220 [mod=PAM, lvl=WARN] [tid=1025] Cannot get ipv4 address of netdev:erouter0
+241007-14:40:30.233536 [mod=PAM, lvl=WARN] [tid=1367] CosaDmlDhcpv6sRestartOnLanStarted -- lan status is started. 
+241007-14:40:31.905759 [mod=PAM, lvl=INFO] [tid=1355] circuit_id_init_thread : Waiting for WiFi to be initialized...
+241007-14:40:31.906151 [mod=PAM, lvl=INFO] [tid=1355] enteredhotspot_update_circuit_ids
+241007-14:40:31.908192 [mod=PAM, lvl=INFO] [tid=1355] localinterfaces Device.WiFi.SSID.5.,Device.WiFi.SSID.6.,Device.WiFi.SSID.9.,Device.WiFi.SSID.10.
+241007-14:40:31.908347 [mod=PAM, lvl=INFO] [tid=1355] curInt Device.WiFi.SSID.5.
+241007-14:40:31.908429 [mod=PAM, lvl=INFO] [tid=1355] testcurInt is .5
+241007-14:40:31.916135 [mod=PAM, lvl=INFO] [tid=1355] testcurInt is .6
+241007-14:40:31.923408 [mod=PAM, lvl=INFO] [tid=1355] testcurInt is .9
+241007-14:40:31.931875 [mod=PAM, lvl=INFO] [tid=1355] testcurInt is .10
+241007-14:40:32.244164 [mod=PAM, lvl=INFO] [tid=1371] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+241007-14:40:32.245370 [mod=PAM, lvl=INFO] [tid=1371] webcfg_rbus_discover_component: (0-1)ret[FALSE]
+241007-14:40:32.525121 [mod=PAM, lvl=WARN] [tid=1303] Ipv6ModeHandler_thrd Recieved notification event  current_wan_ifname
+241007-14:40:32.525292 [mod=PAM, lvl=INFO] [tid=1303] Ipv6ModeHandler_thrd : current_wan_ifname set to erouter0
+241007-14:40:32.529354 [mod=PAM, lvl=INFO] [tid=1367] EvtDispterWanIpAddrsCallback Setting current_wan_ipaddr and restarting firewall 437 
+241007-14:40:32.529752 [mod=PAM, lvl=INFO] [tid=1303] SwitchToGlobalIpv6 started
+241007-14:40:33.558804 [mod=PAM, lvl=WARN] [tid=948] Failed to parse process 758 information!
+241007-14:40:33.576101 [mod=PAM, lvl=WARN] [tid=948] Failed to open /proc/3234/stat!
+241007-14:40:33.576575 [mod=PAM, lvl=WARN] [tid=948] Failed to open /proc/3241/stat!
+241007-14:40:33.576747 [mod=PAM, lvl=WARN] [tid=948] Failed to open /proc/3242/stat!
+241007-14:40:33.576894 [mod=PAM, lvl=WARN] [tid=948] Failed to open /proc/3243/stat!
+241007-14:40:33.577506 [mod=PAM, lvl=WARN] [tid=948] 
+ COSADmlGetProcessInfo 1693  ProcessNumberOfEntries:212
+241007-14:40:33.687774 [mod=PAM, lvl=WARN] [tid=948] InterfaceStack_Synchronize()..... '
+241007-14:40:33.688253 [mod=PAM, lvl=NOTICE] [tid=948] CosaUtilGetLinkTypePath: 1
+241007-14:40:33.688458 [mod=PAM, lvl=NOTICE] [tid=948] CosaUtilGetLinkTypePath: return index 0
+241007-14:40:33.688556 [mod=PAM, lvl=NOTICE] [tid=948] Device.Ethernet.Interface.5, size 27, buf len 256
+241007-14:40:33.688671 [mod=PAM, lvl=WARN] [tid=948] 
+ No Alias for 'Device.Ethernet.Interface.5'
+241007-14:40:33.852937 [mod=PAM, lvl=NOTICE] [tid=948] CosaUtilGetLinkTypePath: 2
+241007-14:40:33.853091 [mod=PAM, lvl=NOTICE] [tid=948] CosaUtilGetLinkTypePath: return index 1
+241007-14:40:33.853294 [mod=PAM, lvl=NOTICE] [tid=948] CosaUtilGetLinkTypePath: 1
+241007-14:40:33.853379 [mod=PAM, lvl=NOTICE] [tid=948] CosaUtilGetLinkTypePath: return index 0
+241007-14:40:33.853456 [mod=PAM, lvl=NOTICE] [tid=948] Device.Ethernet.Interface.5, size 27, buf len 256
+241007-14:40:33.855630 [mod=PAM, lvl=WARN] [tid=948] EthAgent_getParams parameterValue[erouter0]
+241007-14:40:33.855787 [mod=PAM, lvl=NOTICE] [tid=948] CosaUtilGetLowerLayerName -- value erouter0
+241007-14:40:33.855864 [mod=PAM, lvl=NOTICE] [tid=948] CosaDmlEthLinkUpdateStaticLowerLayerName...
+241007-14:40:33.855936 [mod=PAM, lvl=NOTICE] [tid=948] CosaDmlEthLinkFindByInstNum...
+241007-14:40:33.856206 [mod=PAM, lvl=WARN] [tid=948] 
+ No LowerLayers for 'Device.IP.Interface.2'
+241007-14:40:33.856765 [mod=PAM, lvl=WARN] [tid=948] 
+ No LowerLayers for 'Device.PPP.Interface.1'
+241007-14:40:33.856980 [mod=PAM, lvl=NOTICE] [tid=948] <HL >Port_GetEntryCount bridge instance = 1 get num of port entries=9
+241007-14:40:33.959870 [mod=PAM, lvl=WARN] [tid=948] 
+ No LowerLayers for 'Device.Bridging.Bridge.1.Port.1'
+241007-14:40:33.960142 [mod=PAM, lvl=WARN] [tid=948] 
+ No LowerLayers for 'Device.Bridging.Bridge.1.Port.2'
+241007-14:40:33.960313 [mod=PAM, lvl=WARN] [tid=948] 
+ No LowerLayers for 'Device.Bridging.Bridge.1.Port.3'
+241007-14:40:33.960474 [mod=PAM, lvl=WARN] [tid=948] 
+ No LowerLayers for 'Device.Bridging.Bridge.1.Port.4'
+241007-14:40:33.963647 [mod=PAM, lvl=WARN] [tid=948] 
+ No LowerLayers for 'Device.Bridging.Bridge.1.Port.5'
+241007-14:40:34.013083 [mod=PAM, lvl=WARN] [tid=948] 
+ No LowerLayers for 'Device.Bridging.Bridge.1.Port.6'
+241007-14:40:34.060480 [mod=PAM, lvl=WARN] [tid=948] 
+ No LowerLayers for 'Device.Bridging.Bridge.1.Port.7'
+241007-14:40:34.060771 [mod=PAM, lvl=WARN] [tid=948] 
+ No LowerLayers for 'Device.Bridging.Bridge.1.Port.8'
+241007-14:40:34.060949 [mod=PAM, lvl=WARN] [tid=948] 
+ No LowerLayers for 'Device.Bridging.Bridge.1.Port.9'
+241007-14:40:34.061074 [mod=PAM, lvl=NOTICE] [tid=948] <HL >Port_GetEntryCount bridge instance = 2 get num of port entries=4
+241007-14:40:34.171857 [mod=PAM, lvl=WARN] [tid=948] 
+ No LowerLayers for 'Device.Bridging.Bridge.2.Port.1'
+241007-14:40:34.172154 [mod=PAM, lvl=WARN] [tid=948] 
+ No LowerLayers for 'Device.Bridging.Bridge.2.Port.2'
+241007-14:40:34.221781 [mod=PAM, lvl=WARN] [tid=948] 
+ No LowerLayers for 'Device.Bridging.Bridge.2.Port.3'
+241007-14:40:34.274561 [mod=PAM, lvl=WARN] [tid=948] 
+ No LowerLayers for 'Device.Bridging.Bridge.2.Port.4'
+241007-14:40:34.274810 [mod=PAM, lvl=NOTICE] [tid=948] <HL >Port_GetEntryCount bridge instance = 3 get num of port entries=3
+241007-14:40:34.380434 [mod=PAM, lvl=WARN] [tid=948] 
+ No LowerLayers for 'Device.Bridging.Bridge.3.Port.2'
+241007-14:40:34.384218 [mod=PAM, lvl=NOTICE] [tid=948] <HL >Port_GetEntryCount bridge instance = 4 get num of port entries=3
+241007-14:40:34.485031 [mod=PAM, lvl=WARN] [tid=948] 
+ No LowerLayers for 'Device.Bridging.Bridge.4.Port.2'
+241007-14:40:34.489648 [mod=PAM, lvl=NOTICE] [tid=948] <HL >Port_GetEntryCount bridge instance = 5 get num of port entries=3
+241007-14:40:34.610821 [mod=PAM, lvl=WARN] [tid=948] 
+ No LowerLayers for 'Device.Bridging.Bridge.5.Port.1'
+241007-14:40:34.674203 [mod=PAM, lvl=WARN] [tid=948] 
+ No LowerLayers for 'Device.Bridging.Bridge.5.Port.2'
+241007-14:40:34.721693 [mod=PAM, lvl=WARN] [tid=948] 
+ No LowerLayers for 'Device.Bridging.Bridge.5.Port.3'
+241007-14:40:34.721998 [mod=PAM, lvl=NOTICE] [tid=948] <HL >Port_GetEntryCount bridge instance = 6 get num of port entries=3
+241118-09:32:02.159784 [mod=PAM, lvl=WARN] [tid=1025] DslhWmpdoMonitorTimerInvoke - value change detected on parameter <Device.IP.Interface.1.IPv4Address.1.IPAddress>.
+241118-09:32:02.254423 [mod=PAM, lvl=WARN] [tid=948] 
+ No LowerLayers for 'Device.Bridging.Bridge.6.Port.1'
+241118-09:32:02.325385 [mod=PAM, lvl=WARN] [tid=948] 
+ No LowerLayers for 'Device.Bridging.Bridge.6.Port.2'
+241118-09:32:02.433584 [mod=PAM, lvl=WARN] [tid=948] 
+ No LowerLayers for 'Device.Bridging.Bridge.6.Port.3'
+241118-09:32:02.433830 [mod=PAM, lvl=NOTICE] [tid=948] <HL >Port_GetEntryCount bridge instance = 7 get num of port entries=3
+241118-09:32:02.683644 [mod=PAM, lvl=WARN] [tid=948] 
+ No LowerLayers for 'Device.Bridging.Bridge.7.Port.2'
+241118-09:32:02.687973 [mod=PAM, lvl=NOTICE] [tid=948] <HL >Port_GetEntryCount bridge instance = 8 get num of port entries=3
+241118-09:32:02.915111 [mod=PAM, lvl=WARN] [tid=948] 
+ No LowerLayers for 'Device.Bridging.Bridge.8.Port.2'
+241118-09:32:02.919021 [mod=PAM, lvl=NOTICE] [tid=948] <HL >Port_GetEntryCount bridge instance = 9 get num of port entries=1
+241118-09:32:02.919266 [mod=PAM, lvl=WARN] [tid=948] 
+ No LowerLayers for 'Device.Bridging.Bridge.9.Port.1'
+241118-09:32:02.923333 [mod=PAM, lvl=INFO] [tid=948] rbus.c:1014 Consumer=rbus.meshAgent.INBOX.2636 SUBSCRIBED to event=Device.X_RDKCENTRAL-COM_DeviceControl.DeviceNetworkingMode
+
+241118-09:32:02.923488 [mod=PAM, lvl=WARN] [tid=948] Event devctrl sub handler called.
+241118-09:32:02.923565 [mod=PAM, lvl=WARN] [tid=948] Subscribers count changed, new value=3
+241118-09:32:02.942207 [mod=PAM, lvl=WARN] [tid=948] Failed to get parameter value of 'ConfigURL'.
+241118-09:32:04.383599 [mod=PAM, lvl=NOTICE] [tid=948] CosaDmlIPGetIPv6Addresses...
+241118-09:32:04.383757 [mod=PAM, lvl=NOTICE] [tid=948] IPIF_getEntry_for_Ipv6Addr...
+241118-09:32:04.384379 [mod=PAM, lvl=INFO] [tid=948] CosaUtilGetIpv6AddrInfo,Interface scope is : 32
+241118-09:32:04.386450 [mod=PAM, lvl=NOTICE] [tid=948] CosaDmlIPGetIPv6Prefixes...
+241118-09:32:04.387236 [mod=PAM, lvl=INFO] [tid=948] CosaUtilGetIpv6AddrInfo,Interface scope is : 32
+241118-09:32:04.388959 [mod=PAM, lvl=NOTICE] [tid=948] CosaDmlIPGetIPv6Addresses...
+241118-09:32:04.389107 [mod=PAM, lvl=NOTICE] [tid=948] IPIF_getEntry_for_Ipv6Addr...
+241118-09:32:04.389722 [mod=PAM, lvl=INFO] [tid=948] CosaUtilGetIpv6AddrInfo,Interface scope is : 16
+241118-09:32:04.390797 [mod=PAM, lvl=NOTICE] [tid=948] CosaDmlIPGetIPv6Prefixes...
+241118-09:32:04.391542 [mod=PAM, lvl=INFO] [tid=948] CosaUtilGetIpv6AddrInfo,Interface scope is : 16
+241118-09:32:04.392250 [mod=PAM, lvl=NOTICE] [tid=948] CosaDmlIPGetIPv6Addresses...
+241118-09:32:04.392376 [mod=PAM, lvl=NOTICE] [tid=948] IPIF_getEntry_for_Ipv6Addr...
+241118-09:32:04.392975 [mod=PAM, lvl=INFO] [tid=948] CosaUtilGetIpv6AddrInfo,Interface scope is : 32
+241118-09:32:04.393701 [mod=PAM, lvl=NOTICE] [tid=948] CosaDmlIPGetIPv6Addresses...
+241118-09:32:04.393867 [mod=PAM, lvl=NOTICE] [tid=948] CosaDmlIPGetIPv6Addresses...
+241118-09:32:04.720712 [mod=PAM, lvl=NOTICE] [tid=948] CosaDmlDhcpsGetPoolCfg: pCfg->InstanceNumber =1
+241118-09:32:04.722164 [mod=PAM, lvl=NOTICE] [tid=948] Entered Inside _cosa_get_dhcps_client
+241118-09:32:04.722455 [mod=PAM, lvl=NOTICE] [tid=948] Opening COSA_DML_DHCP_LEASES_FILE failed _cosa_get_dhcps_client
+241118-09:32:04.722683 [mod=PAM, lvl=NOTICE] [tid=948] CosaDmlDhcpsGetPoolCfg: pCfg->InstanceNumber =2
+241118-09:32:04.722764 [mod=PAM, lvl=NOTICE] [tid=948] find_dhcpv4_pool_by_instancenum: found DHCPv4 Server Pool for instance number 2
+241118-09:32:04.722869 [mod=PAM, lvl=NOTICE] [tid=948] Entered Inside _cosa_get_dhcps_client
+241118-09:32:04.722976 [mod=PAM, lvl=NOTICE] [tid=948] Opening COSA_DML_DHCP_LEASES_FILE failed _cosa_get_dhcps_client
+241118-09:32:04.723136 [mod=PAM, lvl=NOTICE] [tid=948] CosaDmlDhcpsGetPoolCfg: pCfg->InstanceNumber =3
+241118-09:32:04.723207 [mod=PAM, lvl=NOTICE] [tid=948] find_dhcpv4_pool_by_instancenum: found DHCPv4 Server Pool for instance number 3
+241118-09:32:04.723302 [mod=PAM, lvl=NOTICE] [tid=948] Entered Inside _cosa_get_dhcps_client
+241118-09:32:04.723401 [mod=PAM, lvl=NOTICE] [tid=948] Opening COSA_DML_DHCP_LEASES_FILE failed _cosa_get_dhcps_client
+241118-09:32:04.921808 [mod=PAM, lvl=INFO] [tid=948] rbus.c:1014 Consumer=rbus.meshAgent.INBOX.2636 SUBSCRIBED to event=Device.X_RDKCENTRAL-COM_DeviceControl.DeviceNetworkingMode
+
+241118-09:32:04.921968 [mod=PAM, lvl=WARN] [tid=948] Event devctrl sub handler called.
+241118-09:32:04.922045 [mod=PAM, lvl=WARN] [tid=948] Subscribers count changed, new value=4
+241118-09:32:05.266738 [mod=PAM, lvl=WARN] [tid=948] DynPortMappingCount is 0, we are not adding entry to TR-181/database since these are dynamic entries CosaDmlNatGetPortMappings
+241118-09:32:09.619902 [mod=PAM, lvl=INFO] [tid=1371] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+241118-09:32:09.621293 [mod=PAM, lvl=INFO] [tid=1371] webcfg_rbus_discover_component: (0-1)ret[FALSE]
+241118-09:32:10.183700 [mod=PAM, lvl=WARN] [tid=948] DslhObjcoValidate: DeviceManageableNotification, bsUpdate = 3
+
+241118-09:32:10.183956 [mod=PAM, lvl=WARN] [tid=948] ManageableNotificationEnabled is false, device manage notification is not sent
+241118-09:32:11.079894 [mod=PAM, lvl=WARN] [tid=948] Failed to get parameter value of 'AccountID'.
+241118-09:32:19.621555 [mod=PAM, lvl=INFO] [tid=1371] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+241118-09:32:19.622953 [mod=PAM, lvl=INFO] [tid=1371] webcfg_rbus_discover_component: (0-1)ret[FALSE]
+241118-09:32:24.580952 [mod=PAM, lvl=WARN] [tid=948] Failed to get parameter value of 'AccountID'.
+241118-09:32:29.623209 [mod=PAM, lvl=INFO] [tid=1371] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+241118-09:32:29.624348 [mod=PAM, lvl=INFO] [tid=1371] webcfg_rbus_discover_component: (0-1)ret[FALSE]
+241118-09:32:39.624589 [mod=PAM, lvl=INFO] [tid=1371] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+241118-09:32:39.625836 [mod=PAM, lvl=INFO] [tid=1371] webcfg_rbus_discover_component: (0-1)ret[FALSE]
+241118-09:32:49.626111 [mod=PAM, lvl=INFO] [tid=1371] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+241118-09:32:49.627264 [mod=PAM, lvl=INFO] [tid=1371] webcfg_rbus_discover_component: (0-1)ret[FALSE]
+241118-09:32:57.977621 [mod=PAM, lvl=WARN] [tid=948] Failed to get parameter value of 'AccountID'.
+241118-09:32:59.627716 [mod=PAM, lvl=INFO] [tid=1371] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+241118-09:32:59.629153 [mod=PAM, lvl=INFO] [tid=1371] webcfg_rbus_discover_component: (0-1)ret[FALSE]
+241118-09:33:02.002033 [mod=PAM, lvl=WARN] [tid=948] Failed to get parameter value of 'ConfigURL'.
+241118-09:33:09.629434 [mod=PAM, lvl=INFO] [tid=1371] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+241118-09:33:09.630762 [mod=PAM, lvl=INFO] [tid=1371] webcfg_rbus_discover_component: (0-1)ret[FALSE]

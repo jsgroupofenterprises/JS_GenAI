@@ -1,0 +1,7 @@
+{
+  "entity_name": "ovsdb_where_simple_typed",
+  "component": "CcspWifiAgent",
+  "content_hash": "eb0a157f706cbf5da25776857fa8f2fe",
+  "response": "1. **Main purpose of ovsdb_where_simple_typed:**\n   - Constructs a simple Open vSwitch Database (OVSDB) 'Where' clause for selecting rows from a database table based on a single equality condition.\n\n\n2. **Key operations and data flow:**\n   - Validates the input column name.\n   - Generates an OVSDB condition using the OVSDB transaction condition function ovsdb_tran_cond().\n\n\n3. **Interaction with other components:**\n   - Uses the ovsdb_tran_cond() function from the OVSDB library.\n\n\n4. **Important parameters and return values:**\n   - **column:** Name of the column to use in the 'Where' clause.\n   - **value:** Value to compare the column to.\n   - **col_type:** Type of the column (e.g., string, integer, boolean).\n   - **Returns:** A JSON object representing the OVSDB 'Where' clause.\n\n\n5. **RDK-related operations:**\n   - None specifically mentioned in the provided code.",
+  "processed_at": "2024-11-13T16:07:52.812960"
+}

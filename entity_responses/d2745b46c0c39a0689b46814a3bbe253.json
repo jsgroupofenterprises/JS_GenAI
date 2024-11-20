@@ -1,0 +1,7 @@
+{
+  "entity_name": "wifi_setApRtsThreshold",
+  "component": "hal",
+  "content_hash": "d2745b46c0c39a0689b46814a3bbe253",
+  "response": "**1. Main purpose and functionality**\n\nThe `wifi_setApRtsThreshold` function is used to set the packet size threshold in bytes to apply RTS/CTS backoff rules.\n\n**2. Key operations and data flow**\n\nThe function takes two parameters:\n\n* `apIndex`: The index of the access point to set the RTS threshold for.\n* `threshold`: The packet size threshold in bytes.\n\nThe function sets the RTS threshold for the specified access point. When a packet is sent that is larger than the RTS threshold, the access point will send a Request to Send (RTS) frame to the destination station. The destination station will then respond with a Clear to Send (CTS) frame, allowing the access point to send the packet.\n\n**3. Interaction with other components (if any)**\n\nThe `wifi_setApRtsThreshold` function interacts with the following components:\n\n* The access point driver\n* The wireless MAC\n\n**4. Important parameters and return values**\n\nThe following parameters are important to note:\n\n* `apIndex`: The index of the access point to set the RTS threshold for.\n* `threshold`: The packet size threshold in bytes.\n\nThe function returns the following values:\n\n* `RETURN_OK` if the function was successful.\n* `RETURN_ERR` if the function failed.\n\n**5. Any specific RDK-related operations**\n\nThe `wifi_setApRtsThreshold` function is not specific to RDK.",
+  "processed_at": "2024-11-14T12:21:24.680092"
+}

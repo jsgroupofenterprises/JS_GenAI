@@ -1,0 +1,7 @@
+{
+  "entity_name": "ovsdb_cache_upsert_get_uuid",
+  "component": "CcspWifiAgent",
+  "content_hash": "f65cfb7b879ade1e89a568672b32c6bd",
+  "response": "1. Main purpose and functionality:\n   - This function is used to update or insert a record into an OVSDB cache and retrieve the UUID of the record.\n\n2. Key operations and data flow:\n   - The function takes the OVSDB socket path, the table to update or insert the record into, the record itself, and a pointer to an OVS UUID where the UUID of the record should be stored.\n   - It first calls the ovsdb_cache_upsert function to update or insert the record into the OVSDB cache.\n   - If the operation is successful, it extracts the UUID of the record from the record and stores it in the provided OVS UUID.\n\n3. Interaction with other components:\n   - This function interacts with the OVSDB cache, which is a component that stores OVSDB records in memory for faster access.\n\n4. Important parameters and return values:\n   - The important parameters are the OVSDB socket path, the table to update or insert the record into, the record itself, and the pointer to the OVS UUID where the UUID of the record should be stored.\n   - The return value is an integer indicating the status of the operation.\n\n5. Any specific RDK-related operations:\n   - This function is used in the RDK CcspWifiAgent component to manage OVSDB records.",
+  "processed_at": "2024-11-13T16:04:25.473884"
+}

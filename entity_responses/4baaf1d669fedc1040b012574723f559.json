@@ -1,0 +1,7 @@
+{
+  "entity_name": "CosaWifiRegGetMacFiltInfo",
+  "component": "CcspWifiAgent",
+  "content_hash": "4baaf1d669fedc1040b012574723f559",
+  "response": "**1. Main purpose and functionality:**\n\nThe CosaWifiRegGetMacFiltInfo function retreives mac filter information\n\n**2. Key operations and data flow:**\n\nThe function retrieves information from the IREP folder object associated with the mac filter and populates a list of mac filters.\n\n**3. Interaction with other components (if any):**\n\n- The function interacts with the IREP component to retrieve the mac filter information.\n- The function interacts with the COSA data model to populate the list of mac filters.\n- The function interacts with the SLAP component to retrieve information from the IREP folder object.\n\n**4. Important parameters and return values:**\n\n- **Parameters:**\n  - hThisObject: The handle to the COSA data model object.\n- **Return values:**\n  - ANSC_STATUS_SUCCESS: The function was successful.\n  - ANSC_STATUS_FAILURE: The function failed.\n\n**5. Any specific RDK-related operations:**\n\n- The function uses the RDK IREP component to retrieve the mac filter information.\n- The function uses the RDK COSA data model to populate the list of mac filters.\n- The function uses the RDK SLAP component to retrieve information from the IREP folder object.",
+  "processed_at": "2024-11-13T15:05:35.294795"
+}

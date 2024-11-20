@@ -1,0 +1,7 @@
+{
+  "entity_name": "schema_filter_del",
+  "component": "CcspWifiAgent",
+  "content_hash": "9a90a39465f8e4da77f048989635ef31",
+  "response": "1. **Main purpose and functionality**:\n   - The schema_filter_del function removes the specified column from the schema filter.\n\n2. **Key operations and data flow**:\n   - The function takes a schema filter and a column name as input.\n   - It finds the index of the column in the filter.\n   - If the column is not found, the function returns without doing anything.\n   - If the column is found, the function shifts all of the columns after the specified column to the left by one.\n   - The last column in the filter is set to NULL.\n\n3. **Interaction with other components (if any)**:\n   - This function is used by other components to remove columns from schema filters.\n\n4. **Important parameters and return values**:\n   - **f**: A pointer to the schema filter.\n   - **column**: The name of the column to remove.\n   - **Return value**: None.\n\n5. **Any specific RDK-related operations**:\n   - This function is used by the CcspWifiAgent component to remove columns from schema filters.",
+  "processed_at": "2024-11-13T16:31:42.122237"
+}

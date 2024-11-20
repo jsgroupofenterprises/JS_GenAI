@@ -1,0 +1,7 @@
+{
+  "entity_name": "stream_device_msmt_data",
+  "component": "CcspWifiAgent",
+  "content_hash": "f6da66e3374960cf811fe8d9dfeda993",
+  "response": "1. **Main purpose and functionality:**\n   - The `stream_device_msmt_data` function is part of the CcspWifiAgent component and is responsible for streaming measurement data (MSMT) from a specific STA (Station) device to the RDK Cloud.\n   - It gathers and uploads MSMT data related to the associated STA to the cloud for monitoring and analysis purposes.\n\n2. **Key operations and data flow:**\n   - The function first retrieves the necessary data structures, including the Wi-Fi monitor, the BSSID-specific data map, and the STA data to be streamed.\n   - It then calls the `upload_associated_devices_msmt_data` function to actually upload the MSMT data to the RDK Cloud.\n\n3. **Interaction with other components:**\n   - The function interacts with the Wi-Fi monitor to obtain the necessary data structures.\n   - It also interacts with the RDK Cloud component to upload the MSMT data.\n\n4. **Important parameters and return values:**\n   - The function does not take any parameters and does not return any values.\n\n5. **Any specific RDK-related operations:**\n   - The function uses the RDK-specific `upload_associated_devices_msmt_data` function to upload MSMT data to the RDK Cloud.\n   - It also uses the RDK-specific data structures like `wifi_monitor_t`, `hash_map_t`, and `sta_data_t`.",
+  "processed_at": "2024-11-13T15:13:43.161831"
+}

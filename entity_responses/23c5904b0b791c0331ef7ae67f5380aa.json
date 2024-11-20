@@ -1,0 +1,7 @@
+{
+  "entity_name": "pjs_real_to_json",
+  "component": "CcspWifiAgent",
+  "content_hash": "23c5904b0b791c0331ef7ae67f5380aa",
+  "response": "**1. Main purpose and functionality:**\n   - Converts a double-precision floating-point number to a JSON value.\n\n**2. Key operations and data flow:**\n   - Calls `pjs_basic_to_json` with:\n     - `pjs_real_t_to_json` as the function to convert the double to JSON.\n     - A pointer to the double to be converted.\n     - The JSON object to store the result in.\n     - The name of the JSON property to use for the result.\n     - An error object to store any errors that occur.\n\n**3. Interaction with other components (if any):**\n   - None specified in the provided code.\n\n**4. Important parameters and return values:**\n   - **in:** The double-precision floating-point number to convert to JSON.\n   - **js:** A pointer to the JSON object to store the result in.\n   - **name:** The name of the JSON property to use for the result.\n   - **err:** A pointer to an error object to store any errors that occur.\n   - **Returns:** True if the conversion was successful, false otherwise.\n\n**5. Any specific RDK-related operations:**\n   - None specified in the provided code.",
+  "processed_at": "2024-11-13T16:20:38.523406"
+}

@@ -1,0 +1,7 @@
+{
+  "entity_name": "ds_tree_check_r",
+  "component": "CcspWifiAgent",
+  "content_hash": "0309820fb8febcda40d1ba93560fde36",
+  "response": "1. **Main purpose and functionality:**\n   - `ds_tree_check_r` is a recursive function that checks the validity of a red-black tree.\n   - It checks if both children's parents point to the node, and if the black and red violations are met.\n\n2. **Key operations and data flow:**\n   - The function takes a root node and a node to check as input.\n   - It recursively checks the left and right children of the node.\n   - If any of the children are red, it checks for red violations.\n   - If any of the paths in the subtrees have a different number of black nodes, it checks for black violations.\n\n3. **Interaction with other components (if any):**\n   - The function interacts with the `ds_tree_node_str` function to print the node's data.\n\n4. **Important parameters and return values:**\n   - `root`: The root node of the tree.\n   - `node`: The node to check.\n   - Return value:\n     - `-1` if any of the checks fail.\n     - The number of black nodes in the subtree rooted at the node otherwise.\n\n5. **Any specific RDK-related operations:**\n   - The function uses the `OTN_IS_RED` macro to check if a node is red.",
+  "processed_at": "2024-11-13T15:51:13.141900"
+}

@@ -1,0 +1,14 @@
+14:40:12 [BootUpTime] Lan_init_start=19
+Received reboot_reason as:unknown
+14:40:18 [BootUpTime] Laninit_complete=25
+14:40:20 [BootUpTime] boot_to_snmp_subagent_v2_uptime=27
+14:40:27 [BootUpTime] boot_to_MOCA_uptime=34
+14:40:27 [BootUpTime] Waninit_start=34
+14:40:28 [BootUpTime] boot_to_tr069_uptime=35
+14:40:28 [BootUpTime] boot_to_WIFI_uptime=35
+14:40:28 [BootUpTime] boot_to_LnF_SSID_uptime=35
+14:40:32 [BootUpTime] Waninit_complete=40
+14:40:33 [BootUpTime] boot_to_wan_uptime=40
+14:40:34 [BootUpTime] boot_to_meshagent_uptime=41
+09:32:07 [BootUpTime] boot_to_ETH_uptime=47
+09:32:10 [BootUpTime] boot_to_WEBPA_READY_uptime=49

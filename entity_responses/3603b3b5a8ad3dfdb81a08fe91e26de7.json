@@ -1,0 +1,7 @@
+{
+  "entity_name": "hapd_process_assoc_req_frame",
+  "component": "CcspWifiAgent",
+  "content_hash": "3603b3b5a8ad3dfdb81a08fe91e26de7",
+  "response": "## Function Analysis: hapd_process_assoc_req_frame\n### 1. Main Purpose and Functionality:\n- Processes an association request frame received by the Wi-Fi hostapd.\n- Determines the association type based on the frame control and subtype (association request or reassociation request).\n- Extracts the information elements (IEs) from the frame and notifies the hostapd about the association request.\n\n### 2. Key Operations and Data Flow:\n- Verifies the frame length and frame control field for validity.\n- Based on the frame subtype, it identifies the type of association request (association or reassociation) and extracts relevant information.\n- Extracts IEs from the frame.\n- Notifies the hostapd about the association request with the extracted IEs and association type.\n\n### 3. Interaction with other Components:\n- Hostapd: Notifies the hostapd about the association request.\n\n### 4. Important Parameters and Return Values:\n- `ap_index`: Index of the access point on which the association request was received.\n- `sta`: MAC address of the station making the association request.\n- `frame`: Pointer to the association request frame.\n- `frame_len`: Length of the association request frame.\n- `Return value`: 0 on successful processing, -1 otherwise.\n\n### 5. RDK-related Operations:\n- None specific to RDK.",
+  "processed_at": "2024-11-13T15:22:29.330399"
+}

@@ -1,0 +1,7 @@
+{
+  "entity_name": "voice_hal_getIpAddressFamily",
+  "component": "hal",
+  "content_hash": "2202ad2f9188b416afa586bad31171d7",
+  "response": "## Function Overview\nThe `voice_hal_getIpAddressFamily` function is part of the HAL API in the RDK for CPE software stack. It returns the address family used for the IP address on the specified service.\n\n## Key Operations and Data Flow\n1. The function takes the following inputs:\n   - `service`: The index of the voice service.\n   - `address_family`: A pointer to a buffer to receive the address family.\n   - `pLength`: A pointer to an integer that specifies the size of the buffer pointed to by `address_family`.\n\n2. The function gets the IP address family for the specified service from the RDK database.\n\n3. The function returns `RDK_SUCCESS` if the operation was successful or `RDK_FAILURE` otherwise.\n\n## Interaction with Other Components\nThis function interacts with the following components:\n- The RDK database.\n\n## Important Parameters and Return Values\n- `service`: The index of the voice service.\n- `address_family`: A pointer to a buffer to receive the address family.\n- `pLength`: A pointer to an integer that specifies the size of the buffer pointed to by `address_family`.\n- `RDK_SUCCESS`: The operation was successful.\n- `RDK_FAILURE`: The operation failed.\n\n## Specific RDK-related Operations\nThis function is specific to the RDK and is used to manage voice services in the RDK software stack.",
+  "processed_at": "2024-11-14T11:14:14.869800"
+}

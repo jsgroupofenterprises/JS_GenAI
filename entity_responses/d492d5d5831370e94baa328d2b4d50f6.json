@@ -1,0 +1,7 @@
+{
+  "entity_name": "ssp_WifiMbi_FreeResources",
+  "component": "CcspWifiAgent",
+  "content_hash": "d492d5d5831370e94baa328d2b4d50f6",
+  "response": "**1. Main purpose and functionality**\n* The main purpose of ssp_WifiMbi_FreeResources is to release resources allocated by the ssp_WifiMbi function, which is used to manage Wi-Fi Multi-Band Interface (MBI) functionality in RDK.\n\n**2. Key operations and data flow**\n* The function takes a priority and user data as input parameters.\n* It calls the ANSC_STATUS_SUCCESS macro to indicate a successful operation.\n* It returns 0 if the returnStatus is ANSC_STATUS_SUCCESS, and 1 otherwise.\n\n**3. Interaction with other components (if any)**\n* The function does not interact with other components directly.\n\n**4. Important parameters and return values**\n* **priority:** The priority of the operation.\n* **user_data:** User-defined data associated with the operation.\n* **return value:** 0 if the operation was successful, 1 otherwise.\n\n**5. Any specific RDK-related operations**\n* The function uses the ANSC_STATUS data type, which is defined in the RDK header files.",
+  "processed_at": "2024-11-13T14:57:35.094369"
+}

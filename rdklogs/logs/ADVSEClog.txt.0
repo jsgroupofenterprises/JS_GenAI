@@ -1,0 +1,72 @@
+241118-09:32:17.930919 [mod=ADVSEC, lvl=WARN] [tid=4616] Register empty object : com.
+241118-09:32:17.932313 [mod=ADVSEC, lvl=WARN] [tid=4616] Register empty object : com.cisco.
+241118-09:32:17.932476 [mod=ADVSEC, lvl=WARN] [tid=4616] Register empty object : com.cisco.spvtg.
+241118-09:32:17.932583 [mod=ADVSEC, lvl=WARN] [tid=4616] Register empty object : com.cisco.spvtg.ccsp.
+241118-09:32:17.933674 [mod=ADVSEC, lvl=WARN] [tid=4616] DM Library module name = CCSP Base Data Model
+241118-09:32:17.935308 [mod=ADVSEC, lvl=WARN] [tid=4616] DM Library module name = RDKCENTRAL_AdvSecurity
+241118-09:32:17.935513 [mod=ADVSEC, lvl=WARN] [tid=4616] Loading DM library libdmlasecurity.so...
+241118-09:32:17.962284 [mod=ADVSEC, lvl=INFO] [tid=4616] Registering the back-end apis for the data model
+241118-09:32:17.962783 [mod=ADVSEC, lvl=INFO] [tid=4616] Initializing CosaAdvSecurityAgent
+241118-09:32:17.962942 [mod=ADVSEC, lvl=INFO] [tid=4616] rbus.c:2765 rbus open for component: AdvSecurityEventConsumer
+
+241118-09:32:17.963666 [mod=ADVSEC, lvl=INFO] [tid=4616] rbus.c:2841  rbus open (AdvSecurityEventConsumer) success
+
+241118-09:32:17.963773 [mod=ADVSEC, lvl=INFO] [tid=4616] CcspAdvSecurity: PandMDB initiated successfully
+241118-09:32:17.963841 [mod=ADVSEC, lvl=INFO] [tid=4616] CcspAdvSecurity: cm_hal DB initiated successfully
+241118-09:32:17.999364 [mod=ADVSEC, lvl=INFO] [tid=4616] CcspAdvSecurity: modelName returned from hal:RPI
+241118-09:32:18.016566 [mod=ADVSEC, lvl=INFO] [tid=4616] CcspAdvSecurity: firmwareVersion returned from hal:rdkb-generic-broadband-image_rdkb-2024q1-dunfell_20241114094225
+241118-09:32:18.030412 [mod=ADVSEC, lvl=INFO] [tid=4616] CcspAdvSecurity: HardwareVersion returned from hal: d03115
+241118-09:32:18.030578 [mod=ADVSEC, lvl=INFO] [tid=4616] CcspAdvSecurity: Manufacturer Name is Raspberry Pi Foundation
+241118-09:32:18.032901 [mod=ADVSEC, lvl=INFO] [tid=4616] CcspAdvSecurity: deviceMac [D8:3A:DD:0A:A9:77]
+241118-09:32:18.034411 [mod=ADVSEC, lvl=INFO] [tid=4616] CcspAdvSecurity: advsec_webconfig_init 
+241118-09:32:18.034654 [mod=ADVSEC, lvl=INFO] [tid=4616] Inside FUNC register_sub_docs LINE 240
+241118-09:32:18.034779 [mod=ADVSEC, lvl=INFO] [tid=4616] Inside FUNC initMessageQueue LINE 1109 
+241118-09:32:18.054568 [mod=ADVSEC, lvl=INFO] [tid=4675] Inside FUNC messageQueueProcessing LINE 899 
+241118-09:32:18.054821 [mod=ADVSEC, lvl=ERROR] [tid=4616] syscfg_get failed
+241118-09:32:18.054922 [mod=ADVSEC, lvl=ERROR] [tid=4616] syscfg_get failed
+241118-09:32:18.054997 [mod=ADVSEC, lvl=ERROR] [tid=4616] syscfg_get failed
+241118-09:32:18.055087 [mod=ADVSEC, lvl=ERROR] [tid=4616] syscfg_get failed
+241118-09:32:18.055158 [mod=ADVSEC, lvl=ERROR] [tid=4616] syscfg_get failed
+241118-09:32:18.055189 [mod=ADVSEC, lvl=INFO] [tid=4677] rbuscore.c:2326 RBus Enabled
+
+241118-09:32:18.055308 [mod=ADVSEC, lvl=INFO] [tid=4677] Entering rbusInit
+241118-09:32:18.055400 [mod=ADVSEC, lvl=INFO] [tid=4677] rbus.c:2765 rbus open for component: CcspAdvSecurity_wbcfg
+
+241118-09:32:18.055228 [mod=ADVSEC, lvl=ERROR] [tid=4616] syscfg_get failed
+241118-09:32:18.055525 [mod=ADVSEC, lvl=ERROR] [tid=4616] syscfg_get failed
+241118-09:32:18.055598 [mod=ADVSEC, lvl=ERROR] [tid=4616] syscfg_get failed
+241118-09:32:18.055667 [mod=ADVSEC, lvl=ERROR] [tid=4616] syscfg_get failed
+241118-09:32:18.055736 [mod=ADVSEC, lvl=ERROR] [tid=4616] syscfg_get failed
+241118-09:32:18.055804 [mod=ADVSEC, lvl=INFO] [tid=4616] Fetching the Redirector URL based on partnerID
+241118-09:32:18.055911 [mod=ADVSEC, lvl=INFO] [tid=4677] rbus.c:2841  rbus open (CcspAdvSecurity_wbcfg) success
+
+241118-09:32:18.055989 [mod=ADVSEC, lvl=INFO] [tid=4677] isWebCfgRbusEnabled: rbus enabled is 1 
+241118-09:32:18.056174 [mod=ADVSEC, lvl=INFO] [tid=4677] subscribeSubdocForceReset: Discover component for event 'Device.X_RDK_WebConfig.webcfgSubdocForceReset' 
+241118-09:32:18.056263 [mod=ADVSEC, lvl=INFO] [tid=4677] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+241118-09:32:18.055013 [mod=ADVSEC, lvl=INFO] [tid=4676] Inside FUNC display_subDocs LINE 88
+241118-09:32:18.058427 [mod=ADVSEC, lvl=INFO] [tid=4677] webcfg_rbus_discover_component: (0-1)ret[FALSE]
+241118-09:32:18.062821 [mod=ADVSEC, lvl=INFO] [tid=4616] Advsec_getPartnerBasedURL Returned URL for the partner = https://agent.xais.apg.comcast.net:9443
+241118-09:32:18.068187 [mod=ADVSEC, lvl=INFO] [tid=4616] Advsec_SetDefaultsUrl : SysCfg SetDefault AdvSec EndPointURL from AdvsecRedirectorURL DataModel
+241118-09:32:18.082045 [mod=ADVSEC, lvl=INFO] [tid=4616] rbuscore.c:742 Subscription for Device.X_RDK_WanManager.CurrentActiveInterface::Device.X_RDK_WanManager.CurrentActiveInterface is now active.
+
+241118-09:32:18.082345 [mod=ADVSEC, lvl=INFO] [tid=4616] rbus.c:4777 Device.X_RDK_WanManager.CurrentActiveInterface subscribe retries succeeded
+
+241118-09:32:18.085295 [mod=ADVSEC, lvl=WARN] [tid=4616] Search for empty object in 'dslhCpeCheckEmptyObject'
+241118-09:32:18.236222 [mod=ADVSEC, lvl=INFO] [tid=4616] AdvSec Module loaded successfully...
+241118-09:32:18.237415 [mod=ADVSEC, lvl=INFO] [tid=4616] Inside FUNC check_component_crash LINE 359, init file is /tmp/advsec_ccsp_initialized_bootup 
+241118-09:32:18.238513 [mod=ADVSEC, lvl=INFO] [tid=4616] /tmp/advsec_ccsp_initialized_bootup file not present, need to send component init event to webconfig 
+241118-09:32:18.238813 [mod=ADVSEC, lvl=INFO] [tid=4616] notifyVersion_to_Webconfig : doc name advsecurity , doc version 0
+241118-09:32:18.238915 [mod=ADVSEC, lvl=INFO] [tid=4616] isWebCfgRbusEnabled: rbus enabled is 1 
+241118-09:32:18.239077 [mod=ADVSEC, lvl=INFO] [tid=4616] sendWebConfigSignal : rbus_set :: event_name : webconfigSignal :: 
+241118-09:32:18.240930 [mod=ADVSEC, lvl=ERROR] [tid=4616] rbus.c:3777 set by CcspAdvSecurity_wbcfg failed; Received error 12 from RBUS Daemon for the object webconfigSignal
+
+241118-09:32:18.241161 [mod=ADVSEC, lvl=ERROR] [tid=4616] sendWebConfigSignal rbus_set for webconfigSignal failed & returns with Err: 6
+241118-09:32:18.241348 [mod=ADVSEC, lvl=INFO] [tid=4616] ADVSEC:----------------------touch /tmp/advsec_ccsp__initialized_bootup-------------------
+241118-09:32:28.058694 [mod=ADVSEC, lvl=INFO] [tid=4677] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+241118-09:32:28.060312 [mod=ADVSEC, lvl=INFO] [tid=4677] webcfg_rbus_discover_component: (0-1)ret[FALSE]
+241118-09:32:38.060563 [mod=ADVSEC, lvl=INFO] [tid=4677] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+241118-09:32:38.061767 [mod=ADVSEC, lvl=INFO] [tid=4677] webcfg_rbus_discover_component: (0-1)ret[FALSE]
+241118-09:32:48.061994 [mod=ADVSEC, lvl=INFO] [tid=4677] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+241118-09:32:48.063178 [mod=ADVSEC, lvl=INFO] [tid=4677] webcfg_rbus_discover_component: (0-1)ret[FALSE]
+241118-09:32:58.063516 [mod=ADVSEC, lvl=INFO] [tid=4677] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+241118-09:32:58.064882 [mod=ADVSEC, lvl=INFO] [tid=4677] webcfg_rbus_discover_component: (0-1)ret[FALSE]

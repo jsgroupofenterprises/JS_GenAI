@@ -1,0 +1,7 @@
+{
+  "entity_name": "events_APtable_removerowhandler",
+  "component": "CcspWifiAgent",
+  "content_hash": "19b3ea032b97de2e759989ddb9a64b9e",
+  "response": "1. **Main purpose and functionality:**\n\n   - The `events_APtable_removerowhandler` function removes all events associated with a specific rowName from the event queue.\n\n2. **Key operations and data flow:**\n\n   - The function takes a rowName parameter and iterates through the event queue, checking if any events have the given rowName in their name.\n   - If an event with the matching rowName is found, it is removed from the queue and freed.\n\n3. **Interaction with other components (if any):**\n\n   - This function interacts with the event queue, which is shared by other components in the CcspWifiAgent.\n\n4. **Important parameters and return values:**\n\n   - **handle:** Handle to the RBUS connection.\n   - **rowName:** Name of the row to remove events for.\n   - **Return value:** RBUS error code indicating success or failure.\n\n5. **Any specific RDK-related operations:**\n\n   - This function is specific to the RDK CcspWifiAgent component and is used to manage events related to the AP table.",
+  "processed_at": "2024-11-13T15:21:02.302347"
+}

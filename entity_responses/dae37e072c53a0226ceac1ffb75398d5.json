@@ -1,0 +1,7 @@
+{
+  "entity_name": "voice_hal_setMinSessionExpires",
+  "component": "hal",
+  "content_hash": "dae37e072c53a0226ceac1ffb75398d5",
+  "response": "## Main Purpose and Functionality\nThe `voice_hal_setMinSessionExpires` function sets the minimum session expiration timeout for a voice service. This timeout determines how long a session can remain active without receiving any traffic.\n\n## Key Operations and Data Flow\n\n1. The function takes three input parameters:\n   - `service`: The voice service for which to set the timeout.\n   - `profile`: The voice profile for which to set the timeout.\n   - `timeout`: The minimum session expiration timeout in seconds.\n2. The function sets the timeout value for the specified service and profile.\n3. The function returns a status code indicating success or failure.\n\n## Interaction with Other Components\n\nThis function interacts with the voice service manager to set the session expiration timeout.\n\n## Important Parameters and Return Values\n\n| Parameter | Type | Description |\n|---|---|---|\n| `service` | `uint32_t` | The voice service for which to set the timeout. |\n| `profile` | `uint32_t` | The voice profile for which to set the timeout. |\n| `timeout` | `uint32_t` | The minimum session expiration timeout in seconds. |\n| Return value | `int32_t` | Status code indicating success or failure. |\n\n## RDK-Related Operations\n\nThis function is part of the RDK voice HAL API. It is used by RDK-based devices to control voice services.",
+  "processed_at": "2024-11-14T12:12:36.782057"
+}

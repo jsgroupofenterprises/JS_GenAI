@@ -1,0 +1,7 @@
+{
+  "entity_name": "_c_get_strkey_by_str",
+  "component": "CcspWifiAgent",
+  "content_hash": "c3b2fbe96ac7e7263e859a6a8a4bc848",
+  "response": "1. **Main purpose and functionality**:\n   - The function looks for a value matching the given string in the list of items of a c_item_t struct, and if it finds it, returns the key\n\n2. **Key operations and data flow**:\n   - The function iterates over the list of items until it finds a match, or it reaches the end of the list\n   - If a match is found, the function returns a pointer to the key of the item\n\n3. **Interaction with other components (if any)**:\n   - None\n\n4. **Important parameters and return values**:\n   - Parameters:\n     - list: Pointer to the list of items\n     - list_sz: Size of the list\n     - str: String to match\n   - Return value:\n     - A pointer to the key of the item if a match is found, or an empty string if no match is found\n\n5. **Any specific RDK-related operations**:\n   - None",
+  "processed_at": "2024-11-13T15:50:14.592153"
+}

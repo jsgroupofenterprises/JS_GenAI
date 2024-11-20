@@ -1,0 +1,7 @@
+{
+  "entity_name": "voice_hal_getPOSTTipGroundVoltageACParameter",
+  "component": "hal",
+  "content_hash": "88d7538e09c8444d12adae792a745ddf",
+  "response": "**1. Main purpose and functionality**\n\nThe `voice_hal_getPOSTTipGroundVoltageACParameter` function is used to retrieve the POST result for the Tip Ground Voltage AC parameter. This parameter measures the AC voltage between the tip and ground of the telephone line.\n\n**2. Key operations and data flow**\n\nThe function takes the following parameters:\n\n* `uint32_t service`: The voice service index.\n* `uint32_t phy_interface`: The physical interface index.\n* `char *pValue`: A pointer to a buffer to store the POST result.\n* `uint32_t *pLength`: A pointer to the length of the buffer.\n\nThe function retrieves the POST result for the Tip Ground Voltage AC parameter and stores it in the provided buffer.\n\n**3. Interaction with other components (if any)**\n\nThis function interacts with the following components:\n\n* The voice hardware abstraction layer (HAL).\n\n**4. Important parameters and return values**\n\nThe following parameters and return values are important:\n\n* `pValue`: The POST result for the Tip Ground Voltage AC parameter.\n* `pLength`: The length of the buffer.\n\n**5. Any specific RDK-related operations**\n\nThis function is part of the RDK Voice HAL API.",
+  "processed_at": "2024-11-14T11:26:22.816887"
+}

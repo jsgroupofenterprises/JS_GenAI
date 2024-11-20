@@ -1,0 +1,4 @@
+ Starting execution of DCMscript.sh
+TFTP_SERVER: xconf.rdkcentral.com
+ is present, XCONF config fetch and parse will be handled by T2 implementation
+241007-14:40:25.511063 Remove config from DCA /nvram/DCMresponse.txt and create symlink to /nvram/.t2persistentfolder/DCMresponse.txt

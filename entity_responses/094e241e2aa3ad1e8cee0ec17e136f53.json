@@ -1,0 +1,7 @@
+{
+  "entity_name": "qm_res_init",
+  "component": "CcspWifiAgent",
+  "content_hash": "094e241e2aa3ad1e8cee0ec17e136f53",
+  "response": "1. **Main purpose and functionality**:\n   - The `qm_res_init()` function is responsible for initializing a CcspWifiAgent response structure.\n   - It is typically called at the beginning of a response handler function.\n\n2. **Key operations and data flow**:\n   - The function takes two parameters:\n     - `res`: A pointer to the response structure to be initialized.\n     - `req`: A pointer to the request structure that triggered the response.\n   - The function first clears the memory of the response structure to zero using `memset()`.\n   - It then copies the response tag, version, and sequence number from the request structure to the response structure.\n   - Finally, it sets the response type based on the command type of the request.\n\n3. **Interaction with other components (if any)**:\n   - The `qm_res_init()` function is typically called by a response handler function that is registered with the CcspWifiAgent.\n\n4. **Important parameters and return values**:\n   - The `res` parameter is a pointer to the response structure that is being initialized.\n   - The `req` parameter is a pointer to the request structure that triggered the response.\n\n5. **Any specific RDK-related operations**:\n   - The `qm_res_init()` function is part of the RDK CcspWifiAgent library.",
+  "processed_at": "2024-11-13T16:29:50.550751"
+}

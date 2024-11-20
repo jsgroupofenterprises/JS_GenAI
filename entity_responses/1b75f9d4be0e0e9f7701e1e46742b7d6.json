@@ -1,0 +1,7 @@
+{
+  "entity_name": "voice_hal_setLogServerPort",
+  "component": "hal",
+  "content_hash": "1b75f9d4be0e0e9f7701e1e46742b7d6",
+  "response": "**1. Main purpose and functionality**\n\nThe `voice_hal_setLogServerPort` function sets the IP port number of the voice logging server.\n\n**2. Key operations and data flow**\n\n* The function takes the following arguments:\n    * `service`: The voice service affected.\n    * `profile`: The voice profile affected.\n    * `ipPort`: The IP port number of the voice logging server.\n* The function sets the IP port number of the voice logging server.\n\n**3. Interaction with other components (if any)**\n\nThis function interacts with the voice logging server.\n\n**4. Important parameters and return values**\n\n* The function returns the following values:\n    * `RDK_SUCCESS`: The function succeeded.\n    * `RDK_FAILURE`: The function failed.\n\n**5. Any specific RDK-related operations**\n\nThis function is specific to RDK.",
+  "processed_at": "2024-11-14T11:46:57.950144"
+}

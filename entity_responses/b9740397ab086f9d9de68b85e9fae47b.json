@@ -1,0 +1,7 @@
+{
+  "entity_name": "ovsdb_table_select_one_where",
+  "component": "CcspWifiAgent",
+  "content_hash": "b9740397ab086f9d9de68b85e9fae47b",
+  "response": "**1. Main purpose and functionality**\n   - The ovsdb_table_select_one_where function selects one record from a given OVSDB table based on a specified condition.\n    \n**2. Key operations and data flow**\n   - The function takes an OVSDB socket path, table name, JSON condition, and a record pointer as inputs.\n   - It uses the ovsdb_sync_select_where function to retrieve the rows matching the given condition.\n   - It checks if the number of retrieved rows is 1.\n   - If it is, it retrieves the first row and converts it to a record using the ovsdb_table_from_json function.\n   - If any of these operations fail, the function returns false.\n\n**3. Interaction with other components (if any)**\n   - The function interacts with the OVSDB server through the ovsdb_sync_select_where function.\n\n**4. Important parameters and return values**\n   - **ovsdb_sock_path:** Path to the OVSDB socket.\n   - **table:** Pointer to the OVSDB table from which to select records.\n   - **where:** JSON condition specifying the selection criteria.\n   - **record:** Pointer to the record that will store the selected row.\n   - **Return:** True if one matching row is found and converted to a record, false otherwise.\n\n**5. Any specific RDK-related operations**\n   - The function uses the RDK-specific ovsdb_sync_select_where function to retrieve data from the OVSDB server.",
+  "processed_at": "2024-11-13T16:11:25.236905"
+}

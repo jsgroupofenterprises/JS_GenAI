@@ -1,0 +1,17 @@
+Oct 07 14:39:58 RaspberryPi-Gateway systemd[1]: Starting An IPC framework...
+Oct 07 14:39:58 RaspberryPi-Gateway rtrouted[234]: rdk_dyn_log_initg_dl_socket = 4 __progname = rtrouted
+Oct 07 14:40:00 RaspberryPi-Gateway systemd[1]: Started An IPC framework.
+Oct 07 14:40:33 RaspberryPi-Gateway rtrouted[273]: Conf file /etc/debug.ini open success
+Oct 07 14:40:33 RaspberryPi-Gateway rtrouted[273]: 241007-14:40:33.615736 [mod=RTMESSAGE, lvl=INFO] [tid=273] Reallocated read buffer to 79445 bytes to accommodate traffic.
+Nov 18 09:32:02 RaspberryPi-Gateway rtrouted[273]: 241118-09:32:02.925541 [mod=RTMESSAGE, lvl=INFO] [tid=273] Consumer exist but the request timed out
+Nov 18 09:32:02 RaspberryPi-Gateway rtrouted[273]: 241118-09:32:02.925682 [mod=RTMESSAGE, lvl=INFO] [tid=273] =======================================================================
+Nov 18 09:32:02 RaspberryPi-Gateway rtrouted[273]: 241118-09:32:02.925834 [mod=RTMESSAGE, lvl=INFO] [tid=273] Consumer : rbus.meshAgent.INBOX.2636
+Nov 18 09:32:02 RaspberryPi-Gateway rtrouted[273]: 241118-09:32:02.925902 [mod=RTMESSAGE, lvl=INFO] [tid=273] Provider : Device.X_RDKCENTRAL-COM_DeviceControl.DeviceNetworkingMode
+Nov 18 09:32:02 RaspberryPi-Gateway rtrouted[273]: 241118-09:32:02.925963 [mod=RTMESSAGE, lvl=INFO] [tid=273] Time at which consumer sends the request to daemon     : 09:32:01.000000
+Nov 18 09:32:02 RaspberryPi-Gateway rtrouted[273]: 241118-09:32:02.926066 [mod=RTMESSAGE, lvl=INFO] [tid=273] Time at which daemon receives the message from consumer: 09:32:01.000000
+Nov 18 09:32:02 RaspberryPi-Gateway rtrouted[273]: 241118-09:32:02.926170 [mod=RTMESSAGE, lvl=INFO] [tid=273] Time at which daemon writes to provider socket         : 09:32:01.000000
+Nov 18 09:32:02 RaspberryPi-Gateway rtrouted[273]: 241118-09:32:02.926270 [mod=RTMESSAGE, lvl=INFO] [tid=273] Time at which provider sends back the response         : 09:32:02.000000
+Nov 18 09:32:02 RaspberryPi-Gateway rtrouted[273]: 241118-09:32:02.926371 [mod=RTMESSAGE, lvl=INFO] [tid=273] Time at which daemon received the response             : 09:32:02.000000
+Nov 18 09:32:02 RaspberryPi-Gateway rtrouted[273]: 241118-09:32:02.926437 [mod=RTMESSAGE, lvl=INFO] [tid=273] Total duration                                         : 1 seconds
+Nov 18 09:32:02 RaspberryPi-Gateway rtrouted[273]: 241118-09:32:02.926498 [mod=RTMESSAGE, lvl=INFO] [tid=273] =======================================================================
+Nov 18 09:32:05 RaspberryPi-Gateway rtrouted[273]: 241118-09:32:05.161358 [mod=RTMESSAGE, lvl=INFO] [tid=273] Reallocated read buffer to 168161 bytes to accommodate traffic.

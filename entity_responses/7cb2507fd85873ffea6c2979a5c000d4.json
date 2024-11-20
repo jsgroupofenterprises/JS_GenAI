@@ -1,0 +1,7 @@
+{
+  "entity_name": "voice_hal_getRtpEthernetPriorityMark",
+  "component": "hal",
+  "content_hash": "7cb2507fd85873ffea6c2979a5c000d4",
+  "response": "## Function Overview\n \nThis function is used to obtain the Ethernet priority mark that will be used for outgoing RTP packets.\n\n## Detailed Description\n\nThe following code sample shows you how to use the `voice_hal_getRtpEthernetPriorityMark` function:\n```c\nint32_t priority;\nvoice_hal_getRtpEthernetPriorityMark(service, profile, &priority);\n```\n## Key Parameters\n\n`service` - The voice service affected\n`profile` - The voice profile affected\n`priority` - The Ethernet priority mark to be used for outgoing RTP packets\n\n## Return Values\n\nThe function returns RDK_SUCCESS if successful, or RDK_FAILURE if any error is detected.\n\n## Interaction with Other Components\n\nThis function interacts with the following components:\n\nRTP Stack\n\nEthernet Driver\n\n## RDK-Related Operations\n\nThis function is part of the RDK Voice HAL API.",
+  "processed_at": "2024-11-14T12:09:08.778793"
+}

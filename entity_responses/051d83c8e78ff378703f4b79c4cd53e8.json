@@ -1,0 +1,7 @@
+{
+  "entity_name": "log_module_severity_set",
+  "component": "CcspWifiAgent",
+  "content_hash": "051d83c8e78ff378703f4b79c4cd53e8",
+  "response": "**1. Main Purpose and Functionality:**\n\nThe `log_module_severity_set` function sets the logging severity level for a specific log module. It allows developers to control the granularity of logging for different modules within the CcspWifiAgent component.\n\n**2. Key Operations and Data Flow:**\n\n* The function takes two parameters:\n    * `mod`: The log module to be updated.\n    * `sev`: The new logging severity level.\n* It prints the updated severity level for the specified module using `LOGD`.\n* The function delegates the actual severity level update to `_log_sink_module_severity_set`, which manages the local log sink.\n\n**3. Interaction with Other Components:**\n\nThe function primarily interacts with the local log sink (`_log_sink_module_severity_set`) to persist the severity level changes.\n\n**4. Important Parameters and Return Values:**\n\n* **Parameters:**\n    * `mod`: The log module to set severity for (e.g., `LOG_MODULE_WIFI_EVENT`).\n    * `sev`: The new severity level (e.g., `LOG_SEVERITY_INFO`, `LOG_SEVERITY_ERROR`).\n* **Return Value:** None (void)\n\n**5. RDK-Related Operations:**\n\nThe function initializes the `LOG_SINK_LOCAL` handle, which is used for RDK-specific logging.",
+  "processed_at": "2024-11-13T15:52:55.887973"
+}

@@ -1,0 +1,7 @@
+{
+  "entity_name": "voice_hal_setEnableNetworkDisconnect",
+  "component": "hal",
+  "content_hash": "a1cdea75d7ffb43fb4224a7739556d98",
+  "response": "### 1. Main purpose and functionality\nThis function in the voice_hal.h file is used to set the enable/disable state of the network disconnect flag for a given voice service and profile. \n\n### 2. Key operations and data flow\n- The function takes three parameters:\n - `service`: The voice service affected\n - `profile`: The voice profile affected\n - `enableDisconnect`: Boolean value indicating whether to enable or disable the network disconnect flag\n\n- The function sets the network disconnect flag according to the value of `enableDisconnect`. If `enableDisconnect` is true, the flag is enabled, and if `enableDisconnect` is false, the flag is disabled.\n\n\n### 3. Interaction with other components (if any)\nThis function interacts with the voice service and profile components to set the network disconnect flag.\n\n### 4. Important parameters and return values\n- The function returns RDK_SUCCESS if the operation was successful, and RDK_FAILURE if any error was detected.\n\n### 5. Any specific RDK-related operations\nThis function is part of the RDK voice services API and is used to configure the voice service and profile settings.",
+  "processed_at": "2024-11-14T11:50:29.591791"
+}

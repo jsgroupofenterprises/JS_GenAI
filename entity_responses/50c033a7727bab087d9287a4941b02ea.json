@@ -1,0 +1,7 @@
+{
+  "entity_name": "ovsdb_table_update_where",
+  "component": "CcspWifiAgent",
+  "content_hash": "50c033a7727bab087d9287a4941b02ea",
+  "response": "## RDK Function Analysis: ovsdb_table_update_where\n\n### Main Purpose and Functionality\nThe `ovsdb_table_update_where` function updates a row in an OVSDB table based on specified conditions.\n\n### Key Operations and Data Flow\n1. Connects to an OVSDB server using the provided socket path (`ovsdb_sock_path`).\n2. Constructs an OVSDB update operation with the specified `table`, `where` conditions, and `record` data.\n3. Sends the update operation to the OVSDB server and waits for a response.\n4. If the operation is successful, the row is updated in the OVSDB table.\n\n### Interaction with Other Components\nThis function interacts with an OVSDB server to update a table. It doesn't generally interact with other RDK components directly.\n\n### Important Parameters and Return Values\n**Parameters:**\n- `ovsdb_sock_path`: Path to the OVSDB server socket.\n- `table`: Pointer to an OVSDB table structure.\n- `where`: JSON object representing the conditions for matching the row to update.\n- `record`: JSON object representing the data to update in the row.\n\n**Return Value:**\n- 0 on success\n- -1 on failure (an error occurred or the operation timed out)\n\n### RDK-Related Operations\nIt depends on the RDK component that uses this function for OVSDB-specific operations.",
+  "processed_at": "2024-11-13T16:12:13.078627"
+}

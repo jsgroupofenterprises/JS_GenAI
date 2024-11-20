@@ -1,0 +1,7 @@
+{
+  "entity_name": "voice_hal_setModuleLogLevels",
+  "component": "hal",
+  "content_hash": "96585280ebcf2aebb65de68b4d65d5fb",
+  "response": "## 1. Main purpose and functionality\n\nThe `voice_hal_setModuleLogLevels` function allows setting the logging levels for specific voice modules.\n\n## 2. Key operations and data flow\n\nThe function takes two parameters:\n`uint32_t service` - the voice service affected\n`const char *logLevels` - the log levels to set\n\nThe function sets the logging levels for the specified voice service. The log levels can be set to one of the following values:\n* \"OFF\" - disable logging for the module\n* \"ERROR\" - log only error messages\n* \"WARNING\" - log error and warning messages\n* \"INFO\" - log error, warning, and info messages\n* \"DEBUG\" - log all messages\n\n## 3. Interaction with other components (if any)\n\nThe function interacts with the voice service to set the logging levels.\n\n## 4. Important parameters and return values\n\nThe function returns an int32_t value. The following values are possible:\n* RDK_SUCCESS if the operation was successful\n* RDK_FAILURE if the operation failed\n\n## 5. Any specific RDK-related operations\n\nThe function is specific to the RDK and is used to set the logging levels for voice modules.",
+  "processed_at": "2024-11-14T12:17:09.166863"
+}

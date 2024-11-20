@@ -1,0 +1,7 @@
+{
+  "entity_name": "update_radius_config",
+  "component": "CcspWifiAgent",
+  "content_hash": "628802068df6c492cc93bee77e91e651",
+  "response": "1. **Main purpose and functionality**:\nThe `update_radius_config` function initializes and updates the RADIUS configuration for a hostapd BSS configuration. \n\n2. **Key operations and data flow**: \n- Checks if the RADIUS configuration is NULL and creates a new one if necessary.\n- Initializes the number of authentication servers to 1 and allocates memory for the primary and secondary authentication servers.\n- Sets the IP address, port, and shared secret for the primary and secondary authentication servers.\n- Sets the number of accounting servers to 0 and allocates memory for the accounting server (if needed).\n- Sets the IP address, port, and shared secret for the accounting server.\n\n3. **Interaction with other components (if any)**:\nThe `update_radius_config` function interacts with the hostapd RADIUS module to initialize and update the RADIUS configuration for a hostapd BSS configuration.\n\n4. **Important parameters and return values**:\n- `conf`: A pointer to the hostapd BSS configuration.\n- `radius_config`: A pointer to the RADIUS configuration.\n- Return value: Void.\n\n5. **Any specific RDK-related operations**:\nThe function does not perform any specific RDK-related operations.",
+  "processed_at": "2024-11-13T15:23:11.911894"
+}

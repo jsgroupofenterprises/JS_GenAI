@@ -1,0 +1,7 @@
+{
+  "entity_name": "data_plane_queue_check_event",
+  "component": "CcspWifiAgent",
+  "content_hash": "6f786510b748c9bccc592b0e78041739",
+  "response": "**1. Main purpose and functionality:**\n\nThe data_plane_queue_check_event function checks for specific data plane events in a queue and returns true if a matching event is found. It is used to check for events related to the Wi-Fi Direct Protected Setup (DPP) and Access Network Query Protocol (ANQP).\n\n**2. Key operations and data flow:**\n\n- The function checks the given event type (type) and context (ctx) against events in a queue.\n- It iterates through the queue, looking for events of the specified type.\n- For DPP events, it also checks if the event context matches the provided context (ctx).\n- If a matching event is found, the function returns true, indicating that the event is present in the queue.\n\n**3. Interaction with other components:**\n\nThis function interacts with the global data plane module's queue, which stores data plane events for processing.\n\n**4. Important parameters and return values:**\n\n- **type**: The type of event being checked for.\n- **ctx**: The context associated with the event, used for matching DPP events.\n- **Return value**: A boolean value indicating whether a matching event was found in the queue.\n\n**5. Any specific RDK-related operations:**\n\nThis function is part of the CcspWifiAgent component, which is an RDK-specific module that handles Wi-Fi-related functions.",
+  "processed_at": "2024-11-13T15:16:34.130019"
+}

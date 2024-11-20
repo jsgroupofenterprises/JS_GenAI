@@ -1,0 +1,7 @@
+{
+  "entity_name": "wifidb_set_factory_reset_data",
+  "component": "CcspWifiAgent",
+  "content_hash": "8cdfe645e54efd884946e5eaa0991254",
+  "response": "**1. Main purpose and functionality:**\n   - This RDK function, `wifidb_set_factory_reset_data`, is designed to set the factory reset data for Wi-Fi. It takes a boolean value (`data`) that indicates whether to enable or disable factory reset for Wi-Fi settings.\n\n**2. Key operations and data flow:**\n   - The function takes the boolean value `data` and saves it to the Wi-Fi database.\n   - If `data` is true, factory reset will be enabled for Wi-Fi settings. If `data` is false, factory reset will be disabled for Wi-Fi settings.\n\n**3. Interaction with other components (if any):**\n   - This function interacts with the Wi-Fi database to store the factory reset data.\n\n**4. Important parameters and return values:**\n   - **Parameters**:\n     - `data`: A boolean value indicating whether to enable or disable factory reset for Wi-Fi settings.\n   - **Return value**:\n     - `0` if the operation is successful.\n\n**5. Any specific RDK-related operations:**\n   - This function is part of the CcspWifiAgent component in RDK, which manages Wi-Fi connectivity. It uses RDK-specific mechanisms to interact with the Wi-Fi database and set the factory reset data.",
+  "processed_at": "2024-11-13T15:34:12.514592"
+}

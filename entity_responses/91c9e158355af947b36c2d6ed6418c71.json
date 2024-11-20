@@ -1,0 +1,7 @@
+{
+  "entity_name": "clock_mono_usec",
+  "component": "CcspWifiAgent",
+  "content_hash": "91c9e158355af947b36c2d6ed6418c71",
+  "response": "**1. Main purpose and functionality:**\n\nThe `clock_mono_usec` function provides a high-resolution monotonic clock in microseconds. It uses the `clock_gettime` system call with the `CLOCK_MONOTONIC` clock to obtain the current time.\n\n**2. Key operations and data flow:**\n\n- The function calls `clock_gettime` to retrieve the current time from the monotonic clock.\n- The time is returned as a `timespec` structure containing the seconds and nanoseconds since the epoch.\n- The function converts the time to microseconds by multiplying the seconds by 1,000,000 and adding the nanoseconds divided by 1,000.\n\n**3. Interaction with other components:**\n\nThe function does not directly interact with other components.\n\n**4. Important parameters and return values:**\n\nThe function takes no parameters and returns a `int64_t` representing the current time in microseconds.\n\n**5. Any specific RDK-related operations:**\n\nThe function does not perform any RDK-specific operations.",
+  "processed_at": "2024-11-13T15:46:20.227632"
+}

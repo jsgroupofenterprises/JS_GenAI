@@ -1,0 +1,7 @@
+{
+  "entity_name": "ovsdb_sync_get_uuid",
+  "component": "CcspWifiAgent",
+  "content_hash": "e008776db34bd78329148963773047d8",
+  "response": "**1. Main purpose and functionality**\n\nThe `ovsdb_sync_get_uuid` function synchronously retrieves a Open vSwitch Database (OVSDB) UUID based on a specified table, column, and value.\n\n**2. Key operations and data flow**\n\n* The function takes as input the OVSDB socket path, table name, column name, value to match, and a pointer to an OVS UUID.\n* It constructs an OVSDB where clause to filter the results.\n* It then calls the `ovsdb_sync_get_uuid_where` function to perform the synchronous OVSDB query.\n* If the query is successful, the OVS UUID is stored in the provided pointer.\n\n**3. Interaction with other components**\n\n* The function interacts with the OVSDB server through the provided socket path.\n\n**4. Important parameters and return values**\n\n* **Parameters:**\n    * `ovsdb_sock_path`: The path to the OVSDB socket.\n    * `table`: The OVSDB table to query.\n    * `column`: The OVSDB column to match on.\n    * `value`: The value to match in the column.\n    * `uuid`: A pointer to an OVS UUID to store the result.\n* **Return value:**\n    * `true` if the query is successful, `false` otherwise.\n\n**5. Any specific RDK-related operations**\n\n* The function uses the OVSDB API provided by the RDK to interact with the OVSDB server.",
+  "processed_at": "2024-11-13T16:08:54.823206"
+}

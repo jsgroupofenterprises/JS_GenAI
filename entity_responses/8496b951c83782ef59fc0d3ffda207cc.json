@@ -1,0 +1,7 @@
+{
+  "entity_name": "client_socket_create",
+  "component": "CcspWifiAgent",
+  "content_hash": "8496b951c83782ef59fc0d3ffda207cc",
+  "response": "**1. Main purpose and functionality**\n\nThe `client_socket_create` function is responsible for creating a client socket of the specified type (`sock_type`) for network communication.\n\n**2. Key operations and data flow**\n\n* The function checks if `sock_type` is UDP and creates a UDP socket using `socket(AF_INET, SOCK_DGRAM, 0)` if it is.\n* If `sock_type` is not UDP, it creates a TCP socket using `socket(AF_INET, SOCK_STREAM, 0)`.\n* If socket creation fails (returns -1), an error message is logged and -1 is returned.\n* If socket creation succeeds, the file descriptor (sock_fd) of the created socket is returned.\n\n**3. Interaction with other components (if any)**\n\nThis function does not directly interact with other components.\n\n**4. Important parameters and return values**\n\n* **sock_type:** The type of socket to be created, either `OS_SOCK_TYPE_UDP` or a non-UDP type.\n* **sock_fd:** The file descriptor of the created socket, or -1 on failure.\n\n**5. Any specific RDK-related operations**\n\nThis function does not perform any RDK-specific operations.",
+  "processed_at": "2024-11-13T15:59:49.440801"
+}

@@ -1,0 +1,7 @@
+{
+  "entity_name": "clock_mono_ms",
+  "component": "CcspWifiAgent",
+  "content_hash": "bfa7c3a978f3473d49e630fd02615602",
+  "response": "**1. Main purpose and functionality:**\n\n- The `clock_mono_ms` function returns the current time in milliseconds since the system was booted, with monotonic clock resolution.\n\n**2. Key operations and data flow:**\n\n- Calls the `clock_gettime` system call to retrieve the current time in a `timespec` structure.\n- Converts the seconds and nanoseconds components of the time to milliseconds.\n\n**3. Interaction with other components:**\n\n- None.\n\n**4. Important parameters and return values:**\n\n- **Function return:** A 64-bit integer representing the current time in milliseconds since boot, with monotonic clock resolution.\n\n**5. Any specific RDK-related operations:**\n\n- None.",
+  "processed_at": "2024-11-13T15:46:16.492059"
+}

@@ -1,0 +1,97 @@
+241007-14:40:21.449938 <I>  wifi_hal_pre_init:300: platfrom pre init
+241007-14:40:21.451733 <I>  wifi_hal_init:204: start
+241007-14:40:21.532020 <E>  nl80211_init_primary_interfaces:4543: Skip the Radio 1 .This is sleeping in ECO mode 
+241007-14:40:21.539137 <E>  nl80211_init_radio_info:4586: Skip the Radio 1 .This is sleeping in ECO mode 
+241007-14:40:21.559436 <E>  wifi_hal_init:259: Skip the Radio 1 .This is sleeping in ECO mode 
+241007-14:40:21.625195 <I>  wifi_hal_init:289: HOSTAP_VERSION: 210
+241007-14:40:21.625418 <I>  wifi_hal_init:291: done
+241007-14:40:21.699621 <I>  wifi_hal_getHalCapability:127:Enumerating interfaces on PHY radio index: 0, RDK radio index:0
+241007-14:40:21.699890 <I>  wifi_hal_getHalCapability:151: interface name: wlan0, vap index: 0, vap name: private_ssid_2g
+241007-14:40:21.700076 <I>  wifi_hal_getHalCapability:127:Enumerating interfaces on PHY radio index: 1, RDK radio index:1
+241007-14:40:21.700225 <I>  wifi_hal_getHalCapability:151: interface name: wlan15, vap index: 15, vap name: mesh_sta_5g
+241007-14:40:21.700367 <I>  wifi_hal_getHalCapability:151: interface name: wlan13, vap index: 13, vap name: mesh_backhaul_5g
+241007-14:40:21.700508 <I>  wifi_hal_getHalCapability:151: interface name: wlan11, vap index: 11, vap name: lnf_radius_5g
+241007-14:40:21.700653 <I>  wifi_hal_getHalCapability:151: interface name: wlan9, vap index: 9, vap name: hotspot_secure_5g
+241007-14:40:21.700796 <I>  wifi_hal_getHalCapability:151: interface name: wlan7, vap index: 7, vap name: lnf_psk_5g
+241007-14:40:21.700936 <I>  wifi_hal_getHalCapability:151: interface name: wlan5, vap index: 5, vap name: hotspot_open_5g
+241007-14:40:21.701089 <I>  wifi_hal_getHalCapability:151: interface name: wlan3, vap index: 3, vap name: iot_ssid_5g
+241007-14:40:21.701229 <I>  wifi_hal_getHalCapability:151: interface name: wlan1, vap index: 1, vap name: private_ssid_5g
+241007-14:40:26.843012 <I>  update_hostap_config_params:1721:Exit
+241007-14:40:26.918016 <E>  nl80211_enable_ap:4467: Error stopping/starting ap: -2 (No such file or directory) 
+241007-14:40:26.918789 <I>  nl80211_update_wiphy:5001: Updating dev:0 successful
+241007-14:40:26.918984 <I>  wifi_hal_setRadioOperatingParameters:603: set radio params to nvram for radio : 0
+241007-14:40:26.967895 <E>  wifi_hal_setRadioOperatingParameters:461: Skip the Radio 1 .This is sleeping in ECO mode 
+241007-14:40:27.016939 <I>  wifi_hal_createVAP:810: radio index:0 pre-create vap
+241007-14:40:27.017324 <I>  wifi_hal_createVAP:819: vap index:0 create vap
+241007-14:40:27.017556 <I>  wifi_hal_createVAP:857: vap index:0 interface:wlan0 mode:0
+241007-14:40:27.017701 <I>  wifi_hal_createVAP:860: vap_enable_status:1
+241007-14:40:27.018396 <I>  wifi_hal_createVAP:868: interface:wlan0 set down
+241007-14:40:27.885225 <I>  wifi_hal_createVAP:877: interface:wlan0 set mode:0
+241007-14:40:27.887989 <I>  wifi_hal_createVAP:885: interface:wlan0 radio configured:1 radio enabled:1
+241007-14:40:27.890538 <I>  wifi_hal_createVAP:888: interface:wlan0 set up
+241007-14:40:27.921316 <I>  wifi_hal_createVAP:895: interface:wlan0 bss enabled:1 bridge:brlan0
+241007-14:40:27.923522 <I>  wifi_hal_createVAP:898: interface:wlan0 create bridge:brlan0
+241007-14:40:27.923958 <I>  nl80211_create_bridge:2004: bridge:brlan0 interface:wlan0 is hotspot:0
+241007-14:40:27.924229 <I>  nl80211_create_bridge:2038: bridge:brlan0 nl connect
+241007-14:40:27.924773 <I>  nl80211_create_bridge:2046: bridge:brlan0 nl add
+241007-14:40:27.925755 <I>  nl80211_create_bridge:2049: bridge:brlan0 alloc cache
+241007-14:40:27.966294 <I>  nl80211_create_bridge:2057: bridge:brlan0 cache refill
+241007-14:40:27.967683 <I>  nl80211_create_bridge:2060: bridge:brlan0 get link
+241007-14:40:27.967960 <I>  nl80211_create_bridge:2075: bridge:brlan0 enslave device wlan0
+241007-14:40:27.976582 <I>  recv_link_status:1270: brlan0 BRIDGE IS CREATED
+241007-14:40:27.987626 <I>  nl80211_create_bridge:2085: bridge:brlan0 nl free
+241007-14:40:27.988322 <I>  wifi_hal_createVAP:906: interface:wlan0 set bridge brlan0 up
+241007-14:40:27.988830 <I>  wifi_hal_createVAP:915: interface:wlan0 update hostapd params
+241007-14:40:28.043022 <I>  recv_link_status:1270: brlan0 BRIDGE IS CREATED
+241007-14:40:28.178535 <I>  update_hostap_bss:988, Wi-Fi WPS config method:128 wps_pin:45276453
+241007-14:40:28.178863 <I>  update_hostap_iface:1181: Interface: wlan0 basic_data_transmit_rates:disabled, supported_data_transmit_rates:disabled
+241007-14:40:28.179024 <I>  update_hostap_iface:1248: Interface: wlan0 band: 0 mode:0x7fa38704a8 has 12 rates
+241007-14:40:28.179184 <I>  update_hostap_iface:1273: Interface: wlan0 band: 0 mode:0x7fa38704a8 has 12 rates
+241007-14:40:28.186257 <I>  update_hostap_iface:1362:interface name:wlan0 country:US op class:12 global op class:81 channel:1 frequency:2412 center_freq1:2412
+241007-14:40:28.186536 <I>  wifi_hal_createVAP:923: interface:wlan0 vap_initialized:0
+241007-14:40:28.186696 <I>  wifi_hal_createVAP:984: radio index:0 update hostapd interfaces
+241007-14:40:28.186855 <I>  wifi_hal_createVAP:992: interface:wlan0 enable ap
+241007-14:40:28.191992 <E>  nl80211: Station flush failed: ret=-14 (Bad address)241007-14:40:28.468517 <I>  Set AP isolate:0 
+241007-14:40:28.469475 <E>  set_bss_param:9604: Failed to set bss for interface: wlan0 error: -95(Operation not supported)
+241007-14:40:28.470491 <I>  wifi_drv_sta_deauth:7685: Send drv mlme: client mac:ff:ff:ff:ff:ff:ff reason_code:2
+241007-14:40:28.479700 <I>  wifi_drv_set_key:10458:key set success for ifname:wlan0 vap_index:0
+241007-14:40:28.479979 <I>  wifi_drv_set_operstate:10031: Enter, interface:wlan0 bridge:brlan0 driver operation state:1
+241007-14:40:28.480941 <I>  nl80211_register_spurious_frames:9957: register spurious frames handler for wlan0
+241007-14:40:28.506075 <I>  wifi_drv_set_operstate:10099: Exit, interface:wlan0 bridge:brlan0 driver configured for 802.11
+241007-14:40:28.506392 <I>  wifi_hal_createVAP:1000: interface:wlan0 set up
+241007-14:40:28.506799 <I>  wifi_hal_createVAP:1051: vap index:0 set power:0
+241007-14:40:28.507050 <I>  wifi_hal_createVAP:819: vap index:2 create vap
+241007-14:40:28.507213 <I>  wifi_hal_createVAP:831: vap index:2 create interface
+241007-14:40:28.510140 <E>  nl80211_create_interface:5208: Error creating wlan2 interface on dev:0 error: -16 (Device or resource busy)
+241007-14:40:28.510419 <E>  wifi_hal_createVAP:834: vap index:2 failed to create interface
+241007-14:40:28.510581 <I>  wifi_hal_createVAP:819: vap index:6 create vap
+241007-14:40:28.510737 <I>  wifi_hal_createVAP:831: vap index:6 create interface
+241007-14:40:28.513425 <E>  nl80211_create_interface:5208: Error creating wlan6 interface on dev:0 error: -16 (Device or resource busy)
+241007-14:40:28.513689 <E>  wifi_hal_createVAP:834: vap index:6 failed to create interface
+241007-14:40:28.513905 <I>  wifi_hal_createVAP:819: vap index:10 create vap
+241007-14:40:28.514083 <I>  wifi_hal_createVAP:831: vap index:10 create interface
+241007-14:40:28.518335 <E>  nl80211_create_interface:5208: Error creating wlan10 interface on dev:0 error: -16 (Device or resource busy)
+241007-14:40:28.518631 <E>  wifi_hal_createVAP:834: vap index:10 failed to create interface
+241007-14:40:28.518802 <I>  wifi_hal_createVAP:1062: radio index:0 post-create vap
+241007-14:40:28.519733 <E>  wifi_hal_delApAclDevices:1497:interface for ap index:2 not found
+241007-14:40:28.519916 <E>  wifi_hal_delApAclDevices:1497:interface for ap index:6 not found
+241007-14:40:28.520079 <E>  wifi_hal_delApAclDevices:1497:interface for ap index:10 not found
+241007-14:40:28.521103 <I>  wifi_hal_createVAP:804: radio index:1 skip vap create due to ECO mode
+241007-14:40:28.530103 <I>  recv_link_status:1270: brlan0 BRIDGE IS CREATED
+241007-14:40:28.586283 <I>  recv_link_status:1270: brlan0 BRIDGE IS CREATED
+241007-14:40:28.771972 <I>  wifi_hal_post_init:322: platform post init
+241007-14:40:29.851953 <I>  wifi_hal_createVAP:810: radio index:0 pre-create vap
+241007-14:40:29.852347 <I>  wifi_hal_createVAP:819: vap index:4 create vap
+241007-14:40:29.852507 <I>  wifi_hal_createVAP:831: vap index:4 create interface
+241007-14:40:29.858553 <E>  nl80211_create_interface:5208: Error creating wlan4 interface on dev:0 error: -16 (Device or resource busy)
+241007-14:40:29.858986 <E>  wifi_hal_createVAP:834: vap index:4 failed to create interface
+241007-14:40:29.859190 <I>  wifi_hal_createVAP:1062: radio index:0 post-create vap
+241007-14:40:29.958182 <E>  wifi_hal_delApAclDevices:1497:interface for ap index:4 not found
+241007-14:40:29.961268 <I>  wifi_hal_createVAP:810: radio index:0 pre-create vap
+241007-14:40:29.961652 <I>  wifi_hal_createVAP:819: vap index:8 create vap
+241007-14:40:29.962069 <I>  wifi_hal_createVAP:831: vap index:8 create interface
+241007-14:40:29.972510 <E>  nl80211_create_interface:5208: Error creating wlan8 interface on dev:0 error: -16 (Device or resource busy)
+241007-14:40:29.972998 <E>  wifi_hal_createVAP:834: vap index:8 failed to create interface
+241007-14:40:29.973177 <I>  wifi_hal_createVAP:1062: radio index:0 post-create vap
+241007-14:40:30.064495 <I>  wifi_hal_createVAP:804: radio index:1 skip vap create due to ECO mode
+241007-14:40:30.178565 <I>  wifi_hal_createVAP:804: radio index:1 skip vap create due to ECO mode

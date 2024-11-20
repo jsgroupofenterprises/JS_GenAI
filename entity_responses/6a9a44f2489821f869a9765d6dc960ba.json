@@ -1,0 +1,7 @@
+{
+  "entity_name": "__v6addr_mismatch",
+  "component": "CcspWifiAgent",
+  "content_hash": "6a9a44f2489821f869a9765d6dc960ba",
+  "response": "1. **Main purpose and functionality:**\n   - The function checks the mismatch of two IPv6 addresses within a specified prefix length.\n\n2. **Key operations and data flow:**\n   - Converts the input IPv6 addresses to `in6_addr` structures for comparison.\n   - Calculates the number of bytes to be compared based on the prefix length.\n   - Loops through the specified number of bytes and tests for equality.\n   - If the bytes match within the prefix length, it returns 0 (no mismatch).\n   - If there is a mismatch within the prefix length, it returns a negative error code.\n\n3. **Interaction with other components:**\n   - None mentioned in the provided code.\n\n4. **Important parameters and return values:**\n   - `addr1`: IPv6 address 1\n   - `addr2`: IPv6 address 2\n   - `pref_len`: Prefix length to compare\n   - **Return values:**\n     - 0: No mismatch\n     - Negative values indicate different types of mismatches\n\n5. **Specific RDK-related operations:**\n   - None mentioned in the provided code.",
+  "processed_at": "2024-11-13T14:58:41.407583"
+}

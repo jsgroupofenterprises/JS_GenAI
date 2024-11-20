@@ -1,0 +1,60 @@
+241007-14:40:20.588117 [mod=XDNS, lvl=WARN] [tid=1778] Register empty object : com.
+241007-14:40:20.589052 [mod=XDNS, lvl=WARN] [tid=1778] Register empty object : com.cisco.
+241007-14:40:20.589150 [mod=XDNS, lvl=WARN] [tid=1778] Register empty object : com.cisco.spvtg.
+241007-14:40:20.589244 [mod=XDNS, lvl=WARN] [tid=1778] Register empty object : com.cisco.spvtg.ccsp.
+241007-14:40:20.601853 [mod=XDNS, lvl=WARN] [tid=1778] DM Library module name = CCSP Base Data Model
+241007-14:40:20.603211 [mod=XDNS, lvl=WARN] [tid=1778] DM Library module name = CcspXdnsSsp
+241007-14:40:20.603504 [mod=XDNS, lvl=WARN] [tid=1778] Loading DM library libdmlxdns.so...
+241007-14:40:20.822195 [mod=XDNS, lvl=INFO] [tid=1778] rbus.c:2765 rbus open for component: XDNSEventConsumer
+
+241007-14:40:20.834205 [mod=XDNS, lvl=INFO] [tid=1778] rbus.c:2841  rbus open (XDNSEventConsumer) success
+
+241007-14:40:20.898257 [mod=XDNS, lvl=INFO] [tid=1778] rbuscore.c:742 Subscription for Device.X_RDK_WanManager.CurrentActiveInterface::Device.X_RDK_WanManager.CurrentActiveInterface is now active.
+
+241007-14:40:20.898450 [mod=XDNS, lvl=INFO] [tid=1778] rbus.c:4777 Device.X_RDK_WanManager.CurrentActiveInterface subscribe retries succeeded
+
+241007-14:40:20.898659 [mod=XDNS, lvl=INFO] [tid=1778] Inside FUNC register_sub_docs LINE 240
+241007-14:40:20.898783 [mod=XDNS, lvl=INFO] [tid=1778] Inside FUNC initMessageQueue LINE 1109 
+241007-14:40:20.957097 [mod=XDNS, lvl=WARN] [tid=1778] Search for empty object in 'dslhCpeCheckEmptyObject'
+241007-14:40:20.957705 [mod=XDNS, lvl=INFO] [tid=1921] Inside FUNC messageQueueProcessing LINE 899 
+241007-14:40:20.983059 [mod=XDNS, lvl=INFO] [tid=1922] Inside FUNC display_subDocs LINE 88
+241007-14:40:20.983345 [mod=XDNS, lvl=INFO] [tid=1924] rbuscore.c:2326 RBus Enabled
+
+241007-14:40:20.983450 [mod=XDNS, lvl=INFO] [tid=1924] Entering rbusInit
+241007-14:40:20.983536 [mod=XDNS, lvl=INFO] [tid=1924] rbus.c:2765 rbus open for component: CcspXdnsSsp_wbcfg
+
+241007-14:40:20.983947 [mod=XDNS, lvl=INFO] [tid=1924] rbus.c:2841  rbus open (CcspXdnsSsp_wbcfg) success
+
+241007-14:40:20.984019 [mod=XDNS, lvl=INFO] [tid=1924] isWebCfgRbusEnabled: rbus enabled is 1 
+241007-14:40:20.984093 [mod=XDNS, lvl=INFO] [tid=1924] subscribeSubdocForceReset: Discover component for event 'Device.X_RDK_WebConfig.webcfgSubdocForceReset' 
+241007-14:40:20.984160 [mod=XDNS, lvl=INFO] [tid=1924] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+241007-14:40:20.995918 [mod=XDNS, lvl=INFO] [tid=1924] webcfg_rbus_discover_component: (0-1)ret[FALSE]
+241007-14:40:21.143648 [mod=XDNS, lvl=INFO] [tid=1778] XDNS Module loaded successfully...
+241007-14:40:21.143788 [mod=XDNS, lvl=INFO] [tid=1778] Inside FUNC check_component_crash LINE 359, init file is /tmp/xdns_bootup_initialized 
+241007-14:40:21.143959 [mod=XDNS, lvl=INFO] [tid=1778] /tmp/xdns_bootup_initialized file not present, need to send component init event to webconfig 
+241007-14:40:21.144038 [mod=XDNS, lvl=INFO] [tid=1778] notifyVersion_to_Webconfig : doc name xdns , doc version 0
+241007-14:40:21.144111 [mod=XDNS, lvl=INFO] [tid=1778] isWebCfgRbusEnabled: rbus enabled is 1 
+241007-14:40:21.144176 [mod=XDNS, lvl=INFO] [tid=1778] sendWebConfigSignal : rbus_set :: event_name : webconfigSignal :: 
+241007-14:40:21.160439 [mod=XDNS, lvl=ERROR] [tid=1778] rbus.c:3777 set by CcspXdnsSsp_wbcfg failed; Received error 12 from RBUS Daemon for the object webconfigSignal
+
+241007-14:40:21.160598 [mod=XDNS, lvl=ERROR] [tid=1778] sendWebConfigSignal rbus_set for webconfigSignal failed & returns with Err: 6
+241007-14:40:21.160721 [mod=XDNS, lvl=INFO] [tid=1778] XDNS:------------------touch /tmp/Xdns_bootup_initialized----------------
+241007-14:40:30.996205 [mod=XDNS, lvl=INFO] [tid=1924] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+241007-14:40:31.000215 [mod=XDNS, lvl=INFO] [tid=1924] webcfg_rbus_discover_component: (0-1)ret[FALSE]
+241007-14:40:32.525583 [mod=XDNS, lvl=WARN] [tid=1902] CcspXDNS: Received notification event:val current_wan_ifname:erouter0
+241007-14:40:32.525862 [mod=XDNS, lvl=WARN] [tid=1902] CcspXDNS: Never enabled. Not writing to RESOLV_CONF
+241007-14:40:33.243638 [mod=XDNS, lvl=WARN] [tid=1780] XDNSEventConsumer : New value of CurrentActiveInterface is = erouter0
+241118-09:32:08.374730 [mod=XDNS, lvl=INFO] [tid=1924] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+241118-09:32:08.376016 [mod=XDNS, lvl=INFO] [tid=1924] webcfg_rbus_discover_component: (0-1)ret[FALSE]
+241118-09:32:18.376343 [mod=XDNS, lvl=INFO] [tid=1924] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+241118-09:32:18.377944 [mod=XDNS, lvl=INFO] [tid=1924] webcfg_rbus_discover_component: (0-1)ret[FALSE]
+241118-09:32:28.378217 [mod=XDNS, lvl=INFO] [tid=1924] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+241118-09:32:28.379409 [mod=XDNS, lvl=INFO] [tid=1924] webcfg_rbus_discover_component: (0-1)ret[FALSE]
+241118-09:32:38.379644 [mod=XDNS, lvl=INFO] [tid=1924] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+241118-09:32:38.380904 [mod=XDNS, lvl=INFO] [tid=1924] webcfg_rbus_discover_component: (0-1)ret[FALSE]
+241118-09:32:48.381291 [mod=XDNS, lvl=INFO] [tid=1924] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+241118-09:32:48.382535 [mod=XDNS, lvl=INFO] [tid=1924] webcfg_rbus_discover_component: (0-1)ret[FALSE]
+241118-09:32:58.382779 [mod=XDNS, lvl=INFO] [tid=1924] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+241118-09:32:58.383987 [mod=XDNS, lvl=INFO] [tid=1924] webcfg_rbus_discover_component: (0-1)ret[FALSE]
+241118-09:33:08.384278 [mod=XDNS, lvl=INFO] [tid=1924] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+241118-09:33:08.385453 [mod=XDNS, lvl=INFO] [tid=1924] webcfg_rbus_discover_component: (0-1)ret[FALSE]

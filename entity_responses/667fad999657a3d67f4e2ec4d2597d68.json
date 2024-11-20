@@ -1,0 +1,7 @@
+{
+  "entity_name": "log_dynamic_state_handler",
+  "component": "CcspWifiAgent",
+  "content_hash": "667fad999657a3d67f4e2ec4d2597d68",
+  "response": "**1. Main purpose and functionality**\nThe 'log_dynamic_state_handler' function manages the dynamic logging state in CcspWifiAgent. It checks for updates to the logging state by calling the 'log_dynamic_update' function and initiates the logging callback if a new trigger is detected.\n\n**2. Key operations and data flow**\n- The function checks for updates to the logging state.\n- If there is an update, it checks if the logging callback is configured.\n- If the callback is configured, it creates a file path using the 'log_dynamic_full_path_get' function.\n- It opens the file for writing and calls the logging callback to dump information into the file.\n- Finally, it updates the global 'log_dynamic.trigger_value'.\n\n**3. Interaction with other components (if any)**\nThe function interacts with the 'log_dynamic.trigger_callback' function to dump information into a file.\n\n**4. Important parameters and return values**\n- **loop:** The event loop that the stat watcher belongs to.\n- **watcher:** The stat watcher that triggered the event.\n- **revents:** The events that triggered the watcher.\n\n**5. Any specific RDK-related operations**\nThe function interacts with the RDK-specific 'log_dynamic' module to manage the logging state.",
+  "processed_at": "2024-11-13T15:54:10.194449"
+}

@@ -1,0 +1,7 @@
+{
+  "entity_name": "init_wifi_data_plane",
+  "component": "CcspWifiAgent",
+  "content_hash": "75523b88c52566f2b71c4e78b0259203",
+  "response": "**1. Main purpose and functionality:**\n   - The init_wifi_data_plane function initializes the WiFi data plane module, which is responsible for handling data transfer over the WiFi network.\n\n**2. Key operations and data flow:**\n   - Initializes the 802.1x module for secure network access.\n   - Sets up various timers and data structures for managing data plane operations.\n   - Creates a thread to handle data plane processing.\n   - Registers a callback function to receive management frames from the WiFi interface.\n\n**3. Interaction with other components:**\n   - Interacts with the 802.1x module for authentication and encryption.\n   - Communicates with the WiFi management component to receive management frames.\n\n**4. Important parameters and return values:**\n   - **Parameters:** None\n   - **Return values:**\n     - 0 on success\n     - -1 on failure\n\n**5. Any specific RDK-related operations:**\n   - Uses RDK APIs for creating threads, queues, and locks.\n   - Initializes the Passpoint feature, which is specific to RDK devices.",
+  "processed_at": "2024-11-13T15:16:09.982584"
+}

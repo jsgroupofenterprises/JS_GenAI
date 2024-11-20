@@ -1,0 +1,7 @@
+{
+  "entity_name": "ssp_WifiCCDmGetComponentVersion",
+  "component": "CcspWifiAgent",
+  "content_hash": "c460920eaf7bf2a0f4690c7264ab7694",
+  "response": "## Function Analysis: ssp_WifiCCDmGetComponentVersion\n\n### 1. Main Purpose and Functionality\nThe purpose of the `ssp_WifiCCDmGetComponentVersion` function is to retrieve the current version of the CcspWifiAgent component. This version number is used by the RDK Central to determine the compatibility and compatibility with other components.\n\n### 2. Key Operations and Data Flow\n* The function is called with the handle of the CcspWifiAgent component object as an input parameter.\n* The function retrieves the version number of the component from the global variable `g_pComponent_Common_Dm->Version`.\n* The version number is returned as the output of the function.\n\n### 3. Interaction with Other Components\nThe function does not interact with any other components.\n\n### 4. Important Parameters and Return Values\n- **Input Parameter**:\n    - `hThisObject`: The handle of the CcspWifiAgent component object.\n- **Return Value**:\n    - A ULONG value representing the version number of the CcspWifiAgent component.\n\n### 5. RDK-Related Operations\nThe function is used by the RDK Central to determine the compatibility of the CcspWifiAgent component with other components in the RDK system.",
+  "processed_at": "2024-11-13T14:55:27.156733"
+}

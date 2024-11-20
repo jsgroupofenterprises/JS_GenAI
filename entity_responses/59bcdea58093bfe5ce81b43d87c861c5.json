@@ -1,0 +1,7 @@
+{
+  "entity_name": "wifi_setFTR0KeyHolderID",
+  "component": "hal",
+  "content_hash": "59bcdea58093bfe5ce81b43d87c861c5",
+  "response": "## **Main purpose and functionality:**\n\nThe purpose of this function is to set the Fast Transition R0 keyholder ID value of the specified AP.\n\n## **Key operations and data flow:**\n\nThe function takes the following parameters:\n\n* `apIndex`: The index of the AP to set the keyholder ID for.\n* `keyHolderID`: A pointer to a buffer containing the keyholder ID.\n\nThe function uses the `apIndex` to identify the AP to set the keyholder ID for. It copies the keyholder ID from the buffer pointed to by `keyHolderID` into a buffer in the AP's configuration.\n\n## **Interaction with other components (if any):**\n\nThis function interacts with the AP's configuration manager to set the keyholder ID.\n\n## **Important parameters and return values:**\n\nThe following parameters are important:\n\n* `apIndex`: The index of the AP to set the keyholder ID for.\n* `keyHolderID`: A pointer to a buffer containing the keyholder ID.\n\nThe function returns RETURN_OK if successful or RETURN_ERR if an error occurs.\n\n## **Any specific RDK-related operations:**\n\nThis function is part of the RDK HAL for Wi-Fi. It is used to set the Fast Transition R0 keyholder ID value of an AP.",
+  "processed_at": "2024-11-14T12:49:32.554479"
+}

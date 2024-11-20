@@ -1,0 +1,7 @@
+{
+  "entity_name": "voice_hal_getRegistrarServer",
+  "component": "hal",
+  "content_hash": "7d6636487716a441c5dcde0150bf6041",
+  "response": "### Main purpose and functionality\n\nThe `voice_hal_getRegistrarServer` function is a synchronous operation used to retrieve the name or IP address and port of the voice logging server. The function expects the service and profile inputs. The function calls a function to get the IP address. The IP address is the output.\n\n### Key operations and data flow\n\n1. Get the service and profile inputs.\n2. Call the `voice_hal_getLogServer` function to get the IP address.\n3. Return the IP address as the output.\n\n### Interaction with other components (if any)\n\nThis function interacts with the `voice_hal_getLogServer` function to get the IP address.\n\n### Important parameters and return values\n\n| Parameter | Type | Description |\n|---|---|---|\n| `service` | `uint32_t` | The voice service affected. |\n| `profile` | `uint32_t` | The voice profile affected. |\n| `ipNameAddress` | `char *` | Output the name or IP address of the logging server as a null-terminated string. |\n| `pLength` | `uint32_t *` | Input and output the buffer size. |\n\n### Any specific RDK-related operations\n\nThis function is specific to RDK and is used to retrieve the name or IP address of the voice logging server.",
+  "processed_at": "2024-11-14T11:44:20.625360"
+}

@@ -1,0 +1,7 @@
+{
+  "entity_name": "GetInstAssocDevSchemaIdBuffer",
+  "component": "CcspWifiAgent",
+  "content_hash": "f446d1f76e5eb1aa5f8d3afe35af5db7",
+  "response": "**1. Main purpose and functionality**\n\nThe `GetInstAssocDevSchemaIdBuffer` function provides the RDK schema IDs for the Instant Associated Device Monitor feature.\n\n**2. Key operations and data flow**\n\nThe function initializes the PSM harvester, retrieves the necessary RDK schema IDs, and buffers the data for use by the Instant Associated Device Monitor.\n\n**3. Interaction with other components (if any)**\n\nThe function interacts with the PSM harvester and the RDK subsystem.\n\n**4. Important parameters and return values**\n\nNone.\n\n**5. Any specific RDK-related operations**\n\nThe function uses the RDK PSM API to retrieve the schema IDs.",
+  "processed_at": "2024-11-13T14:59:16.255624"
+}

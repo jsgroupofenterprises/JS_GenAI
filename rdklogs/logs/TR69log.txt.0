@@ -1,0 +1,90 @@
+241007-14:40:19.512259 [mod=TR69, lvl=INFO] [tid=1763] NonRoot feature is enabled, dropping root privileges for CcspTr069Pa process
+241007-14:40:19.541576 [mod=TR69, lvl=INFO] [tid=1786] 
+
+241007-14:40:19.542122 [mod=TR69, lvl=INFO] [tid=1786]         ***************************************************************
+241007-14:40:19.542318 [mod=TR69, lvl=INFO] [tid=1786]         ***                                                         ***
+241007-14:40:19.542513 [mod=TR69, lvl=INFO] [tid=1786]         ***   CCSP TR-069 PA Program                                ***
+241007-14:40:19.542660 [mod=TR69, lvl=INFO] [tid=1786]         ***      Copyright 2014  Cisco Systems, Inc.                ***
+241007-14:40:19.542846 [mod=TR69, lvl=INFO] [tid=1786]         ***      Licensed under the Apache License, Version 2.0     ***
+241007-14:40:19.542971 [mod=TR69, lvl=INFO] [tid=1786]         ***                                                         ***
+241007-14:40:19.543146 [mod=TR69, lvl=INFO] [tid=1786]         ***************************************************************
+241007-14:40:19.543270 [mod=TR69, lvl=INFO] [tid=1786] 
+
+241007-14:40:19.543393 [mod=TR69, lvl=INFO] [tid=1786] 
+
+241007-14:40:19.543563 [mod=TR69, lvl=INFO] [tid=1786]         *** 'e' - engage PA SSP                                                        ***
+241007-14:40:19.543684 [mod=TR69, lvl=INFO] [tid=1786]         *** 'c' - cancel PA SSP                                                        ***
+241007-14:40:19.543811 [mod=TR69, lvl=INFO] [tid=1786]         *** 'l' - set log level                                                        ***
+241007-14:40:19.543981 [mod=TR69, lvl=INFO] [tid=1786]         *** 's' - simulate receiving systemReady signal from CR                        ***
+241007-14:40:19.544102 [mod=TR69, lvl=INFO] [tid=1786]         *** 'd' - dump PA parameter tree                                               ***
+241007-14:40:19.544222 [mod=TR69, lvl=INFO] [tid=1786]         *** 'g' - sending diagComplete event over D-Bus                                ***
+241007-14:40:19.544343 [mod=TR69, lvl=INFO] [tid=1786]         *** '1' - test PA parameter filter function                                    ***
+241007-14:40:19.544514 [mod=TR69, lvl=INFO] [tid=1786]         *** '2' - test GPN                                                             ***
+241007-14:40:19.544634 [mod=TR69, lvl=INFO] [tid=1786]         *** '3' - test GPV                                                             ***
+241007-14:40:19.544753 [mod=TR69, lvl=INFO] [tid=1786]         *** '4' - test SPV                                                             ***
+241007-14:40:19.544820 [mod=TR69, lvl=INFO] [tid=1786]         *** '5' - test GPA                                                             ***
+241007-14:40:19.544937 [mod=TR69, lvl=INFO] [tid=1786]         *** '6' - test SPA                                                             ***
+241007-14:40:19.545004 [mod=TR69, lvl=INFO] [tid=1786]         *** '7' - test CDS                                                             ***
+241007-14:40:19.545067 [mod=TR69, lvl=INFO] [tid=1786]         *** '8' - test firmware download                                               ***
+241007-14:40:19.545187 [mod=TR69, lvl=INFO] [tid=1786]         *** 'a' - test AddObject                                                       ***
+241007-14:40:19.545253 [mod=TR69, lvl=INFO] [tid=1786]         *** 'x' - test DeleteObject                                                    ***
+241007-14:40:19.545316 [mod=TR69, lvl=INFO] [tid=1786]         *** 'v' - simulate SPV through other means than ACS                            ***
+241007-14:40:19.545378 [mod=TR69, lvl=INFO] [tid=1786]         *** 'k' - check parameter notification in PA's cache                           ***
+241007-14:40:19.545441 [mod=TR69, lvl=INFO] [tid=1786]         *** 'f' - flip invisible namespace check flag                                  ***
+241007-14:40:19.545503 [mod=TR69, lvl=INFO] [tid=1786] 
+
+241007-14:40:19.729587 [mod=TR69, lvl=WARN] [tid=1786] CcspTr069PaSsp_GetTr069CertificateLocationForSyndication 602 - Syndication TR69CertLocation /etc/cacert.pem
+241007-14:40:19.731569 [mod=TR69, lvl=WARN] [tid=1786] CcspTr069PaSsp_JSON_GetItemByName: Device.DeviceInfo.X_RDKCENTRAL-COM_Syndication.TR69ACSConnectURL = https://acswg.g.comcast.net/cwmpWeb/DigestCPEMgt?target=/CPEMgt
+241007-14:40:19.735493 [mod=TR69, lvl=ERROR] [tid=1786] Failed to SetPAMapperFile CCSP CWMP CPE Controller object!
+241007-14:40:20.138060 [mod=TR69, lvl=ERROR] [tid=1786] TR-069 PA mapper file </usr/ccsp/tr069pa/ccsp_tr069_pa_mapper.xml> has been loaded!
+241007-14:40:20.138780 [mod=TR69, lvl=WARN] [tid=1786] RBus is enabled
+241007-14:40:20.138948 [mod=TR69, lvl=INFO] [tid=1786] rbuscore.c:2326 RBus Enabled
+
+241007-14:40:20.139104 [mod=TR69, lvl=INFO] [tid=1786] rbuscore.c:643 Broker address: unix:///tmp/rtrouted
+
+241007-14:40:20.140615 [mod=TR69, lvl=INFO] [tid=1786] connection opened for eRT.com.cisco.spvtg.ccsp.tr069pa
+241007-14:40:20.140962 [mod=TR69, lvl=INFO] [tid=1786] rbuscore.c:1401 Registered event eRT.com.cisco.spvtg.ccsp.tr069pa::diagCompleteSignal.
+
+241007-14:40:20.141301 [mod=TR69, lvl=INFO] [tid=1786] CcspBaseIf_Register_Event_rbus : rbus_registerEvent called for event: systemReadySignal
+241007-14:40:20.178992 [mod=TR69, lvl=INFO] [tid=1786] rbuscore.c:742 Subscription for Device.CR.SystemReady::Device.CR.SystemReady is now active.
+
+241007-14:40:20.179237 [mod=TR69, lvl=INFO] [tid=1786] CcspBaseIf_Register_Event_rbus : rbus_registerEvent called for event: diagCompleteSignal
+241007-14:40:20.191025 [mod=TR69, lvl=INFO] [tid=1848] rbuscore.c:156 Listener rbus.CcspTr069PaSsp.INBOX.1786 added for event diagCompleteSignal.
+
+241007-14:40:20.204003 [mod=TR69, lvl=INFO] [tid=1786] rbuscore.c:742 Subscription for eRT.com.cisco.spvtg.ccsp.tr069pa::diagCompleteSignal is now active.
+
+241007-14:40:21.643048 [mod=TR69, lvl=WARN] [tid=1786] ReadTr69TlvData TLV data file is missing!!!
+241007-14:40:21.643190 [mod=TR69, lvl=INFO] [tid=1786] ReadTr69TlvData /nvram/TLVData.bin File is not available so unable to process by Tr069
+241007-14:40:21.698647 [mod=TR69, lvl=WARN] [tid=1786] CcspManagementServer_Init -#- ACS URL from PSM DB- https://acswg.g.comcast.net/cwmpWeb/DigestCPEMgt?target=/CPEMgt
+241007-14:40:21.698884 [mod=TR69, lvl=INFO] [tid=1786] Waiting for system ready signal
+241007-14:40:26.699214 [mod=TR69, lvl=INFO] [tid=1786] Waiting for system ready signal
+241007-14:40:28.012321 [mod=TR69, lvl=ERROR] [tid=1848] rbuscore.c:1498 Received rbus event but no master callback registered yet.
+
+241007-14:40:28.021014 [mod=TR69, lvl=INFO] [tid=1848] System Ready Event Received
+241007-14:40:28.021884 [mod=TR69, lvl=INFO] [tid=1848] Received system ready signal, created /var/tmp/tr069paready file
+241007-14:40:28.022016 [mod=TR69, lvl=INFO] [tid=1848] CcspCwmppoSysReadySignalCB, user_data - 0x0x19e677e0
+241007-14:40:31.699579 [mod=TR69, lvl=INFO] [tid=1786] /var/tmp/tr069paready file exists, hence can proceed with tr069pa start up
+241007-14:40:31.699784 [mod=TR69, lvl=INFO] [tid=1786] CcspCwmppoProcessSysReadySignal, cbContext - 0x0x19e677e0
+241007-14:40:31.700217 [mod=TR69, lvl=INFO] [tid=1786] CcspBaseIf_Register_Event_rbus : rbus_registerEvent called for event: parameterValueChangeSignal
+241007-14:40:31.700413 [mod=TR69, lvl=ERROR] [tid=3024] TR-069 PA received systemReady event!
+241007-14:40:31.707677 [mod=TR69, lvl=WARN] [tid=1786] CcspManagementServer_GetURL -#- ManagementServerURLID_PSM: https://acswg.g.comcast.net/cwmpWeb/DigestCPEMgt?target=/CPEMgt
+241007-14:40:31.708056 [mod=TR69, lvl=INFO] [tid=1786] rbuscore.c:2326 RBus Enabled
+
+241007-14:40:31.708233 [mod=TR69, lvl=INFO] [tid=1786] rbus.c:2765 rbus open for component: t2_lib_ccsp-tr069-pa
+
+241007-14:40:31.709028 [mod=TR69, lvl=INFO] [tid=1786] rbus.c:2841  rbus open (t2_lib_ccsp-tr069-pa) success
+
+241007-14:40:31.773016 [mod=TR69, lvl=INFO] [tid=1786] TCP server created successfully.
+241007-14:40:31.773198 [mod=TR69, lvl=INFO] [tid=1786] Tcp host addr=0.0.0.0:7547
+241007-14:40:31.774901 [mod=TR69, lvl=INFO] [tid=1786] CCSP CWMP CPE Controller object has been engaged!
+241007-14:40:32.700725 [mod=TR69, lvl=ERROR] [tid=3024] Synchronizing namespaces with CR ...
+241007-14:40:33.042287 [mod=TR69, lvl=WARN] [tid=3024] VC signal on namespace <Device.ManagementServer.ConnectionRequestURL>, notif = 2 has pushed into backend during CPE reloading!
+241007-14:40:33.043660 [mod=TR69, lvl=WARN] [tid=3024] CcspCwmppoSysReadySignalCB - no component registered for Name Space: <CCSP.COMMAND.PACKAGE.MANAGEMENT.>.
+241007-14:40:33.048826 [mod=TR69, lvl=INFO] [tid=3024] CcspCwmpCpecoStartCWMP() being called.
+241007-14:40:33.048979 [mod=TR69, lvl=WARN] [tid=3024] TR-069 PA is disabled!
+241118-09:32:02.157753 [mod=TR69, lvl=INFO] [tid=1848] PA received parameterValueChangeSignal over message bus, size=1.
+241118-09:32:02.157929 [mod=TR69, lvl=INFO] [tid=1848] parameterValueChangeSignal pushed into processing queue.
+241118-09:32:02.159745 [mod=TR69, lvl=INFO] [tid=3337] Processing queued parameterValueChangeSignal over message bus, size=1.
+241118-09:32:02.159938 [mod=TR69, lvl=INFO] [tid=3337]   processing VC on namespace=<Device.IP.Interface.1.IPv4Address.1.IPAddress>, new val=<192.168.160.110>, old val=<0.0.0.0>.
+241118-09:32:02.179904 [mod=TR69, lvl=INFO] [tid=3337] CcspCwmppoSaveValueChanged - Entry with ins number 0 has been created in PSM.
+241118-09:32:02.180204 [mod=TR69, lvl=INFO] [tid=3337] Value Changed event saved into PSM, Parameter Name - Device.IP.Interface.1.IPv4Address.1.IPAddress

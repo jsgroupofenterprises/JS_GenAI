@@ -1,0 +1,7 @@
+{
+  "entity_name": "voice_hal_getCountServices",
+  "component": "hal",
+  "content_hash": "39a09e0baffd34030b049bd681f6c949",
+  "response": "## Main purpose and functionality\n\nThe `voice_hal_getCountServices` function is used to retrieve the count of voice services present on the system.\n\n## Key operations and data flow\n\nThe function takes no arguments and returns the count of voice services as an integer.\n\n## Interaction with other components (if any)\n\nThis function interacts with the underlying voice hardware and software to retrieve the count of voice services.\n\n## Important parameters and return values\n\nThe function takes no arguments and returns the count of voice services as an integer.\n\n## Any specific RDK-related operations\n\nThis function is specific to RDK and is used to retrieve the count of voice services on an RDK system.",
+  "processed_at": "2024-11-14T11:02:40.349164"
+}

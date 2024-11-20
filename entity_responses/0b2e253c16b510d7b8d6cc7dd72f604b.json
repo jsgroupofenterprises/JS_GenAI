@@ -1,0 +1,7 @@
+{
+  "entity_name": "deviceDeauthHandler",
+  "component": "CcspWifiAgent",
+  "content_hash": "0b2e253c16b510d7b8d6cc7dd72f604b",
+  "response": "**1. Main purpose and functionality**\n\nThe `deviceDeauthHandler` function is a callback function that is invoked when a device is deauthenticated from an access point. It reads the data from the event and prints the MAC address of the deauthenticated device and the VAP from which it was deauthenticated.\n\n**2. Key operations and data flow**\n\nThe function first checks if the event is valid. If it is valid, it gets the value of the event data and the length of the data. If the data is valid, it copies the MAC address of the deauthenticated device from the data and prints it along with the VAP from which it was deauthenticated.\n\n**3. Interaction with other components (if any)**\n\nThe function interacts with the RDK Wi-Fi agent. It receives the event from the RDK Wi-Fi agent and prints the information about the deauthenticated device.\n\n**4. Important parameters and return values**\n\nThe important parameters of the function are:\n\n* `handle`: The handle of the RBUS connection.\n* `event`: The event that was received.\n* `subscription`: The subscription that was used to receive the event.\n\nThe function does not return any value.\n\n**5. Any specific RDK-related operations**\n\nThe function uses the RDK Wi-Fi agent to receive the event. It also uses the following RDK-specific macros:\n\n* `WIFI_EVENT_CONSUMER_DGB`\n* `UNREFERENCED_PARAMETER`",
+  "processed_at": "2024-11-13T14:53:59.871309"
+}

@@ -1,0 +1,7 @@
+{
+  "entity_name": "wifi_setApManagementFramePowerControl",
+  "component": "hal",
+  "content_hash": "efdbd3f92398c0d36091e4921435c660",
+  "response": "1. **Main purpose and functionality**:\n    - The `wifi_setApManagementFramePowerControl` function sets the Radio Management Frame Power Control in dBm for the specified access point.\n\n2. **Key operations and data flow**:\n    - The function takes two parameters:\n        - `apIndex`: The index of the access point.\n        - `dBm`: The power control value in dBm.\n    - The function sets the power control value for the specified access point.\n\n3. **Interaction with other components (if any)**:\n    - This function is part of the RDK HAL component. It interacts with the Wi-Fi driver to set the power control value.\n\n4. **Important parameters and return values**:\n    - `apIndex`: The index of the access point.\n    - `dBm`: The power control value in dBm.\n    - `Return Value`: The function returns `RETURN_OK` if successful, or `RETURN_ERR` if any error is detected.\n\n5. **Any specific RDK-related operations**:\n    - This function is part of the RDK HAL component and is used to configure the Wi-Fi driver.",
+  "processed_at": "2024-11-14T12:38:38.094714"
+}

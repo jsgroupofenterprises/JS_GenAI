@@ -1,0 +1,256 @@
+2024-10-07 14:40:05 ENTERED MULTINET APP, argc = 2 
+2024-10-07 14:40:05 Sysevent open
+2024-10-07 14:40:05 Setting executableName: /etc/utopia/service.d/service_multinet_exec
+2024-10-07 14:40:05 Setting Multicast MACs early
+2024-10-07 14:40:11 ENTERED MULTINET APP, argc = 4 
+2024-10-07 14:40:11 Sysevent open
+2024-10-07 14:40:11 Setting executableName: /etc/utopia/service.d/service_multinet_exec
+2024-10-07 14:40:11 Main: handle_up2024-10-07 14:40:11 ep_netIsStarted sysevent_get retcode 0
+2024-10-07 14:40:11 ev_string_to_status: about to set status(0x7fd222453c) to 0
+2024-10-07 14:40:11 Found 1 is not started. Starting.
+2024-10-07 14:40:11 nv fetch complete for 1. Name: brlan0, Vid: 100
+2024-10-07 14:40:11 nv_get_members, adding lookup string index 0. offset=13
+2024-10-07 14:40:11 nv_get_members, current lookup offset: 39, string: psmcli get -e X dmsb.l2net.1.Members.SW
+2024-10-07 14:40:11 nv_get_members, adding lookup string index 1. offset=39
+2024-10-07 14:40:11 nv_get_members, current lookup offset: 66, string: psmcli get -e X dmsb.l2net.1.Members.SW X dmsb.l2net.1.Members.Gre
+2024-10-07 14:40:11 nv_get_members, adding lookup string index 2. offset=66
+2024-10-07 14:40:11 nv_get_members, current lookup offset: 94, string: psmcli get -e X dmsb.l2net.1.Members.SW X dmsb.l2net.1.Members.Gre X dmsb.l2net.1.Members.Link
+2024-10-07 14:40:11 nv_get_members, adding lookup string index 3. offset=94
+2024-10-07 14:40:11 nv_get_members, current lookup offset: 121, string: psmcli get -e X dmsb.l2net.1.Members.SW X dmsb.l2net.1.Members.Gre X dmsb.l2net.1.Members.Link X dmsb.l2net.1.Members.Eth
+2024-10-07 14:40:11 nv_get_members, adding lookup string index 4. offset=121
+2024-10-07 14:40:11 nv_get_members, current lookup offset: 149, string: psmcli get -e X dmsb.l2net.1.Members.SW X dmsb.l2net.1.Members.Gre X dmsb.l2net.1.Members.Link X dmsb.l2net.1.Members.Eth X dmsb.l2net.1.Members.WiFi
+2024-10-07 14:40:11 nv_get_members, current lookup line X="sw_1 sw_2 sw_3 sw_4 sw_5"
+, i=0
+2024-10-07 14:40:11 nv_get_members, current lookup token sw_1
+2024-10-07 14:40:11 nv_get_members, current lookup token sw_2
+2024-10-07 14:40:11 nv_get_members, current lookup token sw_3
+2024-10-07 14:40:11 nv_get_members, current lookup token sw_4
+2024-10-07 14:40:11 nv_get_members, current lookup token sw_5
+2024-10-07 14:40:11 nv_get_members, current lookup line X=""
+, i=1
+2024-10-07 14:40:11 nv_get_members, current lookup line X="l2sd0-t"
+, i=2
+2024-10-07 14:40:11 nv_get_members, current lookup token l2sd0-t
+2024-10-07 14:40:11 nv_get_members, current lookup line X=""
+, i=3
+2024-10-07 14:40:11 nv_get_members, current lookup line X="ath0 ath1"
+, i=4
+2024-10-07 14:40:11 nv_get_members, current lookup token ath0
+2024-10-07 14:40:11 nv_get_members, current lookup token ath1
+2024-10-07 14:40:11 Get members for 1 complete. 
+2024-10-07 14:40:11 plat_addImplicitMembers for 1 complete. 
+2024-10-07 14:40:11 SYSTEM CALL: brctl addbr brlan0; ifconfig brlan0 up2024-10-07 14:40:11 Bridge create for 1 complete. 
+2024-10-07 14:40:11 Enter create_and_register_if for 1, numMembers: 9
+2024-10-07 14:40:11 Calling create on handler 0
+2024-10-07 14:40:11 swfab_create, net 1, numMembers 9
+2024-10-07 14:40:11 map, if: sw_1
+2024-10-07 14:40:11 map, sw_1 mapped to hal 2
+2024-10-07 14:40:11 map, if: sw_2
+2024-10-07 14:40:11 map, sw_2 mapped to hal 2
+2024-10-07 14:40:11 map, if: sw_3
+2024-10-07 14:40:11 map, sw_3 mapped to hal 2
+2024-10-07 14:40:11 map, if: sw_4
+2024-10-07 14:40:11 map, sw_4 mapped to hal 2
+2024-10-07 14:40:11 map, if: sw_5
+2024-10-07 14:40:11 map, sw_5 mapped to hal 3
+2024-10-07 14:40:11 map, if: l2sd0
+2024-10-07 14:40:11 Interface MAP pointer is NULL continue
+2024-10-07 14:40:11 map, if: ath0
+2024-10-07 14:40:11 map, ath0 mapped to hal 1
+2024-10-07 14:40:11 map, if: ath1
+2024-10-07 14:40:11 map, ath1 mapped to hal 1
+2024-10-07 14:40:11 map, if: np
+2024-10-07 14:40:11 swfab_create, map() returned.
+2024-10-07 14:40:11 swfab_create, looking at i=0
+2024-10-07 14:40:11 fillArgs, matching hal 2 against sw_1
+2024-10-07 14:40:11 fillArgs, matched with sw_1
+2024-10-07 14:40:11 fillArgs, matched with sw_2
+2024-10-07 14:40:11 fillArgs, matched with sw_3
+2024-10-07 14:40:11 fillArgs, matched with sw_4
+2024-10-07 14:40:11 Calling hal initIF, halID: 2, numArgs: 4
+2024-10-07 14:40:11 Hal initIF returned, halID: 2
+2024-10-07 14:40:11 swfab_create, looking at i=1
+2024-10-07 14:40:11 swfab_create, looking at i=2
+2024-10-07 14:40:11 swfab_create, looking at i=3
+2024-10-07 14:40:11 swfab_create, looking at i=4
+2024-10-07 14:40:11 fillArgs, matching hal 3 against sw_5
+2024-10-07 14:40:11 fillArgs, matched with sw_5
+2024-10-07 14:40:11 Calling hal initIF, halID: 3, numArgs: 1
+2024-10-07 14:40:11 Hal initIF returned, halID: 3
+2024-10-07 14:40:11 swfab_create, looking at i=5
+2024-10-07 14:40:11 swfab_create, looking at i=6
+2024-10-07 14:40:11 fillArgs, matching hal 1 against ath0
+2024-10-07 14:40:11 fillArgs, matched with ath0
+2024-10-07 14:40:11 fillArgs, matched with ath1
+2024-10-07 14:40:11 Calling hal initIF, halID: 1, numArgs: 2
+2024-10-07 14:40:11 Hal initIF returned, halID: 1
+2024-10-07 14:40:11 swfab_create, looking at i=7
+2024-10-07 14:40:11 swfab_create, looking at i=8
+2024-10-07 14:40:11 fillArgs, matching hal 0 against np
+2024-10-07 14:40:11 fillArgs, matched with np
+2024-10-07 14:40:11 Calling hal initIF, halID: 0, numArgs: 1
+2024-10-07 14:40:11 Hal initIF returned, halID: 0
+2024-10-07 14:40:11 Create on handler 0 returned
+2024-10-07 14:40:11 Check for registering ifstatus for sw_1, net 1
+2024-10-07 14:40:11 Check for registering ifstatus for sw_2, net 1
+2024-10-07 14:40:11 Check for registering ifstatus for sw_3, net 1
+2024-10-07 14:40:11 Check for registering ifstatus for sw_4, net 1
+2024-10-07 14:40:11 Check for registering ifstatus for sw_5, net 1
+2024-10-07 14:40:11 Check for registering ifstatus for l2sd0, net 1
+2024-10-07 14:40:11 Check for registering ifstatus for ath0, net 1
+2024-10-07 14:40:11 Check for registering ifstatus for ath1, net 1
+2024-10-07 14:40:11 Check for registering ifstatus for np, net 1
+2024-10-07 14:40:11 Returning create_and_register_if for 1
+2024-10-07 14:40:11 swfab_configVlan, net 1, numMembers 9, add: 1
+2024-10-07 14:40:11 map, if: sw_1
+2024-10-07 14:40:11 map, if: sw_2
+2024-10-07 14:40:11 map, if: sw_3
+2024-10-07 14:40:11 map, if: sw_4
+2024-10-07 14:40:11 map, if: sw_5
+2024-10-07 14:40:11 map, if: l2sd0
+2024-10-07 14:40:11 Interface MAP pointer is NULL continue
+2024-10-07 14:40:11 map, if: ath0
+2024-10-07 14:40:11 map, if: ath1
+2024-10-07 14:40:11 map, if: np
+2024-10-07 14:40:11 swfab_configVlan, map() returned.
+2024-10-07 14:40:11 getVlanState, searching for existing vlan for vid 100
+2024-10-07 14:40:11 getVlanState, allocate new vlan state
+2024-10-07 14:40:11 loadVlanState, entry.
+2024-10-07 14:40:11 ep_get_entity_vidMembers, vid 100 buf 
+2024-10-07 14:40:11 loadVlanState, ep_get_entity_vidMembers returned 0 entities
+2024-10-07 14:40:11 loadVlanState, got all entity info, moving to trunk ports
+2024-10-07 14:40:11 ep_get_trunkPort_vidMembers, vid 100 buf 
+2024-10-07 14:40:11 loadVlanState, ep_get_trunkPort_vidMembers returned 0 ports.
+2024-10-07 14:40:11 swfab_configVlan, getVlanState() returned.
+2024-10-07 14:40:11 swfab_configVlan, considering sw_1, ready: 0, dynamic: 0, handled:0 platport: 2024-10-07 14:40:11 Platport sw_12024-10-07 14:40:11 swfab_configVlan, calling dep model for sw_1.
+2024-10-07 14:40:11 getEntity, entry
+2024-10-07 14:40:11 getEntity, return
+2024-10-07 14:40:11 addAndGetTrunkPorts, retrieved entity 3, no
+2024-10-07 14:40:11 addAndGetTrunkPorts, added new entity 3
+2024-10-07 14:40:11 addMemberPort, adding 2024-10-07 14:40:11 Platport sw_12024-10-07 14:40:11  to entity 3
+2024-10-07 14:40:11 addAndGetTrunkPorts, added member port for hal 2
+2024-10-07 14:40:11 swfab_configVlan, dep model returned for sw_1. number of trunk ports: 0
+2024-10-07 14:40:11 swfab_configVlan, trunk ports added.
+2024-10-07 14:40:11 swfab_configVlan, considering sw_2, ready: 0, dynamic: 0, handled:0 platport: 2024-10-07 14:40:11 Platport sw_22024-10-07 14:40:11 swfab_configVlan, calling dep model for sw_2.
+2024-10-07 14:40:11 getEntity, entry
+2024-10-07 14:40:11 addAndGetTrunkPorts, retrieved entity 3, yes
+2024-10-07 14:40:11 addMemberPort, adding 2024-10-07 14:40:11 Platport sw_22024-10-07 14:40:11  to entity 3
+2024-10-07 14:40:11 addAndGetTrunkPorts, added member port for hal 2
+2024-10-07 14:40:11 swfab_configVlan, dep model returned for sw_2. number of trunk ports: 0
+2024-10-07 14:40:11 swfab_configVlan, trunk ports added.
+2024-10-07 14:40:11 swfab_configVlan, considering sw_3, ready: 0, dynamic: 0, handled:0 platport: 2024-10-07 14:40:11 Platport sw_32024-10-07 14:40:11 swfab_configVlan, calling dep model for sw_3.
+2024-10-07 14:40:11 getEntity, entry
+2024-10-07 14:40:11 addAndGetTrunkPorts, retrieved entity 3, yes
+2024-10-07 14:40:11 addMemberPort, adding 2024-10-07 14:40:11 Platport sw_32024-10-07 14:40:11  to entity 3
+2024-10-07 14:40:11 addAndGetTrunkPorts, added member port for hal 2
+2024-10-07 14:40:11 swfab_configVlan, dep model returned for sw_3. number of trunk ports: 0
+2024-10-07 14:40:11 swfab_configVlan, trunk ports added.
+2024-10-07 14:40:11 swfab_configVlan, considering sw_4, ready: 0, dynamic: 0, handled:0 platport: 2024-10-07 14:40:11 Platport sw_42024-10-07 14:40:11 swfab_configVlan, calling dep model for sw_4.
+2024-10-07 14:40:11 getEntity, entry
+2024-10-07 14:40:11 addAndGetTrunkPorts, retrieved entity 3, yes
+2024-10-07 14:40:11 addMemberPort, adding 2024-10-07 14:40:11 Platport sw_42024-10-07 14:40:11  to entity 3
+2024-10-07 14:40:11 addAndGetTrunkPorts, added member port for hal 2
+2024-10-07 14:40:11 swfab_configVlan, dep model returned for sw_4. number of trunk ports: 0
+2024-10-07 14:40:11 swfab_configVlan, trunk ports added.
+2024-10-07 14:40:11 swfab_configVlan, considering sw_5, ready: 0, dynamic: 0, handled:0 platport: 2024-10-07 14:40:11 Platport sw_52024-10-07 14:40:11 swfab_configVlan, calling dep model for sw_5.
+2024-10-07 14:40:11 getEntity, entry
+2024-10-07 14:40:11 getEntity, return
+2024-10-07 14:40:11 addAndGetTrunkPorts, retrieved entity 2, no
+2024-10-07 14:40:11 addAndGetTrunkPorts, getting path to entity 3
+2024-10-07 14:40:11 addAndGetTrunkPorts, got 0 ports
+2024-10-07 14:40:11 addAndGetTrunkPorts, added new entity 2
+2024-10-07 14:40:11 addMemberPort, adding 2024-10-07 14:40:11 Platport sw_52024-10-07 14:40:11  to entity 2
+2024-10-07 14:40:11 addAndGetTrunkPorts, added member port for hal 3
+2024-10-07 14:40:11 swfab_configVlan, dep model returned for sw_5. number of trunk ports: 0
+2024-10-07 14:40:11 swfab_configVlan, trunk ports added.
+2024-10-07 14:40:11 swfab_configVlan, considering l2sd0, ready: 0, dynamic: 0, handled:0 platport: 2024-10-07 14:40:11 swfab_configVlan, considering ath0, ready: 0, dynamic: 0, handled:0 platport: 2024-10-07 14:40:11 Platport ath02024-10-07 14:40:11 swfab_configVlan, calling dep model for ath0.
+2024-10-07 14:40:11 getEntity, entry
+2024-10-07 14:40:11 getEntity, return
+2024-10-07 14:40:11 addAndGetTrunkPorts, retrieved entity 4, no
+2024-10-07 14:40:11 addAndGetTrunkPorts, getting path to entity 3
+2024-10-07 14:40:11 addAndGetTrunkPorts, got 0 ports
+2024-10-07 14:40:11 addAndGetTrunkPorts, getting path to entity 2
+2024-10-07 14:40:11 addAndGetTrunkPorts, got 0 ports
+2024-10-07 14:40:11 addAndGetTrunkPorts, added new entity 4
+2024-10-07 14:40:11 addMemberPort, adding 2024-10-07 14:40:11 Platport ath02024-10-07 14:40:11  to entity 4
+2024-10-07 14:40:11 addAndGetTrunkPorts, added member port for hal 1
+2024-10-07 14:40:11 swfab_configVlan, dep model returned for ath0. number of trunk ports: 0
+2024-10-07 14:40:11 swfab_configVlan, trunk ports added.
+2024-10-07 14:40:11 swfab_configVlan, considering ath1, ready: 0, dynamic: 0, handled:0 platport: 2024-10-07 14:40:11 Platport ath12024-10-07 14:40:11 swfab_configVlan, calling dep model for ath1.
+2024-10-07 14:40:11 getEntity, entry
+2024-10-07 14:40:11 addAndGetTrunkPorts, retrieved entity 4, yes
+2024-10-07 14:40:11 addMemberPort, adding 2024-10-07 14:40:11 Platport ath12024-10-07 14:40:11  to entity 4
+2024-10-07 14:40:11 addAndGetTrunkPorts, added member port for hal 1
+2024-10-07 14:40:11 swfab_configVlan, dep model returned for ath1. number of trunk ports: 0
+2024-10-07 14:40:11 swfab_configVlan, trunk ports added.
+2024-10-07 14:40:11 swfab_configVlan, considering np, ready: 0, dynamic: 0, handled:0 platport: 2024-10-07 14:40:11 Platport vNPPort2024-10-07 14:40:11 swfab_configVlan, calling dep model for np.
+2024-10-07 14:40:11 getEntity, entry
+2024-10-07 14:40:11 getEntity, return
+2024-10-07 14:40:11 addAndGetTrunkPorts, retrieved entity 1, no
+2024-10-07 14:40:11 addAndGetTrunkPorts, getting path to entity 3
+2024-10-07 14:40:11 addAndGetTrunkPorts, got 1 ports
+2024-10-07 14:40:11 Refing 2024-10-07 14:40:11 Platport l2sd02024-10-07 14:40:11 refTrunkPort, entry
+2024-10-07 14:40:11 addTrunkPort, entry
+2024-10-07 14:40:11 addTrunkPort, return
+2024-10-07 14:40:11 addPathToTrunkPort, entry
+2024-10-07 14:40:11 addPathToTrunkPort, return
+2024-10-07 14:40:11 refTrunkPort, return
+2024-10-07 14:40:11 addAndGetTrunkPorts, getting path to entity 2
+2024-10-07 14:40:11 addAndGetTrunkPorts, got 1 ports
+2024-10-07 14:40:11 Refing 2024-10-07 14:40:11 Platport l2sd02024-10-07 14:40:11 refTrunkPort, entry
+2024-10-07 14:40:11 addPathToTrunkPort, entry
+2024-10-07 14:40:11 addPathToTrunkPort, return
+2024-10-07 14:40:11 addAndGetTrunkPorts, getting path to entity 4
+2024-10-07 14:40:11 addAndGetTrunkPorts, got 1 ports
+2024-10-07 14:40:11 Refing 2024-10-07 14:40:11 Platport l2sd02024-10-07 14:40:11 refTrunkPort, entry
+2024-10-07 14:40:11 addPathToTrunkPort, entry
+2024-10-07 14:40:11 addPathToTrunkPort, return
+2024-10-07 14:40:11 addAndGetTrunkPorts, added new entity 1
+2024-10-07 14:40:11 addMemberPort, adding 2024-10-07 14:40:11 Platport vNPPort2024-10-07 14:40:11  to entity 1
+2024-10-07 14:40:11 addAndGetTrunkPorts, added member port for hal 0
+2024-10-07 14:40:11 swfab_configVlan, dep model returned for np. number of trunk ports: 1
+2024-10-07 14:40:11 Platport l2sd02024-10-07 14:40:11 swfab_configVlan, trunk ports added.
+2024-10-07 14:40:11 swfab_configVlan, aggregating
+2024-10-07 14:40:11 Platport sw_12024-10-07 14:40:11 swfab_configVlan, aggregating
+2024-10-07 14:40:11 Platport sw_22024-10-07 14:40:11 swfab_configVlan, aggregating
+2024-10-07 14:40:11 Platport sw_32024-10-07 14:40:11 swfab_configVlan, aggregating
+2024-10-07 14:40:11 Platport sw_42024-10-07 14:40:11 swfab_configVlan, Calling configVlan on hal 2. numArgs 4
+2024-10-07 14:40:11 configVlan_ESW, command is /etc/utopia/service.d/service_multinet/handle_sw.sh addVlan 1 100 "sw_1 sw_2 sw_3 sw_4"2024-10-07 14:40:23 swfab_configVlan, Hal 2 returned.
+2024-10-07 14:40:23 swfab_configVlan, aggregating
+2024-10-07 14:40:23 Platport sw_52024-10-07 14:40:23 swfab_configVlan, Calling configVlan on hal 3. numArgs 1
+2024-10-07 14:40:26 swfab_configVlan, Hal 3 returned.
+2024-10-07 14:40:26 swfab_configVlan, aggregating
+2024-10-07 14:40:26 Platport ath02024-10-07 14:40:26 swfab_configVlan, aggregating
+2024-10-07 14:40:26 Platport ath12024-10-07 14:40:26 swfab_configVlan, Calling configVlan on hal 1. numArgs 2
+2024-10-07 14:40:26 configVlan_WiFi, portId is:ath0 ath1 command is /etc/utopia/service.d/service_multinet/handle_wifi.sh addVlan 1 100 "ath0 ath1"2024-10-07 14:40:28 swfab_configVlan, Hal 1 returned.
+2024-10-07 14:40:28 swfab_configVlan, aggregating
+2024-10-07 14:40:28 Platport vNPPort2024-10-07 14:40:28 swfab_configVlan, Calling configVlan on hal 0. numArgs 1
+2024-10-07 14:40:28 swfab_configVlan, Hal 0 returned.
+2024-10-07 14:40:28 swfab_configVlan, aggregating
+2024-10-07 14:40:28 Platport l2sd02024-10-07 14:40:28 swfab_configVlan, Calling configVlan on hal 5. numArgs 1
+2024-10-07 14:40:28 linuxIfConfigVlan : 47 Entry. 
+2024-10-07 14:40:28 linuxIfConfigVlan : 104 offset is 96 
+2024-10-07 14:40:28  CMD : vconfig add l2sd0 100 ; brctl addif brlan0 l2sd0.100 ; ifconfig l2sd0 up ; ifconfig l2sd0.100 up 
+2024-10-07 14:40:29 swfab_configVlan, Hal 5 returned.
+2024-10-07 14:40:29 Writing entity 3 member sw_1
+2024-10-07 14:40:29 Writing entity 3 member sw_2
+2024-10-07 14:40:29 Writing entity 3 member sw_3
+2024-10-07 14:40:29 Writing entity 3 member sw_4
+2024-10-07 14:40:29 Writing entity 2 member sw_5
+2024-10-07 14:40:29 Writing entity 4 member ath0
+2024-10-07 14:40:29 Writing entity 4 member ath1
+2024-10-07 14:40:29 Writing entity 1 member vNPPort
+2024-10-07 14:40:29 add_members for 1 complete. 
+2024-10-07 14:40:29 ep_set_allMembers, Writing Member 0,2024-10-07 14:40:29  sw_1
+2024-10-07 14:40:29 ep_set_allMembers, Writing Member 1,2024-10-07 14:40:29  sw_2
+2024-10-07 14:40:29 ep_set_allMembers, Writing Member 2,2024-10-07 14:40:29  sw_3
+2024-10-07 14:40:29 ep_set_allMembers, Writing Member 3,2024-10-07 14:40:29  sw_4
+2024-10-07 14:40:29 ep_set_allMembers, Writing Member 4,2024-10-07 14:40:29  sw_5
+2024-10-07 14:40:29 ep_set_allMembers, Writing Member 5,2024-10-07 14:40:29  l2sd0
+2024-10-07 14:40:29 ep_set_allMembers, Writing Member 6,2024-10-07 14:40:29  ath0
+2024-10-07 14:40:29 ep_set_allMembers, Writing Member 7,2024-10-07 14:40:29  ath1
+2024-10-07 14:40:29 ep_set_allMembers, Writing Member 8,2024-10-07 14:40:29  np
+2024-10-07 14:40:29 ep_set_allMembers for 1 complete. 
+2024-10-07 14:40:29 Status send for 1 complete. 
+2024-10-07 14:40:29 ep_set_bridge for 1 complete. 
+2024-10-07 14:40:29 multinet_bridgeUp for 1 complete. 

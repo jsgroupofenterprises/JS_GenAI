@@ -1,0 +1,7 @@
+{
+  "entity_name": "platform_hal_getRotorLock",
+  "component": "hal",
+  "content_hash": "388858d8174b4c000efecbba601abb35",
+  "response": "1. **Main purpose and functionality**\n\nThe `platform_hal_getRotorLock` function retrieves the rotor lock status of the fan specified by the `fanIndex` parameter. The rotor lock status indicates whether the fan is currently locked or not.\n\n2. **Key operations and data flow**\n\nThe function takes a single parameter, `fanIndex`, which specifies the fan to query. The function then retrieves the rotor lock status of the specified fan and returns it as an integer value.\n\n3. **Interaction with other components (if any)**\n\nThe function interacts with the hardware abstraction layer (HAL) to retrieve the rotor lock status of the specified fan.\n\n4. **Important parameters and return values**\n\n- `fanIndex`: The index of the fan to query. The range of valid fan indices is from 0 to 1.\n- Return value: An integer value indicating the rotor lock status of the specified fan. A value of 1 indicates that the fan is locked, while a value of 0 indicates that the fan is not locked.\n\n5. **Any specific RDK-related operations**\n\nThe function is part of the RDK HAL (Hardware Abstraction Layer), which provides a common interface for interacting with the hardware on different RDK-based platforms.",
+  "processed_at": "2024-11-14T10:54:42.273987"
+}

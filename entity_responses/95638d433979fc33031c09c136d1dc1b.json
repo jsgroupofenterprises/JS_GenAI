@@ -1,0 +1,7 @@
+{
+  "entity_name": "ovsdb_sync_update_where",
+  "component": "CcspWifiAgent",
+  "content_hash": "95638d433979fc33031c09c136d1dc1b",
+  "response": "**1. Main purpose and functionality**\novsdb_sync_update_where updates rows in a specified OVSDB table based on a JSON-formatted `where` condition and the provided `row` data.\n\n**2. Key operations and data flow**\n- Gets the `where` condition as a string.\n- Logs the table, `where` condition, and `row` data for debugging.\n- Calls the `ovsdb_tran_call_s` function to perform the update operation.\n- Parses the returned result to extract the update count.\n- If the update count is zero, logs a warning indicating no matching rows were updated.\n\n**3. Interaction with other components (if any)**\nThe function interacts with the OVSDB server via the `ovsdb_sock_path` socket.\n\n**4. Important parameters and return values**\n- `ovsdb_sock_path`: Socket path for OVSDB communication.\n- `table`: Name of the OVSDB table to be updated.\n- `where`: JSON-formatted `where` condition specifying the rows to update.\n- `row`: JSON-formatted row data to update matching rows.\n- `rc`: Return value indicating the update result (0 for success, -1 for failure).\n\n**5. Any specific RDK-related operations**\nThe function does not perform any specific RDK-related operations.",
+  "processed_at": "2024-11-13T16:09:09.311666"
+}

@@ -1,0 +1,7 @@
+{
+  "entity_name": "destroy_passpoint",
+  "component": "CcspWifiAgent",
+  "content_hash": "05d9051810930a6de977ef91cb24d91b",
+  "response": "**1. Main purpose and functionality**\n\nThe `destroy_passpoint` function is part of the CcspWifiAgent component and is responsible for destroying the passpoint configuration.\n\n**2. Key operations and data flow**\n\nThe function first checks if the passpoint configuration exists. If it does, it sets the passpoint configuration (g_passpoint) to 0.\n\n**3. Interaction with other components (if any)**\n\nThe `destroy_passpoint` function does not interact with any other components.\n\n**4. Important parameters and return values**\n\nThe function takes no parameters and has no return value.\n\n**5. Any specific RDK-related operations**\n\nThe `destroy_passpoint` function uses the `wifi_setGASConfiguration` function which is an RDK-specific function.",
+  "processed_at": "2024-11-13T15:07:22.767561"
+}

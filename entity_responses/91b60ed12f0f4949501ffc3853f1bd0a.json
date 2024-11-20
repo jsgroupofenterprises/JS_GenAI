@@ -1,0 +1,7 @@
+{
+  "entity_name": "wifi_vap_cfg_timeout_handler",
+  "component": "CcspWifiAgent",
+  "content_hash": "91b60ed12f0f4949501ffc3853f1bd0a",
+  "response": "**Main purpose and functionality**\n\nThe wifi_vap_cfg_timeout_handler function is part of the CcspWifiAgent component in RDK and calculates the timeout value for the Wi-Fi virtual access point (VAP) configuration.\n\n**Key operations and data flow**\n\nThe function determines the timeout value based on the product version. If the _XB6_PRODUCT_REQ_ flag is defined and the _XB7_PRODUCT_REQ_ flag is not defined, the timeout is set to twice the default timeout for XB6 products. Otherwise, the timeout is set to twice the default timeout for non-XB6 products.\n\n**Interaction with other components (if any)**\n\nThe function does not interact directly with other components.\n\n**Important parameters and return values**\n\nThe function takes no parameters. It returns the calculated timeout value.\n\n**Specific RDK-related operations**\n\nThe function uses the _XB6_PRODUCT_REQ_ and _XB7_PRODUCT_REQ_ flags, which are defined in the RDK configuration.",
+  "processed_at": "2024-11-13T15:43:42.411074"
+}

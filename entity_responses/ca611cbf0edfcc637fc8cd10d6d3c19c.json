@@ -1,0 +1,7 @@
+{
+  "entity_name": "_ovsdb_cache_insert_row",
+  "component": "CcspWifiAgent",
+  "content_hash": "ca611cbf0edfcc637fc8cd10d6d3c19c",
+  "response": "**1. Main purpose and functionality:**\nThe _ovsdb_cache_insert_row function is responsible for inserting a new row into an OVSDB cache table. It takes an ovsdb_table_t pointer and an ovsdb_cache_row_t pointer as input parameters.\n\n**2. Key operations and data flow:**\nThe function first extracts the UUID of the row from the record and inserts the row into the table's rows tree using the UUID as the key. If the table has a key_offset defined, it extracts the key from the record and inserts the row into the table's rows_k tree using the key as the key. If the table has a key2_offset defined, it extracts the key2 from the record and inserts the row into the table's rows_k2 tree using the key2 as the key.\n\n**3. Interaction with other components (if any):**\nThis function interacts with other components by modifying the OVSDB cache table.\n\n**4. Important parameters and return values:**\n* **table:** OVSDB cache table pointer\n* **row:** OVSDB cache row pointer\n* **return:** void\n\n**5. Any specific RDK-related operations:**\nThis function is specific to the RDK and is used to manage OVSDB cache tables.",
+  "processed_at": "2024-11-13T16:03:09.321027"
+}

@@ -1,0 +1,7 @@
+{
+  "entity_name": "events_APtable_removerowhandler",
+  "component": "CcspWifiAgent",
+  "content_hash": "01858058614b9b579b4c3db8a3869c80",
+  "response": "**1. Main purpose and functionality**\n\nThe `events_APtable_removerowhandler` function is part of the RDK CcspWifiAgent component and is used to handle remove row events from the APtable. It is used to delete an existing AP entry from the table.\n\n**2. Key operations and data flow**\n\nThe function takes two parameters:\n\n* `handle`: The RBUS handle.\n* `rowName`: The name of the row to be deleted.\n\nThe function first checks if the RBUS handle is valid. If it is not, the function returns an error.\n\nIf the RBUS handle is valid, the function sends a remove row event to the RBUS broker. The event is sent using the specified row name.\n\n**3. Interaction with other components (if any)**\n\nThe function interacts with the RBUS broker to send the remove row event.\n\n**4. Important parameters and return values**\n\n* `handle`: The RBUS handle.\n* `rowName`: The name of the row to be deleted.\n* `rbusError_t`: The return value of the function. The function returns `RDK_RBUS_OK` if the event was sent successfully. Otherwise, it returns an error code.\n\n**5. Any specific RDK-related operations**\n\nThe function uses the RBUS API to send the remove row event. The RBUS API is a set of functions that are used to communicate with the RBUS broker.",
+  "processed_at": "2024-11-13T15:19:53.417365"
+}

@@ -1,0 +1,7 @@
+{
+  "entity_name": "update_default_oem_configs",
+  "component": "CcspWifiAgent",
+  "content_hash": "01e775ed8a9d819a314e8b8d13ae50f7",
+  "response": "**1. Main purpose and functionality**\n   - The `update_default_oem_configs` function updates the default OEM configurations for a given access point (AP).\n\n**2. Key operations and data flow**\n   - The function first opens the `/usr/ccsp/wifi/LibHostapdConfigFile.json` file and parses its contents as JSON data.\n   - It then extracts the WPS configurations from the JSON data and populates the corresponding fields in the `bss` structure.\n   - Additionally, it extracts the BSS configurations (e.g., `ap_vlan`, `bridge`) and populates the corresponding fields in the `bss` structure.\n\n**3. Interaction with other components (if any)**\n   - The function interacts with the hostapd daemon to update the AP configurations.\n\n**4. Important parameters and return values**\n   - **apIndex**: Index of the AP for which the configurations are being updated.\n   - **bss**: Pointer to the `hostapd_bss_config` structure to be updated with the OEM configurations.\n\n**5. Any specific RDK-related operations**\n   - The function reads the OEM configurations from the `/usr/ccsp/wifi/LibHostapdConfigFile.json` file, which is an RDK-specific configuration file.",
+  "processed_at": "2024-11-13T15:23:07.744077"
+}

@@ -1,0 +1,7 @@
+{
+  "entity_name": "clock_real_ms",
+  "component": "CcspWifiAgent",
+  "content_hash": "493375be89861395a8065659d521369a",
+  "response": "**1. Main purpose and functionality:**\n\nThe `clock_real_ms` function provides a way to obtain the current real time in milliseconds since the Epoch.\n\n**2. Key operations and data flow:**\n\nThe function first declares a `timespec` variable named `ts`. It then calls the `clock_gettime` function, passing in `CLOCK_REALTIME` as the first argument and the address of `ts` as the second argument. This fills `ts` with the current real time in seconds and nanoseconds. The function then computes the current time in milliseconds by multiplying the seconds by 1000 and adding the nanoseconds divided by 1000000. The result is returned as a 64-bit integer.\n\n**3. Interaction with other components (if any):**\n\nThis function does not interact with any other components.\n\n**4. Important parameters and return values:**\n\n* The function takes no parameters.\n* The function returns a 64-bit integer representing the current time in milliseconds.\n\n**5. Any specific RDK-related operations:**\n\nThis function is not specific to RDK. It uses the `clock_gettime` function, which is a standard C function.",
+  "processed_at": "2024-11-13T15:46:13.609576"
+}

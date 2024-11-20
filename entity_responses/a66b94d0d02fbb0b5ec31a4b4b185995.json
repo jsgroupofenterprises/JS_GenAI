@@ -1,0 +1,7 @@
+{
+  "entity_name": "CosaUtilGetStaticRouteTable",
+  "component": "CcspWifiAgent",
+  "content_hash": "a66b94d0d02fbb0b5ec31a4b4b185995",
+  "response": "**1. Main purpose and functionality**\n\nThe `CosaUtilGetStaticRouteTable` function is used to retrieve the static route table from the RDK.\n\n**2. Key operations and data flow**\n\nThe function takes two parameters:\n\n* `count`: A pointer to the number of static routes in the table.\n* `out_sroute`: A pointer to the array of static routes.\n\nThe function then retrieves the static route table from the RDK and stores it in the provided array.\n\n**3. Interaction with other components (if any)**\n\nNone.\n\n**4. Important parameters and return values**\n\n| Parameter      | Description                                                                                                |\n| --------------- | ----------------------------------------------------------------------------------------------------------- |\n| `count`         | Pointer to the number of static routes in the table.                                                         |\n| `out_sroute`    | Pointer to the array of static routes.                                                                    |\n| Return value    | `ANSC_STATUS_SUCCESS` if successful, otherwise an error code.                                                  |\n\n**5. Any specific RDK-related operations**\n\nNone.",
+  "processed_at": "2024-11-13T14:58:37.495990"
+}

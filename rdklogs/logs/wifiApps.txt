@@ -1,0 +1,16 @@
+[OneWifi] 241007-14:40:26.697488<I>  csi_init:212: Init Csi
+[OneWifi] 241007-14:40:26.697773<I>  levl_init:1618: Init Levl
+[OneWifi] 241007-14:40:26.719241<I>  levl_init:1675 Apps rbus_regDataElement success
+[OneWifi] 241007-14:40:26.830256<I>  motion_init:1748: Init Motion
+[OneWifi] 241007-14:40:26.838113<I>  motion_init:1763 Apps rbus_regDataElement success
+[OneWifi] 241007-14:40:29.077610<I>  cac_event_exec_start:58
+[OneWifi] 241007-14:40:30.288560<E>  command_event_analytics:857: event not handle[8227]
+[OneWifi] 241007-14:40:30.288774<E>  Entering push_whix_config_event_to_monitor_queue
+[OneWifi] 241007-14:40:30.289081<E>  Entering config_radio_channel_stats
+[OneWifi] 241007-14:40:30.289260<E>  pushing the event config_radio_channel_stats
+[OneWifi] 241007-14:40:30.289681<E>  pushing the event config_radio_channel_stats
+[OneWifi] 241007-14:40:30.290239<E>  Entering config_radio_channel_util
+[OneWifi] 241007-14:40:30.290467<E>  pushing the event to collect chan_util
+[OneWifi] 241007-14:40:30.291014<E>  pushing the event to collect chan_util
+[OneWifi] 241007-14:40:30.303852<E>  pushing the event to collect neighbor on radio 0
+[OneWifi] 241007-14:40:30.305423<E>  pushing the event to collect neighbor on radio 1

@@ -1,0 +1,7 @@
+{
+  "entity_name": "qm_conn_send_stats",
+  "component": "CcspWifiAgent",
+  "content_hash": "c04c02ff2fa820430e68c71793157ab9",
+  "response": "**1. Main purpose and functionality**\nThe `qm_conn_send_stats` function sends statistics over the Quality Monitoring (QM) connection. This function is part of the CcspWifiAgent component.\n\n**2. Key operations and data flow**\nThe function initializes a request (`req`) and sets the command to send, the data type to statistics, and the compression setting. It then calls `qm_conn_send_req` to send the request with the provided data and data size and processes the response in `res`.\n\n**3. Interaction with other components**\nThe function interacts with the QM connection manager to send the statistics.\n\n**4. Important parameters and return values**\n* `data`: The statistics data to be sent.\n* `data_size`: The size of the statistics data.\n* `res`: A pointer to a response structure to receive the response from the QM connection manager.\n* Return value: `true` if the request was sent successfully, `false` otherwise.\n\n**5. Any specific RDK-related operations**\nThe function uses the QM connection manager, which is an RDK-specific component.",
+  "processed_at": "2024-11-13T16:30:49.738119"
+}

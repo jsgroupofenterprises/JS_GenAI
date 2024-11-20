@@ -1,0 +1,7 @@
+{
+  "entity_name": "CosaDmlHarvesterInit",
+  "component": "CcspWifiAgent",
+  "content_hash": "96b1caab2087708a8539d543c3ac9eff",
+  "response": "**1. Main Purpose and Functionality**\n\n* CosaDmlHarvesterInit is an initialization function for the Data Model Harvester (DMH) component in the CcspWifiAgent of the RDK.\n* It retrieves the initial configuration for the DMH from the NVRAM and initializes the DMH accordingly.\n\n**2. Key Operations and Data Flow**\n\n* Gets the configuration values for the DMH from the NVRAM using the GetNVRamULONGConfiguration function.\n* Initializes the DMH with the retrieved configuration values.\n\n**3. Interaction with Other Components (if any)**\n\n* The DMH interacts with the Configuration Manager (CM) to obtain the NVRAM configuration values.\n\n**4. Important Parameters and Return Values**\n\n* **Parameters:**\n    * hThisObject: Handle to the object instance of the CcspWifiAgent component.\n* **Return Values:**\n    * ANSC_STATUS: Indicates the success or failure of the initialization process.\n\n**5. Any Specific RDK-related Operations**\n\n* The use of the PSM_Get_Record_Value2 function to retrieve the NVRAM configuration values is specific to RDK's PSM (Persistent Storage Manager) framework.",
+  "processed_at": "2024-11-13T14:59:20.352425"
+}

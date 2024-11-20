@@ -1,0 +1,7 @@
+{
+  "entity_name": "hapd_deregister_callback",
+  "component": "CcspWifiAgent",
+  "content_hash": "967cf0cd02a28afbdc839c2fb20d087b",
+  "response": "**1. Main purpose and functionality**\n\nThe `hapd_deregister_callback` function is responsible for deregistering all the callback functions associated with a Wi-Fi interface. These callbacks are used for handling Wi-Fi 802.1X authentication, data transmission and reception, association requests and responses, and authentication frame handling.\n\n**2. Key operations and data flow**\n\nThe function performs the following key operations:\n\n- Deregisters all the relevant callback functions using the `wifi_*_callback_register` functions.\n- Deinitializes the event loop used for handling Wi-Fi events, if the XB7 product requirement is not defined.\n\n**3. Interaction with other components (if any)**\n\nThe function interacts with the following components:\n\n- CcspWifiAgent\n- Wi-Fi driver\n- Event loop\n\n**4. Important parameters and return values**\n\nThe function does not have any parameters and returns void.\n\n**5. Any specific RDK-related operations**\n\nThe function uses the RDK-specific `wifi_*_callback_register` functions to deregister the callback functions.",
+  "processed_at": "2024-11-13T15:16:17.660153"
+}

@@ -1,0 +1,7 @@
+{
+  "entity_name": "_c_get_item_by_key",
+  "component": "CcspWifiAgent",
+  "content_hash": "afe82c5c2f37e8cbb73208ad4a7c016d",
+  "response": "### Functional Overview\nThe _c_get_item_by_key is a function that finds an item within a list of items based on a specified key.\n - It iterates through the list and compares the key of each item with the provided key, returning the first match.\n\n### Key Operations and Data Flow\n1. The function takes three arguments:\n   - The first argument is a pointer to the first item in the list.\n   - The second argument is the size of the list.\n   - The third argument is the key of the item to be found.\n2. The function iterates through the list, comparing the key of each item with the provided key.\n3. If a match is found, the function returns a pointer to the matching item.\n4. If no match is found, the function returns NULL.\n\n### Interaction with Other Components\nThe function does not directly interact with any other components.\n\n### Important Parameters and Return Values\n| Parameter | Type | Description | Return Value |\n|---|---|---|---|\n| list | c_item_t * | Pointer to the first item in the list. | |\n| list_sz | int | Size of the list. | |\n| key | int | Key of the item to be found. | |\n| item | c_item_t * | Pointer to the matching item. | |\n\n### Specific RDK-Related Operations\nNone",
+  "processed_at": "2024-11-13T15:49:45.152249"
+}

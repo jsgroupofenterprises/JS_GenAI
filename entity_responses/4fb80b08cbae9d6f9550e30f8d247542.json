@@ -1,0 +1,7 @@
+{
+  "entity_name": "wifi_setFTR1KeyHolderID",
+  "component": "hal",
+  "content_hash": "4fb80b08cbae9d6f9550e30f8d247542",
+  "response": "### 1. Main purpose and functionality\nThe `wifi_setFTR1KeyHolderID` function configured the 802.11r Fast Transition (FT) R1 Key Holder ID value.\n\n### 2. Key operations and data flow\nThe function takes two parameters:\n- `apIndex`: The index of the access point (AP) on which to set the key holder ID.\n- `keyHolderID`: The key holder ID to set.\n\nThe function sets the key holder ID for the specified AP. The key holder ID is used to identify the AP that is responsible for generating the R1 key for the FT protocol.\n\n### 3. Interaction with other components (if any)\nThis function interacts with the following components:\n* The Wi-Fi hardware driver\n* The Wi-Fi network manager\n* The RDK Network Manager\n\n### 4. Important parameters and return values\nThe following parameters are important:\n* `apIndex`: The index of the AP on which to set the key holder ID.\n* `keyHolderID`: The key holder ID to set.\n\nThe return value is an INT, which indicates the status of the operation. A value of 0 indicates success, while a negative value indicates failure.\n\n### 5. Any specific RDK-related operations\nThis function is part of the RDK Wireless HAL API. It is used by RDK-compliant devices to configure the Wi-Fi network.",
+  "processed_at": "2024-11-14T12:49:42.982313"
+}

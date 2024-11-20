@@ -1,0 +1,7 @@
+{
+  "entity_name": "CosaDmlWiFi_GetGasStats",
+  "component": "CcspWifiAgent",
+  "content_hash": "2dad2dfedff2467d8b25564a1862415c",
+  "response": "**1. Main purpose and functionality**\n\nThe CosaDmlWiFi_GetGasStats function retrieves the current Wi-Fi Gas (Generic Advertisement Service) statistics and stores them in the provided context.\n\n**2. Key operations and data flow**\n\n- The function takes a pointer to a COSA_DML_WIFI_GASSTATS structure as its only parameter.\n- It checks if the context is NULL and returns ANSC_STATUS_FAILURE if it is.\n- It then sets all the values in the context to 0 and copies the values from the gasStats array into the context.\n- The function finally returns ANSC_STATUS_SUCCESS.\n\n**3. Interaction with other components (if any)**\n\nThis function does not interact with any other components.\n\n**4. Important parameters and return values**\n\n- **phContext**: A pointer to a COSA_DML_WIFI_GASSTATS structure that will be filled with the Wi-Fi Gas statistics.\n- **Return value**: Returns ANSC_STATUS_SUCCESS if the operation was successful, or ANSC_STATUS_FAILURE if the context was NULL.\n\n**5. Any specific RDK-related operations**\n\nThis function is specific to RDK and is used to retrieve Wi-Fi Gas statistics.",
+  "processed_at": "2024-11-13T15:08:30.732035"
+}

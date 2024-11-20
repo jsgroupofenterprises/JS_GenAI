@@ -1,0 +1,7 @@
+{
+  "entity_name": "wifidb_update_wifi_global_config",
+  "component": "CcspWifiAgent",
+  "content_hash": "77367fa4d75c1ca4a9991ca6074b38a2",
+  "response": "1. **Main purpose and functionality**\n\nThe `wifidb_update_wifi_global_config` function is responsible for updating the global Wi-Fi configuration in the OVSDB database.\n\n2. **Key operations and data flow**\n\nThe function takes a pointer to a `schema_Wifi_Global_Config` structure as input and performs the following operations:\n\n- Checks if the input pointer is null and returns an error if it is.\n- Calls the `ovsdb_table_upsert_f` function to update the global Wi-Fi configuration table in the OVSDB database.\n- The `insert_filter` parameter specifies that only the `gas_config` column should be updated.\n- If the update is successful, the function returns `RETURN_OK`; otherwise, it returns `RETURN_ERR`.\n\n3. **Interaction with other components (if any)**\n\nThe function interacts with the OVSDB database to update the global Wi-Fi configuration.\n\n4. **Important parameters and return values**\n\n- **cfg:** A pointer to the `schema_Wifi_Global_Config` structure containing the new global Wi-Fi configuration.\n- **Return value:** The function returns `RETURN_OK` if the update is successful; otherwise, it returns `RETURN_ERR`.\n\n5. **Any specific RDK-related operations**\n\nThe function is specific to RDK and is used to manage the Wi-Fi configuration in the RDK OVSDB database.",
+  "processed_at": "2024-11-13T15:32:26.472488"
+}

@@ -1,0 +1,7 @@
+{
+  "entity_name": "pjs_string_q_from_json",
+  "component": "CcspWifiAgent",
+  "content_hash": "cb79e118626684b7c02d00224b337074",
+  "response": "**1. Main purpose and functionality:**\n   - The `pjs_string_q_from_json` function extracts a string value from a JSON object using a specified key and stores it in a provided buffer.\n\n**2. Key operations and data flow:**\n   - It initializes a `pjs_string_args` struct with the provided buffer and size.\n   - Calls the `pjs_basic_q_from_json` function, passing the struct, JSON object, key, update flag, and error handling parameters.\n   - `pjs_basic_q_from_json` retrieves the value associated with the key from the JSON object and calls the `pjs_string_t_from_json` function to convert it to a C string.\n   - The converted string is stored in the provided buffer.\n\n**3. Interaction with other components (if any):**\n   - It interacts with the `pjs_basic_q_from_json` function to extract the string value from the JSON object.\n\n**4. Important parameters and return values:**\n   - `out`: Buffer to store the extracted string.\n   - `outsz`: Size of the provided buffer.\n   - `exists`: Pointer to a boolean flag indicating whether the key exists in the JSON object.\n   - `js`: JSON object from which to extract the value.\n   - `name`: Key to search for in the JSON object.\n   - `update`: Flag indicating whether to update the buffer with the new value.\n   - `err`: Error handling parameters.\n\n**5. Any specific RDK-related operations:**\n   - None.",
+  "processed_at": "2024-11-13T16:20:43.813825"
+}

@@ -1,0 +1,25 @@
+Monday, Oct 07 14:40:01 2024:[non-root]: Dropping root privilege of PsmSsp: runs as unprivilege mode
+Monday, Oct 07 14:40:01 2024:[non-root]: unprivilege user name: non-root 
+Monday, Oct 07 14:40:01 2024:[non-root]: Dumping current caps of the process: = cap_chown,cap_dac_read_search,cap_fowner,cap_fsetid,cap_kill,cap_setpcap,cap_ipc_lock,cap_ipc_owner,cap_sys_chroot,cap_sys_ptrace,cap_sys_nice+eip
+Monday, Oct 07 14:40:06 2024:[non-root]: Dropping root privilege of wanmanager: runs as unprivilege mode
+Monday, Oct 07 14:40:06 2024:[non-root]: unprivilege user name: non-root 
+Monday, Oct 07 14:40:06 2024:[non-root]: Dumping current caps of the process: =eip cap_linux_immutable,cap_net_broadcast,cap_sys_pacct,cap_sys_boot,cap_sys_time,cap_mknod,cap_lease,cap_audit_write,cap_audit_control,cap_setfcap,cap_mac_override,cap_mac_admin,cap_syslog,cap_wake_alarm,cap_block_suspend,cap_audit_read,38,39,40-eip
+Monday, Oct 07 14:40:07 2024:[non-root]: Dropping root privilege of fwupgrademanage: runs as unprivilege mode
+Monday, Oct 07 14:40:07 2024:[non-root]: unprivilege user name: non-root 
+Monday, Oct 07 14:40:07 2024:[non-root]: Dumping current caps of the process: = cap_chown,cap_dac_override,cap_dac_read_search,cap_fowner,cap_fsetid,cap_kill,cap_setgid,cap_setuid,cap_setpcap,cap_ipc_lock,cap_ipc_owner,cap_sys_chroot,cap_sys_ptrace,cap_sys_nice+eip
+Monday, Oct 07 14:40:19 2024:[non-root]: Dropping root privilege of CcspTr069PaSsp: runs as unprivilege mode
+Monday, Oct 07 14:40:19 2024:[non-root]: unprivilege user name: non-root 
+Monday, Oct 07 14:40:19 2024:[non-root]: Dumping current caps of the process: = cap_chown,cap_dac_override,cap_dac_read_search,cap_fowner,cap_fsetid,cap_kill,cap_setpcap,cap_net_bind_service,cap_net_admin,cap_net_raw,cap_ipc_lock,cap_ipc_owner,cap_sys_chroot,cap_sys_ptrace,cap_sys_nice+eip
+Monday, Oct 07 14:40:19 2024:[non-root]: Dropping root privilege of CcspEthAgent: runs as unprivilege mode
+Monday, Oct 07 14:40:19 2024:[non-root]: unprivilege user name: non-root 
+Monday, Oct 07 14:40:19 2024:[non-root]: Dumping current caps of the process: = cap_chown,cap_dac_override,cap_dac_read_search,cap_fowner,cap_fsetid,cap_kill,cap_setpcap,cap_net_bind_service,cap_net_admin,cap_net_raw,cap_ipc_lock,cap_ipc_owner,cap_sys_rawio,cap_sys_chroot,cap_sys_ptrace,cap_sys_admin,cap_sys_nice,cap_sys_resource,cap_sys_tty_config+eip
+Monday, Oct 07 14:40:20 2024:[non-root]: Dropping root privilege of CcspLMLite: runs as unprivilege mode
+Monday, Oct 07 14:40:20 2024:[non-root]: unprivilege user name: non-root 
+Monday, Oct 07 14:40:20 2024:[non-root]: Dumping current caps of the process: = cap_chown,cap_dac_override,cap_dac_read_search,cap_fowner,cap_fsetid,cap_kill,cap_setgid,cap_setuid,cap_setpcap,cap_net_bind_service,cap_net_admin,cap_net_raw,cap_ipc_lock,cap_ipc_owner,cap_sys_chroot,cap_sys_ptrace,cap_sys_nice+eip
+Monday, Oct 07 14:40:25 2024:[non-root]: Dropping root privilege of telemetry2_0: runs as unprivilege mode
+Monday, Oct 07 14:40:25 2024:[non-root]: unprivilege user name: non-root 
+Monday, Oct 07 14:40:25 2024:[non-root]: Dumping current caps of the process: = cap_chown,cap_dac_override,cap_dac_read_search,cap_fowner,cap_fsetid,cap_kill,cap_setpcap,cap_net_bind_service,cap_net_admin,cap_net_raw,cap_ipc_lock,cap_ipc_owner,cap_sys_chroot,cap_sys_ptrace,cap_sys_nice,cap_sys_resource+eip
+Monday, Oct 07 14:40:27 2024:[non-root]: Dropping root privilege of webpa: runs as unprivilege mode
+Monday, Oct 07 14:40:31 2024:[non-root]: Dropping root privilege of CcspCrSsp: runs as unprivilege mode
+Monday, Oct 07 14:40:31 2024:[non-root]: unprivilege user name: non-root 
+Monday, Oct 07 14:40:31 2024:[non-root]: Dumping current caps of the process: = cap_chown,cap_dac_override,cap_dac_read_search,cap_fowner,cap_fsetid,cap_kill,cap_setpcap,cap_ipc_lock,cap_ipc_owner,cap_sys_chroot,cap_sys_ptrace,cap_sys_boot,cap_sys_nice,cap_sys_resource+eip

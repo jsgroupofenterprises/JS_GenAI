@@ -1,0 +1,7 @@
+{
+  "entity_name": "mon_counter_reset",
+  "component": "OneWifi",
+  "content_hash": "8679193c0b5795d2c773b7aba22cd415",
+  "response": "### 1. Main purpose and functionality:\n\nThe mon_counter_reset function initializes a shared memory segment used for storing monitoring counters. It allocates the shared memory segment using mmap() and sets all the counters to zero using memset().\n\n### 2. Key operations and data flow:\n\n- Checks if the shared memory segment for the monitoring counters has already been allocated.\n- If the segment has not been allocated, it allocates a shared memory segment of size MON_LAST * sizeof(struct mon_counter) bytes using mmap().\n- Sets all the counters in the shared memory segment to zero using memset().\n\n### 3. Interaction with other components:\n\nThe mon_counter_reset function does not directly interact with other components. However, the shared memory segment it creates is used by other components to access and update the monitoring counters.\n\n### 4. Important parameters and return values:\n\n- No input parameters.\n- No return value.\n\n### 5. Any specific RDK-related operations:\n\nThe function uses the mmap() system call to allocate shared memory, which is a common RDK-related operation.",
+  "processed_at": "2024-11-19T09:58:37.656375"
+}

@@ -1,0 +1,7 @@
+{
+  "entity_name": "wifi_r1KH_t",
+  "component": "hal",
+  "content_hash": "e52a28ac761368b1db03b73aa1d7400b",
+  "response": "**1. Purpose of this structure:**\n\nThe `wifi_r1KH_t` structure is used to store the information related to the R1KH (Robust 1-Key Handshake) protocol, which is used in Wi-Fi Protected Setup (WPS) to establish a secure connection between two Wi-Fi devices.\n\n**2. Key fields and their significance:**\n\n* `mac`: This field stores the MAC address of the Wi-Fi device.\n* `r1khId`: This field stores the R1KH ID of the Wi-Fi device.\n* `key`: This field stores the R0R1 key, which is used for authentication and encryption in the R1KH protocol.\n\n**3. Usage context in RDK:**\n\nThe `wifi_r1KH_t` structure is used in the HAL (Hardware Abstraction Layer) component of RDK to manage the R1KH protocol. It is used by the WPS client and server to establish a secure connection between two Wi-Fi devices.\n\n**4. Related components or interfaces:**\n\nThe `wifi_r1KH_t` structure is used by the following components or interfaces in RDK:\n\n* HAL (Hardware Abstraction Layer)\n* WPS (Wi-Fi Protected Setup)\n\n**5. Any specific RDK-related details:**\n\nThe `wifi_r1KH_t` structure is a part of the RDK HAL API, which provides a set of interfaces for accessing and controlling the hardware features of a Wi-Fi device. It is used by the WPS client and server to establish a secure connection between two Wi-Fi devices.",
+  "processed_at": "2024-11-14T12:49:53.330136"
+}

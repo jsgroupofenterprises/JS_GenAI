@@ -1,0 +1,7 @@
+{
+  "entity_name": "voice_hal_sgetMinSessionExpires",
+  "component": "hal",
+  "content_hash": "5868031e01f3ace9b5d69fcd1e1dd1af",
+  "response": "**Main purpose and functionality**\n\nVoice_hal_sgetMinSessionExpires retrieves the minimum session timer value for a given service, voice_hal_sgetMinSessionExpires function in voice_hal.c sets the minimum session timer value. The user agent MUST NOT use a value for the session timer that is less than the value of the minimum session timer.\n\n**Key operations and data flow**\n\nThe following are the key operations and data flow:\n- Takes 3 parameters as input: service, profile, timeout\n- Sets the minimum session timer value\n- Returns an int32_t value\n\n**Interaction with other components (if any)**\n\nThis function interacts with the following components:\n- Voice Service Component\n- Voice Profile Component\n\n**Important parameters and return values**\n\n- Service: The voice service for which the minimum session timer is being set\n- Profile: The voice profile for which the minimum session timer is being set\n- Timeout: The minimum session timer value to be set\n\n**Specific RDK-related operations**\n\nThis function is specific to RDK and is used to set the minimum session timer value for a voice service.",
+  "processed_at": "2024-11-14T12:15:05.118119"
+}

@@ -1,0 +1,7 @@
+{
+  "entity_name": "wifi_getApStatus",
+  "component": "hal",
+  "content_hash": "e2486c2cd4554b982d45033a9c29e2cf",
+  "response": "**1. Main purpose and functionality**\n\nThe `wifi_getApStatus` is an RDK HAL function that gets the status of an access point (AP). The status can be either \"Enabled\" or \"Disabled\".\n\n**2. Key operations and data flow**\n\nThe function takes two parameters:\n - `apIndex`: The index of the AP.\n - `output_string`: A pointer to a character array where the status of the AP will be stored.\n\nThe function first checks if the AP index is valid. If it is not, the function returns an error. Otherwise, the function gets the status of the AP from the driver and stores it in the output string. The function then returns RETURN_OK if successful, or RETURN_ERR if an error occurred.\n\n**3. Interaction with other components (if any)**\n\nThe `wifi_getApStatus` function interacts with the Wi-Fi driver to get the status of the AP.\n\n**4. Important parameters and return values**\n\nThe following are the important parameters and return values for the `wifi_getApStatus` function:\n\n - `apIndex`: The index of the AP.\n - `output_string`: A pointer to a character array where the status of the AP will be stored.\n - `RETURN_OK`: The function was successful.\n - `RETURN_ERR`: The function failed.\n\n**5. Any specific RDK-related operations**\n\nThe `wifi_getApStatus` function is a generic HAL function that can be used by any RDK application.",
+  "processed_at": "2024-11-14T12:33:02.245942"
+}

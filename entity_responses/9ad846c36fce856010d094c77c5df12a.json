@@ -1,0 +1,7 @@
+{
+  "entity_name": "hapd_process_eapol_frame",
+  "component": "CcspWifiAgent",
+  "content_hash": "9ad846c36fce856010d094c77c5df12a",
+  "response": "**1. Main purpose and functionality:**\n   - The `hapd_process_eapol_frame` function is responsible for processing EAPOL (Extensible Authentication Protocol over LAN) frames received by the access point.\n   - It forwards the received EAPOL frame to the hostapd daemon for further processing related to authentication and authorization.\n\n**2. Key operations and data flow:**\n   - The function takes various parameters including the AP index, STA MAC address, EAPOL frame data, and data length.\n   - It retrieves the hostapd data structure associated with the specified AP index.\n   - Calls the `ieee802_1x_receive` function provided by hostapd to process the EAPOL frame.\n\n**3. Interaction with other components:**\n   - The function interacts with the hostapd daemon to process the EAPOL frame and perform authentication/authorization tasks.\n\n**4. Important parameters and return values:**\n   - **ap_index**: Index of the access point that received the EAPOL frame.\n   - **sta**: MAC address of the station that sent the EAPOL frame.\n   - **data**: Pointer to the EAPOL frame data.\n   - **data_len**: Length of the EAPOL frame data.\n   - **Return value**: 0 on success.\n\n**5. Any specific RDK-related operations:**\n   - The function is part of the CcspWifiAgent component, which is responsible for managing Wi-Fi-related functions in RDK.",
+  "processed_at": "2024-11-13T15:22:54.167447"
+}

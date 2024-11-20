@@ -1,0 +1,7 @@
+{
+  "entity_name": "hapd_register_callback",
+  "component": "CcspWifiAgent",
+  "content_hash": "3abd2dfd2baef598c7943e568a59ed36",
+  "response": "1. **Main purpose and functionality**:\n   - Registers callback functions for handling various WiFi authentication and association frames.\n\n2. **Key operations and data flow**:\n   - Registers the following callback functions:\n     - eapol_frame_received: Called when an EAPOL frame is received.\n     - eapol_frame_sent: Called when an EAPOL frame is sent.\n     - auth_frame_received: Called when an authentication frame is received.\n     - auth_frame_sent: Called when an authentication frame is sent.\n     - assoc_req_frame_received: Called when an association request frame is received.\n     - assoc_rsp_frame_sent: Called when an association response frame is sent.\n\n3. **Interaction with other components**:\n   - Uses functions from the wifi_apis.h library to register the callbacks.\n\n4. **Important parameters and return values**:\n   - No parameters or return values.\n\n5. **Any specific RDK-related operations**:\n   - This function is part of the RDK CcspWifiAgent component, which provides WiFi-related functionality in RDK devices.",
+  "processed_at": "2024-11-13T15:16:13.865989"
+}

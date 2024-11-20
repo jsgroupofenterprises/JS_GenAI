@@ -1,0 +1,22 @@
+241007-14:40:07.059615 [mod=FWUPGRADEMANAGER, lvl=INFO] [tid=876] 
+After daemonize before signal
+241007-14:40:07.068521 [mod=FWUPGRADEMANAGER, lvl=INFO] [tid=876] Connect to bus daemon...
+241007-14:40:07.070875 [mod=FWUPGRADEMANAGER, lvl=WARN] [tid=876] RBus is enabled
+241007-14:40:07.071836 [mod=FWUPGRADEMANAGER, lvl=INFO] [tid=876] rbuscore.c:2326 RBus Enabled
+
+241007-14:40:07.072613 [mod=FWUPGRADEMANAGER, lvl=INFO] [tid=876] rbuscore.c:643 Broker address: unix:///tmp/rtrouted
+
+241007-14:40:07.080160 [mod=FWUPGRADEMANAGER, lvl=INFO] [tid=876] connection opened for eRT.com.cisco.spvtg.ccsp.fwupgrademanager
+241007-14:40:07.081009 [mod=FWUPGRADEMANAGER, lvl=INFO] [tid=876] INFO: bus_handle: 0x103901a0 
+241007-14:40:08.083072 [mod=FWUPGRADEMANAGER, lvl=INFO] [tid=876] CcspBaseIf_Register_Event_rbus : rbus_registerEvent called for event: currentSessionIDSignal
+241007-14:40:08.090166 [mod=FWUPGRADEMANAGER, lvl=INFO] [tid=876] rbuscore.c:742 Subscription for _rbus_session_mgr::currentSessionIDSignal is now active.
+
+241007-14:40:08.098598 [mod=FWUPGRADEMANAGER, lvl=WARN] [tid=876] Register empty object : com.
+241007-14:40:08.099699 [mod=FWUPGRADEMANAGER, lvl=WARN] [tid=876] Register empty object : com.cisco.
+241007-14:40:08.100276 [mod=FWUPGRADEMANAGER, lvl=WARN] [tid=876] Register empty object : com.cisco.spvtg.
+241007-14:40:08.100877 [mod=FWUPGRADEMANAGER, lvl=WARN] [tid=876] Register empty object : com.cisco.spvtg.ccsp.
+241007-14:40:08.107797 [mod=FWUPGRADEMANAGER, lvl=WARN] [tid=876] DM Library module name = CCSP Base Data Model
+241007-14:40:08.111305 [mod=FWUPGRADEMANAGER, lvl=INFO] [tid=876]  Download_Control_Flag is 1 
+241007-14:40:08.115353 [mod=FWUPGRADEMANAGER, lvl=INFO] [tid=876]  Current FW Version is rdkb-generic-broadband-image_rdkb-2024q1-dunfell_20241114094225 
+241007-14:40:08.120120 [mod=FWUPGRADEMANAGER, lvl=WARN] [tid=876] DM Library module name = TR181_RdkFirmwareUpgradeManager
+241007-14:40:08.122351 [mod=FWUPGRADEMANAGER, lvl=WARN] [tid=876] Search for empty object in 'dslhCpeCheckEmptyObject'

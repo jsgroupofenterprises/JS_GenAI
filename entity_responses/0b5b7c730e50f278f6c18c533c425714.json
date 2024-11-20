@@ -1,0 +1,7 @@
+{
+  "entity_name": "platform_hal_setFanMaxOverride",
+  "component": "hal",
+  "content_hash": "0b5b7c730e50f278f6c18c533c425714",
+  "response": "**1. Main Purpose and Functionality:**\n   - Sets the maximum override flag for a specific fan and controls the override mode.\n\n**2. Key Operations and Data Flow:**\n   - Checks if the RDK Thermal Manager feature is enabled.\n   - If enabled, it identifies the fan based on the provided index and sets the maximum override flag.\n   - It also determines the new fan speed based on the override flag and the current fan speed.\n   - The new fan speed is then set using the platform-specific interface.\n\n**3. Interaction with Other Components:**\n   - Integrates with the RDK Thermal Manager to set the maximum override flag.\n   - Interacts with the platform-specific interface to adjust the fan speed.\n\n**4. Important Parameters and Return Values:**\n   - **bOverrideFlag:** Boolean flag to enable/disable the maximum override.\n   - **fanIndex:** Index of the fan to control.\n   - **Return Value:** 0 on success, negative error code on failure.\n\n**5. Specific RDK-Related Operations:**\n   - Uses the RDK Thermal Manager to handle the maximum override for temperature control.\n   - The override flag persists across reboots and is typically used for troubleshooting or performance tuning.",
+  "processed_at": "2024-11-14T10:54:51.137654"
+}

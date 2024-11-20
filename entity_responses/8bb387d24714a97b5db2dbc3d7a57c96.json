@@ -1,0 +1,7 @@
+{
+  "entity_name": "platform_hal_SetSNMPOnboardRebootEnable",
+  "component": "hal",
+  "content_hash": "8bb387d24714a97b5db2dbc3d7a57c96",
+  "response": "1.\t**Main purpose and functionality** \nThe function platform_hal_SetSNMPOnboardRebootEnable sets the SNMP onboard reboot enable value to the specified value. \n2.\t**Key operations and data flow** \nThe function takes a pointer to a character array as input and sets the SNMP onboard reboot enable value to the value specified in the array \n3.\t**Interaction with other components (if any)** \nThis function interacts with the SNMP agent to set the SNMP onboard reboot enable value \n4.\t**Important parameters and return values**: \n* pValue:   Pointer to a character array that contains the SNMP onboard reboot enable value \n* Return Value:  The function returns an integer representing the status of the operation. \n5.\t**Any specific RDK-related operations**: \nThis function is a part of the RDK HAL library and is used to set the SNMP onboard reboot enable value",
+  "processed_at": "2024-11-14T10:55:29.370390"
+}

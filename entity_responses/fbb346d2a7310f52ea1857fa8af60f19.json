@@ -1,0 +1,7 @@
+{
+  "entity_name": "wifi_apDeAuthEvent_callback_register",
+  "component": "hal",
+  "content_hash": "fbb346d2a7310f52ea1857fa8af60f19",
+  "response": "**1. Main purpose and functionality**\nThe `wifi_apDeAuthEvent_callback_register` function registers a callback function to be called when a client device is deauthenticated from the access point.\n\n**2. Key operations and data flow**\nThe function takes a single parameter, `callback_proc`, which is a pointer to the callback function to be registered. The callback function should have the following signature:\n\n```\nvoid wifi_apDeAuthEvent_callback(void *object, wifi_mac_addr_t addr, const char *name, wifi_deAuthReason_t reason);\n```\n\n- The function pointer is saved internally by RDK.\n- Whenever a client device is deauthenticated from the access point, the registered callback function will be invoked.\n\n**3. Interaction with other components (if any)**\nThis function is part of the RDK HAL API. It interacts with the Wi-Fi driver to register the callback function.\n\n**4. Important parameters and return values**\n- `callback_proc`: A pointer to the callback function to be registered.\n\n**5. Any specific RDK-related operations**\nThis function is part of the RDK HAL API, which is a set of functions that provide a common interface to the Wi-Fi driver.",
+  "processed_at": "2024-11-14T12:39:27.996192"
+}

@@ -1,0 +1,7 @@
+{
+  "entity_name": "rdk_wifi_SetApMacFilterMode",
+  "component": "CcspWifiAgent",
+  "content_hash": "a4ca938db69d6dfb366caea8f41480e7",
+  "response": "**1. Main purpose and functionality**\n\n* The `rdk_wifi_SetApMacFilterMode` function sets the MAC filter mode for the specified wireless access point (AP).\n* The MAC filter mode determines which devices are allowed to connect to the AP.\n\n**2. Key operations and data flow**\n\n* The function first calls `rdk_wifi_vap_get_from_index` to retrieve the virtual access point (VAP) information for the specified AP.\n* The function then sets the MAC filter mode for the VAP.\n* The function finally calls `rdk_wifi_vap_update_from_index` to update the VAP information in the database.\n\n**3. Interaction with other components (if any)**\n\n* The function interacts with the following components:\n    * `rdk_wifi_vap_get_from_index`\n    * `rdk_wifi_vap_update_from_index`\n\n**4. Important parameters and return values**\n\n* The following are the important parameters of the function:\n    * `wlanIndex`: The index of the AP.\n    * `mode`: The MAC filter mode.\n* The function returns the following values:\n    * `CCSP_SUCCESS`: The operation was successful.\n    * `CCSP_FAILURE`: The operation failed.\n\n**5. Any specific RDK-related operations**\n\n* The function uses the following RDK-specific APIs:\n    * `rdk_wifi_vap_get_from_index`\n    * `rdk_wifi_vap_update_from_index`",
+  "processed_at": "2024-11-13T15:36:38.942522"
+}

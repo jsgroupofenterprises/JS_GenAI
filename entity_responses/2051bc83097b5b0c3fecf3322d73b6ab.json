@@ -1,0 +1,7 @@
+{
+  "entity_name": "CosaWifiRegDelAPInfo",
+  "component": "CcspWifiAgent",
+  "content_hash": "2051bc83097b5b0c3fecf3322d73b6ab",
+  "response": "**1. Main purpose and functionality:**\n\nThe purpose of the CosaWifiRegDelAPInfo function is to delete an Access Point (AP) configuration from the RDK configuration database.\n\n\n**2. Key operations and data flow:**\n\nThe function first checks if the two required folders are accessible. If not, it returns an error. Otherwise, it disables file synchronization for the parent folder, closes the child folder, deletes the child folder from the database, and frees the memory allocated to it. Finally, it re-enables file synchronization for the parent folder and returns success.\n\n\n**3. Interaction with other components (if any):**\n\nThe function interacts with the PoamIrep (Persistent Object Access Manager Interface Report) component to manage the configuration database.\n\n\n**4. Important parameters and return values:**\n\n- **hThisObject**: The handle to the CosaWifiReg object.\n- **hCosaContext**: The handle to the Cosa context object.\n- **returnStatus**: The status of the operation.\n\n\n**5. Any specific RDK-related operations:**\n\nThe function uses the PoamIrep component, which is specific to RDK.",
+  "processed_at": "2024-11-13T15:05:19.918346"
+}

@@ -1,0 +1,52 @@
+241007-14:40:21.722686 [mod=LM, lvl=WARN] [tid=1884] LMLite:rdk initialzed!
+241007-14:40:21.723542 [mod=LM, lvl=INFO] [tid=1884] rbuscore.c:2326 RBus Enabled
+
+241007-14:40:21.723666 [mod=LM, lvl=INFO] [tid=1884] LMLite RBUS mode active status = true
+241007-14:40:21.723803 [mod=LM, lvl=INFO] [tid=1884] rbus.c:2765 rbus open for component: lmlite
+
+241007-14:40:21.724489 [mod=LM, lvl=INFO] [tid=1884] rbus.c:2841  rbus open (lmlite) success
+
+241007-14:40:21.729062 [mod=LM, lvl=INFO] [tid=1884] Source with Active Interfaces : LMLite
+241007-14:40:21.729217 [mod=LM, lvl=INFO] [tid=1884] ReportSourceNDT value is : LMLite
+241007-14:40:21.730339 [mod=LM, lvl=INFO] [tid=1884] rbus_asyncsubscribe.c:382 Device.X_RDK_WanManager.InterfaceActiveStatus 00:00:27.908418
+
+241007-14:40:21.730486 [mod=LM, lvl=INFO] [tid=1884]  Device.X_RDK_WanManager.InterfaceActiveStatus subscribe success
+241007-14:40:21.732273 [mod=LM, lvl=INFO] [tid=1979] rbus_asyncsubscribe.c:129 item=00:00:27.908418
+
+241007-14:40:21.732417 [mod=LM, lvl=INFO] [tid=1979] rbus_asyncsubscribe.c:142 subs past due
+
+241007-14:40:21.732507 [mod=LM, lvl=INFO] [tid=1979] rbus_asyncsubscribe.c:184 Device.X_RDK_WanManager.InterfaceActiveStatus subscribing
+
+241007-14:40:21.735381 [mod=LM, lvl=WARN] [tid=1980] LMLite: Init for parodus Success..!!
+241007-14:40:21.743591 [mod=LM, lvl=WARN] [tid=1982] ValidateHostRetry_Thread started
+241007-14:40:21.743848 [mod=LM, lvl=INFO] [tid=1979] rbuscore.c:742 Subscription for Device.X_RDK_WanManager.InterfaceActiveStatus::Device.X_RDK_WanManager.InterfaceActiveStatus is now active.
+
+241007-14:40:21.743982 [mod=LM, lvl=INFO] [tid=1979] rbus_asyncsubscribe.c:231 Device.X_RDK_WanManager.InterfaceActiveStatus subscribe retries succeeded
+
+241007-14:40:21.744070 [mod=LM, lvl=WARN] [tid=1979] subscribeAsyncHandler event Device.X_RDK_WanManager.InterfaceActiveStatus, error 0 - ok
+241007-14:40:26.996073 [mod=LM, lvl=WARN] [tid=1884] Send_Eth_Host_Sync_Req : Get Ethernet Clients 
+241007-14:40:27.009458 [mod=LM, lvl=WARN] [tid=1884] Send_MoCA_Host_Sync_Req : Get MoCA Clients 
+241007-14:40:27.011550 [mod=LM, lvl=ERROR] [tid=1884] SetParameterValues for param[0]=Device.MoCA.X_RDKCENTRAL-COM_MoCAHost_Sync failed with Err: 12
+241007-14:40:27.011695 [mod=LM, lvl=WARN] [tid=1884] MoCA Send_MoCA_Host_Sync_Req : Failed ret 190
+241007-14:40:27.011768 [mod=LM, lvl=WARN] [tid=1884] WIFI SyncWiFi : Get WiFi Clients 
+241007-14:40:27.012664 [mod=LM, lvl=ERROR] [tid=1884] SetParameterValues for param[0]=Device.WiFi.X_RDKCENTRAL-COM_WiFiHost_Sync failed with Err: 12
+241007-14:40:27.012762 [mod=LM, lvl=WARN] [tid=1884] WIFI SyncWiFi : Failed ret 190
+241007-14:40:27.645724 [mod=LM, lvl=INFO] [tid=1890] Consumer received ValueChange event for param Device.X_RDK_WanManager.InterfaceActiveStatus
+241007-14:40:27.646705 [mod=LM, lvl=INFO] [tid=1890] New Value: WanOE,0 Old Value: 
+241007-14:40:27.646839 [mod=LM, lvl=INFO] [tid=1890] Source with Active Interfaces : LMLite
+241007-14:40:27.646942 [mod=LM, lvl=INFO] [tid=1890] ReportSourceNDT value is : LMLite
+241007-14:40:33.244333 [mod=LM, lvl=INFO] [tid=1890] Consumer received ValueChange event for param Device.X_RDK_WanManager.InterfaceActiveStatus
+241007-14:40:33.244459 [mod=LM, lvl=INFO] [tid=1890] New Value: WanOE,1 Old Value: WanOE,0
+241007-14:40:33.244620 [mod=LM, lvl=INFO] [tid=1890] Source with Active Interfaces : LMLite/WanOE
+241007-14:40:33.244731 [mod=LM, lvl=INFO] [tid=1890] ReportSourceNDT value is : LMLite/WanOE
+241118-09:32:24.370343 [mod=LM, lvl=WARN] [tid=2537] ------------------------AssociatedClientsInfo-----------------------
+241118-09:32:24.370563 [mod=LM, lvl=WARN] [tid=2537] RDKB_CONNECTED_CLIENTS:Total_Clients_Connected=0
+241118-09:32:24.370638 [mod=LM, lvl=WARN] [tid=2537] RDKB_CONNECTED_CLIENTS:Total_Online_Clients=0
+241118-09:32:24.370709 [mod=LM, lvl=WARN] [tid=2537] RDKB_CONNECTED_CLIENTS:Total_Offline_Clients=0
+241118-09:32:24.370798 [mod=LM, lvl=WARN] [tid=2537] RDKB_CONNECTED_CLIENTS:Total_WiFi_Clients=0
+241118-09:32:24.370870 [mod=LM, lvl=WARN] [tid=2537] RDKB_CONNECTED_CLIENTS:Total_WiFi-2.4G_Clients=0
+241118-09:32:24.371010 [mod=LM, lvl=WARN] [tid=2537] RDKB_CONNECTED_CLIENTS:Total_WiFi-5.0G_Clients=0
+241118-09:32:24.371078 [mod=LM, lvl=WARN] [tid=2537] RDKB_CONNECTED_CLIENTS:Total_WiFi-6.0G_Clients=0
+241118-09:32:24.371141 [mod=LM, lvl=WARN] [tid=2537] RDKB_CONNECTED_CLIENTS:Total_Ethernet_Clients=0
+241118-09:32:24.371205 [mod=LM, lvl=WARN] [tid=2537] RDKB_CONNECTED_CLIENTS:Total_MoCA_Clients=0
+241118-09:32:24.371271 [mod=LM, lvl=WARN] [tid=2537] -------------------------------------------------------------------

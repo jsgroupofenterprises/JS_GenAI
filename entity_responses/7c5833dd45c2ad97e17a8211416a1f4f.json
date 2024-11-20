@@ -1,0 +1,7 @@
+{
+  "entity_name": "voice_hal_getServiceVersion",
+  "component": "hal",
+  "content_hash": "7c5833dd45c2ad97e17a8211416a1f4f",
+  "response": "**1. Main purpose and functionality:**\n\n   The voice_hal_getServiceVersion function retrieves the software configuration version string for the voice service.\n\n**2. Key operations and data flow:**\n\n   - The function takes a service number as input.\n   - It retrieves the software configuration version string for the specified service.\n   - It returns the version string in the provided buffer.\n\n**3. Interaction with other components (if any):**\n\n   - This function interacts with the voice service component.\n\n**4. Important parameters and return values:**\n\n   - **service:** The number of the voice service.\n   - **service_version:** The software configuration version string for the specified service.\n   - **pLength:** The length of the provided buffer.\n   - **RDK_SUCCESS:** The function was successful.\n   - **RDK_FAILURE:** The function failed.\n\n**5. Any specific RDK-related operations:**\n\n   - This function is part of the RDK voice service interface.",
+  "processed_at": "2024-11-14T10:59:43.238279"
+}

@@ -1,0 +1,918 @@
+241118-09:31:00 ENTERED FIREWALL, argc = 4 
+241118-09:31:00 Inside service_ev_t get_service_event
+241118-09:31:00  Process 165995 is waiting for lock
+241118-09:31:00  Process 165995 acquired the lock
+241118-09:31:00 Inside firewall service_init()
+241118-09:31:00 firewall service initializing
+241118-09:31:00 Inside get_options
+241118-09:31:00 Exiting get_options
+241118-09:31:00 firewall opening sysevent_fd 19, token 1187
+241118-09:31:00 Entering prepare_globals_from_configuration
+241118-09:31:00 Exiting prepare_globals_from_configuration
+241118-09:31:00 Entering firewall_lib_init
+241118-09:31:00 Exiting firewall_lib_init
+241118-09:31:00 Exiting firewall service_init()
+241118-09:31:00 Entering update_rabid_features_status 
+241118-09:31:00 Exiting update_rabid_features_status 
+241118-09:31:00 Inside Firewall service_restart () 
+241118-09:31:00 Inside firewall service_start()
+241118-09:31:00 starting firewall service
+241118-09:31:00 Inside prepare_ipv4_firewall 
+241118-09:31:00 Entering prepare_enabled_ipv4_firewall 
+241118-09:31:00 Entering prepare_subtables 
+241118-09:31:00 Entering prepare_xconf_rules
+241118-09:31:00 Exiting prepare_xconf_rules
+241118-09:31:00 Entering redirect_dns_to_extender,current_wan_ifname is erouter0 , default wan is erouter0
+241118-09:31:00 Inside Get_Device_Mode
+241118-09:31:00 Exiting redirect_dns_to_extender
+241118-09:31:00 Entering prepare_rabid_rules 
+241118-09:31:00 Exiting prepare_rabid_rules 
+241118-09:31:00 Entering do_openPorts
+241118-09:31:00 Exiting do_openPorts
+241118-09:31:00 Entering do_OpenVideoAnalyticsPort
+241118-09:31:00 Exiting do_OpenVideoAnalyticsPort
+241118-09:31:00 Entering do_webui_rate_limit
+241118-09:31:00 Exiting do_webui_rate_limit
+241118-09:31:00 Entering filterPortMap
+241118-09:31:00 Exiting filterPortMap
+241118-09:31:00 Entering isInCaptivePortal
+241118-09:31:00 Exiting isInCaptivePortal
+241118-09:31:00 CP DNS Redirection : Return 0
+241118-09:31:00 Entering do_snmp_IpAccessTable
+241118-09:31:00 Exiting do_snmp_IpAccessTable
+241118-09:31:00 Entering prepare_multinet_filter_input
+241118-09:31:00 Exiting prepare_multinet_filter_input
+241118-09:31:00 Entering prepare_hotspot_gre_ipv4_rule
+241118-09:31:00 Entering prepare_ipc_filter
+241118-09:31:00 Exiting prepare_ipc_filter
+241118-09:31:00 Entering prepare_multinet_filter_forward
+241118-09:31:00 Exiting prepare_multinet_filter_forward
+241118-09:31:00 Entering do_forwardPorts
+241118-09:31:00 Exiting do_forwardPorts
+241118-09:31:00 Exiting  prepare_subtables 
+241118-09:31:00 Entering add_qos_marking_statements
+241118-09:31:00 Exiting add_qos_marking_statements
+241118-09:31:00 Inside isServiceNeeded
+241118-09:31:00 Inside Get_Device_Mode
+241118-09:31:00 returning true
+241118-09:31:00 Entering do_single_port_forwarding
+241118-09:31:00 Exiting do_single_port_forwarding
+241118-09:31:00 Entering do_port_range_forwarding
+241118-09:31:00 Exiting do_port_range_forwarding
+241118-09:31:00 Entering do_wellknown_ports_forwarding
+241118-09:31:00 Exiting do_wellknown_ports_forwarding
+241118-09:31:00 Entering do_ephemeral_port_forwarding
+241118-09:31:00 Exiting do_ephemeral_port_forwarding
+241118-09:31:00 Entering do_static_route_forwarding
+241118-09:31:00 Exiting do_static_route_forwarding
+241118-09:31:00 Inside do_ipv4_UIoverWAN_filter 
+241118-09:31:00 Exiting do_ipv4_UIoverWAN_filter 
+241118-09:31:00 Entering do_nonat
+241118-09:31:00 Exiting do_nonat
+241118-09:31:00 Inside isServiceNeeded
+241118-09:31:00 Inside Get_Device_Mode
+241118-09:31:00 returning true
+241118-09:31:00 Entering do_dmz
+241118-09:31:00 Entering do_nat_ephemeral
+241118-09:31:00 Exiting do_nat_ephemeral
+241118-09:31:00 Entering do_wan_nat_lan_clients
+241118-09:31:00 Exiting do_wan_nat_lan_clients
+241118-09:31:00 Entering do_lan2self_by_wanip
+241118-09:31:00 Exiting do_lan2self_by_wanip
+241118-09:31:00 Entering do_lan2self_attack
+241118-09:31:00 Exiting do_lan2self_attack
+241118-09:31:00 Entering lan_telnet_ssh
+241118-09:31:00 Exiting lan_telnet_ssh
+241118-09:31:00 Inside isServiceNeeded
+241118-09:31:00 Inside Get_Device_Mode
+241118-09:31:00 returning true
+241118-09:31:00 Entering do_remote_access_control
+241118-09:31:00 Entering remote_access_set_proto
+241118-09:31:00 Exiting remote_access_set_proto
+241118-09:31:00 Entering remote_access_set_proto
+241118-09:31:00 Exiting remote_access_set_proto
+241118-09:31:00 Exiting do_remote_access_control
+241118-09:31:00 Entering do_lan2wan
+241118-09:31:00 Entering do_lan2wan_misc
+241118-09:31:00 Exiting do_lan2wan_misc
+241118-09:31:00 Entering do_lan2wan_disable
+241118-09:31:00 Exiting do_lan2wan_disable
+241118-09:31:00 Entering do_parental_control
+241118-09:31:00 Entering do_parcon_mgmt_device
+241118-09:31:00 Exiting do_parcon_mgmt_device
+241118-09:31:00 Entering do_parcon_mgmt_site_keywd
+241118-09:31:00 Exiting do_parcon_mgmt_site_keywd
+241118-09:31:00 Entering do_parcon_mgmt_service
+241118-09:31:00 Entering do_parental_control_allow_trusted
+241118-09:31:00 Exiting do_parental_control_allow_trusted
+241118-09:31:00 Exiting do_parcon_mgmt_service
+241118-09:31:00 Exiting do_parental_control
+241118-09:31:00 ### XDNS - Disabled. X_RDKCENTRAL-COM_XDNS not found. ### 
+241118-09:31:00 Inside isServiceNeeded
+241118-09:31:00 Inside Get_Device_Mode
+241118-09:31:00 returning true
+241118-09:31:00 Entering do_prepare_port_range_triggers
+241118-09:31:00 Exiting do_prepare_port_range_triggers
+241118-09:31:00 Exiting do_lan2wan
+241118-09:31:00 Entering do_wan2lan
+241118-09:31:00 Entering do_wan2lan_disabled
+241118-09:31:00 Exiting do_wan2lan_disabled
+241118-09:31:00 Entering do_wan2lan_misc
+241118-09:31:00 Entering add_usgv2_wan2lan_general_rules
+241118-09:31:00 Exiting add_usgv2_wan2lan_general_rules
+241118-09:31:00 Exiting do_wan2lan_misc
+241118-09:31:00 Entering do_wan2lan_accept
+241118-09:31:00 Exiting do_wan2lan_accept
+241118-09:31:00 Exiting do_wan2lan
+241118-09:31:00 Entering do_filter_table_general_rules
+241118-09:31:00 Exiting do_filter_table_general_rules
+241118-09:31:00 Entering prepare_ethernetbhaul_greclamp status:
+241118-09:31:00 prepare_ethernetbhaul_greclamp skip clamping mss since gre not present
+241118-09:31:00 Exiting prepare_ethernetbhaul_greclamp
+241118-09:31:00 Entering prepare_multinet_mangle
+241118-09:31:00 Exiting prepare_multinet_mangle
+241118-09:31:00 Entering prepare_rabid_rules_for_mapt 
+241118-09:31:00 Exiting prepare_rabid_rules_for_mapt 
+241118-09:31:00 Exiting prepare_enabled_ipv4_firewall 
+241118-09:31:00 Exiting prepare_ipv4_firewall 
+241118-09:31:00 Inside prepare_ipv6_firewall 
+241118-09:31:00 Inside do_ipv6_sn_filter 
+241118-09:31:01 Entering prepare_xconf_rules
+241118-09:31:01 Exiting prepare_xconf_rules
+241118-09:31:01 Exiting do_ipv6_sn_filter 
+241118-09:31:01 Entering redirect_dns_to_extender,current_wan_ifname is erouter0 , default wan is erouter0
+241118-09:31:01 Inside Get_Device_Mode
+241118-09:31:01 Exiting redirect_dns_to_extender
+241118-09:31:01 Exiting do_ipv6_nat_table 
+241118-09:31:01 Entering ethwan_mso_gui_acess_rules
+241118-09:31:01 Exiting ethwan_mso_gui_acess_rules
+241118-09:31:01 Inside do_ipv6_UIoverWAN_filter 
+241118-09:31:01 Exiting do_ipv6_UIoverWAN_filter 
+241118-09:31:01 Inside do_ipv6_filter_table 
+241118-09:31:01 Entering do_OpenVideoAnalyticsPort
+241118-09:31:01 Exiting do_OpenVideoAnalyticsPort
+241118-09:31:01 Entering do_webui_rate_limit
+241118-09:31:01 Exiting do_webui_rate_limit
+241118-09:31:01 Entering do_openPorts
+241118-09:31:01 Exiting do_openPorts
+241118-09:31:01 Entering lan_telnet_ssh
+241118-09:31:01 Exiting lan_telnet_ssh
+241118-09:31:01 Inside getIpv6Interfaces 
+241118-09:31:01 Entering prepare_hotspot_gre_ipv6_rule
+241118-09:31:01 Entering do_lan2self_by_wanip6
+241118-09:31:01 Exiting do_lan2self_by_wanip6
+241118-09:31:01 Inside isServiceNeeded
+241118-09:31:01 Inside Get_Device_Mode
+241118-09:31:01 returning true
+241118-09:31:01 Entering do_remote_access_control
+241118-09:31:01 Entering remote_access_set_proto
+241118-09:31:01 Exiting remote_access_set_proto
+241118-09:31:01 Entering remote_access_set_proto
+241118-09:31:01 Exiting remote_access_set_proto
+241118-09:31:01 Entering ethwan_mso_gui_acess_rules
+241118-09:31:01 Exiting ethwan_mso_gui_acess_rules
+241118-09:31:01 Exiting do_rSSH: Forward SSH changed to enabled
+241007-14:40:14 ENTERED FIREWALL, argc = 4 
+241007-14:40:14 Inside service_ev_t get_service_event
+241007-14:40:14 shm open in create mode
+241007-14:40:14 Created shm mutex
+241007-14:40:14  Process 1499 is waiting for lock
+241007-14:40:14  Process 1499 acquired the lock
+241007-14:40:14 Inside firewall service_init()
+241007-14:40:14 firewall service initializing
+241007-14:40:14 Inside get_options
+241007-14:40:14 Exiting get_options
+241007-14:40:14 firewall opening sysevent_fd 19, token 170
+241007-14:40:14 Entering prepare_globals_from_configuration
+241007-14:40:15 Exiting prepare_globals_from_configuration
+241007-14:40:15 Entering firewall_lib_init
+241007-14:40:15 Exiting firewall_lib_init
+241007-14:40:15 Exiting firewall service_init()
+241007-14:40:15 Entering update_rabid_features_status 
+241007-14:40:15 Exiting update_rabid_features_status 
+241007-14:40:15 Inside Firewall service_restart () 
+241007-14:40:15 Inside firewall service_start()
+241007-14:40:15 starting firewall service
+241007-14:40:15 Inside prepare_ipv4_firewall 
+241007-14:40:15 Entering prepare_enabled_ipv4_firewall 
+241007-14:40:15 Entering prepare_subtables 
+241007-14:40:15 Entering prepare_xconf_rules
+241007-14:40:15 Exiting prepare_xconf_rules
+241007-14:40:15 Entering redirect_dns_to_extender,current_wan_ifname is erouter0 , default wan is erouter0
+241007-14:40:15 Inside Get_Device_Mode
+241007-14:40:15 Exiting redirect_dns_to_extender
+241007-14:40:15 Entering prepare_rabid_rules 
+241007-14:40:15 Exiting prepare_rabid_rules 
+241007-14:40:15 Entering do_openPorts
+241007-14:40:15 Exiting do_openPorts
+241007-14:40:16 Entering do_OpenVideoAnalyticsPort
+241007-14:40:16 Exiting do_OpenVideoAnalyticsPort
+241007-14:40:16 Entering do_webui_rate_limit
+241007-14:40:16 Exiting do_webui_rate_limit
+241007-14:40:16 Entering filterPortMap
+241007-14:40:16 Exiting filterPortMap
+241007-14:40:16 Entering isInCaptivePortal
+241007-14:40:16 Exiting isInCaptivePortal
+241007-14:40:16 CP DNS Redirection : Return 0
+241007-14:40:16 Entering do_snmp_IpAccessTable
+241007-14:40:16 Exiting do_snmp_IpAccessTable
+241007-14:40:16 Entering prepare_multinet_filter_input
+241007-14:40:16 Exiting prepare_multinet_filter_input
+241007-14:40:16 Entering prepare_hotspot_gre_ipv4_rule
+241007-14:40:16 Entering prepare_ipc_filter
+241007-14:40:16 Exiting prepare_ipc_filter
+241007-14:40:16 Entering prepare_multinet_filter_forward
+241007-14:40:16 Exiting prepare_multinet_filter_forward
+241007-14:40:16 Entering do_forwardPorts
+241007-14:40:16 Exiting do_forwardPorts
+241007-14:40:16 Exiting  prepare_subtables 
+241007-14:40:16 Entering add_qos_marking_statements
+241007-14:40:16 Exiting add_qos_marking_statements
+241007-14:40:16 Inside isServiceNeeded
+241007-14:40:16 Inside Get_Device_Mode
+241007-14:40:16 returning true
+241007-14:40:16 Entering do_single_port_forwarding
+241007-14:40:16 Exiting do_single_port_forwarding
+241007-14:40:16 Entering do_port_range_forwarding
+241007-14:40:16 Exiting do_port_range_forwarding
+241007-14:40:16 Entering do_wellknown_ports_forwarding
+241007-14:40:16 Exiting do_wellknown_ports_forwarding
+241007-14:40:16 Entering do_ephemeral_port_forwarding
+241007-14:40:16 Exiting do_ephemeral_port_forwarding
+241007-14:40:16 Entering do_static_route_forwarding
+241007-14:40:16 Exiting do_static_route_forwarding
+241007-14:40:16 Inside do_ipv4_UIoverWAN_filter 
+241007-14:40:16 Exiting do_ipv4_UIoverWAN_filter 
+241007-14:40:16 Entering do_nonat
+241007-14:40:16 Exiting do_nonat
+241007-14:40:16 Inside isServiceNeeded
+241007-14:40:16 Inside Get_Device_Mode
+241007-14:40:16 returning true
+241007-14:40:16 Entering do_dmz
+241007-14:40:16 Entering do_nat_ephemeral
+241007-14:40:16 Exiting do_nat_ephemeral
+241007-14:40:16 Entering do_lan2self_attack
+241007-14:40:16 Exiting do_lan2self_attack
+241007-14:40:16 Entering lan_telnet_ssh
+241007-14:40:16 Exiting lan_telnet_ssh
+241007-14:40:16 Inside isServiceNeeded
+241007-14:40:16 Inside Get_Device_Mode
+241007-14:40:16 returning true
+241007-14:40:16 Entering do_remote_access_control
+241007-14:40:16 Entering remote_access_set_proto
+241007-14:40:16 Exiting remote_access_set_proto
+241007-14:40:16 Entering remote_access_set_proto
+241007-14:40:16 Exiting remote_access_set_proto
+241007-14:40:16 Exiting do_remote_access_control
+241007-14:40:16 Entering do_lan2wan
+241007-14:40:16 Entering do_lan2wan_misc
+241007-14:40:16 Exiting do_lan2wan_misc
+241007-14:40:16 Entering do_lan2wan_disable
+241007-14:40:16 Exiting do_lan2wan_disable
+241007-14:40:16 Entering do_parental_control
+241007-14:40:16 Entering do_parcon_mgmt_device
+241007-14:40:16 Exiting do_parcon_mgmt_device
+241007-14:40:16 Entering do_parcon_mgmt_site_keywd
+241007-14:40:16 Exiting do_parcon_mgmt_site_keywd
+241007-14:40:16 Entering do_parcon_mgmt_service
+241007-14:40:16 Entering do_parental_control_allow_trusted
+241007-14:40:16 Exiting do_parental_control_allow_trusted
+241007-14:40:16 Exiting do_parcon_mgmt_service
+241007-14:40:16 Exiting do_parental_control
+241007-14:40:16 ### XDNS - Disabled. X_RDKCENTRAL-COM_XDNS not found. ### 
+241007-14:40:16 Inside isServiceNeeded
+241007-14:40:16 Inside Get_Device_Mode
+241007-14:40:16 returning true
+241007-14:40:16 Entering do_prepare_port_range_triggers
+241007-14:40:16 Exiting do_prepare_port_range_triggers
+241007-14:40:16 Exiting do_lan2wan
+241007-14:40:16 Entering do_wan2lan
+241007-14:40:16 Entering do_wan2lan_disabled
+241007-14:40:16 Exiting do_wan2lan_disabled
+241007-14:40:16 Entering do_wan2lan_misc
+241007-14:40:16 Entering add_usgv2_wan2lan_general_rules
+241007-14:40:16 Exiting add_usgv2_wan2lan_general_rules
+241007-14:40:16 Exiting do_wan2lan_misc
+241007-14:40:16 Entering do_wan2lan_accept
+241007-14:40:16 Exiting do_wan2lan_accept
+241007-14:40:16 Exiting do_wan2lan
+241007-14:40:16 Entering do_filter_table_general_rules
+241007-14:40:16 Exiting do_filter_table_general_rules
+241007-14:40:16 Entering prepare_ethernetbhaul_greclamp status:
+241007-14:40:16 prepare_ethernetbhaul_greclamp skip clamping mss since gre not present
+241007-14:40:16 Exiting prepare_ethernetbhaul_greclamp
+241007-14:40:16 Entering prepare_multinet_mangle
+241007-14:40:16 Exiting prepare_multinet_mangle
+241007-14:40:16 Entering prepare_rabid_rules_for_mapt 
+241007-14:40:16 Exiting prepare_rabid_rules_for_mapt 
+241007-14:40:16 Exiting prepare_enabled_ipv4_firewall 
+241007-14:40:16 Exiting prepare_ipv4_firewall 
+241007-14:40:18 Inside prepare_ipv6_firewall 
+241007-14:40:18 Inside do_ipv6_sn_filter 
+241007-14:40:19 Entering prepare_xconf_rules
+241007-14:40:19 Exiting prepare_xconf_rules
+241007-14:40:19 Exiting do_ipv6_sn_filter 
+241007-14:40:19 Entering redirect_dns_to_extender,current_wan_ifname is erouter0 , default wan is erouter0
+241007-14:40:19 Inside Get_Device_Mode
+241007-14:40:19 Exiting redirect_dns_to_extender
+241007-14:40:19 Exiting do_ipv6_nat_table 
+241007-14:40:19 Entering ethwan_mso_gui_acess_rules
+241007-14:40:19 Exiting ethwan_mso_gui_acess_rules
+241007-14:40:19 Inside do_ipv6_UIoverWAN_filter 
+241007-14:40:19 Exiting do_ipv6_UIoverWAN_filter 
+241007-14:40:19 Inside do_ipv6_filter_table 
+241007-14:40:20 Entering do_OpenVideoAnalyticsPort
+241007-14:40:20 Exiting do_OpenVideoAnalyticsPort
+241007-14:40:20 Entering do_webui_rate_limit
+241007-14:40:20 Exiting do_webui_rate_limit
+241007-14:40:20 Entering lan_telnet_ssh
+241007-14:40:20 Exiting lan_telnet_ssh
+241007-14:40:20 Entering do_ssh_IpAccessTable
+241007-14:40:20 Exiting do_ssh_IpAccessTable
+241007-14:40:20 Entering do_snmp_IpAccessTable
+241007-14:40:20 Exiting do_snmp_IpAccessTable
+241007-14:40:20 Exiting prepare_ipv6_firewall 
+241007-14:40:20 Entering prepare_rabid_rules 
+241007-14:40:20 Exiting prepare_rabid_rules 
+241007-14:40:20 Entering do_parental_control
+241007-14:40:20 Entering do_parcon_mgmt_device
+241007-14:40:20 Exiting do_parcon_mgmt_device
+241007-14:40:20 Entering do_parcon_mgmt_site_keywd
+241007-14:40:20 Exiting do_parcon_mgmt_site_keywd
+241007-14:40:20 Entering do_parcon_mgmt_service
+241007-14:40:20 Entering do_parental_control_allow_trusted
+241007-14:40:20 Exiting do_parental_control_allow_trusted
+241007-14:40:20 Exiting do_parcon_mgmt_service
+241007-14:40:20 Exiting do_parental_control
+241007-14:40:20 ### XDNS - Disabled. X_RDKCENTRAL-COM_XDNS not found. ### 
+241007-14:40:20 Exiting prepare_ipv6_firewall 
+241007-14:40:25 started firewall service
+241007-14:40:25 Exiting firewall service_start()
+241007-14:40:25 Inside firewall service_close()
+241007-14:40:25 firewall closing sysevent_fd 19, token 170
+241007-14:40:25 firewall closing dbus connection
+241007-14:40:25 exiting firewall service_close()
+241007-14:40:27 ENTERED FIREWALL, argc = 4 
+241007-14:40:27 Inside service_ev_t get_service_event
+241007-14:40:27  Process 2592 is waiting for lock
+241007-14:40:27  Process 2592 acquired the lock
+241007-14:40:27 Inside firewall service_init()
+241007-14:40:27 firewall service initializing
+241007-14:40:27 Inside get_options
+241007-14:40:27 Exiting get_options
+241007-14:40:27 firewall opening sysevent_fd 19, token 249
+241007-14:40:27 Entering prepare_globals_from_configuration
+241007-14:40:28 Exiting prepare_globals_from_configuration
+241007-14:40:28 Entering firewall_lib_init
+241007-14:40:28 Exiting firewall_lib_init
+241007-14:40:28 Exiting firewall service_init()
+241007-14:40:28 Entering update_rabid_features_status 
+241007-14:40:28 Exiting update_rabid_features_status 
+241007-14:40:28 Inside Firewall service_restart () 
+241007-14:40:28 Inside firewall service_start()
+241007-14:40:28 starting firewall service
+241007-14:40:28 Inside prepare_ipv4_firewall 
+241007-14:40:28 Entering prepare_enabled_ipv4_firewall 
+241007-14:40:28 Entering prepare_subtables 
+241007-14:40:28 Entering prepare_xconf_rules
+241007-14:40:28 Exiting prepare_xconf_rules
+241007-14:40:28 Entering redirect_dns_to_extender,current_wan_ifname is erouter0 , default wan is erouter0
+241007-14:40:28 Inside Get_Device_Mode
+241007-14:40:28 Exiting redirect_dns_to_extender
+241007-14:40:28 Entering prepare_rabid_rules 
+241007-14:40:28 Exiting prepare_rabid_rules 
+241007-14:40:28 Entering do_openPorts
+241007-14:40:28 Exiting do_openPorts
+241007-14:40:29 Entering do_OpenVideoAnalyticsPort
+241007-14:40:29 Exiting do_OpenVideoAnalyticsPort
+241007-14:40:29 Entering do_webui_rate_limit
+241007-14:40:29 Exiting do_webui_rate_limit
+241007-14:40:29 Entering filterPortMap
+241007-14:40:29 Exiting filterPortMap
+241007-14:40:29 Entering isInCaptivePortal
+241007-14:40:29 Exiting isInCaptivePortal
+241007-14:40:29 CP DNS Redirection : Return 0
+241007-14:40:29 Entering do_snmp_IpAccessTable
+241007-14:40:29 Exiting do_snmp_IpAccessTable
+241007-14:40:29 Entering prepare_multinet_filter_input
+241007-14:40:29 Exiting prepare_multinet_filter_input
+241007-14:40:29 Entering prepare_hotspot_gre_ipv4_rule
+241007-14:40:29 Entering prepare_ipc_filter
+241007-14:40:29 Exiting prepare_ipc_filter
+241007-14:40:29 Entering prepare_multinet_filter_forward
+241007-14:40:29 Exiting prepare_multinet_filter_forward
+241007-14:40:29 Entering do_forwardPorts
+241007-14:40:29 Exiting do_forwardPorts
+241007-14:40:29 Exiting  prepare_subtables 
+241007-14:40:29 Entering add_qos_marking_statements
+241007-14:40:29 Exiting add_qos_marking_statements
+241007-14:40:29 Inside isServiceNeeded
+241007-14:40:29 Inside Get_Device_Mode
+241007-14:40:29 returning true
+241007-14:40:29 Entering do_single_port_forwarding
+241007-14:40:29 Exiting do_single_port_forwarding
+241007-14:40:29 Entering do_port_range_forwarding
+241007-14:40:29 Exiting do_port_range_forwarding
+241007-14:40:29 Entering do_wellknown_ports_forwarding
+241007-14:40:29 Exiting do_wellknown_ports_forwarding
+241007-14:40:29 Entering do_ephemeral_port_forwarding
+241007-14:40:29 Exiting do_ephemeral_port_forwarding
+241007-14:40:29 Entering do_static_route_forwarding
+241007-14:40:29 Exiting do_static_route_forwarding
+241007-14:40:29 Inside do_ipv4_UIoverWAN_filter 
+241007-14:40:29 Exiting do_ipv4_UIoverWAN_filter 
+241007-14:40:29 Entering do_nonat
+241007-14:40:29 Exiting do_nonat
+241007-14:40:29 Inside isServiceNeeded
+241007-14:40:29 Inside Get_Device_Mode
+241007-14:40:29 returning true
+241007-14:40:29 Entering do_dmz
+241007-14:40:29 Entering do_nat_ephemeral
+241007-14:40:29 Exiting do_nat_ephemeral
+241007-14:40:29 Entering do_lan2self_attack
+241007-14:40:29 Exiting do_lan2self_attack
+241007-14:40:29 Entering lan_telnet_ssh
+241007-14:40:29 Exiting lan_telnet_ssh
+241007-14:40:29 Inside isServiceNeeded
+241007-14:40:29 Inside Get_Device_Mode
+241007-14:40:29 returning true
+241007-14:40:29 Entering do_remote_access_control
+241007-14:40:29 Entering remote_access_set_proto
+241007-14:40:29 Exiting remote_access_set_proto
+241007-14:40:29 Entering remote_access_set_proto
+241007-14:40:29 Exiting remote_access_set_proto
+241007-14:40:29 Exiting do_remote_access_control
+241007-14:40:29 Entering do_lan2wan
+241007-14:40:29 Entering do_lan2wan_misc
+241007-14:40:29 Exiting do_lan2wan_misc
+241007-14:40:29 Entering do_lan2wan_disable
+241007-14:40:29 Exiting do_lan2wan_disable
+241007-14:40:29 Entering do_parental_control
+241007-14:40:29 Entering do_parcon_mgmt_device
+241007-14:40:29 Exiting do_parcon_mgmt_device
+241007-14:40:29 Entering do_parcon_mgmt_site_keywd
+241007-14:40:29 Exiting do_parcon_mgmt_site_keywd
+241007-14:40:29 Entering do_parcon_mgmt_service
+241007-14:40:29 Entering do_parental_control_allow_trusted
+241007-14:40:29 Exiting do_parental_control_allow_trusted
+241007-14:40:29 Exiting do_parcon_mgmt_service
+241007-14:40:29 Exiting do_parental_control
+241007-14:40:29 ### XDNS - Disabled. X_RDKCENTRAL-COM_XDNS not found. ### 
+241007-14:40:29 Inside isServiceNeeded
+241007-14:40:29 Inside Get_Device_Mode
+241007-14:40:29 returning true
+241007-14:40:29 Entering do_prepare_port_range_triggers
+241007-14:40:29 Exiting do_prepare_port_range_triggers
+241007-14:40:29 Exiting do_lan2wan
+241007-14:40:29 Entering do_wan2lan
+241007-14:40:29 Entering do_wan2lan_disabled
+241007-14:40:29 Exiting do_wan2lan_disabled
+241007-14:40:29 Entering do_wan2lan_misc
+241007-14:40:29 Entering add_usgv2_wan2lan_general_rules
+241007-14:40:29 Exiting add_usgv2_wan2lan_general_rules
+241007-14:40:29 Exiting do_wan2lan_misc
+241007-14:40:29 Entering do_wan2lan_accept
+241007-14:40:29 Exiting do_wan2lan_accept
+241007-14:40:29 Exiting do_wan2lan
+241007-14:40:29 Entering do_filter_table_general_rules
+241007-14:40:29 Exiting do_filter_table_general_rules
+241007-14:40:29 Entering prepare_ethernetbhaul_greclamp status:
+241007-14:40:29 prepare_ethernetbhaul_greclamp skip clamping mss since gre not present
+241007-14:40:29 Exiting prepare_ethernetbhaul_greclamp
+241007-14:40:29 Entering prepare_multinet_mangle
+241007-14:40:29 Exiting prepare_multinet_mangle
+241007-14:40:29 Entering prepare_rabid_rules_for_mapt 
+241007-14:40:29 Exiting prepare_rabid_rules_for_mapt 
+241007-14:40:29 Exiting prepare_enabled_ipv4_firewall 
+241007-14:40:29 Exiting prepare_ipv4_firewall 
+241007-14:40:29 Inside prepare_ipv6_firewall 
+241007-14:40:29 Inside do_ipv6_sn_filter 
+241007-14:40:29 Entering prepare_xconf_rules
+241007-14:40:29 Exiting prepare_xconf_rules
+241007-14:40:29 Exiting do_ipv6_sn_filter 
+241007-14:40:29 Entering redirect_dns_to_extender,current_wan_ifname is erouter0 , default wan is erouter0
+241007-14:40:29 Inside Get_Device_Mode
+241007-14:40:29 Exiting redirect_dns_to_extender
+241007-14:40:29 Exiting do_ipv6_nat_table 
+241007-14:40:29 Entering ethwan_mso_gui_acess_rules
+241007-14:40:29 Exiting ethwan_mso_gui_acess_rules
+241007-14:40:29 Inside do_ipv6_UIoverWAN_filter 
+241007-14:40:29 Exiting do_ipv6_UIoverWAN_filter 
+241007-14:40:29 Inside do_ipv6_filter_table 
+241007-14:40:30 Entering do_OpenVideoAnalyticsPort
+241007-14:40:30 Exiting do_OpenVideoAnalyticsPort
+241007-14:40:30 Entering do_webui_rate_limit
+241007-14:40:30 Exiting do_webui_rate_limit
+241007-14:40:30 Entering lan_telnet_ssh
+241007-14:40:30 Exiting lan_telnet_ssh
+241007-14:40:30 Entering do_ssh_IpAccessTable
+241007-14:40:30 Exiting do_ssh_IpAccessTable
+241007-14:40:30 Entering do_snmp_IpAccessTable
+241007-14:40:30 Exiting do_snmp_IpAccessTable
+241007-14:40:30 Exiting prepare_ipv6_firewall 
+241007-14:40:30 Entering prepare_rabid_rules 
+241007-14:40:30 Exiting prepare_rabid_rules 
+241007-14:40:30 Entering do_parental_control
+241007-14:40:30 Entering do_parcon_mgmt_device
+241007-14:40:30 Exiting do_parcon_mgmt_device
+241007-14:40:30 Entering do_parcon_mgmt_site_keywd
+241007-14:40:30 Exiting do_parcon_mgmt_site_keywd
+241007-14:40:30 Entering do_parcon_mgmt_service
+241007-14:40:30 Entering do_parental_control_allow_trusted
+241007-14:40:30 Exiting do_parental_control_allow_trusted
+241007-14:40:30 Exiting do_parcon_mgmt_service
+241007-14:40:30 Exiting do_parental_control
+241007-14:40:30 ### XDNS - Disabled. X_RDKCENTRAL-COM_XDNS not found. ### 
+241007-14:40:30 Exiting prepare_ipv6_firewall 
+241007-14:40:30 started firewall service
+241007-14:40:30 Exiting firewall service_start()
+241007-14:40:30 Inside firewall service_close()
+241007-14:40:30 firewall closing sysevent_fd 19, token 249
+241007-14:40:30 firewall closing dbus connection
+241007-14:40:30 exiting firewall service_close()
+241007-14:40:32 ENTERED FIREWALL, argc = 4 
+241007-14:40:32 Inside service_ev_t get_service_event
+241007-14:40:32  Process 3071 is waiting for lock
+241007-14:40:32  Process 3071 acquired the lock
+241007-14:40:32 Inside firewall service_init()
+241007-14:40:32 firewall service initializing
+241007-14:40:32 Inside get_options
+241007-14:40:32 Exiting get_options
+241007-14:40:32 firewall opening sysevent_fd 19, token 344
+241007-14:40:32 Entering prepare_globals_from_configuration
+241007-14:40:32 Exiting prepare_globals_from_configuration
+241007-14:40:32 Entering firewall_lib_init
+241007-14:40:32 Exiting firewall_lib_init
+241007-14:40:32 Exiting firewall service_init()
+241007-14:40:32 Entering update_rabid_features_status 
+241007-14:40:32 Exiting update_rabid_features_status 
+241007-14:40:32 Inside Firewall service_restart () 
+241007-14:40:32 Inside firewall service_start()
+241007-14:40:33 starting firewall service
+241007-14:40:33 Inside prepare_ipv4_firewall 
+241007-14:40:33 Entering prepare_enabled_ipv4_firewall 
+241007-14:40:33 Entering prepare_subtables 
+241007-14:40:33 Entering prepare_xconf_rules
+241007-14:40:33 Exiting prepare_xconf_rules
+241007-14:40:33 Entering redirect_dns_to_extender,current_wan_ifname is erouter0 , default wan is erouter0
+241007-14:40:33 Inside Get_Device_Mode
+241007-14:40:33 Exiting redirect_dns_to_extender
+241007-14:40:33 Entering prepare_rabid_rules 
+241007-14:40:33 Exiting prepare_rabid_rules 
+241007-14:40:33 Entering do_openPorts
+241007-14:40:33 Exiting do_openPorts
+241007-14:40:33 Entering do_OpenVideoAnalyticsPort
+241007-14:40:33 Exiting do_OpenVideoAnalyticsPort
+241007-14:40:33 Entering do_webui_rate_limit
+241007-14:40:33 Exiting do_webui_rate_limit
+241007-14:40:33 Entering filterPortMap
+241007-14:40:33 Exiting filterPortMap
+241007-14:40:33 Entering isInCaptivePortal
+241007-14:40:33 Exiting isInCaptivePortal
+241007-14:40:33 CP DNS Redirection : Return 0
+241007-14:40:33 Entering do_snmp_IpAccessTable
+241007-14:40:33 Exiting do_snmp_IpAccessTable
+241007-14:40:33 Entering prepare_multinet_filter_input
+241007-14:40:33 Exiting prepare_multinet_filter_input
+241007-14:40:33 Entering prepare_hotspot_gre_ipv4_rule
+241007-14:40:33 Entering prepare_ipc_filter
+241007-14:40:33 Exiting prepare_ipc_filter
+241007-14:40:33 Entering prepare_multinet_filter_forward
+241007-14:40:33 Exiting prepare_multinet_filter_forward
+241007-14:40:33 Entering do_forwardPorts
+241007-14:40:33 Exiting do_forwardPorts
+241007-14:40:33 Exiting  prepare_subtables 
+241007-14:40:33 Entering add_qos_marking_statements
+241007-14:40:33 Exiting add_qos_marking_statements
+241007-14:40:33 Inside isServiceNeeded
+241007-14:40:33 Inside Get_Device_Mode
+241007-14:40:33 returning true
+241007-14:40:33 Entering do_single_port_forwarding
+241007-14:40:33 Exiting do_single_port_forwarding
+241007-14:40:33 Entering do_port_range_forwarding
+241007-14:40:33 Exiting do_port_range_forwarding
+241007-14:40:33 Entering do_wellknown_ports_forwarding
+241007-14:40:33 Exiting do_wellknown_ports_forwarding
+241007-14:40:33 Entering do_ephemeral_port_forwarding
+241007-14:40:33 Exiting do_ephemeral_port_forwarding
+241007-14:40:33 Entering do_static_route_forwarding
+241007-14:40:33 Exiting do_static_route_forwarding
+241007-14:40:33 Inside do_ipv4_UIoverWAN_filter 
+241007-14:40:33 Exiting do_ipv4_UIoverWAN_filter 
+241007-14:40:33 Entering do_nonat
+241007-14:40:33 Exiting do_nonat
+241007-14:40:33 Inside isServiceNeeded
+241007-14:40:33 Inside Get_Device_Mode
+241007-14:40:33 returning true
+241007-14:40:33 Entering do_dmz
+241007-14:40:33 Entering do_nat_ephemeral
+241007-14:40:33 Exiting do_nat_ephemeral
+241007-14:40:33 Entering do_lan2self_attack
+241007-14:40:33 Exiting do_lan2self_attack
+241007-14:40:33 Entering lan_telnet_ssh
+241007-14:40:33 Exiting lan_telnet_ssh
+241007-14:40:33 Inside isServiceNeeded
+241007-14:40:33 Inside Get_Device_Mode
+241007-14:40:33 returning true
+241007-14:40:33 Entering do_remote_access_control
+241007-14:40:33 Entering remote_access_set_proto
+241007-14:40:33 Exiting remote_access_set_proto
+241007-14:40:33 Entering remote_access_set_proto
+241007-14:40:33 Exiting remote_access_set_proto
+241007-14:40:33 Exiting do_remote_access_control
+241007-14:40:33 Entering do_lan2wan
+241007-14:40:33 Entering do_lan2wan_misc
+241007-14:40:33 Exiting do_lan2wan_misc
+241007-14:40:33 Entering do_lan2wan_disable
+241007-14:40:33 Exiting do_lan2wan_disable
+241007-14:40:33 Entering do_parental_control
+241007-14:40:33 Entering do_parcon_mgmt_device
+241007-14:40:33 Exiting do_parcon_mgmt_device
+241007-14:40:33 Entering do_parcon_mgmt_site_keywd
+241007-14:40:33 Exiting do_parcon_mgmt_site_keywd
+241007-14:40:33 Entering do_parcon_mgmt_service
+241007-14:40:33 Entering do_parental_control_allow_trusted
+241007-14:40:33 Exiting do_parental_control_allow_trusted
+241007-14:40:33 Exiting do_parcon_mgmt_service
+241007-14:40:33 Exiting do_parental_control
+241007-14:40:33 ### XDNS - Disabled. X_RDKCENTRAL-COM_XDNS not found. ### 
+241007-14:40:33 Inside isServiceNeeded
+241007-14:40:33 Inside Get_Device_Mode
+241007-14:40:33 returning true
+241007-14:40:33 Entering do_prepare_port_range_triggers
+241007-14:40:33 Exiting do_prepare_port_range_triggers
+241007-14:40:33 Exiting do_lan2wan
+241007-14:40:33 Entering do_wan2lan
+241007-14:40:33 Entering do_wan2lan_disabled
+241007-14:40:33 Exiting do_wan2lan_disabled
+241007-14:40:33 Entering do_wan2lan_misc
+241007-14:40:33 Entering add_usgv2_wan2lan_general_rules
+241007-14:40:33 Exiting add_usgv2_wan2lan_general_rules
+241007-14:40:33 Exiting do_wan2lan_misc
+241007-14:40:33 Entering do_wan2lan_accept
+241007-14:40:33 Exiting do_wan2lan_accept
+241007-14:40:33 Exiting do_wan2lan
+241007-14:40:33 Entering do_filter_table_general_rules
+241007-14:40:33 Exiting do_filter_table_general_rules
+241007-14:40:33 Entering prepare_ethernetbhaul_greclamp status:
+241007-14:40:33 prepare_ethernetbhaul_greclamp skip clamping mss since gre not present
+241007-14:40:33 Exiting prepare_ethernetbhaul_greclamp
+241007-14:40:33 Entering prepare_multinet_mangle
+241007-14:40:33 Exiting prepare_multinet_mangle
+241007-14:40:33 Entering prepare_rabid_rules_for_mapt 
+241007-14:40:33 Exiting prepare_rabid_rules_for_mapt 
+241007-14:40:33 Exiting prepare_enabled_ipv4_firewall 
+241007-14:40:33 Exiting prepare_ipv4_firewall 
+241007-14:40:34 Inside prepare_ipv6_firewall 
+241007-14:40:34 Inside do_ipv6_sn_filter 
+241007-14:40:34 Entering prepare_xconf_rules
+241007-14:40:34 Exiting prepare_xconf_rules
+241007-14:40:34 Exiting do_ipv6_sn_filter 
+241007-14:40:34 Entering redirect_dns_to_extender,current_wan_ifname is erouter0 , default wan is erouter0
+241007-14:40:34 Inside Get_Device_Mode
+241007-14:40:34 Exiting redirect_dns_to_extender
+241007-14:40:34 Exiting do_ipv6_nat_table 
+241007-14:40:34 Entering ethwan_mso_gui_acess_rules
+241007-14:40:34 Exiting ethwan_mso_gui_acess_rules
+241007-14:40:34 Inside do_ipv6_UIoverWAN_filter 
+241007-14:40:34 Exiting do_ipv6_UIoverWAN_filter 
+241007-14:40:34 Inside do_ipv6_filter_table 
+241118-09:32:02 Entering do_OpenVideoAnalyticsPort
+241118-09:32:02 Exiting do_OpenVideoAnalyticsPort
+241118-09:32:02 Entering do_webui_rate_limit
+241118-09:32:02 Exiting do_webui_rate_limit
+241118-09:32:02 Entering lan_telnet_ssh
+241118-09:32:02 Exiting lan_telnet_ssh
+241118-09:32:02 Entering do_ssh_IpAccessTable
+241118-09:32:02 Exiting do_ssh_IpAccessTable
+241118-09:32:02 Entering do_snmp_IpAccessTable
+241118-09:32:02 Exiting do_snmp_IpAccessTable
+241118-09:32:02 Exiting prepare_ipv6_firewall 
+241118-09:32:02 Entering prepare_rabid_rules 
+241118-09:32:02 Exiting prepare_rabid_rules 
+241118-09:32:02 Entering do_parental_control
+241118-09:32:02 Entering do_parcon_mgmt_device
+241118-09:32:02 Exiting do_parcon_mgmt_device
+241118-09:32:02 Entering do_parcon_mgmt_site_keywd
+241118-09:32:02 Exiting do_parcon_mgmt_site_keywd
+241118-09:32:02 Entering do_parcon_mgmt_service
+241118-09:32:02 Entering do_parental_control_allow_trusted
+241118-09:32:02 Exiting do_parental_control_allow_trusted
+241118-09:32:02 Exiting do_parcon_mgmt_service
+241118-09:32:02 Exiting do_parental_control
+241118-09:32:02 ### XDNS - Disabled. X_RDKCENTRAL-COM_XDNS not found. ### 
+241118-09:32:02 Exiting prepare_ipv6_firewall 
+241118-09:32:03 started firewall service
+241118-09:32:03 Exiting firewall service_start()
+241118-09:32:03 Inside firewall service_close()
+241118-09:32:03 firewall closing sysevent_fd 19, token 344
+241118-09:32:03 firewall closing dbus connection
+241118-09:32:03 exiting firewall service_close()
+241118-09:32:04 ENTERED FIREWALL, argc = 4 
+241118-09:32:04 Inside service_ev_t get_service_event
+241118-09:32:04  Process 3578 is waiting for lock
+241118-09:32:04  Process 3578 acquired the lock
+241118-09:32:04 Inside firewall service_init()
+241118-09:32:04 firewall service initializing
+241118-09:32:04 Inside get_options
+241118-09:32:04 Exiting get_options
+241118-09:32:04 firewall opening sysevent_fd 19, token 417
+241118-09:32:04 Entering prepare_globals_from_configuration
+241118-09:32:04 Exiting prepare_globals_from_configuration
+241118-09:32:04 Entering firewall_lib_init
+241118-09:32:04 Exiting firewall_lib_init
+241118-09:32:04 Exiting firewall service_init()
+241118-09:32:04 Entering update_rabid_features_status 
+241118-09:32:04 Exiting update_rabid_features_status 
+241118-09:32:04 Inside Firewall service_restart () 
+241118-09:32:04 Inside firewall service_start()
+241118-09:32:04 starting firewall service
+241118-09:32:04 Inside prepare_ipv4_firewall 
+241118-09:32:04 Entering prepare_enabled_ipv4_firewall 
+241118-09:32:04 Entering prepare_subtables 
+241118-09:32:04 Entering prepare_xconf_rules
+241118-09:32:04 Exiting prepare_xconf_rules
+241118-09:32:04 Entering redirect_dns_to_extender,current_wan_ifname is erouter0 , default wan is erouter0
+241118-09:32:04 Inside Get_Device_Mode
+241118-09:32:04 Exiting redirect_dns_to_extender
+241118-09:32:04 Entering prepare_rabid_rules 
+241118-09:32:04 Exiting prepare_rabid_rules 
+241118-09:32:04 Entering do_openPorts
+241118-09:32:04 Exiting do_openPorts
+241118-09:32:04 Entering do_OpenVideoAnalyticsPort
+241118-09:32:04 Exiting do_OpenVideoAnalyticsPort
+241118-09:32:04 Entering do_webui_rate_limit
+241118-09:32:04 Exiting do_webui_rate_limit
+241118-09:32:04 Entering filterPortMap
+241118-09:32:04 Exiting filterPortMap
+241118-09:32:04 Entering isInCaptivePortal
+241118-09:32:04 Exiting isInCaptivePortal
+241118-09:32:04 CP DNS Redirection : Return 0
+241118-09:32:04 Entering do_snmp_IpAccessTable
+241118-09:32:04 Exiting do_snmp_IpAccessTable
+241118-09:32:04 Entering prepare_multinet_filter_input
+241118-09:32:04 Exiting prepare_multinet_filter_input
+241118-09:32:04 Entering prepare_hotspot_gre_ipv4_rule
+241118-09:32:04 Entering prepare_ipc_filter
+241118-09:32:04 Exiting prepare_ipc_filter
+241118-09:32:04 Entering prepare_multinet_filter_forward
+241118-09:32:04 Exiting prepare_multinet_filter_forward
+241118-09:32:04 Entering do_forwardPorts
+241118-09:32:04 Exiting do_forwardPorts
+241118-09:32:04 Exiting  prepare_subtables 
+241118-09:32:04 Entering add_qos_marking_statements
+241118-09:32:04 Exiting add_qos_marking_statements
+241118-09:32:04 Inside isServiceNeeded
+241118-09:32:04 Inside Get_Device_Mode
+241118-09:32:04 returning true
+241118-09:32:04 Entering do_single_port_forwarding
+241118-09:32:04 Exiting do_single_port_forwarding
+241118-09:32:04 Entering do_port_range_forwarding
+241118-09:32:04 Exiting do_port_range_forwarding
+241118-09:32:04 Entering do_wellknown_ports_forwarding
+241118-09:32:04 Exiting do_wellknown_ports_forwarding
+241118-09:32:04 Entering do_ephemeral_port_forwarding
+241118-09:32:04 Exiting do_ephemeral_port_forwarding
+241118-09:32:04 Entering do_static_route_forwarding
+241118-09:32:04 Exiting do_static_route_forwarding
+241118-09:32:04 Inside do_ipv4_UIoverWAN_filter 
+241118-09:32:04 Exiting do_ipv4_UIoverWAN_filter 
+241118-09:32:04 Entering do_nonat
+241118-09:32:04 Exiting do_nonat
+241118-09:32:04 Inside isServiceNeeded
+241118-09:32:04 Inside Get_Device_Mode
+241118-09:32:04 returning true
+241118-09:32:04 Entering do_dmz
+241118-09:32:04 Entering do_nat_ephemeral
+241118-09:32:04 Exiting do_nat_ephemeral
+241118-09:32:04 Entering do_wan_nat_lan_clients
+241118-09:32:04 Exiting do_wan_nat_lan_clients
+241118-09:32:04 Entering do_lan2self_by_wanip
+241118-09:32:04 Exiting do_lan2self_by_wanip
+241118-09:32:04 Entering do_lan2self_attack
+241118-09:32:04 Exiting do_lan2self_attack
+241118-09:32:04 Entering lan_telnet_ssh
+241118-09:32:04 Exiting lan_telnet_ssh
+241118-09:32:04 Inside isServiceNeeded
+241118-09:32:04 Inside Get_Device_Mode
+241118-09:32:04 returning true
+241118-09:32:04 Entering do_remote_access_control
+241118-09:32:04 Entering remote_access_set_proto
+241118-09:32:04 Exiting remote_access_set_proto
+241118-09:32:04 Entering remote_access_set_proto
+241118-09:32:04 Exiting remote_access_set_proto
+241118-09:32:04 Exiting do_remote_access_control
+241118-09:32:04 Entering do_lan2wan
+241118-09:32:04 Entering do_lan2wan_misc
+241118-09:32:04 Exiting do_lan2wan_misc
+241118-09:32:04 Entering do_lan2wan_disable
+241118-09:32:04 Exiting do_lan2wan_disable
+241118-09:32:04 Entering do_parental_control
+241118-09:32:04 Entering do_parcon_mgmt_device
+241118-09:32:04 Exiting do_parcon_mgmt_device
+241118-09:32:04 Entering do_parcon_mgmt_site_keywd
+241118-09:32:04 Exiting do_parcon_mgmt_site_keywd
+241118-09:32:04 Entering do_parcon_mgmt_service
+241118-09:32:04 Entering do_parental_control_allow_trusted
+241118-09:32:04 Exiting do_parental_control_allow_trusted
+241118-09:32:04 Exiting do_parcon_mgmt_service
+241118-09:32:04 Exiting do_parental_control
+241118-09:32:04 ### XDNS - Disabled. X_RDKCENTRAL-COM_XDNS not found. ### 
+241118-09:32:04 Inside isServiceNeeded
+241118-09:32:04 Inside Get_Device_Mode
+241118-09:32:04 returning true
+241118-09:32:04 Entering do_prepare_port_range_triggers
+241118-09:32:04 Exiting do_prepare_port_range_triggers
+241118-09:32:04 Exiting do_lan2wan
+241118-09:32:04 Entering do_wan2lan
+241118-09:32:04 Entering do_wan2lan_disabled
+241118-09:32:04 Exiting do_wan2lan_disabled
+241118-09:32:04 Entering do_wan2lan_misc
+241118-09:32:04 Entering add_usgv2_wan2lan_general_rules
+241118-09:32:04 Exiting add_usgv2_wan2lan_general_rules
+241118-09:32:04 Exiting do_wan2lan_misc
+241118-09:32:04 Entering do_wan2lan_accept
+241118-09:32:04 Exiting do_wan2lan_accept
+241118-09:32:04 Exiting do_wan2lan
+241118-09:32:04 Entering do_filter_table_general_rules
+241118-09:32:04 Exiting do_filter_table_general_rules
+241118-09:32:04 Entering prepare_ethernetbhaul_greclamp status:
+241118-09:32:04 prepare_ethernetbhaul_greclamp skip clamping mss since gre not present
+241118-09:32:04 Exiting prepare_ethernetbhaul_greclamp
+241118-09:32:04 Entering prepare_multinet_mangle
+241118-09:32:04 Exiting prepare_multinet_mangle
+241118-09:32:04 Entering prepare_rabid_rules_for_mapt 
+241118-09:32:04 Exiting prepare_rabid_rules_for_mapt 
+241118-09:32:04 Exiting prepare_enabled_ipv4_firewall 
+241118-09:32:04 Exiting prepare_ipv4_firewall 
+241118-09:32:04 Inside prepare_ipv6_firewall 
+241118-09:32:04 Inside do_ipv6_sn_filter 
+241118-09:32:05 Entering prepare_xconf_rules
+241118-09:32:05 Exiting prepare_xconf_rules
+241118-09:32:05 Exiting do_ipv6_sn_filter 
+241118-09:32:05 Entering redirect_dns_to_extender,current_wan_ifname is erouter0 , default wan is erouter0
+241118-09:32:05 Inside Get_Device_Mode
+241118-09:32:05 Exiting redirect_dns_to_extender
+241118-09:32:05 Exiting do_ipv6_nat_table 
+241118-09:32:05 Entering ethwan_mso_gui_acess_rules
+241118-09:32:05 Exiting ethwan_mso_gui_acess_rules
+241118-09:32:05 Inside do_ipv6_UIoverWAN_filter 
+241118-09:32:05 Exiting do_ipv6_UIoverWAN_filter 
+241118-09:32:05 Inside do_ipv6_filter_table 
+241118-09:32:05 Entering do_OpenVideoAnalyticsPort
+241118-09:32:05 Exiting do_OpenVideoAnalyticsPort
+241118-09:32:05 Entering do_webui_rate_limit
+241118-09:32:05 Exiting do_webui_rate_limit
+241118-09:32:05 Entering do_openPorts
+241118-09:32:05 Exiting do_openPorts
+241118-09:32:05 Entering lan_telnet_ssh
+241118-09:32:05 Exiting lan_telnet_ssh
+241118-09:32:05 Inside getIpv6Interfaces 
+241118-09:32:05 Entering prepare_hotspot_gre_ipv6_rule
+241118-09:32:05 Entering do_lan2self_by_wanip6
+241118-09:32:05 Exiting do_lan2self_by_wanip6
+241118-09:32:05 Inside isServiceNeeded
+241118-09:32:05 Inside Get_Device_Mode
+241118-09:32:05 returning true
+241118-09:32:05 Entering do_remote_access_control
+241118-09:32:05 Entering remote_access_set_proto
+241118-09:32:05 Exiting remote_access_set_proto
+241118-09:32:05 Entering remote_access_set_proto
+241118-09:32:05 Exiting remote_access_set_proto
+241118-09:32:05 Entering ethwan_mso_gui_acess_rules
+241118-09:32:05 Exiting ethwan_mso_gui_acess_rules
+241118-09:32:05 Exiting do_remote_access_control
+241118-09:32:05 Entering do_ssh_IpAccessTable
+241118-09:32:05 Exiting do_ssh_IpAccessTable
+241118-09:32:05 Entering do_snmp_IpAccessTable
+241118-09:32:05 Exiting do_snmp_IpAccessTable
+241118-09:32:05 Entering do_forwardPorts
+241118-09:32:05 Exiting do_forwardPorts
+241118-09:32:05 Inside isServiceNeeded
+241118-09:32:05 Inside Get_Device_Mode
+241118-09:32:05 returning true
+241118-09:32:05 Entering do_single_port_forwarding
+241118-09:32:05 Exiting do_single_port_forwarding
+241118-09:32:05 Entering do_port_range_forwarding
+241118-09:32:05 Exiting do_port_range_forwarding
+241118-09:32:05 Exiting prepare_ipv6_firewall 
+241118-09:32:05 Entering prepare_rabid_rules 
+241118-09:32:05 Exiting prepare_rabid_rules 
+241118-09:32:05 Entering do_parental_control
+241118-09:32:05 Entering do_parcon_mgmt_device
+241118-09:32:05 Exiting do_parcon_mgmt_device
+241118-09:32:05 Entering do_parcon_mgmt_site_keywd
+241118-09:32:05 Exiting do_parcon_mgmt_site_keywd
+241118-09:32:05 Entering do_parcon_mgmt_service
+241118-09:32:05 Entering do_parental_control_allow_trusted
+241118-09:32:05 Exiting do_parental_control_allow_trusted
+241118-09:32:05 Exiting do_parcon_mgmt_service
+241118-09:32:05 Exiting do_parental_control
+241118-09:32:05 ### XDNS - Disabled. X_RDKCENTRAL-COM_XDNS not found. ### 
+241118-09:32:05 Exiting prepare_ipv6_firewall 
+241118-09:32:05 started firewall service
+241118-09:32:05 Exiting firewall service_start()
+241118-09:32:05 Inside firewall service_close()
+241118-09:32:05 firewall closing sysevent_fd 19, token 417
+241118-09:32:05 firewall closing dbus connection
+241118-09:32:05 exiting firewall service_close()

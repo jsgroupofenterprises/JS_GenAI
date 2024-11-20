@@ -1,0 +1,105 @@
+241007-14:40:19.994209 [mod=ETHAGENT, lvl=INFO] [tid=1831] 
+After daemonize before signal
+241007-14:40:19.995318 [mod=ETHAGENT, lvl=INFO] [tid=1831] 
+before cmd_dispatch command
+241007-14:40:19.995426 [mod=ETHAGENT, lvl=INFO] [tid=1831] Connect to bus daemon...
+241007-14:40:19.996464 [mod=ETHAGENT, lvl=WARN] [tid=1831] RBus is enabled
+241007-14:40:19.996714 [mod=ETHAGENT, lvl=INFO] [tid=1831] rbuscore.c:2326 RBus Enabled
+
+241007-14:40:19.996858 [mod=ETHAGENT, lvl=INFO] [tid=1831] rbuscore.c:643 Broker address: unix:///tmp/rtrouted
+
+241007-14:40:20.006953 [mod=ETHAGENT, lvl=INFO] [tid=1831] connection opened for eRT.com.cisco.spvtg.ccsp.ethagent
+241007-14:40:20.029581 [mod=ETHAGENT, lvl=INFO] [tid=1831] INFO: bus_handle: 0x0xbfe8da0 
+241007-14:40:21.030198 [mod=ETHAGENT, lvl=INFO] [tid=1831] CcspBaseIf_Register_Event_rbus : rbus_registerEvent called for event: currentSessionIDSignal
+241007-14:40:21.109156 [mod=ETHAGENT, lvl=INFO] [tid=1831] rbuscore.c:742 Subscription for _rbus_session_mgr::currentSessionIDSignal is now active.
+
+241007-14:40:21.110687 [mod=ETHAGENT, lvl=WARN] [tid=1831] Register empty object : com.
+241007-14:40:21.110860 [mod=ETHAGENT, lvl=WARN] [tid=1831] Register empty object : com.cisco.
+241007-14:40:21.110953 [mod=ETHAGENT, lvl=WARN] [tid=1831] Register empty object : com.cisco.spvtg.
+241007-14:40:21.111047 [mod=ETHAGENT, lvl=WARN] [tid=1831] Register empty object : com.cisco.spvtg.ccsp.
+241007-14:40:21.112101 [mod=ETHAGENT, lvl=WARN] [tid=1831] DM Library module name = CCSP Base Data Model
+241007-14:40:21.113443 [mod=ETHAGENT, lvl=WARN] [tid=1831] CosaEthernetInitialize Ethernet_Logger_Thread Created
+241007-14:40:21.113607 [mod=ETHAGENT, lvl=INFO] [tid=1831] rbus.c:2765 rbus open for component: RbusEthAgent
+
+241007-14:40:21.114596 [mod=ETHAGENT, lvl=INFO] [tid=1831] rbus.c:2841  rbus open (RbusEthAgent) success
+
+241007-14:40:21.114784 [mod=ETHAGENT, lvl=INFO] [tid=1831] rbus_subscriptions.c:447 file /tmp/rbus_subs_RbusEthAgent
+
+241007-14:40:21.128401 [mod=ETHAGENT, lvl=WARN] [tid=1831] Initialized EWAN link status with default values.
+241007-14:40:21.174192 [mod=ETHAGENT, lvl=ERROR] [tid=1831] CosaDmlEthSetPhyPathForWanManager:4527 ifname[eth0]
+241007-14:40:21.174729 [mod=ETHAGENT, lvl=ERROR] [tid=1831] CosaDmlEthSetPhyPathForWanManager:4531 stGlobalInfo.Name[eth0]
+241007-14:40:21.197356 [mod=ETHAGENT, lvl=WARN] [tid=1831] CosaDmlEthGetParamValues parameterValue[2]
+241007-14:40:21.197527 [mod=ETHAGENT, lvl=INFO] [tid=1831] CosaDmlEthGetLowerLayersInstanceInOtherAgent 4348 - TotalNoofEntries:2
+241007-14:40:21.202196 [mod=ETHAGENT, lvl=WARN] [tid=1831] CosaDmlEthGetParamValues parameterValue[eth0]
+241007-14:40:21.210647 [mod=ETHAGENT, lvl=INFO] [tid=1831] Value being set [100] 
+241007-14:40:21.210790 [mod=ETHAGENT, lvl=INFO] [tid=1831] CosaDmlEthSetPhyPathForWanManager 4558 Successfully update phy.Path to WAN Manager for eth0 interface
+241007-14:40:21.210862 [mod=ETHAGENT, lvl=INFO] [tid=1831] CosaDmlEthInit:2684 Initialize eth0 PhyPath for Manager[Success]
+241007-14:40:21.211249 [mod=ETHAGENT, lvl=INFO] [tid=1831] TriggerSysEventMonitorThread 1058 - Event Handler Thread Started Successfully
+241007-14:40:21.211569 [mod=ETHAGENT, lvl=WARN] [tid=1938] SysEventHandlerThrd started
+241007-14:40:21.211611 [mod=ETHAGENT, lvl=INFO] [tid=1831] CosaDmlEthTriggerEventHandlerThread 3868 - Event Handler Thread Started Successfully
+241007-14:40:21.363715 [mod=ETHAGENT, lvl=WARN] [tid=1831] CosaDmlEthGetParamValues parameterValue[2]
+241007-14:40:21.363864 [mod=ETHAGENT, lvl=INFO] [tid=1831] CosaDmlMapWanCPEtoEthInterfaces 3745 - iTotalWanEntries:2
+241007-14:40:21.371335 [mod=ETHAGENT, lvl=WARN] [tid=1831] CosaDmlEthGetParamValues parameterValue[eth0]
+241007-14:40:21.374277 [mod=ETHAGENT, lvl=INFO] [tid=1831] Value being set [100] 
+241007-14:40:21.374447 [mod=ETHAGENT, lvl=INFO] [tid=1831] CosaDmlMapWanCPEtoEthInterfaces 3799 - WANOE Name:eth0
+241007-14:40:21.376677 [mod=ETHAGENT, lvl=WARN] [tid=1831] CosaDmlEthGetParamValues parameterValue[wwan0]
+241007-14:40:21.386058 [mod=ETHAGENT, lvl=WARN] [tid=1831] CosaDmlEthGetParamValues parameterValue[2]
+241007-14:40:21.386307 [mod=ETHAGENT, lvl=INFO] [tid=1831] CosaDmlEthGetLowerLayersInstanceInOtherAgent 4348 - TotalNoofEntries:2
+241007-14:40:21.388064 [mod=ETHAGENT, lvl=WARN] [tid=1831] CosaDmlEthGetParamValues parameterValue[eth0]
+241007-14:40:21.388164 [mod=ETHAGENT, lvl=INFO] [tid=1831] CosaDmlEthGetPhyStatusForWanManager 4670 WAN Instance:1
+241007-14:40:21.396564 [mod=ETHAGENT, lvl=WARN] [tid=1831] CosaDmlEthGetParamValues parameterValue[Down]
+241007-14:40:21.398697 [mod=ETHAGENT, lvl=WARN] [tid=1831] CosaDmlEthGetParamValues parameterValue[2]
+241007-14:40:21.398843 [mod=ETHAGENT, lvl=INFO] [tid=1831] CosaDmlEthGetLowerLayersInstanceInOtherAgent 4348 - TotalNoofEntries:2
+241007-14:40:21.400345 [mod=ETHAGENT, lvl=WARN] [tid=1831] CosaDmlEthGetParamValues parameterValue[eth0]
+241007-14:40:21.400460 [mod=ETHAGENT, lvl=INFO] [tid=1831] CosaDmlEthSetPhyStatusForWanManager 4598 WAN Instance:1
+241007-14:40:21.407056 [mod=ETHAGENT, lvl=INFO] [tid=1831] Value being set [100] 
+241007-14:40:21.412406 [mod=ETHAGENT, lvl=INFO] [tid=1831] Value being set [100] 
+241007-14:40:21.412511 [mod=ETHAGENT, lvl=INFO] [tid=1831] CosaDmlEthSetPhyStatusForWanManager 4634 Successfully notified Up event to WAN Manager for eth0 interface
+241007-14:40:21.412582 [mod=ETHAGENT, lvl=INFO] [tid=1831] Successfully updated PhyStatus to UP for eth0 interface 
+241007-14:40:21.412652 [mod=ETHAGENT, lvl=INFO] [tid=1831] CosaDmlEthInit Successfully get index for this eth0 interface
+241007-14:40:21.415983 [mod=ETHAGENT, lvl=WARN] [tid=1831] eth_log_period syscfg_get failed
+241007-14:40:21.416191 [mod=ETHAGENT, lvl=WARN] [tid=1831] eth_log_enabled syscfg_get failed
+241007-14:40:21.420129 [mod=ETHAGENT, lvl=WARN] [tid=1831] RDKB_SYSTEM_BOOT_UP_LOG : Entering CosaBackEndManagerCreate 128
+241007-14:40:21.422341 [mod=ETHAGENT, lvl=NOTICE] [tid=1831] _getMac...
+241007-14:40:21.422612 [mod=ETHAGENT, lvl=NOTICE] [tid=1831] _getMac...
+241007-14:40:21.524768 [mod=ETHAGENT, lvl=INFO] [tid=1831]  lan-status = stopped
+241007-14:40:21.525052 [mod=ETHAGENT, lvl=INFO] [tid=1831] CosaDmlEthInterfaceInit 396 - WanPhyName=erouter0 
+241007-14:40:21.525131 [mod=ETHAGENT, lvl=NOTICE] [tid=1831] _getMac...
+241007-14:40:21.525331 [mod=ETHAGENT, lvl=NOTICE] [tid=1831] _getMac...
+241007-14:40:21.525545 [mod=ETHAGENT, lvl=NOTICE] [tid=1831] _getMac...
+241007-14:40:21.525700 [mod=ETHAGENT, lvl=NOTICE] [tid=1831] _getMac...
+241007-14:40:21.544968 [mod=ETHAGENT, lvl=NOTICE] [tid=1831] _getMac...
+241007-14:40:21.545184 [mod=ETHAGENT, lvl=NOTICE] [tid=1831] _getMac...
+241007-14:40:22.263828 [mod=ETHAGENT, lvl=NOTICE] [tid=1831] getIfStatus...
+241007-14:40:22.264093 [mod=ETHAGENT, lvl=NOTICE] [tid=1831] getIfStatus...
+241007-14:40:22.264353 [mod=ETHAGENT, lvl=NOTICE] [tid=1831] getIfStatus...
+241007-14:40:22.279767 [mod=ETHAGENT, lvl=NOTICE] [tid=1831] getIfStatus...
+241007-14:40:22.291078 [mod=ETHAGENT, lvl=WARN] [tid=1831]   CosaEthInterfaceCreate done!
+241007-14:40:22.332035 [mod=ETHAGENT, lvl=WARN] [tid=1831] DM Library module name = CcspEthAgent
+241007-14:40:22.737593 [mod=ETHAGENT, lvl=INFO] [tid=1957] <EthMonThrd> - DeleteAllHosts due to count is 0
+241007-14:40:25.921346 [mod=ETHAGENT, lvl=WARN] [tid=1831] Search for empty object in 'dslhCpeCheckEmptyObject'
+241007-14:40:26.109355 [mod=ETHAGENT, lvl=WARN] [tid=1831] 
+Before Cdm_Init
+241007-14:40:26.109526 [mod=ETHAGENT, lvl=WARN] [tid=1831] 
+After Cdm_Init
+241007-14:40:26.494154 [mod=ETHAGENT, lvl=INFO] [tid=1952] [EthWanLinkUp_callback][4757] WANOE [eth0] interface link up event received 
+241007-14:40:26.494436 [mod=ETHAGENT, lvl=INFO] [tid=1952] CosaDmlEthPortSendLinkStatusToEventQueue 3848 - Successfully sent message to event queue
+241007-14:40:26.494522 [mod=ETHAGENT, lvl=INFO] [tid=1952] [EthWanLinkUp_callback][4759] Successfully posted WANOE [eth0] interface link up event to message queue
+241007-14:40:26.549118 [mod=ETHAGENT, lvl=INFO] [tid=1939] CosaDmlEthEventHandlerThread 3919 - Event Msg Received
+241007-14:40:26.549261 [mod=ETHAGENT, lvl=INFO] [tid=1939] ****** [eth0,1]
+241007-14:40:26.574040 [mod=ETHAGENT, lvl=WARN] [tid=1939] CosaDmlEthGetParamValues parameterValue[2]
+241007-14:40:26.574271 [mod=ETHAGENT, lvl=INFO] [tid=1939] CosaDmlEthGetLowerLayersInstanceInOtherAgent 4348 - TotalNoofEntries:2
+241007-14:40:26.576448 [mod=ETHAGENT, lvl=WARN] [tid=1939] CosaDmlEthGetParamValues parameterValue[eth0]
+241007-14:40:26.576589 [mod=ETHAGENT, lvl=INFO] [tid=1939] CosaDmlEthSetPhyStatusForWanManager 4598 WAN Instance:1
+241007-14:40:26.578930 [mod=ETHAGENT, lvl=INFO] [tid=1939] Value being set [100] 
+241007-14:40:26.586106 [mod=ETHAGENT, lvl=INFO] [tid=1939] Value being set [100] 
+241007-14:40:26.586232 [mod=ETHAGENT, lvl=INFO] [tid=1939] CosaDmlEthSetPhyStatusForWanManager 4634 Successfully notified Up event to WAN Manager for eth0 interface
+241007-14:40:27.008250 [mod=ETHAGENT, lvl=WARN] [tid=1833] DslhObjcoValidate: X_RDKCENTRAL-COM_EthHost_Sync, bsUpdate = 3
+
+241007-14:40:27.008432 [mod=ETHAGENT, lvl=INFO] [tid=1833] Ethernet_Hosts_Sync-741 Sync With LMLite
+241007-14:40:27.097691 [mod=ETHAGENT, lvl=WARN] [tid=1833] DslhObjcoValidate: AddToLanBridge, bsUpdate = 3
+
+241007-14:40:27.098031 [mod=ETHAGENT, lvl=WARN] [tid=1833] Before committing:Device.Ethernet.X_RDK_Interface.1.
+241007-14:40:27.098164 [mod=ETHAGENT, lvl=WARN] [tid=1833] After committing:Device.Ethernet.X_RDK_Interface.1.:0
+241007-14:40:32.525426 [mod=ETHAGENT, lvl=WARN] [tid=1938] SysEventHandlerThrd Recieved notification event  current_wan_ifname for interface erouter0
+241007-14:40:32.525678 [mod=ETHAGENT, lvl=WARN] [tid=1938] SysEventHandlerThrd Making cm0 up

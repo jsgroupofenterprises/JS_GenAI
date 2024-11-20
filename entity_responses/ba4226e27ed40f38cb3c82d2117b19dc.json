@@ -1,0 +1,7 @@
+{
+  "entity_name": "mon_check_counter",
+  "component": "OneWifi",
+  "content_hash": "ba4226e27ed40f38cb3c82d2117b19dc",
+  "response": "1. **Main purpose and functionality:** \n\nThe `mon_check_counter` function is part of the process monitor in the OneWifi component of RDK. It monitors the counter list shared between the child and parent processes of the application, which is initialized in a shared memory segment. \n\n\n2. **Key operations and data flow:** \n- The function checks the counter list for any changes or updates.\n- If there are any changes, it returns false, indicating that the child process needs to be restarted.\n\n\n3. **Interaction with other components:** \n- The process monitor interacts with the child and parent processes of the application. \n- It also interacts with the mon_counter_list, which is a shared memory segment between the child and parent processes.\n\n\n4. **Important parameters and return values:** \n\n- child: PID of the child process being monitored. \n- exit_status: Pointer to an integer variable to store the exit status of the child process.\n\n- return value: The function returns true if the child process is running and the counter list has not changed, and false if the child process has exited or the counter list has changed.\n\n\n5. **Any specific RDK-related operations:** \n\n- The function uses the RDK function task_name_set() to set the task name of the child process. \n- It also uses the RDK function usleep() to delay the execution of the parent process.",
+  "processed_at": "2024-11-19T09:58:05.975288"
+}

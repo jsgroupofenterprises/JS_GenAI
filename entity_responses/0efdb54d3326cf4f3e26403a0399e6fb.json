@@ -1,0 +1,7 @@
+{
+  "entity_name": "CosaDmlWiFi_GetRapidReconnectThresholdValue",
+  "component": "CcspWifiAgent",
+  "content_hash": "0efdb54d3326cf4f3e26403a0399e6fb",
+  "response": "**1. Main purpose and functionality:**\n\nThe CosaDmlWiFi_GetRapidReconnectThresholdValue function retrieves the rapid reconnect threshold value, which is the amount of time in seconds that a Wi-Fi device will wait before attempting to reconnect to a network after losing connection.\n\n**2. Key operations and data flow:**\n\n- The function takes a pointer to an integer variable as its argument, which will be used to store the rapid reconnect threshold value.\n- The function sets the value of the integer variable to 300, which is the default rapid reconnect threshold value.\n- The function returns ANSC_STATUS_SUCCESS to indicate that the operation was successful.\n\n**3. Interaction with other components (if any):**\n\nThis function does not interact with any other components.\n\n**4. Important parameters and return values:**\n\n- *rapid_reconnect*: A pointer to an integer variable that will be used to store the rapid reconnect threshold value.\n- ANSC_STATUS_SUCCESS: Indicates that the operation was successful.\n\n**5. Any specific RDK-related operations:**\n\nThis function is part of the RDK's CcspWifiAgent component, which is responsible for managing Wi-Fi settings and connections.",
+  "processed_at": "2024-11-13T15:37:48.742451"
+}

@@ -1,0 +1,7 @@
+{
+  "entity_name": "wifi_setApSsidAdvertisementEnable",
+  "component": "hal",
+  "content_hash": "2e94634aa2af56690a6490aec7ac2fc4",
+  "response": "### Main purpose and functionality\n\nThe RDK function `wifi_setApSsidAdvertisementEnable` sets an internal variable for SSID advertisement. It takes two parameters: an access point index and a boolean value to enable or disable SSID advertisement.\n\n### Key operations and data flow\n\n1. The function takes an access point index and a boolean value as parameters.\n2. It sets an internal variable to enable or disable SSID advertisement based on the given boolean value.\n\n### Interaction with other components (if any)\n\nThis function does not directly interact with any other components.\n\n### Important parameters and return values\n\n| Parameter | Type | Description |\n|---|---|---|\n| apIndex | INT | Index of the access point |\n| enable | BOOL | Boolean value to enable or disable SSID advertisement |\n| RETURN_OK | INT | Successful operation |\n| RETURN_ERR | INT | Error detected |\n\n### Any specific RDK-related operations\n\nThis function is part of the RDK HAL (Hardware Abstraction Layer) and is used to configure the SSID advertisement settings for a specific access point.",
+  "processed_at": "2024-11-14T12:33:12.613920"
+}

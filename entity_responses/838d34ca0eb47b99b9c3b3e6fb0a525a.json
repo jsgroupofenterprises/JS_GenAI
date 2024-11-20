@@ -1,0 +1,7 @@
+{
+  "entity_name": "wifi_getWifiTrafficStats",
+  "component": "hal",
+  "content_hash": "838d34ca0eb47b99b9c3b3e6fb0a525a",
+  "response": "**Key Operations and Data Flow**\n1. Checks if the input Access Point index is valid and supported.\n2. Sends a message to a driver event handler task to gather the Wi-Fi traffic statistics for the specified Access Point.\n\n**Interaction with Other Components**\n1. Driver event handler task\n\n**Important Parameters and Return Values**\n\n* **Parameters**:\n    * INT apIndex: The index of the Access Point for which to retrieve traffic statistics.\n    * wifi_trafficStats_t *output_struct: A pointer to a `wifi_trafficStats_t` structure in which the traffic statistics will be returned.\n\n* **Return Value**:\n    * INT: The status of the operation, one of:\n        * RETURN_OK if successful\n        * RETURN_ERR if an error is detected\n\n\n**Specific RDK-Related Operations**\n* None",
+  "processed_at": "2024-11-14T12:18:26.700272"
+}

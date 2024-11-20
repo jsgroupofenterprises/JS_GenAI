@@ -1,0 +1,7 @@
+{
+  "entity_name": "wifi_getBandSteeringApGroup",
+  "component": "hal",
+  "content_hash": "f634141e32259b28e0120f656223ce39",
+  "response": "**1. Main purpose and functionality**\n\nThe `wifi_getBandSteeringApGroup` function gets the Band Steering Access Point group.\n\n**2. Key operations and data flow**\n\nThe function takes a single argument, a pointer to a character array, and returns an integer. The character array is used to store the Band Steering Access Point group. The function first checks if the Band Steering feature is enabled. If it is not, the function returns an error. Otherwise, the function gets the Band Steering Access Point group from the driver and stores it in the character array.\n\n**3. Interaction with other components (if any)**\n\nThe function interacts with the Wi-Fi driver to get the Band Steering Access Point group.\n\n**4. Important parameters and return values**\n\nThe following are the important parameters and return values for the function:\n\n* **output_BandSteeringApGroup:** A pointer to a character array that will store the Band Steering Access Point group.\n* **RETURN_OK:** The function was successful.\n* **RETURN_ERR:** The function failed.\n\n**5. Any specific RDK-related operations**\n\nThe function is not specific to RDK.",
+  "processed_at": "2024-11-14T12:46:20.649490"
+}

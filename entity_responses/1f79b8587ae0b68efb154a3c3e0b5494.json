@@ -1,0 +1,7 @@
+{
+  "entity_name": "data_plane_queue_remove_event",
+  "component": "CcspWifiAgent",
+  "content_hash": "1f79b8587ae0b68efb154a3c3e0b5494",
+  "response": "**1. Main purpose and functionality**\n\nThe `data_plane_queue_remove_event` function removes a specified event type from the data plane queue. This event type can be `wifi_data_plane_event_type_dpp` or `wifi_data_plane_event_type_anqp`.\n\n**2. Key operations and data flow**\n\n* The function starts by acquiring a lock on the data plane module's lock.\n* It iterates through the data plane queue to find the event matching the specified type and context.\n* If the event is found, it is removed from the queue and freed.\n* The function returns a pointer to the event if it was found, otherwise it returns NULL.\n\n**3. Interaction with other components (if any)**\n\nThis function interacts with the data plane queue, which is used to store data plane events.\n\n**4. Important parameters and return values**\n\n* `type`: The type of event to remove from the queue.\n* `ctx`: The context of the event to remove from the queue.\n* Return value: A pointer to the event if it was found, otherwise NULL.\n\n**5. Any specific RDK-related operations**\n\nThis function is part of the RDK WifiAgent component and is used to manage data plane events.",
+  "processed_at": "2024-11-13T15:16:38.489834"
+}

@@ -1,0 +1,7 @@
+{
+  "entity_name": "process_eap_data",
+  "component": "CcspWifiAgent",
+  "content_hash": "792aace22cb475be3905e681ccdbb699",
+  "response": "**1. Main purpose and functionality**\nThe `process_eap_data` function processes EAP (Extensible Authentication Protocol) data received from a client.\nIt checks if the data is new or existing, and if it is new, it adds it to a hash map.\nIf the data is existing, it checks if it has timed out, and if it has, it removes it from the hash map and deletes it.\n\n**2. Key operations and data flow**\nThe key operations of the function are:\n- Check if the data is new or existing.\n- If the data is new, add it to a hash map.\n- If the data is existing, check if it has timed out.\n- If the data has timed out, remove it from the hash map and delete it.\n- Log the EAP data.\n\n**3. Interaction with other components**\nThe function interacts with the following components:\n- The hash map module, to store the EAP data.\n- The logging module, to log the EAP data.\n\n**4. Important parameters and return values**\nThe important parameters are:\n- `data`: A pointer to the EAP data.\n- `module`: A pointer to the Wi-Fi module.\n- `new_event`: A boolean value indicating if the data is new.\nThe function does not return any value.\n\n**5. Any specific RDK-related operations**\nThe function does not perform any specific RDK-related operations.",
+  "processed_at": "2024-11-13T15:12:31.665263"
+}

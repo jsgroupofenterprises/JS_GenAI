@@ -1,0 +1,7 @@
+{
+  "entity_name": "docsis_getCMStatus",
+  "component": "hal",
+  "content_hash": "0ae1a2d648e62e5047b556eae94a6b2e",
+  "response": "**1. Main purpose and functionality**\n\nThe `docsis_getCMStatus` function in the RDK HAL component retrieves the current CM status and reports it. This status includes information about the DOCSIS version, scanning and ranging status, TFTP status, data registration status, DHCP attempts, configuration file name, TFTP attempts, ToD status, BPI state, network access, and upgrade server IP.\n\n**2. Key operations and data flow**\n\nThe function first retrieves the CM status from the global DBs. It then formats the status information into a string and returns it to the caller.\n\n**3. Interaction with other components (if any)**\n\nThis function interacts with the CM driver to retrieve the CM status.\n\n**4. Important parameters and return values**\n\nThe function takes one parameter:\n\n* `cm_status`: A pointer to a character array that will store the CM status string.\n\nThe function returns an integer status code:\n\n* `RETURN_OK` if successful\n* `RETURN_ERR` if any error is detected\n\n**5. Any specific RDK-related operations**\n\nThis function is specific to RDK and is used to retrieve CM status information from the RDK CM driver.",
+  "processed_at": "2024-11-14T10:43:54.738804"
+}

@@ -1,0 +1,7 @@
+{
+  "entity_name": "ssp_WifiCCDmGetLoggingEnabled",
+  "component": "CcspWifiAgent",
+  "content_hash": "718662467544971acb02c7333940d054",
+  "response": "1. **Main purpose and functionality**: Thisssp_WifiCCDmGetLoggingEnabled function retrieves the current logging enable status of the Common Data Model (CDM) component.\n\n2. **Key operations and data flow**:\n   - The function takes an ANSC_HANDLE hThisObject as input, but does not use it.\n   - It returns the value of the LogEnable member of the g_pComponent_Common_Dm global structure.\n\n3. **Interaction with other components**:\n   - This function interacts with the Common CDM component, as it returns the logging enable status of that component.\n\n4. **Important parameters and return values**:\n   - Input: ANSC_HANDLE hThisObject (not used)\n   - Output: BOOL indicating whether logging is enabled.\n\n5. **Any specific RDK-related operations**:\n   - This function is part of the RDK WifiAgent component and is used to manage the logging behavior of the Common CDM component.",
+  "processed_at": "2024-11-13T14:55:42.575898"
+}

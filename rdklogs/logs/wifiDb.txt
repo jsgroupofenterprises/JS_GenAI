@@ -1,0 +1,149 @@
+[OneWifi] 241007-14:40:22.310336<E>  init_wifidb_tables:6085:Failed to connect to wifidb at /var/tmp/wifidb.sock
+[OneWifi] 241007-14:40:22.315714<I>  start_wifidb_func 
+[OneWifi] 241007-14:40:22.523188<I>  start_wifidb_func:6198: rdkb database already present
+[OneWifi] 241007-14:40:22.624246<I>  start_wifidb_func:6205: DB Version before upgrade found
+[OneWifi] 241007-14:40:22.630220<I>  start_wifidb_func:6213:DB Version before upgrade 100025
+[OneWifi] 241007-14:40:22.630465<I>  start_wifidb_func:6235: rdkb database check for version upgrade/downgrade ovsdb-tool convert /opt/secure/wifi/rdkb-wifi.db /usr/ccsp/wifi/rdkb-wifi.ovsschema 
+[OneWifi] 241007-14:40:23.110523<I>  start_wifidb_func done
+[OneWifi] 241007-14:40:23.311367<I>  init_wifidb_tables:6096:Connection to wifidb at /var/tmp/wifidb.sock successful
+[OneWifi] 241007-14:40:23.473789<I>  Value of apIndex = 0 and value of radioIndex = 0 
+[OneWifi] 241007-14:40:23.482280<E>  logSecurityKeyConfiguration:413: Value of RadioBandstr1 is NULL and radioIndex = 0
+[OneWifi] 241007-14:40:23.489228<E>  callback_Wifi_Security_Config:611: Failed to execute logSecurityKeyConfiguration 
+[OneWifi] 241007-14:40:23.497170<I>  Value of apIndex = 1 and value of radioIndex = 1 
+[OneWifi] 241007-14:40:23.497428<E>  logSecurityKeyConfiguration:413: Value of RadioBandstr1 is NULL and radioIndex = 1
+[OneWifi] 241007-14:40:23.497588<E>  callback_Wifi_Security_Config:611: Failed to execute logSecurityKeyConfiguration 
+[OneWifi] 241007-14:40:25.520245<I>  init_wifidb_data:5772 No of radios 2
+[OneWifi] 241007-14:40:25.652314<I>  Primary Ip and Secondry Ip: 127.0.0.1 , 192.168.106.254
+[OneWifi] 241007-14:40:25.759478<I>  Primary Ip and Secondry Ip: 127.0.0.1 , 192.168.106.254
+[OneWifi] 241007-14:40:25.761650<I>  wifidb_init_default_value:5535 Wifi db update completed
+241007-14:40:25.900266 wifidb_get_wifi_radio_config:1931 Table table_Wifi_Radio_Config not found, entry count=0
+241007-14:40:25.976508 wifidb_get_interworking_config:1451 Table table_Wifi_Interworking_Config not found, entry count=0 
+[OneWifi] 241007-14:40:26.043405<E>  wifidb_get_wifi_security_config:2274 [hotspot_secure_2g]Invalid radius_server_ip Db value: default value:
+[OneWifi] 241007-14:40:26.043678<E>  wifidb_get_wifi_security_config:2279 [hotspot_secure_2g]Invalid radius_server_port Db value:0 default value:0
+[OneWifi] 241007-14:40:26.043844<E>  wifidb_get_wifi_security_config:2286 [hotspot_secure_2g]Invalid radius_server_key, used default key
+[OneWifi] 241007-14:40:26.044003<E>  wifidb_get_wifi_security_config:2293 [hotspot_secure_2g]Invalid secondary_radius_server_ip Db value: default value:
+[OneWifi] 241007-14:40:26.044160<E>  wifidb_get_wifi_security_config:2298 [hotspot_secure_2g]Invalid S_radius_server_port Db value:0 default value:0
+[OneWifi] 241007-14:40:26.044313<E>  wifidb_get_wifi_security_config:2305 [hotspot_secure_2g]Invalid secondary_radius_server_key, used default key
+[OneWifi] 241007-14:40:26.107119<E>  wifidb_get_wifi_security_config:2286 [lnf_radius_2g]Invalid radius_server_key, used default key
+[OneWifi] 241007-14:40:26.107372<E>  wifidb_get_wifi_security_config:2305 [lnf_radius_2g]Invalid secondary_radius_server_key, used default key
+[OneWifi] 241007-14:40:26.127592<E>  wifidb_get_wifi_security_config:2274 [hotspot_open_2g]Invalid radius_server_ip Db value: default value:
+[OneWifi] 241007-14:40:26.127848<E>  wifidb_get_wifi_security_config:2279 [hotspot_open_2g]Invalid radius_server_port Db value:0 default value:0
+[OneWifi] 241007-14:40:26.128011<E>  wifidb_get_wifi_security_config:2286 [hotspot_open_2g]Invalid radius_server_key, used default key
+[OneWifi] 241007-14:40:26.128164<E>  wifidb_get_wifi_security_config:2293 [hotspot_open_2g]Invalid secondary_radius_server_ip Db value: default value:
+[OneWifi] 241007-14:40:26.128322<E>  wifidb_get_wifi_security_config:2298 [hotspot_open_2g]Invalid S_radius_server_port Db value:0 default value:0
+[OneWifi] 241007-14:40:26.128486<E>  wifidb_get_wifi_security_config:2305 [hotspot_open_2g]Invalid secondary_radius_server_key, used default key
+[OneWifi] 241007-14:40:26.179466<I>  wifidb_vap_config_correction:5736: Primary Ip and Secondry Ip: 127.0.0.1 , 192.168.106.254
+[OneWifi] 241007-14:40:26.179820<I>  wifidb_vap_config_upgrade:5654 upgrade vap config, old db version 100025
+241007-14:40:26.183946 wifidb_get_preassoc_ctrl_config:3160 Table table_Wifi_Preassoc_Control_Config not found, entry count=0 
+241007-14:40:26.186829 wifidb_get_postassoc_ctrl_config:3235 Table table_Wifi_Postassoc_Control_Config not found, entry count=0 
+241007-14:40:26.189921 wifidb_get_preassoc_ctrl_config:3160 Table table_Wifi_Preassoc_Control_Config not found, entry count=0 
+241007-14:40:26.193100 wifidb_get_postassoc_ctrl_config:3235 Table table_Wifi_Postassoc_Control_Config not found, entry count=0 
+241007-14:40:26.196197 wifidb_get_wifi_radio_config:1931 Table table_Wifi_Radio_Config not found, entry count=0
+241007-14:40:26.213262 wifidb_get_interworking_config:1451 Table table_Wifi_Interworking_Config not found, entry count=0 
+[OneWifi] 241007-14:40:26.276086<E>  wifidb_get_wifi_security_config:2274 [hotspot_secure_5g]Invalid radius_server_ip Db value: default value:
+[OneWifi] 241007-14:40:26.276365<E>  wifidb_get_wifi_security_config:2279 [hotspot_secure_5g]Invalid radius_server_port Db value:0 default value:0
+[OneWifi] 241007-14:40:26.276519<E>  wifidb_get_wifi_security_config:2286 [hotspot_secure_5g]Invalid radius_server_key, used default key
+[OneWifi] 241007-14:40:26.276680<E>  wifidb_get_wifi_security_config:2293 [hotspot_secure_5g]Invalid secondary_radius_server_ip Db value: default value:
+[OneWifi] 241007-14:40:26.276834<E>  wifidb_get_wifi_security_config:2298 [hotspot_secure_5g]Invalid S_radius_server_port Db value:0 default value:0
+[OneWifi] 241007-14:40:26.276985<E>  wifidb_get_wifi_security_config:2305 [hotspot_secure_5g]Invalid secondary_radius_server_key, used default key
+[OneWifi] 241007-14:40:26.358353<E>  wifidb_get_wifi_security_config:2274 [hotspot_open_5g]Invalid radius_server_ip Db value: default value:
+[OneWifi] 241007-14:40:26.358672<E>  wifidb_get_wifi_security_config:2279 [hotspot_open_5g]Invalid radius_server_port Db value:0 default value:0
+[OneWifi] 241007-14:40:26.358832<E>  wifidb_get_wifi_security_config:2286 [hotspot_open_5g]Invalid radius_server_key, used default key
+[OneWifi] 241007-14:40:26.358985<E>  wifidb_get_wifi_security_config:2293 [hotspot_open_5g]Invalid secondary_radius_server_ip Db value: default value:
+[OneWifi] 241007-14:40:26.363023<E>  wifidb_get_wifi_security_config:2298 [hotspot_open_5g]Invalid S_radius_server_port Db value:0 default value:0
+[OneWifi] 241007-14:40:26.366413<E>  wifidb_get_wifi_security_config:2305 [hotspot_open_5g]Invalid secondary_radius_server_key, used default key
+[OneWifi] 241007-14:40:26.415733<E>  wifidb_get_wifi_security_config:2286 [lnf_radius_5g]Invalid radius_server_key, used default key
+[OneWifi] 241007-14:40:26.416001<E>  wifidb_get_wifi_security_config:2305 [lnf_radius_5g]Invalid secondary_radius_server_key, used default key
+[OneWifi] 241007-14:40:26.537036<I>  wifidb_vap_config_correction:5736: Primary Ip and Secondry Ip: 127.0.0.1 , 192.168.106.254
+[OneWifi] 241007-14:40:26.537311<I>  wifidb_vap_config_upgrade:5654 upgrade vap config, old db version 100025
+241007-14:40:26.543498 wifidb_get_preassoc_ctrl_config:3160 Table table_Wifi_Preassoc_Control_Config not found, entry count=0 
+241007-14:40:26.550501 wifidb_get_postassoc_ctrl_config:3235 Table table_Wifi_Postassoc_Control_Config not found, entry count=0 
+241007-14:40:26.553534 wifidb_get_preassoc_ctrl_config:3160 Table table_Wifi_Preassoc_Control_Config not found, entry count=0 
+241007-14:40:26.559825 wifidb_get_postassoc_ctrl_config:3235 Table table_Wifi_Postassoc_Control_Config not found, entry count=0 
+[OneWifi] 241007-14:40:26.560849<I>  init_wifidb_data:5921: File /nvram/onewifi_bss_maxassoc_flag created
+241007-14:40:26.564832 wifidb_get_wifi_macfilter_config:2926 Table table_Wifi_MacFilter_Config not found, entry count=0
+241007-14:40:26.570481 wifidb_get_gas_config:1736 Table table_Wifi_GAS_Config not found, entry count=0 
+241007-14:40:26.588305 Write done --- syncing database
+241007-14:40:26.588778 Backup database failed
+241007-14:40:26.589223 wifidb_update_wifi_global_config:3469 Updated WIFI DB. Global Config table updated successful. 
+[OneWifi] 241007-14:40:26.589434<I>  init_wifidb_data:5950 Wifi data init complete
+241007-14:40:29.825764 wifidb_update_rfc_config:1559 Updated WIFI DB. Found 1 records with key: 0 in Wifi RFCConfig table 
+241007-14:40:29.830287 Write done --- syncing database
+241007-14:40:29.830675 Backup database failed
+241007-14:40:29.831110 wifidb_update_rfc_config:1590 Updated WIFI DB. Wifi Rfc Config table updated successful. 
+241007-14:40:29.835881 wifidb_update_rfc_config:1559 Updated WIFI DB. Found 1 records with key: 0 in Wifi RFCConfig table 
+241007-14:40:29.844074 Write done --- syncing database
+241007-14:40:29.844469 Backup database failed
+241007-14:40:29.845039 wifidb_update_rfc_config:1590 Updated WIFI DB. Wifi Rfc Config table updated successful. 
+241007-14:40:29.860948 vap_svc_public_update: wifi vap create success: radio_index:0 vap_index:4 
+241007-14:40:29.861398 vap_svc_public_update:208 [Stop] Current time:[1728312029861]
+241007-14:40:29.886803 Write done --- syncing database
+241007-14:40:29.887263 Backup database failed
+241007-14:40:29.895946 Write done --- syncing database
+241007-14:40:29.896391 Backup database failed
+241007-14:40:29.896861 wifidb_update_wifi_vap_info:3086 WIFI DB update error !!!. Failed to update table_Wifi_VAP_Config table
+241007-14:40:29.907636 Write done --- syncing database
+241007-14:40:29.908071 Backup database failed
+241007-14:40:29.912075 Write done --- syncing database
+241007-14:40:29.912478 Backup database failed
+241007-14:40:29.916830 wifidb_update_wifi_interworking_config:2482 Updated WIFI DB. Wifi Interworking Config table updated successful. 
+241007-14:40:29.928561 Write done --- syncing database
+241007-14:40:29.928980 Backup database failed
+241007-14:40:29.950676 Write done --- syncing database
+241007-14:40:29.953205 Backup database failed
+241007-14:40:29.953796 wifidb_update_wifi_security_config:2577 Updated WIFI DB. Wifi Security Config table updated successful. 
+241007-14:40:29.958884 process_xfinity_vaps:800 radio_index:0 create vap hotspot_open_2g successful
+241007-14:40:29.974849 vap_svc_public_update: wifi vap create success: radio_index:0 vap_index:8 
+241007-14:40:29.976369 vap_svc_public_update:208 [Stop] Current time:[1728312029976]
+241007-14:40:30.001372 Write done --- syncing database
+241007-14:40:30.001863 Backup database failed
+241007-14:40:30.008174 Write done --- syncing database
+241007-14:40:30.008691 Backup database failed
+241007-14:40:30.009179 wifidb_update_wifi_vap_info:3086 WIFI DB update error !!!. Failed to update table_Wifi_VAP_Config table
+241007-14:40:30.016672 Write done --- syncing database
+241007-14:40:30.020701 Backup database failed
+241007-14:40:30.023905 Write done --- syncing database
+241007-14:40:30.024334 Backup database failed
+241007-14:40:30.032303 wifidb_update_wifi_interworking_config:2482 Updated WIFI DB. Wifi Interworking Config table updated successful. 
+241007-14:40:30.049156 Write done --- syncing database
+241007-14:40:30.050152 Backup database failed
+241007-14:40:30.055155 Write done --- syncing database
+241007-14:40:30.055603 Backup database failed
+241007-14:40:30.060692 wifidb_update_wifi_security_config:2577 Updated WIFI DB. Wifi Security Config table updated successful. 
+241007-14:40:30.061559 process_xfinity_vaps:800 radio_index:0 create vap hotspot_secure_2g successful
+241007-14:40:30.065156 vap_svc_public_update: wifi vap create success: radio_index:1 vap_index:5 
+241007-14:40:30.065476 vap_svc_public_update:208 [Stop] Current time:[1728312030065]
+241007-14:40:30.098309 Write done --- syncing database
+241007-14:40:30.098786 Backup database failed
+241007-14:40:30.106032 Write done --- syncing database
+241007-14:40:30.106486 Backup database failed
+241007-14:40:30.107003 wifidb_update_wifi_vap_info:3086 WIFI DB update error !!!. Failed to update table_Wifi_VAP_Config table
+241007-14:40:30.122916 Write done --- syncing database
+241007-14:40:30.123356 Backup database failed
+241007-14:40:30.132090 Write done --- syncing database
+241007-14:40:30.132768 Backup database failed
+241007-14:40:30.133387 wifidb_update_wifi_interworking_config:2482 Updated WIFI DB. Wifi Interworking Config table updated successful. 
+241007-14:40:30.158761 Write done --- syncing database
+241007-14:40:30.159199 Backup database failed
+241007-14:40:30.170737 Write done --- syncing database
+241007-14:40:30.171322 Backup database failed
+241007-14:40:30.173462 wifidb_update_wifi_security_config:2577 Updated WIFI DB. Wifi Security Config table updated successful. 
+241007-14:40:30.176031 process_xfinity_vaps:800 radio_index:1 create vap hotspot_open_5g successful
+241007-14:40:30.179322 vap_svc_public_update: wifi vap create success: radio_index:1 vap_index:9 
+241007-14:40:30.179661 vap_svc_public_update:208 [Stop] Current time:[1728312030179]
+241007-14:40:30.208751 Write done --- syncing database
+241007-14:40:30.209179 Backup database failed
+241007-14:40:30.212740 Write done --- syncing database
+241007-14:40:30.213269 Backup database failed
+241007-14:40:30.215380 wifidb_update_wifi_vap_info:3086 WIFI DB update error !!!. Failed to update table_Wifi_VAP_Config table
+241007-14:40:30.227402 Write done --- syncing database
+241007-14:40:30.227815 Backup database failed
+241007-14:40:30.238723 Write done --- syncing database
+241007-14:40:30.239215 Backup database failed
+241007-14:40:30.242583 wifidb_update_wifi_interworking_config:2482 Updated WIFI DB. Wifi Interworking Config table updated successful. 
+241007-14:40:30.261350 Write done --- syncing database
+241007-14:40:30.261795 Backup database failed
+241007-14:40:30.269452 Write done --- syncing database
+241007-14:40:30.270174 Backup database failed
+241007-14:40:30.275816 wifidb_update_wifi_security_config:2577 Updated WIFI DB. Wifi Security Config table updated successful. 
+241007-14:40:30.277284 process_xfinity_vaps:800 radio_index:1 create vap hotspot_secure_5g successful

@@ -1,0 +1,7 @@
+{
+  "entity_name": "docsis_GetDownFreq",
+  "component": "hal",
+  "content_hash": "b9c33c90d0568d64c6e300804c9d8479",
+  "response": "**1. Main purpose and functionality**\n\nThe purpose of the `docsis_GetDownFreq` function is to retrieve the downstream (DS) primary channel frequency from the local kernel frequency (LKF) table. The LKF table is a data structure that stores information about the cable modem's downstream and upstream channels.\n\n**2. Key operations and data flow**\n\nThe function operates as follows:\n\n1. It reads the DS primary channel frequency from the LKF table.\n2. It returns the frequency as an unsigned long value.\n\n**3. Interaction with other components (if any)**\n\nThe function interacts with the cable modem driver to access the LKF table.\n\n**4. Important parameters and return values**\n\nThe function takes no parameters and returns an unsigned long value representing the DS primary channel frequency.\n\n**5. Any specific RDK-related operations**\n\nThis function is specific to RDK and is not part of the standard DOCSIS specification.",
+  "processed_at": "2024-11-14T10:44:59.206481"
+}

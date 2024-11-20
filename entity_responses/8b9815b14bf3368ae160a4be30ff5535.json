@@ -1,0 +1,7 @@
+{
+  "entity_name": "wifi_getApInterworkingElement",
+  "component": "hal",
+  "content_hash": "8b9815b14bf3368ae160a4be30ff5535",
+  "response": "**1. Main purpose and functionality:**\n   - The `wifi_getApInterworkingElement` function retrieves the Interworking Element (IE) for the specified Access Point (AP). \n\n**2. Key operations and data flow:**\n   - The function takes two parameters:\n     - `apIndex`: The index of the AP for which the IE is to be retrieved.\n     - `output_struct`: A pointer to a `wifi_InterworkingElement_t` structure that will be filled with the IE.\n   - The function retrieves the IE from the AP's configuration and copies it into the output structure.\n\n**3. Interaction with other components (if any):**\n   - The function interacts with the Wi-Fi driver to retrieve the IE from the AP.\n\n**4. Important parameters and return values:**\n   - The function returns `INT` value 0 on success, and a negative error code on failure.\n   - The `output_struct` parameter is filled with the IE if the function is successful.\n\n**5. Any specific RDK-related operations:**\n   - This function is part of the RDK Wi-Fi HAL API and is used to manage Wi-Fi APs in RDK devices.",
+  "processed_at": "2024-11-14T12:40:05.292594"
+}

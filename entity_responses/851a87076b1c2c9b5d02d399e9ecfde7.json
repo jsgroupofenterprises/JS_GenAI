@@ -1,0 +1,7 @@
+{
+  "entity_name": "_syscmd",
+  "component": "CcspWifiAgent",
+  "content_hash": "851a87076b1c2c9b5d02d399e9ecfde7",
+  "response": "**1. Main purpose and functionality:**\n   - Executes a system command and captures the output into a provided buffer.\n\n**2. Key operations and data flow:**\n   - Opens a pipe to the specified command using popen().\n   - Iteratively reads the output from the pipe into the provided buffer until the end of file (EOF) is reached.\n   - Closes the pipe using pclose().\n\n**3. Interaction with other components:**\n   - None specified in the provided code.\n\n**4. Important parameters and return values:**\n   - **cmd:** The system command to be executed.\n   - **retBuf:** The buffer to store the command output.\n   - **retBufSize:** The size of the retBuf buffer.\n   - **Return value:** 0 on success, -1 on failure to open the pipe.\n\n**5. Any specific RDK-related operations:**\n   - None specified in the provided code.",
+  "processed_at": "2024-11-13T15:22:02.264486"
+}

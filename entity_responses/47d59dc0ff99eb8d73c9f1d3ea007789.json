@@ -1,0 +1,7 @@
+{
+  "entity_name": "events_getSubscribed",
+  "component": "CcspWifiAgent",
+  "content_hash": "47d59dc0ff99eb8d73c9f1d3ea007789",
+  "response": "## Analysis of events_getSubscribed Function\n\n### 1. Main Purpose and Functionality\nThe `events_getSubscribed` function checks if a specific event is subscribed to.\n\n### 2. Key Operations and Data Flow\n- It receives the `eventName` as input and performs the following operations:\n- Retrieves the count of elements in the `g_rbus_events_queue` (a global queue).\n- If the count is zero, it returns `FALSE`, indicating no events are subscribed.\n- Iterates through the queue, checking each `event` for a name that matches the input `eventName`.\n- If a matching event is found, it returns the `event->subscribed` value, which indicates whether the event is subscribed.\n- If no matching event is found, it returns `FALSE`.\n\n### 3. Interaction with Other Components\nThis function interacts with the `g_rbus_events_queue`, which is a global queue used for managing event subscriptions.\n\n### 4. Important Parameters and Return Values\n- **Parameters**:\n  - `eventName`: The name of the event to check for subscription.\n- **Return Value**:\n  - `BOOL`: `TRUE` if the event is subscribed, `FALSE` otherwise.\n\n### 5. RDK-Related Operations\nThis function is part of the CcspWifiAgent component in RDK, which handles Wi-Fi operations and event management.",
+  "processed_at": "2024-11-13T15:20:23.754007"
+}

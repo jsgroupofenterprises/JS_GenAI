@@ -1,0 +1,7 @@
+{
+  "entity_name": "wifi_disassoc_frame_rx_callback_register",
+  "component": "CcspWifiAgent",
+  "content_hash": "a4d718d6b8cd6514df7fe12c1a9a08fd",
+  "response": "1. **Main purpose and functionality**:\n   - The `wifi_disassoc_frame_rx_callback_register` function registers the callback of the received disassociation frame, which is called when a disassociation frame is received.\n\n2. **Key operations and data flow**:\n   - The function takes three parameters:\n     - `apIndex`: The index of the access point.\n     - `sta`: The MAC address of the station.\n     - `reason`: The reason for disassociation.\n   - The function registers the callback function to be called when a disassociation frame is received.\n\n3. **Interaction with other components**:\n   - This function interacts with the Wi-Fi agent component.\n\n4. **Important parameters and return values**:\n   - `apIndex`: The index of the access point.\n   - `sta`: The MAC address of the station.\n   - `reason`: The reason for disassociation.\n   - `INT`: The return value indicates the status of the operation.\n\n5. **Any specific RDK-related operations**:\n   - This function is used in RDK to handle Wi-Fi disassociation frames.",
+  "processed_at": "2024-11-13T15:14:26.539983"
+}

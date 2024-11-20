@@ -1,0 +1,7 @@
+{
+  "entity_name": "wifi_addApAclDevice",
+  "component": "hal",
+  "content_hash": "523aad3dec666cd83956ede060bad1f6",
+  "response": "**1. Main purpose and functionality**\n \n The wifi_addApAclDevice function adds a device to the access control filter list in the Access Point.\n The device is identified by its MAC address.\n \n**2. Key operations and data flow**\n \nThe function takes two parameters:\n\n* apIndex: The index of the access point to which the device is to be added.\n* DeviceMacAddress: The MAC address of the device to be added.\n\nThe function adds the device to the filter list and returns a status code.\n \n**3. Interaction with other components (if any)**\n \nThis function interacts with the driver to add the device to the access control filter list.\n \n**4. Important parameters and return values**\n \n* apIndex: The index of the access point to which the device is to be added.\n* DeviceMacAddress: The MAC address of the device to be added.\n* RETURN_OK: The device was successfully added to the access contol filter list\n* RETURN_ERR: An error occurred while adding the device to the access control filter list.\n \n**5. Any specific RDK-related operations**\n \nThis function is part of the RDK Wi-Fi HAL API.",
+  "processed_at": "2024-11-14T12:24:33.832114"
+}

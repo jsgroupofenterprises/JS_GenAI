@@ -1,0 +1,168 @@
+[OneWifi] 241007-14:40:26.632284<I>  encode_dml_subdoc:308: encode success
+[OneWifi] 241007-14:40:26.632944<I>  webconfig_ctrl_apply:2361: webconfig_state:00 doc_type:10 doc_name:dml
+[OneWifi] 241007-14:40:26.633151<I>  webconfig_ctrl_apply:2755: new webconfig_state:00
+[OneWifi] 241007-14:40:26.666809<E>  decode_vap_common_object:1587: Validation for key:Connected_building_enabled
+[OneWifi] 241007-14:40:26.667289<E>  decode_vap_common_object:1587: Validation for key:Connected_building_enabled
+[OneWifi] 241007-14:40:26.667630<E>  decode_vap_common_object:1587: Validation for key:Connected_building_enabled
+[OneWifi] 241007-14:40:26.668169<E>  decode_vap_common_object:1587: Validation for key:Connected_building_enabled
+[OneWifi] 241007-14:40:26.668519<E>  decode_vap_common_object:1587: Validation for key:Connected_building_enabled
+[OneWifi] 241007-14:40:26.668952<E>  decode_vap_common_object:1587: Validation for key:Connected_building_enabled
+[OneWifi] 241007-14:40:26.669289<E>  decode_vap_common_object:1587: Validation for key:Connected_building_enabled
+[OneWifi] 241007-14:40:26.669599<I>  decode_mesh_sta_object:2031: vapname : mesh_sta_2g bssid : 00:00:00:00:00:00
+[OneWifi] 241007-14:40:26.670071<E>  decode_vap_common_object:1587: Validation for key:Connected_building_enabled
+[OneWifi] 241007-14:40:26.670391<E>  decode_vap_common_object:1587: Validation for key:Connected_building_enabled
+[OneWifi] 241007-14:40:26.670692<E>  decode_vap_common_object:1587: Validation for key:Connected_building_enabled
+[OneWifi] 241007-14:40:26.671116<E>  decode_vap_common_object:1587: Validation for key:Connected_building_enabled
+[OneWifi] 241007-14:40:26.671424<E>  decode_vap_common_object:1587: Validation for key:Connected_building_enabled
+[OneWifi] 241007-14:40:26.671819<E>  decode_vap_common_object:1587: Validation for key:Connected_building_enabled
+[OneWifi] 241007-14:40:26.672136<E>  decode_vap_common_object:1587: Validation for key:Connected_building_enabled
+[OneWifi] 241007-14:40:26.672621<I>  decode_mesh_sta_object:2031: vapname : mesh_sta_5g bssid : 00:00:00:00:00:00
+[OneWifi] 241007-14:40:26.673272<I>  decode_dml_subdoc:679: decode success
+[OneWifi] 241007-14:40:26.890550<I>  encode_associated_clients_subdoc:153: encode success
+[OneWifi] 241007-14:40:26.890830<I>  webconfig_ctrl_apply:2361: webconfig_state:00 doc_type:11 doc_name:associated clients
+[OneWifi] 241007-14:40:26.891205<I>  webconfig_ctrl_apply:2755: new webconfig_state:00
+[OneWifi] 241007-14:40:26.899062<I>  decode_associated_clients_subdoc:268: decode success
+[OneWifi] 241007-14:40:26.908950<I>  encode_associated_clients_subdoc:153: encode success
+[OneWifi] 241007-14:40:26.909233<I>  webconfig_ctrl_apply:2361: webconfig_state:00 doc_type:11 doc_name:associated clients
+[OneWifi] 241007-14:40:26.909419<I>  webconfig_ctrl_apply:2755: new webconfig_state:00
+[OneWifi] 241007-14:40:26.913449<I>  decode_associated_clients_subdoc:268: decode success
+[OneWifi] 241007-14:40:26.917753<I>  encode_associated_clients_subdoc:153: encode success
+[OneWifi] 241007-14:40:26.918158<I>  webconfig_ctrl_apply:2361: webconfig_state:00 doc_type:11 doc_name:associated clients
+[OneWifi] 241007-14:40:26.918348<I>  webconfig_ctrl_apply:2755: new webconfig_state:00
+[OneWifi] 241007-14:40:26.922315<I>  decode_associated_clients_subdoc:268: decode success
+[OneWifi] 241007-14:40:26.926628<I>  encode_associated_clients_subdoc:153: encode success
+[OneWifi] 241007-14:40:26.926879<I>  webconfig_ctrl_apply:2361: webconfig_state:00 doc_type:11 doc_name:associated clients
+[OneWifi] 241007-14:40:26.927074<I>  webconfig_ctrl_apply:2755: new webconfig_state:00
+[OneWifi] 241007-14:40:26.931127<I>  decode_associated_clients_subdoc:268: decode success
+[OneWifi] 241007-14:40:26.936087<I>  encode_associated_clients_subdoc:153: encode success
+[OneWifi] 241007-14:40:26.936366<I>  webconfig_ctrl_apply:2361: webconfig_state:00 doc_type:11 doc_name:associated clients
+[OneWifi] 241007-14:40:26.936551<I>  webconfig_ctrl_apply:2755: new webconfig_state:00
+[OneWifi] 241007-14:40:26.956903<I>  decode_associated_clients_subdoc:268: decode success
+[OneWifi] 241007-14:40:26.961488<I>  encode_associated_clients_subdoc:153: encode success
+[OneWifi] 241007-14:40:26.961758<I>  webconfig_ctrl_apply:2361: webconfig_state:00 doc_type:11 doc_name:associated clients
+[OneWifi] 241007-14:40:26.962009<I>  webconfig_ctrl_apply:2755: new webconfig_state:00
+[OneWifi] 241007-14:40:26.967490<I>  decode_associated_clients_subdoc:268: decode success
+[OneWifi] 241007-14:40:26.971769<I>  encode_associated_clients_subdoc:153: encode success
+[OneWifi] 241007-14:40:26.972020<I>  webconfig_ctrl_apply:2361: webconfig_state:00 doc_type:11 doc_name:associated clients
+[OneWifi] 241007-14:40:26.972205<I>  webconfig_ctrl_apply:2755: new webconfig_state:00
+[OneWifi] 241007-14:40:26.976313<I>  decode_associated_clients_subdoc:268: decode success
+[OneWifi] 241007-14:40:26.980601<I>  encode_associated_clients_subdoc:153: encode success
+[OneWifi] 241007-14:40:26.980859<I>  webconfig_ctrl_apply:2361: webconfig_state:00 doc_type:11 doc_name:associated clients
+[OneWifi] 241007-14:40:26.981039<I>  webconfig_ctrl_apply:2755: new webconfig_state:00
+[OneWifi] 241007-14:40:26.986609<I>  decode_associated_clients_subdoc:268: decode success
+[OneWifi] 241007-14:40:26.990959<I>  encode_associated_clients_subdoc:153: encode success
+[OneWifi] 241007-14:40:26.991220<I>  webconfig_ctrl_apply:2361: webconfig_state:00 doc_type:11 doc_name:associated clients
+[OneWifi] 241007-14:40:26.991399<I>  webconfig_ctrl_apply:2755: new webconfig_state:00
+[OneWifi] 241007-14:40:26.996322<I>  decode_associated_clients_subdoc:268: decode success
+[OneWifi] 241007-14:40:27.000621<I>  encode_associated_clients_subdoc:153: encode success
+[OneWifi] 241007-14:40:27.000882<I>  webconfig_ctrl_apply:2361: webconfig_state:00 doc_type:11 doc_name:associated clients
+[OneWifi] 241007-14:40:27.001068<I>  webconfig_ctrl_apply:2755: new webconfig_state:00
+[OneWifi] 241007-14:40:27.004971<I>  decode_associated_clients_subdoc:268: decode success
+[OneWifi] 241007-14:40:27.027905<I>  encode_associated_clients_subdoc:153: encode success
+[OneWifi] 241007-14:40:27.028174<I>  webconfig_ctrl_apply:2361: webconfig_state:00 doc_type:11 doc_name:associated clients
+[OneWifi] 241007-14:40:27.028378<I>  webconfig_ctrl_apply:2755: new webconfig_state:00
+[OneWifi] 241007-14:40:27.032382<I>  decode_associated_clients_subdoc:268: decode success
+[OneWifi] 241007-14:40:27.036839<I>  encode_associated_clients_subdoc:153: encode success
+[OneWifi] 241007-14:40:27.037103<I>  webconfig_ctrl_apply:2361: webconfig_state:00 doc_type:11 doc_name:associated clients
+[OneWifi] 241007-14:40:27.037283<I>  webconfig_ctrl_apply:2755: new webconfig_state:00
+[OneWifi] 241007-14:40:27.041464<I>  decode_associated_clients_subdoc:268: decode success
+[OneWifi] 241007-14:40:27.046296<I>  encode_associated_clients_subdoc:153: encode success
+[OneWifi] 241007-14:40:27.046567<I>  webconfig_ctrl_apply:2361: webconfig_state:00 doc_type:11 doc_name:associated clients
+[OneWifi] 241007-14:40:27.046748<I>  webconfig_ctrl_apply:2755: new webconfig_state:00
+[OneWifi] 241007-14:40:27.050971<I>  decode_associated_clients_subdoc:268: decode success
+[OneWifi] 241007-14:40:27.055393<I>  encode_associated_clients_subdoc:153: encode success
+[OneWifi] 241007-14:40:27.055658<I>  webconfig_ctrl_apply:2361: webconfig_state:00 doc_type:11 doc_name:associated clients
+[OneWifi] 241007-14:40:27.055831<I>  webconfig_ctrl_apply:2755: new webconfig_state:00
+[OneWifi] 241007-14:40:27.059808<I>  decode_associated_clients_subdoc:268: decode success
+[OneWifi] 241007-14:40:27.064130<I>  encode_associated_clients_subdoc:153: encode success
+[OneWifi] 241007-14:40:27.064387<I>  webconfig_ctrl_apply:2361: webconfig_state:00 doc_type:11 doc_name:associated clients
+[OneWifi] 241007-14:40:27.064708<I>  webconfig_ctrl_apply:2755: new webconfig_state:00
+[OneWifi] 241007-14:40:27.075237<I>  decode_associated_clients_subdoc:268: decode success
+[OneWifi] 241007-14:40:27.084382<I>  encode_associated_clients_subdoc:153: encode success
+[OneWifi] 241007-14:40:27.084665<I>  webconfig_ctrl_apply:2361: webconfig_state:00 doc_type:11 doc_name:associated clients
+[OneWifi] 241007-14:40:27.084938<I>  webconfig_ctrl_apply:2755: new webconfig_state:00
+[OneWifi] 241007-14:40:27.091618<I>  decode_associated_clients_subdoc:268: decode success
+[OneWifi] 241007-14:40:31.835503<I>  encode_dml_subdoc:308: encode success
+[OneWifi] 241007-14:40:31.836083<I>  webconfig_ctrl_apply:2361: webconfig_state:02 doc_type:10 doc_name:dml
+[OneWifi] 241007-14:40:31.837460<I>  webconfig_ctrl_apply:2755: new webconfig_state:00
+[OneWifi] 241007-14:40:31.859038<E>  decode_vap_common_object:1587: Validation for key:Connected_building_enabled
+[OneWifi] 241007-14:40:31.859468<E>  decode_vap_common_object:1587: Validation for key:Connected_building_enabled
+[OneWifi] 241007-14:40:31.859782<E>  decode_vap_common_object:1587: Validation for key:Connected_building_enabled
+[OneWifi] 241007-14:40:31.860223<E>  decode_vap_common_object:1587: Validation for key:Connected_building_enabled
+[OneWifi] 241007-14:40:31.860551<E>  decode_vap_common_object:1587: Validation for key:Connected_building_enabled
+[OneWifi] 241007-14:40:31.860994<E>  decode_vap_common_object:1587: Validation for key:Connected_building_enabled
+[OneWifi] 241007-14:40:31.861354<E>  decode_vap_common_object:1587: Validation for key:Connected_building_enabled
+[OneWifi] 241007-14:40:31.861656<I>  decode_mesh_sta_object:2031: vapname : mesh_sta_2g bssid : 00:00:00:00:00:00
+[OneWifi] 241007-14:40:31.862130<E>  decode_vap_common_object:1587: Validation for key:Connected_building_enabled
+[OneWifi] 241007-14:40:31.862508<E>  decode_vap_common_object:1587: Validation for key:Connected_building_enabled
+[OneWifi] 241007-14:40:31.862829<E>  decode_vap_common_object:1587: Validation for key:Connected_building_enabled
+[OneWifi] 241007-14:40:31.863306<E>  decode_vap_common_object:1587: Validation for key:Connected_building_enabled
+[OneWifi] 241007-14:40:31.863771<E>  decode_vap_common_object:1587: Validation for key:Connected_building_enabled
+[OneWifi] 241007-14:40:31.864346<E>  decode_vap_common_object:1587: Validation for key:Connected_building_enabled
+[OneWifi] 241007-14:40:31.864830<E>  decode_vap_common_object:1587: Validation for key:Connected_building_enabled
+[OneWifi] 241007-14:40:31.865254<I>  decode_mesh_sta_object:2031: vapname : mesh_sta_5g bssid : 00:00:00:00:00:00
+[OneWifi] 241007-14:40:31.865545<I>  decode_dml_subdoc:679: decode success
+[OneWifi] 241118-09:32:04.966652<I>  encode_associated_clients_subdoc:153: encode success
+[OneWifi] 241118-09:32:04.966915<I>  webconfig_ctrl_apply:2361: webconfig_state:00 doc_type:11 doc_name:associated clients
+[OneWifi] 241118-09:32:04.967106<I>  webconfig_ctrl_apply:2755: new webconfig_state:00
+[OneWifi] 241118-09:32:04.973531<I>  decode_associated_clients_subdoc:268: decode success
+[OneWifi] 241118-09:32:04.978744<I>  encode_associated_clients_subdoc:153: encode success
+[OneWifi] 241118-09:32:04.979028<I>  webconfig_ctrl_apply:2361: webconfig_state:00 doc_type:11 doc_name:associated clients
+[OneWifi] 241118-09:32:04.979216<I>  webconfig_ctrl_apply:2755: new webconfig_state:00
+[OneWifi] 241118-09:32:04.986114<I>  decode_associated_clients_subdoc:268: decode success
+[OneWifi] 241118-09:32:04.990277<I>  encode_associated_clients_subdoc:153: encode success
+[OneWifi] 241118-09:32:04.990573<I>  webconfig_ctrl_apply:2361: webconfig_state:00 doc_type:11 doc_name:associated clients
+[OneWifi] 241118-09:32:04.990769<I>  webconfig_ctrl_apply:2755: new webconfig_state:00
+[OneWifi] 241118-09:32:04.994600<I>  decode_associated_clients_subdoc:268: decode success
+[OneWifi] 241118-09:32:05.001537<I>  encode_associated_clients_subdoc:153: encode success
+[OneWifi] 241118-09:32:05.001825<I>  webconfig_ctrl_apply:2361: webconfig_state:00 doc_type:11 doc_name:associated clients
+[OneWifi] 241118-09:32:05.002846<I>  webconfig_ctrl_apply:2755: new webconfig_state:00
+[OneWifi] 241118-09:32:05.006720<I>  decode_associated_clients_subdoc:268: decode success
+[OneWifi] 241118-09:32:05.010955<I>  encode_associated_clients_subdoc:153: encode success
+[OneWifi] 241118-09:32:05.011229<I>  webconfig_ctrl_apply:2361: webconfig_state:00 doc_type:11 doc_name:associated clients
+[OneWifi] 241118-09:32:05.011499<I>  webconfig_ctrl_apply:2755: new webconfig_state:00
+[OneWifi] 241118-09:32:05.015390<I>  decode_associated_clients_subdoc:268: decode success
+[OneWifi] 241118-09:32:05.021400<I>  encode_associated_clients_subdoc:153: encode success
+[OneWifi] 241118-09:32:05.021662<I>  webconfig_ctrl_apply:2361: webconfig_state:00 doc_type:11 doc_name:associated clients
+[OneWifi] 241118-09:32:05.021845<I>  webconfig_ctrl_apply:2755: new webconfig_state:00
+[OneWifi] 241118-09:32:05.025822<I>  decode_associated_clients_subdoc:268: decode success
+[OneWifi] 241118-09:32:05.032135<I>  encode_associated_clients_subdoc:153: encode success
+[OneWifi] 241118-09:32:05.032433<I>  webconfig_ctrl_apply:2361: webconfig_state:00 doc_type:11 doc_name:associated clients
+[OneWifi] 241118-09:32:05.032621<I>  webconfig_ctrl_apply:2755: new webconfig_state:00
+[OneWifi] 241118-09:32:05.036716<I>  decode_associated_clients_subdoc:268: decode success
+[OneWifi] 241118-09:32:05.041219<I>  encode_associated_clients_subdoc:153: encode success
+[OneWifi] 241118-09:32:05.041486<I>  webconfig_ctrl_apply:2361: webconfig_state:00 doc_type:11 doc_name:associated clients
+[OneWifi] 241118-09:32:05.041672<I>  webconfig_ctrl_apply:2755: new webconfig_state:00
+[OneWifi] 241118-09:32:05.045683<I>  decode_associated_clients_subdoc:268: decode success
+[OneWifi] 241118-09:32:05.049905<I>  encode_associated_clients_subdoc:153: encode success
+[OneWifi] 241118-09:32:05.050186<I>  webconfig_ctrl_apply:2361: webconfig_state:00 doc_type:11 doc_name:associated clients
+[OneWifi] 241118-09:32:05.050380<I>  webconfig_ctrl_apply:2755: new webconfig_state:00
+[OneWifi] 241118-09:32:05.054176<I>  decode_associated_clients_subdoc:268: decode success
+[OneWifi] 241118-09:32:05.058351<I>  encode_associated_clients_subdoc:153: encode success
+[OneWifi] 241118-09:32:05.058765<I>  webconfig_ctrl_apply:2361: webconfig_state:00 doc_type:11 doc_name:associated clients
+[OneWifi] 241118-09:32:05.058964<I>  webconfig_ctrl_apply:2755: new webconfig_state:00
+[OneWifi] 241118-09:32:05.062763<I>  decode_associated_clients_subdoc:268: decode success
+[OneWifi] 241118-09:32:05.067231<I>  encode_associated_clients_subdoc:153: encode success
+[OneWifi] 241118-09:32:05.067526<I>  webconfig_ctrl_apply:2361: webconfig_state:00 doc_type:11 doc_name:associated clients
+[OneWifi] 241118-09:32:05.067735<I>  webconfig_ctrl_apply:2755: new webconfig_state:00
+[OneWifi] 241118-09:32:05.071706<I>  decode_associated_clients_subdoc:268: decode success
+[OneWifi] 241118-09:32:05.080413<I>  encode_associated_clients_subdoc:153: encode success
+[OneWifi] 241118-09:32:05.080699<I>  webconfig_ctrl_apply:2361: webconfig_state:00 doc_type:11 doc_name:associated clients
+[OneWifi] 241118-09:32:05.080892<I>  webconfig_ctrl_apply:2755: new webconfig_state:00
+[OneWifi] 241118-09:32:05.084748<I>  decode_associated_clients_subdoc:268: decode success
+[OneWifi] 241118-09:32:05.089419<I>  encode_associated_clients_subdoc:153: encode success
+[OneWifi] 241118-09:32:05.089687<I>  webconfig_ctrl_apply:2361: webconfig_state:00 doc_type:11 doc_name:associated clients
+[OneWifi] 241118-09:32:05.089876<I>  webconfig_ctrl_apply:2755: new webconfig_state:00
+[OneWifi] 241118-09:32:05.093827<I>  decode_associated_clients_subdoc:268: decode success
+[OneWifi] 241118-09:32:05.098193<I>  encode_associated_clients_subdoc:153: encode success
+[OneWifi] 241118-09:32:05.098470<I>  webconfig_ctrl_apply:2361: webconfig_state:00 doc_type:11 doc_name:associated clients
+[OneWifi] 241118-09:32:05.098655<I>  webconfig_ctrl_apply:2755: new webconfig_state:00
+[OneWifi] 241118-09:32:05.102597<I>  decode_associated_clients_subdoc:268: decode success
+[OneWifi] 241118-09:32:05.107005<I>  encode_associated_clients_subdoc:153: encode success
+[OneWifi] 241118-09:32:05.107276<I>  webconfig_ctrl_apply:2361: webconfig_state:00 doc_type:11 doc_name:associated clients
+[OneWifi] 241118-09:32:05.107460<I>  webconfig_ctrl_apply:2755: new webconfig_state:00
+[OneWifi] 241118-09:32:05.111447<I>  decode_associated_clients_subdoc:268: decode success
+[OneWifi] 241118-09:32:05.115646<I>  encode_associated_clients_subdoc:153: encode success
+[OneWifi] 241118-09:32:05.115915<I>  webconfig_ctrl_apply:2361: webconfig_state:00 doc_type:11 doc_name:associated clients
+[OneWifi] 241118-09:32:05.116288<I>  webconfig_ctrl_apply:2755: new webconfig_state:00
+[OneWifi] 241118-09:32:05.119991<I>  decode_associated_clients_subdoc:268: decode success

@@ -1,0 +1,78 @@
+[OneWifi] 241007-14:40:21.451571<I>  init_wifi_hal: start wifi hal init
+[OneWifi] 241007-14:40:21.764893<I>  rbus_register_handlers rbus open success
+[OneWifi] 241007-14:40:22.027293<I>  rbus_register_handlers rbus event register:[Device.WiFi.STA.1.Connection.Status]:Device.WiFi.STA.2.Connection.Status
+[OneWifi] 241007-14:40:22.252920<I>  rbus_subscribe_events:1505 Rbus event:Device.X_RDKCENTRAL-COM_DeviceControl.DeviceNetworkingMode subscribe success
+[OneWifi] 241007-14:40:22.266653<I>  rbus_subscribe_events:1515 Rbus event:Device.X_COMCAST-COM_GRE.Tunnel.1.TunnelStatus subscribe success
+[OneWifi] 241007-14:40:22.304313<I>  register_with_webconfig_framework: Done Registering
+[OneWifi] 241007-14:40:26.841022<I>  start_wifi_services:743 start gw vaps
+[OneWifi] 241007-14:40:26.841295<I>  start_radios(): Start radios
+[OneWifi] 241007-14:40:26.919265<I>  start_radios: wifi radio parameter set success: radio_index:0
+[OneWifi] 241007-14:40:26.967618<E>  start_radios: !!!!-ALERT-!!!-Radio not present-!!!-Kernel driver interface down-!!!.Index 1
+[OneWifi] 241007-14:40:26.968123<I>  start_radios: wifi radio parameter set success: radio_index:1
+[OneWifi] 241007-14:40:28.519066<I>  vap_svc_start_stop:269 wifi vaps create success for radio index: 0
+[OneWifi] 241007-14:40:28.521412<I>  vap_svc_start_stop:269 wifi vaps create success for radio index: 1
+[OneWifi] 241007-14:40:28.571864<E>  rbus_get_active_gw_parameter:651 rbus_get failed for [Device.X_RDK_GatewayManagement.ExternalGatewayPresent] with error [6]
+[OneWifi] 241007-14:40:28.574485<I>  CONFIG_WIFI=0 is_factory_reset_done=-1 fun captive_portal_check 
+[OneWifi] 241007-14:40:28.574773<I>  FactoryReset is not done and captive portal customization already done fun captive_portal_check return
+[OneWifi] 241007-14:40:28.578948<I>  Last reboot reason is unknown
+[OneWifi] 241007-14:40:28.618369<E>  private vaps have default credentials
+[OneWifi] 241007-14:40:28.618601<I>  Private vaps credentials= 1 and reboot reason =unknown
+[OneWifi] 241007-14:40:28.711847<I>  Wifi_Broadcast_complete:34
+[OneWifi] 241007-14:40:28.712483<I>  Wifi_Name_Broadcasted:RPI_RDKB-AP0
+[OneWifi] 241007-14:40:28.737872<I>  Wifi_Broadcast_complete:34
+[OneWifi] 241007-14:40:28.738599<I>  Wifi_Name_Broadcasted:RPI_RDKB-AP1
+[OneWifi] 241007-14:40:28.771740<I>  wifi_hal_platform_post_init: start wifi apps
+[OneWifi] 241007-14:40:29.822416<I>  [marker_list_config_event]:2280 List type :0 value:1,2 is_config_changed:0
+[OneWifi] 241007-14:40:29.822794<I>  [marker_list_config_event]:2280 List type :1 value:1,2 is_config_changed:0
+[OneWifi] 241007-14:40:29.823087<I>  [marker_list_config_event]:2280 List type :2 value:1,2 is_config_changed:0
+[OneWifi] 241007-14:40:29.823363<I>  [marker_list_config_event]:2280 List type :3 value:1,2 is_config_changed:0
+[OneWifi] 241007-14:40:29.859548<I>  vap_svc_public_update: wifi vap create success: radio_index:0 vap_index:4 greylist_rfc:0
+[OneWifi] 241007-14:40:29.861628<E>  vap_svc_public_update: passpoint.enable 0
+[OneWifi] 241007-14:40:29.861993<E>  vap_svc_public_update: tgt_vap_map.passpoint.enable 0
+[OneWifi] 241007-14:40:29.958579<I>  process_xfinity_vaps:799 Able to create vaps. vap_enable 2
+[OneWifi] 241007-14:40:29.974538<I>  vap_svc_public_update: wifi vap create success: radio_index:0 vap_index:8 greylist_rfc:0
+[OneWifi] 241007-14:40:29.976694<E>  vap_svc_public_update: passpoint.enable 0
+[OneWifi] 241007-14:40:29.976874<E>  vap_svc_public_update: tgt_vap_map.passpoint.enable 0
+[OneWifi] 241007-14:40:30.061242<I>  process_xfinity_vaps:799 Able to create vaps. vap_enable 2
+[OneWifi] 241007-14:40:30.064866<I>  vap_svc_public_update: wifi vap create success: radio_index:1 vap_index:5 greylist_rfc:0
+[OneWifi] 241007-14:40:30.065686<E>  vap_svc_public_update: passpoint.enable 0
+[OneWifi] 241007-14:40:30.072529<E>  vap_svc_public_update: tgt_vap_map.passpoint.enable 0
+[OneWifi] 241007-14:40:30.175741<I>  process_xfinity_vaps:799 Able to create vaps. vap_enable 2
+[OneWifi] 241007-14:40:30.178941<I>  vap_svc_public_update: wifi vap create success: radio_index:1 vap_index:9 greylist_rfc:0
+[OneWifi] 241007-14:40:30.179879<E>  vap_svc_public_update: passpoint.enable 0
+[OneWifi] 241007-14:40:30.180048<E>  vap_svc_public_update: tgt_vap_map.passpoint.enable 0
+[OneWifi] 241007-14:40:30.276495<I>  process_xfinity_vaps:799 Able to create vaps. vap_enable 2
+[OneWifi] 241007-14:40:30.280074<I>  events_rbus_publish(): rbusEvent_Publish Event 262160
+[OneWifi] 241007-14:40:30.281283<I>  events_rbus_publish(): rbusEvent_Publish Event 262160
+[OneWifi] 241007-14:40:30.281933<I>  events_rbus_publish(): rbusEvent_Publish Event 262160
+[OneWifi] 241007-14:40:30.284444<I>  events_rbus_publish(): rbusEvent_Publish Event 262160
+[OneWifi] 241007-14:40:30.285075<I>  events_rbus_publish(): rbusEvent_Publish Event 262160
+[OneWifi] 241007-14:40:30.285554<I>  events_rbus_publish(): rbusEvent_Publish Event 262160
+[OneWifi] 241007-14:40:30.286069<I>  events_rbus_publish(): rbusEvent_Publish Event 262160
+[OneWifi] 241007-14:40:30.286580<I>  events_rbus_publish(): rbusEvent_Publish Event 262160
+[OneWifi] 241007-14:40:30.287091<I>  events_rbus_publish(): rbusEvent_Publish Event 262160
+[OneWifi] 241007-14:40:30.287557<I>  events_rbus_publish(): rbusEvent_Publish Event 262160
+[OneWifi] 241007-14:40:30.288195<I>  events_rbus_publish(): rbusEvent_Publish Event 262160
+[OneWifi] 241007-14:40:30.288687<I>  events_rbus_publish(): rbusEvent_Publish Event 262160
+[OneWifi] 241007-14:40:30.289168<I>  events_rbus_publish(): rbusEvent_Publish Event 262160
+[OneWifi] 241007-14:40:30.289702<I>  events_rbus_publish(): rbusEvent_Publish Event 262160
+[OneWifi] 241007-14:40:30.290249<I>  events_rbus_publish(): rbusEvent_Publish Event 262160
+[OneWifi] 241007-14:40:30.297266<I>  events_rbus_publish(): rbusEvent_Publish Event 262160
+[OneWifi] 241007-14:40:30.297790<I>  events_rbus_publish(): rbusEvent_Publish Event 262160
+[OneWifi] 241007-14:40:30.298324<I>  events_rbus_publish(): rbusEvent_Publish Event 262160
+[OneWifi] 241007-14:40:30.298770<I>  events_rbus_publish(): rbusEvent_Publish Event 262160
+[OneWifi] 241007-14:40:30.299279<I>  events_rbus_publish(): rbusEvent_Publish Event 262160
+[OneWifi] 241007-14:40:30.299752<I>  events_rbus_publish(): rbusEvent_Publish Event 262160
+[OneWifi] 241007-14:40:30.300211<I>  events_rbus_publish(): rbusEvent_Publish Event 262160
+[OneWifi] 241007-14:40:30.300707<I>  events_rbus_publish(): rbusEvent_Publish Event 262160
+[OneWifi] 241007-14:40:30.301216<I>  events_rbus_publish(): rbusEvent_Publish Event 262160
+[OneWifi] 241007-14:40:30.301661<I>  events_rbus_publish(): rbusEvent_Publish Event 262160
+[OneWifi] 241007-14:40:30.316495<I>  events_rbus_publish(): rbusEvent_Publish Event 262160
+[OneWifi] 241007-14:40:30.316960<I>  events_rbus_publish(): rbusEvent_Publish Event 262160
+[OneWifi] 241007-14:40:30.317436<I>  events_rbus_publish(): rbusEvent_Publish Event 262160
+[OneWifi] 241007-14:40:30.317918<I>  events_rbus_publish(): rbusEvent_Publish Event 262160
+[OneWifi] 241007-14:40:30.318369<I>  events_rbus_publish(): rbusEvent_Publish Event 262160
+[OneWifi] 241007-14:40:30.318841<I>  events_rbus_publish(): rbusEvent_Publish Event 262160
+[OneWifi] 241007-14:40:30.319293<I>  events_rbus_publish(): rbusEvent_Publish Event 262160
+[OneWifi] 241007-14:40:30.319733<I>  events_rbus_publish(): rbusEvent_Publish Event 262160
+[OneWifi] 241007-14:40:30.320161<I>  events_rbus_publish(): rbusEvent_Publish Event 262160

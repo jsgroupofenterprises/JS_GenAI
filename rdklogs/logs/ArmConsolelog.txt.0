@@ -1,0 +1,61 @@
+[utopia] [init] apply_system_defaults set <@wan_ifname, erouter0, 0x0>
+[utopia] [init] apply_system_defaults set <@model_name, USGv2, 0x4>
+[utopia] [init] apply_system_defaults set <@firmware_version, 0.0, 0x4>
+[utopia] [init] apply_system_defaults set <@current_wan_ipaddr, 0.0.0.0, 0x0>
+[utopia] [init] apply_system_defaults set <@lan-status, stopped, 0x0>
+[utopia] [init] apply_system_defaults set <@wan-status, stopped, 0x0>
+[utopia] [init] apply_system_defaults set <@bridge-status, stopped, 0x0>
+[utopia] [init] apply_system_defaults set <@forwarding-status, stopped, 0x0>
+[utopia] [init] apply_system_defaults set <@current_wan_state, down, 0x0>
+[utopia] [init] apply_system_defaults set <@desired_wan_state, down, 0x0>
+[utopia] [init] apply_system_defaults set <@phylink_wan_state, up, 0x0>
+[utopia] [init] apply_system_defaults set <@current_ipv4_wan_state, down, 0x0>
+[utopia] [init] apply_system_defaults set <@current_ipv4_link_state, down, 0x0>
+[utopia] [init] apply_system_defaults set <@desired_ipv4_wan_state, down, 0x0>
+[utopia] [init] apply_system_defaults set <@desired_ipv4_link_state, down, 0x0>
+[utopia] [init] apply_system_defaults set <@lan_ip_webaccess, 1, 0x0>
+[utopia] [init] apply_system_defaults set <@cm_ip_webaccess, 1, 0x0>
+[utopia] [init] apply_system_defaults set <@rg_ip_webaccess, 0, 0x0>
+Number_Of_Entries_Commited_to_Sysconfig_Database=1
+main - Device in Reboot mode :/nvram/.apply_partner_defaults
+main - PartnerID :RDKM
+json_file_parse-566 : Total File Length :80609 
+json_file_parse-566 : Total File Length :16858 
+compare_partner_json_param
+
+version:8.15 KEY COUNT in nvram 68 and etc 68
+json_file_parse-566 : Total File Length :16858 
+ apply_partnerId_default_values ntp_server1 not default
+20_routing : main Entry
+20_routing : srv_register Entry
+20_routing : srv_register Exit
+20_routing : main Exit
+rpcserver - main, ARPING_IP NOT found
+rpcserver - main, ARPING_IP NOT found
+rpcserver - main, ARPING_IP NOT found
+rpcserver - main, ARPING_IP NOT found
+rpcserver - main, ARPING_IP NOT found
+rpcserver - main, ARPING_IP NOT found
+rpcserver - main, ARPING_IP NOT found
+rpcserver - main, ARPING_IP NOT found
+rpcserver - main, ARPING_IP NOT found
+rpcserver - main, ARPING_IP NOT found
+rpcserver - main, ARPING_IP NOT found
+rpcserver - main, ARPING_IP NOT found
+rpcserver - main, ARPING_IP NOT found
+rpcserver - main, ARPING_IP NOT found
+rpcserver - main, ARPING_IP NOT found
+rpcserver - main, ARPING_IP NOT found
+rpcserver - main, ARPING_IP NOT found
+rpcserver - main, ARPING_IP NOT found
+rpcserver - main, ARPING_IP NOT found
+rpcserver - main, ARPING_IP NOT found
+rpcserver - main, ARPING_IP NOT found
+rpcserver - main, ARPING_IP NOT found
+rpcserver - main, ARPING_IP NOT found
+rpcserver - main, ARPING_IP NOT found
+rpcserver - main, ARPING_IP NOT found
+rpcserver - main, ARPING_IP NOT found
+rpcserver - main, ARPING_IP NOT found
+rpcserver - main, ARPING_IP NOT found, starting udp rpcserver on RPC_ANYSOCK
+unable to register (RPC_TOOL1, RPC_TOOL1_V1, udp).

@@ -1,0 +1,7 @@
+{
+  "entity_name": "wps_acl_get",
+  "component": "CcspWifiAgent",
+  "content_hash": "7b47e96829d7b038f7dfb8abd572af32",
+  "response": "**1. Main Purpose and Functionality**\n\nThe `wps_acl_get` function retrieves the Wi-Fi Protected Setup (WPS) Access Control List (ACL) for a given wireless interface.\n\n**2. Key Operations and Data Flow**\n\n* The function takes a pointer to a `driver_data` structure, a buffer to store the ACL, and a pointer to the length of the buffer.\n* It calls the `wifi_hostApGetWpsAcl` function from the Wi-Fi Host AP Library to retrieve the WPS ACL.\n* The retrieved ACL is returned in the provided buffer, and the buffer length is updated accordingly.\n\n**3. Interaction with Other Components**\n\n* The function interacts with the Wi-Fi Host AP Library to retrieve the WPS ACL.\n\n**4. Important Parameters and Return Values**\n\n* **priv**: Pointer to the `driver_data` structure representing the wireless interface.\n* **buf**: Buffer to store the WPS ACL.\n* **buf_len**: Pointer to the length of the provided buffer.\n* **Return Value**: A positive integer on success or a negative error code on failure.\n\n**5. Any Specific RDK-related Operations**\n\nThe function itself does not perform any RDK-specific operations. However, it is used within the RDK Framework to retrieve the WPS ACL for a given Wi-Fi interface.",
+  "processed_at": "2024-11-13T15:28:55.091195"
+}

@@ -1,0 +1,7 @@
+{
+  "entity_name": "events_init",
+  "component": "CcspWifiAgent",
+  "content_hash": "d75ec30da7aa8b271c937c1b6c18b2ff",
+  "response": "**1. Main purpose and functionality:**\n   - The `events_init` function initializes the RDK WifiEventProvider component. It sets up the RBUS connection, registers data elements, creates queues, and adds Access Point (AP) and CSI (Channel State Information) rows to the RBUS table.\n\n**2. Key operations and data flow:**\n   - Check if RBUS is enabled and initialize the RBUS connection.\n   - Register data elements with RBUS to handle events and property changes.\n   - Create queues for handling RBUS events and CSI entries.\n   - Add AP rows to the `Device.WiFi.AccessPoint` table in RBUS.\n   - Get the number of CSI entries and create a queue for handling them.\n\n**3. Interaction with other components:**\n   - None mentioned in the provided code.\n\n**4. Important parameters and return values:**\n   - **Return value:**\n     - 0 on success, -1 on failure.\n\n**5. Any specific RDK-related operations:**\n   - The function uses RDK-specific data elements and RBUS APIs to register events and property changes related to WiFi APs and CSI.",
+  "processed_at": "2024-11-13T15:20:19.147792"
+}

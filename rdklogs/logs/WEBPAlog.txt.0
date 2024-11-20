@@ -1,0 +1,372 @@
+241007-14:40:27.538721 [mod=WEBPA, lvl=INFO] [tid=2576] WEBPA: ********** Starting component: com.cisco.spvtg.ccsp.webpaagent **********
+ 241007-14:40:27.539754 [mod=WEBPA, lvl=INFO] [tid=2576] WEBPA: NonRoot feature is enabled, dropping root privileges for webpa process
+241007-14:40:27.548351 [mod=WEBPA, lvl=INFO] [tid=2576] WEBPA: B4 msgBusInit
+241007-14:40:28.652426 [mod=WEBPA, lvl=INFO] [tid=2584] WEBPA: After msgBusInit
+241007-14:40:28.652660 [mod=WEBPA, lvl=INFO] [tid=2584] WEBPA: Webpa RBUS mode active status = true
+241007-14:40:28.652735 [mod=WEBPA, lvl=INFO] [tid=2584] WEBPA: rbus_open for component com.cisco.spvtg.ccsp.webpaagent
+241007-14:40:28.653541 [mod=WEBPA, lvl=INFO] [tid=2584] WEBPA: webpaRbusInit is success. ret is 0
+241007-14:40:28.663267 [mod=WEBPA, lvl=INFO] [tid=2584] WEBPA: com.cisco.spvtg.ccsp.pam component health is Green, continue
+241007-14:40:28.711424 [mod=WEBPA, lvl=INFO] [tid=2584] WEBPA: com.cisco.spvtg.ccsp.psm component health is Green, continue
+241007-14:40:28.720669 [mod=WEBPA, lvl=INFO] [tid=2584] WEBPA: com.cisco.spvtg.ccsp.wifi component health is Green, continue
+241007-14:40:28.720818 [mod=WEBPA, lvl=INFO] [tid=2584] WEBPA: max_retry_sleep is 31
+241007-14:40:30.733723 [mod=WEBPA, lvl=ERROR] [tid=2584] WEBPA: Init for parodus failed: 'Error on libparodus init. Registration failed.'
+241118-09:32:03.119507 [mod=WEBPA, lvl=ERROR] [tid=2584] WEBPA: Init for parodus failed: 'Error on libparodus init. Registration failed.'
+241118-09:32:10.137747 [mod=WEBPA, lvl=INFO] [tid=2584] WEBPA: Init for parodus Success..!!
+241118-09:32:10.140395 [mod=WEBPA, lvl=INFO] [tid=2584] WEBPA: WebPA is now ready to process requests
+241118-09:32:10.141617 [mod=WEBPA, lvl=INFO] [tid=2584] WEBPA: Syncing backend manager with DB....
+241118-09:32:10.149956 [mod=WEBPA, lvl=INFO] [tid=2584] WEBPA: CID = 61f4db9 CMC = 512 Version = 0
+241118-09:32:10.150255 [mod=WEBPA, lvl=INFO] [tid=2584] WEBPA: Webpa backend manager is in sync with DB
+241118-09:32:10.153996 [mod=WEBPA, lvl=INFO] [tid=4146] WEBPA: checkIfSystemReady(): ret 100, val 1
+241118-09:32:10.154206 [mod=WEBPA, lvl=INFO] [tid=4146] WEBPA: Checked CR - System is ready, proceed with component caching
+241118-09:32:10.154319 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Ethernet WAN is enabled
+241118-09:32:10.155450 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: deviceMAC is d83add0aa977
+241118-09:32:10.161260 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: CompName = eRT.com.cisco.spvtg.ccsp.pam, dbusPath : eRT.com.cisco.spvtg.ccsp.pam, paramCount = 1
+241118-09:32:10.168844 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Notification payload: {"device_id":"mac:d83add0aa977","status":"operational","boot-time":"1731922281"}
+241118-09:32:10.169455 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Notification successfully sent to parodus
+241118-09:32:10.172411 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: CompName = eRT.com.cisco.spvtg.ccsp.webpaagent, dbusPath : eRT.com.cisco.spvtg.ccsp.webpaagent, paramCount = 1
+241118-09:32:10.172622 [mod=WEBPA, lvl=INFO] [tid=4146] WEBPA: systemReadyTime is 1731922330
+241118-09:32:10.175094 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: CompName = eRT.com.cisco.spvtg.ccsp.webpaagent, dbusPath : eRT.com.cisco.spvtg.ccsp.webpaagent, paramCount = 1
+241118-09:32:10.175454 [mod=WEBPA, lvl=INFO] [tid=4146] WEBPA: CompName = eRT.com.cisco.spvtg.ccsp.pam, dbusPath : eRT.com.cisco.spvtg.ccsp.pam, paramCount = 1
+241118-09:32:10.176576 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: CompName = eRT.com.cisco.spvtg.ccsp.pam, dbusPath : eRT.com.cisco.spvtg.ccsp.pam, paramCount = 1
+241118-09:32:10.182733 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Received reboot_reason as:unknown
+241118-09:32:10.183167 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: FactoryResetCloudSync Thread created Successfully
+241118-09:32:10.183414 [mod=WEBPA, lvl=INFO] [tid=4152] WEBPA: Wait for backoffRetryTime 121 sec for retransmission
+241118-09:32:10.189192 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: CompName = eRT.com.cisco.spvtg.ccsp.pam, dbusPath : eRT.com.cisco.spvtg.ccsp.pam, paramCount = 1
+241118-09:32:10.189308 [mod=WEBPA, lvl=INFO] [tid=4146] WEBPA: ccspRetStatus is 100
+241118-09:32:10.190791 [mod=WEBPA, lvl=INFO] [tid=4146] WEBPA: Device manageable notification processed
+241118-09:32:10.192377 [mod=WEBPA, lvl=INFO] [tid=4146] WEBPA: ComponentValArray[0].comp_id = 0,ComponentValArray[cnt].comp_size = 4, ComponentValArray[0].obj_name = Device.WiFi., ComponentValArray[0].comp_name = WifiCtrl, ComponentValArray[0].dbus_path = WifiCtrl
+241118-09:32:10.193732 [mod=WEBPA, lvl=INFO] [tid=4146] WEBPA: ComponentValArray[1].comp_id = 1,ComponentValArray[cnt].comp_size = 7, ComponentValArray[1].obj_name = Device.DeviceInfo., ComponentValArray[1].comp_name = eRT.com.cisco.spvtg.ccsp.fwupgrademanager, ComponentValArray[1].dbus_path = eRT.com.cisco.spvtg.ccsp.fwupgrademanager
+241118-09:32:10.194970 [mod=WEBPA, lvl=INFO] [tid=4146] WEBPA: ComponentValArray[2].comp_id = 2,ComponentValArray[cnt].comp_size = 1, ComponentValArray[2].obj_name = Device.GatewayInfo., ComponentValArray[2].comp_name = eRT.com.cisco.spvtg.ccsp.pam, ComponentValArray[2].dbus_path = eRT.com.cisco.spvtg.ccsp.pam
+241118-09:32:10.196292 [mod=WEBPA, lvl=INFO] [tid=4146] WEBPA: ComponentValArray[3].comp_id = 3,ComponentValArray[cnt].comp_size = 1, ComponentValArray[3].obj_name = Device.Time., ComponentValArray[3].comp_name = eRT.com.cisco.spvtg.ccsp.pam, ComponentValArray[3].dbus_path = eRT.com.cisco.spvtg.ccsp.pam
+241118-09:32:10.197533 [mod=WEBPA, lvl=INFO] [tid=4146] WEBPA: ComponentValArray[4].comp_id = 4,ComponentValArray[cnt].comp_size = 1, ComponentValArray[4].obj_name = Device.UserInterface., ComponentValArray[4].comp_name = eRT.com.cisco.spvtg.ccsp.pam, ComponentValArray[4].dbus_path = eRT.com.cisco.spvtg.ccsp.pam
+241118-09:32:10.198790 [mod=WEBPA, lvl=INFO] [tid=4146] WEBPA: ComponentValArray[5].comp_id = 5,ComponentValArray[cnt].comp_size = 1, ComponentValArray[5].obj_name = Device.InterfaceStack., ComponentValArray[5].comp_name = eRT.com.cisco.spvtg.ccsp.pam, ComponentValArray[5].dbus_path = eRT.com.cisco.spvtg.ccsp.pam
+241118-09:32:10.199987 [mod=WEBPA, lvl=INFO] [tid=4146] WEBPA: ComponentValArray[6].comp_id = 6,ComponentValArray[cnt].comp_size = 2, ComponentValArray[6].obj_name = Device.Ethernet., ComponentValArray[6].comp_name = eRT.com.cisco.spvtg.ccsp.pam, ComponentValArray[6].dbus_path = eRT.com.cisco.spvtg.ccsp.pam
+241118-09:32:10.201326 [mod=WEBPA, lvl=ERROR] [tid=4146] WEBPA: ---Failed to get component info for object Device.MoCA.---: ret = 204, size = 0, Adding into failedCompList....
+241118-09:32:10.201439 [mod=WEBPA, lvl=INFO] [tid=4146] WEBPA: failedCompList[0] : Device.MoCA.
+241118-09:32:10.202826 [mod=WEBPA, lvl=INFO] [tid=4146] WEBPA: ComponentValArray[7].comp_id = 7,ComponentValArray[cnt].comp_size = 1, ComponentValArray[7].obj_name = Device.PPP., ComponentValArray[7].comp_name = eRT.com.cisco.spvtg.ccsp.pam, ComponentValArray[7].dbus_path = eRT.com.cisco.spvtg.ccsp.pam
+241118-09:32:10.204489 [mod=WEBPA, lvl=INFO] [tid=4146] WEBPA: ComponentValArray[8].comp_id = 8,ComponentValArray[cnt].comp_size = 2, ComponentValArray[8].obj_name = Device.IP., ComponentValArray[8].comp_name = eRT.com.cisco.spvtg.ccsp.pam, ComponentValArray[8].dbus_path = eRT.com.cisco.spvtg.ccsp.pam
+241118-09:32:10.205745 [mod=WEBPA, lvl=INFO] [tid=4146] WEBPA: ComponentValArray[9].comp_id = 9,ComponentValArray[cnt].comp_size = 1, ComponentValArray[9].obj_name = Device.Routing., ComponentValArray[9].comp_name = eRT.com.cisco.spvtg.ccsp.pam, ComponentValArray[9].dbus_path = eRT.com.cisco.spvtg.ccsp.pam
+241118-09:32:10.206904 [mod=WEBPA, lvl=INFO] [tid=4146] WEBPA: ComponentValArray[10].comp_id = 10,ComponentValArray[cnt].comp_size = 2, ComponentValArray[10].obj_name = Device.DNS., ComponentValArray[10].comp_name = eRT.com.cisco.spvtg.ccsp.pam, ComponentValArray[10].dbus_path = eRT.com.cisco.spvtg.ccsp.pam
+241118-09:32:10.209087 [mod=WEBPA, lvl=INFO] [tid=4146] WEBPA: ComponentValArray[11].comp_id = 11,ComponentValArray[cnt].comp_size = 1, ComponentValArray[11].obj_name = Device.Firewall., ComponentValArray[11].comp_name = eRT.com.cisco.spvtg.ccsp.pam, ComponentValArray[11].dbus_path = eRT.com.cisco.spvtg.ccsp.pam
+241118-09:32:10.210439 [mod=WEBPA, lvl=INFO] [tid=4146] WEBPA: ComponentValArray[12].comp_id = 12,ComponentValArray[cnt].comp_size = 1, ComponentValArray[12].obj_name = Device.NAT., ComponentValArray[12].comp_name = eRT.com.cisco.spvtg.ccsp.pam, ComponentValArray[12].dbus_path = eRT.com.cisco.spvtg.ccsp.pam
+241118-09:32:10.211612 [mod=WEBPA, lvl=INFO] [tid=4146] WEBPA: ComponentValArray[13].comp_id = 13,ComponentValArray[cnt].comp_size = 2, ComponentValArray[13].obj_name = Device.DHCPv4., ComponentValArray[13].comp_name = eRT.com.cisco.spvtg.ccsp.wanmanager, ComponentValArray[13].dbus_path = eRT.com.cisco.spvtg.ccsp.wanmanager
+241118-09:32:10.214264 [mod=WEBPA, lvl=INFO] [tid=4146] WEBPA: ComponentValArray[14].comp_id = 14,ComponentValArray[cnt].comp_size = 2, ComponentValArray[14].obj_name = Device.DHCPv6., ComponentValArray[14].comp_name = eRT.com.cisco.spvtg.ccsp.wanmanager, ComponentValArray[14].dbus_path = eRT.com.cisco.spvtg.ccsp.wanmanager
+241118-09:32:10.215508 [mod=WEBPA, lvl=INFO] [tid=4146] WEBPA: ComponentValArray[15].comp_id = 15,ComponentValArray[cnt].comp_size = 1, ComponentValArray[15].obj_name = Device.Users., ComponentValArray[15].comp_name = eRT.com.cisco.spvtg.ccsp.pam, ComponentValArray[15].dbus_path = eRT.com.cisco.spvtg.ccsp.pam
+241118-09:32:10.216865 [mod=WEBPA, lvl=INFO] [tid=4146] WEBPA: ComponentValArray[16].comp_id = 16,ComponentValArray[cnt].comp_size = 1, ComponentValArray[16].obj_name = Device.UPnP., ComponentValArray[16].comp_name = eRT.com.cisco.spvtg.ccsp.pam, ComponentValArray[16].dbus_path = eRT.com.cisco.spvtg.ccsp.pam
+241118-09:32:10.218199 [mod=WEBPA, lvl=INFO] [tid=4146] WEBPA: ComponentValArray[17].comp_id = 17,ComponentValArray[cnt].comp_size = 1, ComponentValArray[17].obj_name = Device.X_CISCO_COM_DDNS., ComponentValArray[17].comp_name = eRT.com.cisco.spvtg.ccsp.pam, ComponentValArray[17].dbus_path = eRT.com.cisco.spvtg.ccsp.pam
+241118-09:32:10.219511 [mod=WEBPA, lvl=INFO] [tid=4146] WEBPA: ComponentValArray[18].comp_id = 18,ComponentValArray[cnt].comp_size = 1, ComponentValArray[18].obj_name = Device.X_CISCO_COM_Security., ComponentValArray[18].comp_name = eRT.com.cisco.spvtg.ccsp.pam, ComponentValArray[18].dbus_path = eRT.com.cisco.spvtg.ccsp.pam
+241118-09:32:10.214267 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Current device firmware version rdkb-generic-broadband-image_rdkb-2024q1-dunfell_20241114094225 is same as old firmware version in config file rdkb-generic-broadband-image_rdkb-2024q1-dunfell_20241114094225
+241118-09:32:10.220381 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: setInitialNotify max_retry_sleep is 1023
+241118-09:32:10.221648 [mod=WEBPA, lvl=ERROR] [tid=4148] WEBPA: Parameter name Device.DeviceInfo.X_RDKCENTRAL-COM_DeviceFingerPrint.Enable is not supported. ret = 204
+241118-09:32:10.221649 [mod=WEBPA, lvl=INFO] [tid=4146] WEBPA: ComponentValArray[19].comp_id = 19,ComponentValArray[cnt].comp_size = 1, ComponentValArray[19].obj_name = Device.X_CISCO_COM_DeviceControl., ComponentValArray[19].comp_name = eRT.com.cisco.spvtg.ccsp.pam, ComponentValArray[19].dbus_path = eRT.com.cisco.spvtg.ccsp.pam
+241118-09:32:10.222076 [mod=WEBPA, lvl=ERROR] [tid=4148] WEBPA: Failed to GetValue for Device.DeviceInfo.X_RDKCENTRAL-COM_DeviceFingerPrint.Enable
+241118-09:32:10.223527 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.notifycomponent, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.notifycomponent
+241118-09:32:10.223593 [mod=WEBPA, lvl=INFO] [tid=4146] WEBPA: ComponentValArray[20].comp_id = 20,ComponentValArray[cnt].comp_size = 1, ComponentValArray[20].obj_name = Device.Bridging., ComponentValArray[20].comp_name = eRT.com.cisco.spvtg.ccsp.pam, ComponentValArray[20].dbus_path = eRT.com.cisco.spvtg.ccsp.pam
+241118-09:32:10.226751 [mod=WEBPA, lvl=INFO] [tid=4146] WEBPA: ComponentValArray[21].comp_id = 21,ComponentValArray[cnt].comp_size = 1, ComponentValArray[21].obj_name = Device.RouterAdvertisement., ComponentValArray[21].comp_name = eRT.com.cisco.spvtg.ccsp.pam, ComponentValArray[21].dbus_path = eRT.com.cisco.spvtg.ccsp.pam
+241118-09:32:10.229627 [mod=WEBPA, lvl=INFO] [tid=4146] WEBPA: ComponentValArray[22].comp_id = 22,ComponentValArray[cnt].comp_size = 1, ComponentValArray[22].obj_name = Device.NeighborDiscovery., ComponentValArray[22].comp_name = eRT.com.cisco.spvtg.ccsp.pam, ComponentValArray[22].dbus_path = eRT.com.cisco.spvtg.ccsp.pam
+241118-09:32:10.229705 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.NotifyComponent.X_RDKCENTRAL-COM_Connected-Client ret: 0
+241118-09:32:10.231516 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.pam, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.pam
+241118-09:32:10.231695 [mod=WEBPA, lvl=INFO] [tid=4146] WEBPA: ComponentValArray[23].comp_id = 23,ComponentValArray[cnt].comp_size = 1, ComponentValArray[23].obj_name = Device.IPv6rd., ComponentValArray[23].comp_name = eRT.com.cisco.spvtg.ccsp.pam, ComponentValArray[23].dbus_path = eRT.com.cisco.spvtg.ccsp.pam
+241118-09:32:10.235983 [mod=WEBPA, lvl=INFO] [tid=4146] WEBPA: ComponentValArray[24].comp_id = 24,ComponentValArray[cnt].comp_size = 1, ComponentValArray[24].obj_name = Device.X_CISCO_COM_MLD., ComponentValArray[24].comp_name = eRT.com.cisco.spvtg.ccsp.pam, ComponentValArray[24].dbus_path = eRT.com.cisco.spvtg.ccsp.pam
+241118-09:32:10.236301 [mod=WEBPA, lvl=INFO] [tid=4146] WEBPA: Skipped caching of CM Agent parameter
+241118-09:32:10.237688 [mod=WEBPA, lvl=INFO] [tid=4146] WEBPA: ComponentValArray[25].comp_id = 25,ComponentValArray[cnt].comp_size = 1, ComponentValArray[25].obj_name = Device.X_Comcast_com_ParentalControl., ComponentValArray[25].comp_name = eRT.com.cisco.spvtg.ccsp.pam, ComponentValArray[25].dbus_path = eRT.com.cisco.spvtg.ccsp.pam
+241118-09:32:10.237708 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.Bridging.Bridge.1.Port.8.Enable ret: 0
+241118-09:32:10.239322 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.pam, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.pam
+241118-09:32:10.239379 [mod=WEBPA, lvl=INFO] [tid=4146] WEBPA: ComponentValArray[26].comp_id = 26,ComponentValArray[cnt].comp_size = 1, ComponentValArray[26].obj_name = Device.X_CISCO_COM_Diagnostics., ComponentValArray[26].comp_name = eRT.com.cisco.spvtg.ccsp.pam, ComponentValArray[26].dbus_path = eRT.com.cisco.spvtg.ccsp.pam
+241118-09:32:10.243116 [mod=WEBPA, lvl=INFO] [tid=4146] WEBPA: ComponentValArray[27].comp_id = 27,ComponentValArray[cnt].comp_size = 1, ComponentValArray[27].obj_name = Device.X_CISCO_COM_MultiLAN., ComponentValArray[27].comp_name = eRT.com.cisco.spvtg.ccsp.pam, ComponentValArray[27].dbus_path = eRT.com.cisco.spvtg.ccsp.pam
+241118-09:32:10.246423 [mod=WEBPA, lvl=INFO] [tid=4146] WEBPA: ComponentValArray[28].comp_id = 28,ComponentValArray[cnt].comp_size = 1, ComponentValArray[28].obj_name = Device.X_COMCAST_COM_GRE., ComponentValArray[28].comp_name = eRT.com.cisco.spvtg.ccsp.pam, ComponentValArray[28].dbus_path = eRT.com.cisco.spvtg.ccsp.pam
+241118-09:32:10.246482 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.Bridging.Bridge.2.Port.2.Enable ret: 0
+241118-09:32:10.248436 [mod=WEBPA, lvl=INFO] [tid=4146] WEBPA: ComponentValArray[29].comp_id = 29,ComponentValArray[cnt].comp_size = 1, ComponentValArray[29].obj_name = Device.X_CISCO_COM_GRE., ComponentValArray[29].comp_name = eRT.com.cisco.spvtg.ccsp.pam, ComponentValArray[29].dbus_path = eRT.com.cisco.spvtg.ccsp.pam
+241118-09:32:10.248657 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.pam, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.pam
+241118-09:32:10.252122 [mod=WEBPA, lvl=INFO] [tid=4146] WEBPA: ComponentValArray[30].comp_id = 30,ComponentValArray[cnt].comp_size = 1, ComponentValArray[30].obj_name = Device.Hosts., ComponentValArray[30].comp_name = eRT.com.cisco.spvtg.ccsp.lmlite, ComponentValArray[30].dbus_path = eRT.com.cisco.spvtg.ccsp.lmlite
+241118-09:32:10.253856 [mod=WEBPA, lvl=INFO] [tid=4146] WEBPA: ComponentValArray[31].comp_id = 31,ComponentValArray[cnt].comp_size = 2, ComponentValArray[31].obj_name = Device.ManagementServer., ComponentValArray[31].comp_name = eRT.com.cisco.spvtg.ccsp.tr069pa, ComponentValArray[31].dbus_path = eRT.com.cisco.spvtg.ccsp.tr069pa
+241118-09:32:10.255336 [mod=WEBPA, lvl=INFO] [tid=4146] WEBPA: ComponentValArray[32].comp_id = 32,ComponentValArray[cnt].comp_size = 1, ComponentValArray[32].obj_name = Device.XHosts., ComponentValArray[32].comp_name = eRT.com.cisco.spvtg.ccsp.lmlite, ComponentValArray[32].dbus_path = eRT.com.cisco.spvtg.ccsp.lmlite
+241118-09:32:10.255384 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.DeviceInfo.X_COMCAST_COM_xfinitywifiEnable ret: 0
+241118-09:32:10.257137 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.wifi, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.wifi
+241118-09:32:10.257152 [mod=WEBPA, lvl=ERROR] [tid=4146] WEBPA: ---Failed to get component info for object Device.X_CISCO_COM_MTA.---: ret = 204, size = 0, Adding into failedCompList....
+241118-09:32:10.257355 [mod=WEBPA, lvl=INFO] [tid=4146] WEBPA: failedCompList[1] : Device.X_CISCO_COM_MTA.
+241118-09:32:10.259452 [mod=WEBPA, lvl=INFO] [tid=4146] WEBPA: ComponentValArray[33].comp_id = 33,ComponentValArray[cnt].comp_size = 1, ComponentValArray[33].obj_name = Device.X_RDKCENTRAL-COM_XDNS., ComponentValArray[33].comp_name = eRT.com.cisco.spvtg.ccsp.xdns, ComponentValArray[33].dbus_path = eRT.com.cisco.spvtg.ccsp.xdns
+241118-09:32:10.261907 [mod=WEBPA, lvl=INFO] [tid=4146] WEBPA: ComponentValArray[34].comp_id = 34,ComponentValArray[cnt].comp_size = 1, ComponentValArray[34].obj_name = Device.X_RDKCENTRAL-COM_Report., ComponentValArray[34].comp_name = eRT.com.cisco.spvtg.ccsp.lmlite, ComponentValArray[34].dbus_path = eRT.com.cisco.spvtg.ccsp.lmlite
+241118-09:32:10.263552 [mod=WEBPA, lvl=INFO] [tid=4146] WEBPA: ComponentValArray[35].comp_id = 35,ComponentValArray[cnt].comp_size = 1, ComponentValArray[35].obj_name = Device.SelfHeal., ComponentValArray[35].comp_name = eRT.com.cisco.spvtg.ccsp.tdm, ComponentValArray[35].dbus_path = eRT.com.cisco.spvtg.ccsp.tdm
+241118-09:32:10.263597 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.WiFi.AccessPoint.10001.Security.ModeEnabled ret: 0
+241118-09:32:10.265488 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.wifi, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.wifi
+241118-09:32:10.265539 [mod=WEBPA, lvl=INFO] [tid=4146] WEBPA: ComponentValArray[36].comp_id = 36,ComponentValArray[cnt].comp_size = 1, ComponentValArray[36].obj_name = Device.LogBackup., ComponentValArray[36].comp_name = eRT.com.cisco.spvtg.ccsp.tdm, ComponentValArray[36].dbus_path = eRT.com.cisco.spvtg.ccsp.tdm
+241118-09:32:10.267307 [mod=WEBPA, lvl=INFO] [tid=4146] WEBPA: ComponentValArray[37].comp_id = 37,ComponentValArray[cnt].comp_size = 1, ComponentValArray[37].obj_name = Device.NotifyComponent., ComponentValArray[37].comp_name = eRT.com.cisco.spvtg.ccsp.notifycomponent, ComponentValArray[37].dbus_path = eRT.com.cisco.spvtg.ccsp.notifycomponent
+241118-09:32:10.269380 [mod=WEBPA, lvl=INFO] [tid=4146] WEBPA: ComponentValArray[38].comp_id = 38,ComponentValArray[cnt].comp_size = 1, ComponentValArray[38].obj_name = Device.X_RDKCENTRAL-COM_Webpa., ComponentValArray[38].comp_name = eRT.com.cisco.spvtg.ccsp.webpaagent, ComponentValArray[38].dbus_path = eRT.com.cisco.spvtg.ccsp.webpaagent
+241118-09:32:10.271369 [mod=WEBPA, lvl=INFO] [tid=4146] WEBPA: ComponentValArray[39].comp_id = 39,ComponentValArray[cnt].comp_size = 1, ComponentValArray[39].obj_name = Device.Webpa., ComponentValArray[39].comp_name = eRT.com.cisco.spvtg.ccsp.webpaagent, ComponentValArray[39].dbus_path = eRT.com.cisco.spvtg.ccsp.webpaagent
+241118-09:32:10.271444 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.WiFi.AccessPoint.10001.Security.X_COMCAST-COM_KeyPassphrase ret: 0
+241118-09:32:10.273201 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.wifi, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.wifi
+241118-09:32:10.273244 [mod=WEBPA, lvl=INFO] [tid=4146] WEBPA: SubComponentValArray[0].comp_id = 0,SubComponentValArray[i].comp_size = 1, SubComponentValArray[0].obj_name = Device.DeviceInfo.NetworkProperties., SubComponentValArray[0].comp_name = eRT.com.cisco.spvtg.ccsp.pam, SubComponentValArray[0].dbus_path = eRT.com.cisco.spvtg.ccsp.pam
+241118-09:32:10.275546 [mod=WEBPA, lvl=ERROR] [tid=4146] WEBPA: ---Failed to get component info for object Device.MoCA.Interface.---: ret = 204, size = 0, Adding into failedSubCompList....
+241118-09:32:10.275671 [mod=WEBPA, lvl=INFO] [tid=4146] WEBPA: failedSubCompList[0] : Device.MoCA.Interface.
+241118-09:32:10.278821 [mod=WEBPA, lvl=INFO] [tid=4146] WEBPA: SubComponentValArray[1].comp_id = 1,SubComponentValArray[i].comp_size = 1, SubComponentValArray[1].obj_name = Device.IP.Diagnostics., SubComponentValArray[1].comp_name = eRT.com.cisco.spvtg.ccsp.tdm, SubComponentValArray[1].dbus_path = eRT.com.cisco.spvtg.ccsp.tdm
+241118-09:32:10.278824 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.WiFi.AccessPoint.10001.SSIDAdvertisementEnabled ret: 0
+241118-09:32:10.280613 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.wifi, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.wifi
+241118-09:32:10.280676 [mod=WEBPA, lvl=INFO] [tid=4146] WEBPA: SubComponentValArray[2].comp_id = 2,SubComponentValArray[i].comp_size = 1, SubComponentValArray[2].obj_name = Device.IP.Interface., SubComponentValArray[2].comp_name = eRT.com.cisco.spvtg.ccsp.pam, SubComponentValArray[2].dbus_path = eRT.com.cisco.spvtg.ccsp.pam
+241118-09:32:10.282346 [mod=WEBPA, lvl=INFO] [tid=4146] WEBPA: SubComponentValArray[3].comp_id = 3,SubComponentValArray[i].comp_size = 1, SubComponentValArray[3].obj_name = Device.DNS.Diagnostics., SubComponentValArray[3].comp_name = eRT.com.cisco.spvtg.ccsp.tdm, SubComponentValArray[3].dbus_path = eRT.com.cisco.spvtg.ccsp.tdm
+241118-09:32:10.284211 [mod=WEBPA, lvl=INFO] [tid=4146] WEBPA: SubComponentValArray[4].comp_id = 4,SubComponentValArray[i].comp_size = 1, SubComponentValArray[4].obj_name = Device.DNS.Client., SubComponentValArray[4].comp_name = eRT.com.cisco.spvtg.ccsp.pam, SubComponentValArray[4].dbus_path = eRT.com.cisco.spvtg.ccsp.pam
+241118-09:32:10.286291 [mod=WEBPA, lvl=INFO] [tid=4146] WEBPA: SubComponentValArray[5].comp_id = 5,SubComponentValArray[i].comp_size = 1, SubComponentValArray[5].obj_name = Device.DeviceInfo.VendorConfigFile., SubComponentValArray[5].comp_name = eRT.com.cisco.spvtg.ccsp.pam, SubComponentValArray[5].dbus_path = eRT.com.cisco.spvtg.ccsp.pam
+241118-09:32:10.286363 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.WiFi.AccessPoint.10001.X_CISCO_COM_MACFilter.Enable ret: 0
+241118-09:32:10.287989 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.wifi, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.wifi
+241118-09:32:10.288132 [mod=WEBPA, lvl=INFO] [tid=4146] WEBPA: SubComponentValArray[6].comp_id = 6,SubComponentValArray[i].comp_size = 1, SubComponentValArray[6].obj_name = Device.DeviceInfo.MemoryStatus., SubComponentValArray[6].comp_name = eRT.com.cisco.spvtg.ccsp.pam, SubComponentValArray[6].dbus_path = eRT.com.cisco.spvtg.ccsp.pam
+241118-09:32:10.290105 [mod=WEBPA, lvl=INFO] [tid=4146] WEBPA: SubComponentValArray[7].comp_id = 7,SubComponentValArray[i].comp_size = 1, SubComponentValArray[7].obj_name = Device.DeviceInfo.ProcessStatus., SubComponentValArray[7].comp_name = eRT.com.cisco.spvtg.ccsp.pam, SubComponentValArray[7].dbus_path = eRT.com.cisco.spvtg.ccsp.pam
+241118-09:32:10.291966 [mod=WEBPA, lvl=INFO] [tid=4146] WEBPA: SubComponentValArray[8].comp_id = 8,SubComponentValArray[i].comp_size = 1, SubComponentValArray[8].obj_name = Device.DeviceInfo.Webpa., SubComponentValArray[8].comp_name = eRT.com.cisco.spvtg.ccsp.webpaagent, SubComponentValArray[8].dbus_path = eRT.com.cisco.spvtg.ccsp.webpaagent
+241118-09:32:10.294201 [mod=WEBPA, lvl=INFO] [tid=4146] WEBPA: SubComponentValArray[9].comp_id = 9,SubComponentValArray[i].comp_size = 1, SubComponentValArray[9].obj_name = Device.DeviceInfo.SupportedDataModel., SubComponentValArray[9].comp_name = eRT.com.cisco.spvtg.ccsp.tr069pa, SubComponentValArray[9].dbus_path = eRT.com.cisco.spvtg.ccsp.tr069pa
+241118-09:32:10.294205 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.WiFi.AccessPoint.10001.X_CISCO_COM_MACFilter.FilterAsBlackList ret: 0
+241118-09:32:10.295987 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.wifi, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.wifi
+241118-09:32:10.296128 [mod=WEBPA, lvl=INFO] [tid=4146] WEBPA: SubComponentValArray[10].comp_id = 10,SubComponentValArray[i].comp_size = 1, SubComponentValArray[10].obj_name = Device.DeviceInfo.X_RDKCENTRAL-COM., SubComponentValArray[10].comp_name = eRT.com.cisco.spvtg.ccsp.pam, SubComponentValArray[10].dbus_path = eRT.com.cisco.spvtg.ccsp.pam
+241118-09:32:10.298326 [mod=WEBPA, lvl=INFO] [tid=4146] WEBPA: SubComponentValArray[11].comp_id = 11,SubComponentValArray[i].comp_size = 4, SubComponentValArray[11].obj_name = Device.DeviceInfo.X_RDKCENTRAL-COM_xOpsDeviceMgmt., SubComponentValArray[11].comp_name = eRT.com.cisco.spvtg.ccsp.fwupgrademanager, SubComponentValArray[11].dbus_path = eRT.com.cisco.spvtg.ccsp.fwupgrademanager
+241118-09:32:10.300115 [mod=WEBPA, lvl=ERROR] [tid=4146] WEBPA: ---Failed to get component info for object Device.X_RDKCENTRAL-COM_Report.InterfaceDevicesWifi.---: ret = 204, size = 0, Adding into failedSubCompList....
+241118-09:32:10.300258 [mod=WEBPA, lvl=INFO] [tid=4146] WEBPA: failedSubCompList[1] : Device.X_RDKCENTRAL-COM_Report.InterfaceDevicesWifi.
+241118-09:32:10.301536 [mod=WEBPA, lvl=ERROR] [tid=4146] WEBPA: ---Failed to get component info for object Device.X_RDKCENTRAL-COM_Report.RadioInterfaceStatistics.---: ret = 204, size = 0, Adding into failedSubCompList....
+241118-09:32:10.301566 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.WiFi.AccessPoint.10101.Security.ModeEnabled ret: 0
+241118-09:32:10.301667 [mod=WEBPA, lvl=INFO] [tid=4146] WEBPA: failedSubCompList[2] : Device.X_RDKCENTRAL-COM_Report.RadioInterfaceStatistics.
+241118-09:32:10.302829 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.wifi, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.wifi
+241118-09:32:10.303829 [mod=WEBPA, lvl=ERROR] [tid=4146] WEBPA: ---Failed to get component info for object Device.X_RDKCENTRAL-COM_Report.NeighboringAP.---: ret = 204, size = 0, Adding into failedSubCompList....
+241118-09:32:10.303951 [mod=WEBPA, lvl=INFO] [tid=4146] WEBPA: failedSubCompList[3] : Device.X_RDKCENTRAL-COM_Report.NeighboringAP.
+241118-09:32:10.305979 [mod=WEBPA, lvl=INFO] [tid=4146] WEBPA: SubComponentValArray[12].comp_id = 12,SubComponentValArray[i].comp_size = 1, SubComponentValArray[12].obj_name = Device.X_RDKCENTRAL-COM_Report.NetworkDevicesStatus., SubComponentValArray[12].comp_name = eRT.com.cisco.spvtg.ccsp.lmlite, SubComponentValArray[12].dbus_path = eRT.com.cisco.spvtg.ccsp.lmlite
+241118-09:32:10.308211 [mod=WEBPA, lvl=INFO] [tid=4146] WEBPA: SubComponentValArray[13].comp_id = 13,SubComponentValArray[i].comp_size = 1, SubComponentValArray[13].obj_name = Device.X_RDKCENTRAL-COM_Report.NetworkDevicesTraffic., SubComponentValArray[13].comp_name = eRT.com.cisco.spvtg.ccsp.lmlite, SubComponentValArray[13].dbus_path = eRT.com.cisco.spvtg.ccsp.lmlite
+241118-09:32:10.308243 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.WiFi.AccessPoint.10101.Security.X_COMCAST-COM_KeyPassphrase ret: 0
+241118-09:32:10.309728 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.wifi, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.wifi
+241118-09:32:10.309771 [mod=WEBPA, lvl=INFO] [tid=4146] WEBPA: SubComponentValArray[14].comp_id = 14,SubComponentValArray[i].comp_size = 1, SubComponentValArray[14].obj_name = Device.X_RDKCENTRAL-COM_Webpa.Server., SubComponentValArray[14].comp_name = eRT.com.cisco.spvtg.ccsp.webpaagent, SubComponentValArray[14].dbus_path = eRT.com.cisco.spvtg.ccsp.webpaagent
+241118-09:32:10.311729 [mod=WEBPA, lvl=INFO] [tid=4146] WEBPA: SubComponentValArray[15].comp_id = 15,SubComponentValArray[i].comp_size = 1, SubComponentValArray[15].obj_name = Device.X_RDKCENTRAL-COM_Webpa.TokenServer., SubComponentValArray[15].comp_name = eRT.com.cisco.spvtg.ccsp.webpaagent, SubComponentValArray[15].dbus_path = eRT.com.cisco.spvtg.ccsp.webpaagent
+241118-09:32:10.313609 [mod=WEBPA, lvl=INFO] [tid=4146] WEBPA: SubComponentValArray[16].comp_id = 16,SubComponentValArray[i].comp_size = 1, SubComponentValArray[16].obj_name = Device.X_RDKCENTRAL-COM_Webpa.DNSText., SubComponentValArray[16].comp_name = eRT.com.cisco.spvtg.ccsp.webpaagent, SubComponentValArray[16].dbus_path = eRT.com.cisco.spvtg.ccsp.webpaagent
+241118-09:32:10.313742 [mod=WEBPA, lvl=INFO] [tid=4146] WEBPA: -------- retrying failed component caching -------
+241118-09:32:10.315044 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.WiFi.AccessPoint.10101.SSIDAdvertisementEnabled ret: 0
+241118-09:32:10.316321 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.wifi, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.wifi
+241118-09:32:10.316831 [mod=WEBPA, lvl=ERROR] [tid=4146] WEBPA: ------------Failed to get component info for object Device.MoCA.----------: ret = 204, size = 0, retrying .... 2 ...
+241118-09:32:10.324217 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.WiFi.AccessPoint.10101.X_CISCO_COM_MACFilter.Enable ret: 0
+241118-09:32:10.327610 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.wifi, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.wifi
+241118-09:32:10.333440 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.WiFi.AccessPoint.10101.X_CISCO_COM_MACFilter.FilterAsBlackList ret: 0
+241118-09:32:10.334470 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.wifi, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.wifi
+241118-09:32:10.339049 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.WiFi.AccessPoint.10002.Security.ModeEnabled ret: 0
+241118-09:32:10.340119 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.wifi, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.wifi
+241118-09:32:10.346450 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.WiFi.AccessPoint.10002.Security.X_COMCAST-COM_KeyPassphrase ret: 0
+241118-09:32:10.347477 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.wifi, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.wifi
+241118-09:32:10.352499 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.WiFi.AccessPoint.10002.Security.KeyPassphrase ret: 0
+241118-09:32:10.353637 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.wifi, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.wifi
+241118-09:32:10.358057 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.WiFi.AccessPoint.10002.Security.PreSharedKey ret: 0
+241118-09:32:10.359142 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.wifi, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.wifi
+241118-09:32:10.364181 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.WiFi.AccessPoint.10102.Security.ModeEnabled ret: 0
+241118-09:32:10.365266 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.wifi, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.wifi
+241118-09:32:10.370009 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.WiFi.AccessPoint.10102.Security.X_COMCAST-COM_KeyPassphrase ret: 0
+241118-09:32:10.371033 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.wifi, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.wifi
+241118-09:32:10.375525 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.WiFi.AccessPoint.10102.Security.KeyPassphrase ret: 0
+241118-09:32:10.376788 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.wifi, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.wifi
+241118-09:32:10.381747 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.WiFi.AccessPoint.10102.Security.PreSharedKey ret: 0
+241118-09:32:10.382768 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.wifi, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.wifi
+241118-09:32:10.387219 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.WiFi.Radio.10000.Enable ret: 0
+241118-09:32:10.388500 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.wifi, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.wifi
+241118-09:32:10.393133 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.WiFi.Radio.10100.Enable ret: 0
+241118-09:32:10.394198 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.wifi, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.wifi
+241118-09:32:10.398448 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.WiFi.SSID.10001.Enable ret: 0
+241118-09:32:10.399411 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.wifi, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.wifi
+241118-09:32:10.403629 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.WiFi.SSID.10001.SSID ret: 0
+241118-09:32:10.404684 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.wifi, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.wifi
+241118-09:32:10.409160 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.WiFi.SSID.10101.Enable ret: 0
+241118-09:32:10.410133 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.wifi, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.wifi
+241118-09:32:10.414683 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.WiFi.SSID.10101.SSID ret: 0
+241118-09:32:10.415692 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.wifi, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.wifi
+241118-09:32:10.419999 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.WiFi.SSID.10002.Enable ret: 0
+241118-09:32:10.421017 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.wifi, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.wifi
+241118-09:32:10.427237 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.WiFi.SSID.10002.SSID ret: 0
+241118-09:32:10.428369 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.wifi, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.wifi
+241118-09:32:10.435719 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.WiFi.SSID.10102.Enable ret: 0
+241118-09:32:10.436937 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.wifi, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.wifi
+241118-09:32:10.441432 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.WiFi.SSID.10102.SSID ret: 0
+241118-09:32:10.442418 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.pam, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.pam
+241118-09:32:10.447283 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.X_CISCO_COM_DeviceControl.LanManagementEntry.1.LanMode ret: 0
+241118-09:32:10.448804 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.pam, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.pam
+241118-09:32:10.453717 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.X_CISCO_COM_Security.Firewall.FilterAnonymousInternetRequests ret: 0
+241118-09:32:10.454764 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.pam, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.pam
+241118-09:32:10.459405 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.X_CISCO_COM_Security.Firewall.FilterHTTP ret: 0
+241118-09:32:10.460593 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.pam, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.pam
+241118-09:32:10.465211 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.X_CISCO_COM_Security.Firewall.FilterIdent ret: 0
+241118-09:32:10.466144 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.pam, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.pam
+241118-09:32:10.471064 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.X_CISCO_COM_Security.Firewall.FilterMulticast ret: 0
+241118-09:32:10.472114 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.pam, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.pam
+241118-09:32:10.480701 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.X_CISCO_COM_Security.Firewall.FilterP2P ret: 0
+241118-09:32:10.481943 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.pam, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.pam
+241118-09:32:10.486589 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.X_CISCO_COM_Security.Firewall.FirewallLevel ret: 0
+241118-09:32:10.487744 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.pam, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.pam
+241118-09:32:10.492432 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.X_CISCO_COM_Security.Firewall.FilterAnonymousInternetRequestsV6 ret: 0
+241118-09:32:10.493425 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.pam, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.pam
+241118-09:32:10.498292 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.X_CISCO_COM_Security.Firewall.FilterHTTPV6 ret: 0
+241118-09:32:10.499274 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.pam, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.pam
+241118-09:32:10.503961 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.X_CISCO_COM_Security.Firewall.FilterIdentV6 ret: 0
+241118-09:32:10.505225 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.pam, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.pam
+241118-09:32:10.509744 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.X_CISCO_COM_Security.Firewall.FilterMulticastV6 ret: 0
+241118-09:32:10.510676 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.pam, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.pam
+241118-09:32:10.518594 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.X_CISCO_COM_Security.Firewall.FilterP2PV6 ret: 0
+241118-09:32:10.519599 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.pam, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.pam
+241118-09:32:10.523903 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.X_CISCO_COM_Security.Firewall.FirewallLevelV6 ret: 0
+241118-09:32:10.525235 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.pam, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.pam
+241118-09:32:10.530139 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.X_CISCO_COM_DeviceControl.LanManagementEntry.1.LanIPAddress ret: 0
+241118-09:32:10.531161 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.pam, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.pam
+241118-09:32:10.536186 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.X_CISCO_COM_DeviceControl.LanManagementEntry.1.LanSubnetMask ret: 0
+241118-09:32:10.537317 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.pam, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.pam
+241118-09:32:10.541857 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.DHCPv4.Server.Pool.1.MinAddress ret: 0
+241118-09:32:10.542849 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.pam, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.pam
+241118-09:32:10.547564 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.DHCPv4.Server.Pool.1.MaxAddress ret: 0
+241118-09:32:10.548778 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.pam, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.pam
+241118-09:32:10.561447 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.DHCPv4.Server.Pool.1.LeaseTime ret: 0
+241118-09:32:10.562652 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.pam, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.pam
+241118-09:32:10.567252 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.NAT.X_CISCO_COM_DMZ.Enable ret: 0
+241118-09:32:10.568877 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.pam, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.pam
+241118-09:32:10.574968 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.NAT.X_CISCO_COM_DMZ.InternalIP ret: 0
+241118-09:32:10.575963 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.pam, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.pam
+241118-09:32:10.580674 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.NAT.X_CISCO_COM_DMZ.IPv6Host ret: 0
+241118-09:32:10.581586 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.pam, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.pam
+241118-09:32:10.585806 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.NAT.X_Comcast_com_EnablePortMapping ret: 0
+241118-09:32:10.587803 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.meshagent, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.meshagent
+241118-09:32:10.592728 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.DeviceInfo.X_RDKCENTRAL-COM_xOpsDeviceMgmt.Mesh.Enable ret: 0
+241118-09:32:10.593824 [mod=WEBPA, lvl=ERROR] [tid=4148] WEBPA: Parameter name Device.DeviceInfo.X_RDKCENTRAL-COM_DeviceFingerPrint.Enable is not supported. ret = 204
+241118-09:32:10.594171 [mod=WEBPA, lvl=ERROR] [tid=4148] WEBPA: Component name is not supported ret : 204
+241118-09:32:10.594248 [mod=WEBPA, lvl=ERROR] [tid=4148] WEBPA: Failed to turn notification ON for parameter : Device.DeviceInfo.X_RDKCENTRAL-COM_DeviceFingerPrint.Enable ret: 13 Attempt Number: 1
+241118-09:32:10.595252 [mod=WEBPA, lvl=ERROR] [tid=4148] WEBPA: Parameter name Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.PrivacyProtection.Enable is not supported. ret = 204
+241118-09:32:10.595576 [mod=WEBPA, lvl=ERROR] [tid=4148] WEBPA: Component name is not supported ret : 204
+241118-09:32:10.595652 [mod=WEBPA, lvl=ERROR] [tid=4148] WEBPA: Failed to turn notification ON for parameter : Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.PrivacyProtection.Enable ret: 13 Attempt Number: 1
+241118-09:32:10.601481 [mod=WEBPA, lvl=ERROR] [tid=4148] WEBPA: Parameter name Device.DeviceInfo.X_RDKCENTRAL-COM_PrivacyProtection.Activate is not supported. ret = 204
+241118-09:32:10.601860 [mod=WEBPA, lvl=ERROR] [tid=4148] WEBPA: Component name is not supported ret : 204
+241118-09:32:10.601937 [mod=WEBPA, lvl=ERROR] [tid=4148] WEBPA: Failed to turn notification ON for parameter : Device.DeviceInfo.X_RDKCENTRAL-COM_PrivacyProtection.Activate ret: 13 Attempt Number: 1
+241118-09:32:10.602919 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.pam, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.pam
+241118-09:32:10.607384 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.DeviceInfo.X_RDKCENTRAL-COM_CloudUIEnable ret: 0
+241118-09:32:10.608421 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.pam, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.pam
+241118-09:32:10.612858 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.DeviceInfo.X_RDKCENTRAL-COM_AkerEnable ret: 0
+241118-09:32:10.613906 [mod=WEBPA, lvl=ERROR] [tid=4148] WEBPA: Parameter name Device.MoCA.Interface.1.Enable is not supported. ret = 204
+241118-09:32:10.614262 [mod=WEBPA, lvl=ERROR] [tid=4148] WEBPA: Component name is not supported ret : 204
+241118-09:32:10.614426 [mod=WEBPA, lvl=ERROR] [tid=4148] WEBPA: Failed to turn notification ON for parameter : Device.MoCA.Interface.1.Enable ret: 13 Attempt Number: 1
+241118-09:32:10.615401 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.notifycomponent, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.notifycomponent
+241118-09:32:10.619827 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.NotifyComponent.X_RDKCENTRAL-COM_PresenceNotification ret: 0
+241118-09:32:10.620935 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.wifi, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.wifi
+241118-09:32:10.625524 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.WiFi.X_CISCO_COM_FactoryResetRadioAndAp ret: 0
+241118-09:32:10.626746 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.wifi, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.wifi
+241118-09:32:10.631503 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.WiFi.SSID.10003.SSID ret: 0
+241118-09:32:10.632627 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.wifi, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.wifi
+241118-09:32:10.637077 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.WiFi.SSID.10103.SSID ret: 0
+241118-09:32:10.638062 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.wifi, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.wifi
+241118-09:32:10.642602 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.WiFi.SSID.10005.SSID ret: 0
+241118-09:32:10.643666 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.wifi, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.wifi
+241118-09:32:10.648358 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.WiFi.SSID.10105.SSID ret: 0
+241118-09:32:10.649504 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.wifi, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.wifi
+241118-09:32:10.653934 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.WiFi.SSID.10003.Status ret: 0
+241118-09:32:10.655291 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.wifi, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.wifi
+241118-09:32:10.660507 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.WiFi.SSID.10103.Status ret: 0
+241118-09:32:10.661522 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.wifi, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.wifi
+241118-09:32:10.666147 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.WiFi.SSID.10005.Status ret: 0
+241118-09:32:10.667190 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.wifi, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.wifi
+241118-09:32:10.671999 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.WiFi.SSID.10105.Status ret: 0
+241118-09:32:10.673151 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.wifi, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.wifi
+241118-09:32:10.679254 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.WiFi.AccessPoint.10003.SSIDAdvertisementEnabled ret: 0
+241118-09:32:10.681033 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.wifi, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.wifi
+241118-09:32:10.691197 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.WiFi.AccessPoint.10103.SSIDAdvertisementEnabled ret: 0
+241118-09:32:10.692736 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.wifi, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.wifi
+241118-09:32:10.701025 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.WiFi.AccessPoint.10005.SSIDAdvertisementEnabled ret: 0
+241118-09:32:10.702150 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.wifi, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.wifi
+241118-09:32:10.706823 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.WiFi.AccessPoint.10105.SSIDAdvertisementEnabled ret: 0
+241118-09:32:10.707957 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.wifi, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.wifi
+241118-09:32:10.714014 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.WiFi.AccessPoint.10003.Security.RadiusServerIPAddr ret: 0
+241118-09:32:10.715198 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.wifi, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.wifi
+241118-09:32:10.719780 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.WiFi.AccessPoint.10103.Security.RadiusServerIPAddr ret: 0
+241118-09:32:10.720924 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.wifi, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.wifi
+241118-09:32:10.725783 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.WiFi.AccessPoint.10005.Security.RadiusServerIPAddr ret: 0
+241118-09:32:10.727234 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.wifi, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.wifi
+241118-09:32:10.732277 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.WiFi.AccessPoint.10105.Security.RadiusServerIPAddr ret: 0
+241118-09:32:10.733320 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.wifi, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.wifi
+241118-09:32:10.738167 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.WiFi.SSID.10003.BSSID ret: 0
+241118-09:32:10.739217 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.wifi, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.wifi
+241118-09:32:10.743805 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.WiFi.SSID.10103.BSSID ret: 0
+241118-09:32:10.746864 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.wifi, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.wifi
+241118-09:32:10.754814 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.WiFi.SSID.10005.BSSID ret: 0
+241118-09:32:10.756198 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.wifi, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.wifi
+241118-09:32:10.761406 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.WiFi.SSID.10105.BSSID ret: 0
+241118-09:32:10.762609 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.wifi, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.wifi
+241118-09:32:10.767691 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.WiFi.AccessPoint.10003.Security.ModeEnabled ret: 0
+241118-09:32:10.768861 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.wifi, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.wifi
+241118-09:32:10.773875 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.WiFi.AccessPoint.10103.Security.ModeEnabled ret: 0
+241118-09:32:10.774910 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.wifi, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.wifi
+241118-09:32:10.780189 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.WiFi.AccessPoint.10005.Security.ModeEnabled ret: 0
+241118-09:32:10.781255 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.wifi, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.wifi
+241118-09:32:10.786378 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.WiFi.AccessPoint.10105.Security.ModeEnabled ret: 0
+241118-09:32:10.787532 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.pam, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.pam
+241118-09:32:10.806640 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.X_COMCAST-COM_GRE.Tunnel.1.PrimaryRemoteEndpoint ret: 0
+241118-09:32:10.807737 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.pam, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.pam
+241118-09:32:10.814160 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.X_COMCAST-COM_GRE.Tunnel.1.SecondaryRemoteEndpoint ret: 0
+241118-09:32:10.815184 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.wifi, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.wifi
+241118-09:32:10.820167 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.WiFi.Radio.10000.Channel ret: 0
+241118-09:32:10.824396 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.wifi, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.wifi
+241118-09:32:10.829531 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.WiFi.Radio.10100.Channel ret: 0
+241118-09:32:10.830597 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.wifi, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.wifi
+241118-09:32:10.837878 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.WiFi.Radio.10000.OperatingFrequencyBand ret: 0
+241118-09:32:10.838946 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.wifi, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.wifi
+241118-09:32:10.843721 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.WiFi.Radio.10100.OperatingFrequencyBand ret: 0
+241118-09:32:10.844966 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.wifi, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.wifi
+241118-09:32:10.850071 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.WiFi.Radio.10000.OperatingChannelBandwidth ret: 0
+241118-09:32:10.851164 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.wifi, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.wifi
+241118-09:32:10.856271 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.WiFi.Radio.10100.OperatingChannelBandwidth ret: 0
+241118-09:32:10.857497 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.pam, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.pam
+241118-09:32:10.862259 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.X_COMCAST-COM_GRE.Tunnel.1.Interface.1.VLANID ret: 0
+241118-09:32:10.863508 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.pam, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.pam
+241118-09:32:10.868384 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.X_COMCAST-COM_GRE.Tunnel.1.Interface.1.LocalInterfaces ret: 0
+241118-09:32:10.869574 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.pam, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.pam
+241118-09:32:10.878193 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.X_COMCAST-COM_GRE.Tunnel.1.Interface.2.VLANID ret: 0
+241118-09:32:10.882021 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.pam, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.pam
+241118-09:32:10.886622 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.X_COMCAST-COM_GRE.Tunnel.1.Interface.2.LocalInterfaces ret: 0
+241118-09:32:10.887664 [mod=WEBPA, lvl=ERROR] [tid=4148] WEBPA: Parameter name Device.DeviceInfo.X_RDKCENTRAL-COM_AdvancedSecurity.SafeBrowsing.Enable is not supported. ret = 204
+241118-09:32:10.888004 [mod=WEBPA, lvl=ERROR] [tid=4148] WEBPA: Component name is not supported ret : 204
+241118-09:32:10.888249 [mod=WEBPA, lvl=ERROR] [tid=4148] WEBPA: Failed to turn notification ON for parameter : Device.DeviceInfo.X_RDKCENTRAL-COM_AdvancedSecurity.SafeBrowsing.Enable ret: 13 Attempt Number: 1
+241118-09:32:10.889181 [mod=WEBPA, lvl=ERROR] [tid=4148] WEBPA: Parameter name Device.DeviceInfo.X_RDKCENTRAL-COM_AdvancedSecurity.Softflowd.Enable is not supported. ret = 204
+241118-09:32:10.889500 [mod=WEBPA, lvl=ERROR] [tid=4148] WEBPA: Component name is not supported ret : 204
+241118-09:32:10.889573 [mod=WEBPA, lvl=ERROR] [tid=4148] WEBPA: Failed to turn notification ON for parameter : Device.DeviceInfo.X_RDKCENTRAL-COM_AdvancedSecurity.Softflowd.Enable ret: 13 Attempt Number: 1
+241118-09:32:10.889642 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: setInitialNotify backoffRetryTime 3 seconds, retry:0
+241118-09:32:13.891007 [mod=WEBPA, lvl=ERROR] [tid=4148] WEBPA: Parameter name Device.DeviceInfo.X_RDKCENTRAL-COM_DeviceFingerPrint.Enable is not supported. ret = 204
+241118-09:32:13.891480 [mod=WEBPA, lvl=ERROR] [tid=4148] WEBPA: Component name is not supported ret : 204
+241118-09:32:13.891564 [mod=WEBPA, lvl=ERROR] [tid=4148] WEBPA: Failed to turn notification ON for parameter : Device.DeviceInfo.X_RDKCENTRAL-COM_DeviceFingerPrint.Enable ret: 13 Attempt Number: 2
+241118-09:32:13.895900 [mod=WEBPA, lvl=ERROR] [tid=4148] WEBPA: Parameter name Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.PrivacyProtection.Enable is not supported. ret = 204
+241118-09:32:13.896488 [mod=WEBPA, lvl=ERROR] [tid=4148] WEBPA: Component name is not supported ret : 204
+241118-09:32:13.896580 [mod=WEBPA, lvl=ERROR] [tid=4148] WEBPA: Failed to turn notification ON for parameter : Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.PrivacyProtection.Enable ret: 13 Attempt Number: 2
+241118-09:32:13.897828 [mod=WEBPA, lvl=ERROR] [tid=4148] WEBPA: Parameter name Device.DeviceInfo.X_RDKCENTRAL-COM_PrivacyProtection.Activate is not supported. ret = 204
+241118-09:32:13.898157 [mod=WEBPA, lvl=ERROR] [tid=4148] WEBPA: Component name is not supported ret : 204
+241118-09:32:13.898233 [mod=WEBPA, lvl=ERROR] [tid=4148] WEBPA: Failed to turn notification ON for parameter : Device.DeviceInfo.X_RDKCENTRAL-COM_PrivacyProtection.Activate ret: 13 Attempt Number: 2
+241118-09:32:13.899255 [mod=WEBPA, lvl=ERROR] [tid=4148] WEBPA: Parameter name Device.MoCA.Interface.1.Enable is not supported. ret = 204
+241118-09:32:13.899570 [mod=WEBPA, lvl=ERROR] [tid=4148] WEBPA: Component name is not supported ret : 204
+241118-09:32:13.899643 [mod=WEBPA, lvl=ERROR] [tid=4148] WEBPA: Failed to turn notification ON for parameter : Device.MoCA.Interface.1.Enable ret: 13 Attempt Number: 2
+241118-09:32:13.900831 [mod=WEBPA, lvl=ERROR] [tid=4148] WEBPA: Parameter name Device.DeviceInfo.X_RDKCENTRAL-COM_AdvancedSecurity.SafeBrowsing.Enable is not supported. ret = 204
+241118-09:32:13.901184 [mod=WEBPA, lvl=ERROR] [tid=4148] WEBPA: Component name is not supported ret : 204
+241118-09:32:13.901261 [mod=WEBPA, lvl=ERROR] [tid=4148] WEBPA: Failed to turn notification ON for parameter : Device.DeviceInfo.X_RDKCENTRAL-COM_AdvancedSecurity.SafeBrowsing.Enable ret: 13 Attempt Number: 2
+241118-09:32:13.902378 [mod=WEBPA, lvl=ERROR] [tid=4148] WEBPA: Parameter name Device.DeviceInfo.X_RDKCENTRAL-COM_AdvancedSecurity.Softflowd.Enable is not supported. ret = 204
+241118-09:32:13.902697 [mod=WEBPA, lvl=ERROR] [tid=4148] WEBPA: Component name is not supported ret : 204
+241118-09:32:13.902771 [mod=WEBPA, lvl=ERROR] [tid=4148] WEBPA: Failed to turn notification ON for parameter : Device.DeviceInfo.X_RDKCENTRAL-COM_AdvancedSecurity.Softflowd.Enable ret: 13 Attempt Number: 2
+241118-09:32:13.902841 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: setInitialNotify backoffRetryTime 7 seconds, retry:1
+241118-09:32:20.318433 [mod=WEBPA, lvl=ERROR] [tid=4146] WEBPA: ------------Failed to get component info for object Device.MoCA.----------: ret = 204, size = 0, retrying .... 3 ...
+241118-09:32:20.904376 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.advsec, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.advsec
+241118-09:32:20.920438 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.DeviceInfo.X_RDKCENTRAL-COM_DeviceFingerPrint.Enable ret: 0
+241118-09:32:20.921916 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.advsec, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.advsec
+241118-09:32:20.949545 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.PrivacyProtection.Enable ret: 0
+241118-09:32:20.952368 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.advsec, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.advsec
+241118-09:32:20.972347 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.DeviceInfo.X_RDKCENTRAL-COM_PrivacyProtection.Activate ret: 0
+241118-09:32:20.980436 [mod=WEBPA, lvl=ERROR] [tid=4148] WEBPA: Parameter name Device.MoCA.Interface.1.Enable is not supported. ret = 204
+241118-09:32:20.980900 [mod=WEBPA, lvl=ERROR] [tid=4148] WEBPA: Component name is not supported ret : 204
+241118-09:32:20.980991 [mod=WEBPA, lvl=ERROR] [tid=4148] WEBPA: Failed to turn notification ON for parameter : Device.MoCA.Interface.1.Enable ret: 13 Attempt Number: 3
+241118-09:32:20.984363 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.advsec, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.advsec
+241118-09:32:21.013001 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.DeviceInfo.X_RDKCENTRAL-COM_AdvancedSecurity.SafeBrowsing.Enable ret: 0
+241118-09:32:21.014135 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: compName[0] : eRT.com.cisco.spvtg.ccsp.advsec, dbusPath[0] : eRT.com.cisco.spvtg.ccsp.advsec
+241118-09:32:21.056426 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: Successfully set notification ON for parameter : Device.DeviceInfo.X_RDKCENTRAL-COM_AdvancedSecurity.Softflowd.Enable ret: 0
+241118-09:32:21.056565 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: setInitialNotify backoffRetryTime 15 seconds, retry:2
+241118-09:32:30.319822 [mod=WEBPA, lvl=ERROR] [tid=4146] WEBPA: ------------Failed to get component info for object Device.MoCA.----------: ret = 204, size = 0, retrying .... 4 ...
+241118-09:32:30.319975 [mod=WEBPA, lvl=ERROR] [tid=4146] WEBPA: Unable to get component for object Device.MoCA.
+241118-09:32:30.321337 [mod=WEBPA, lvl=ERROR] [tid=4146] WEBPA: ------------Failed to get component info for object Device.MoCA.----------: ret = 204, size = 0, retrying .... 5 ...
+241118-09:32:36.057825 [mod=WEBPA, lvl=ERROR] [tid=4148] WEBPA: Parameter name Device.MoCA.Interface.1.Enable is not supported. ret = 204
+241118-09:32:36.058328 [mod=WEBPA, lvl=ERROR] [tid=4148] WEBPA: Component name is not supported ret : 204
+241118-09:32:36.058409 [mod=WEBPA, lvl=ERROR] [tid=4148] WEBPA: Failed to turn notification ON for parameter : Device.MoCA.Interface.1.Enable ret: 13 Attempt Number: 4
+241118-09:32:36.058482 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: setInitialNotify backoffRetryTime 31 seconds, retry:3
+241118-09:32:40.322585 [mod=WEBPA, lvl=ERROR] [tid=4146] WEBPA: ------------Failed to get component info for object Device.X_CISCO_COM_MTA.----------: ret = 204, size = 0, retrying .... 2 ...
+241118-09:32:50.324085 [mod=WEBPA, lvl=ERROR] [tid=4146] WEBPA: ------------Failed to get component info for object Device.X_CISCO_COM_MTA.----------: ret = 204, size = 0, retrying .... 3 ...
+241118-09:33:00.326849 [mod=WEBPA, lvl=ERROR] [tid=4146] WEBPA: ------------Failed to get component info for object Device.X_CISCO_COM_MTA.----------: ret = 204, size = 0, retrying .... 4 ...
+241118-09:33:00.327024 [mod=WEBPA, lvl=ERROR] [tid=4146] WEBPA: Unable to get component for object Device.X_CISCO_COM_MTA.
+241118-09:33:00.329441 [mod=WEBPA, lvl=ERROR] [tid=4146] WEBPA: ------------Failed to get component info for object Device.X_CISCO_COM_MTA.----------: ret = 204, size = 0, retrying .... 5 ...
+241118-09:33:07.059671 [mod=WEBPA, lvl=ERROR] [tid=4148] WEBPA: Parameter name Device.MoCA.Interface.1.Enable is not supported. ret = 204
+241118-09:33:07.060122 [mod=WEBPA, lvl=ERROR] [tid=4148] WEBPA: Component name is not supported ret : 204
+241118-09:33:07.060210 [mod=WEBPA, lvl=ERROR] [tid=4148] WEBPA: Failed to turn notification ON for parameter : Device.MoCA.Interface.1.Enable ret: 13 Attempt Number: 5
+241118-09:33:07.060280 [mod=WEBPA, lvl=INFO] [tid=4148] WEBPA: setInitialNotify backoffRetryTime 63 seconds, retry:4
+241118-09:33:10.330730 [mod=WEBPA, lvl=ERROR] [tid=4146] WEBPA: ------------Failed to get component info for object Device.MoCA.Interface.----------: ret = 204, size = 0, retrying .... 2 ...

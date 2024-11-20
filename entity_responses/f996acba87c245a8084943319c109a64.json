@@ -1,0 +1,7 @@
+{
+  "entity_name": "init_passpoint",
+  "component": "CcspWifiAgent",
+  "content_hash": "f996acba87c245a8084943319c109a64",
+  "response": "**1. Main purpose and functionality:**\n   - Initializes the Passpoint functionality in the RDK WifiAgent.\n   - Passpoint is a Wi-Fi protocol that allows users to automatically connect to public Wi-Fi networks without entering a password or selecting a network.\n\n**2. Key operations and data flow:**\n   - Registers a callback for ANQP (Access Network Query Protocol) requests.\n   - ANQP is used to query a Wi-Fi network for information about available services.\n\n**3. Interaction with other components (if any):**\n   - Interacts with the ANQP module to process ANQP requests.\n\n**4. Important parameters and return values:**\n   - No parameters are passed to the function.\n   - The function returns RETURN_OK on success and RETURN_ERR on failure.\n\n**5. Any specific RDK-related operations:**\n   - Uses the wifi_passpoint_dbg_print() function for logging, which is a macro defined in the RDK.",
+  "processed_at": "2024-11-13T15:08:03.936289"
+}

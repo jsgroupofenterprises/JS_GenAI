@@ -1,0 +1,7 @@
+{
+  "entity_name": "rdk_wifi_ApGetStatsEnable",
+  "component": "CcspWifiAgent",
+  "content_hash": "ad5f7735920e2c6ef98bf9a5b0cfefc9",
+  "response": "**1. Main Purpose and Functionality:**\n   - The `rdk_wifi_ApGetStatsEnable` function retrieves the current value of the 'vapStatsEnable' flag for a specified Wi-Fi Access Point (AP) interface.\n\n**2. Key Operations and Data Flow:**\n   - The function takes two parameters: `wlanIndex` (index of the AP interface) and a pointer to a `bool` variable `bValue`.\n   - It calls `rdk_wifi_vap_get_from_index` to obtain the `wifi_vap_info_t` structure for the given interface index.\n   - It reads the `vapStatsEnable` field from the `u.bss_info` component of the retrieved structure and sets the `*bValue` parameter to this value.\n\n**3. Interaction with Other Components:**\n   - The function interacts with the Wi-Fi driver via the `rdk_wifi_vap_get_from_index` function to retrieve the AP interface information.\n\n**4. Important Parameters and Return Values:**\n   - `wlanIndex`: Index of the AP interface whose `vapStatsEnable` value is to be retrieved.\n   - `bValue`: Pointer to a `bool` variable that will receive the value of `vapStatsEnable`.\n   - Return Value: Returns `CCSP_SUCCESS` on success or an error code on failure.\n\n**5. RDK-Related Operations:**\n   - The function uses the RDK-specific data structures and functions for Wi-Fi management (`wifi_vap_info_t`, `rdk_wifi_vap_get_from_index`).",
+  "processed_at": "2024-11-13T15:36:13.331710"
+}

@@ -1,0 +1,3 @@
+241118-09:30:07.541670 dca: Clearing telemetry config and markers
+241118-09:30:07.562352 dca: Generating telemetry config file.
+WARNING !!! Unable to locate telemetry config file /nvram/.telemetry/dca_sorted_file.conf. Exiting !!!

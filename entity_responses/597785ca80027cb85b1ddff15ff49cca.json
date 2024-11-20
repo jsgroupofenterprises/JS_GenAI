@@ -1,0 +1,7 @@
+{
+  "entity_name": "voice_hal_getCallState",
+  "component": "hal",
+  "content_hash": "597785ca80027cb85b1ddff15ff49cca",
+  "response": "## Main purpose and functionality\n`voice_hal_getCallState` function gets the call state for the given service, profile and line.\n\n## Key operations and data flow\nThe function takes the following parameters:\n- `service`: The voice service affected.\n- `profile`: The voice profile affected.\n- `line`: The telephone line number affected.\n- `callState`: A pointer to a `VoiceHalCallState_e` variable to return the call state.\n\nThe function returns an integer representing the status of the operation.\n\n## Interaction with other components (if any)\nThis function interacts with the voice service manager to get the call state.\n\n## Important parameters and return values\n- `service`: This parameter specifies the voice service for which the call state is being requested.\n- `profile`: This parameter specifies the voice profile for which the call state is being requested.\n- `line`: This parameter specifies the telephone line number for which the call state is being requested.\n- `callState`: This parameter is a pointer to a `VoiceHalCallState_e` variable to return the call state.\n- `RDK_SUCCESS`: The function returns `RDK_SUCCESS` if the operation is successful.\n- `RDK_FAILURE`: The function returns `RDK_FAILURE` if any error is detected.\n\n## Specific RDK-related operations\nThis function is part of the RDK voice HAL API.",
+  "processed_at": "2024-11-14T12:17:20.090237"
+}

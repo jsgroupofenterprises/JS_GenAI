@@ -1,0 +1,7 @@
+{
+  "entity_name": "wifi_setInterworkingAccessNetworkType",
+  "component": "hal",
+  "content_hash": "67bd8131aeb231d12435f60fcdb1e1b7",
+  "response": "**1. Main purpose and functionality:**\n    - The `wifi_setInterworkingAccessNetworkType` function sets the Interworking Access Network Type (AN) value to be included in the Interworking IE in the beacon frames.\n\n**2. Key operations and data flow:**\n    - The function takes two parameters: `apIndex` (AP index) and `accessNetworkType` (value to be set).\n    - It updates the Interworking AN Type value for the specified AP index with the provided value.\n\n**3. Interaction with other components (if any):**\n    - N/A\n\n**4. Important parameters and return values:**\n    - **apIndex**: Index of the AP for which the Interworking AN Type is to be set.\n    - **accessNetworkType**: Value to be set as the Interworking AN Type.\n    - **Return value**: Integer indicating the status of the operation.\n\n**5. Any specific RDK-related operations:**\n    - This function is part of the RDK HAL API for Wi-Fi management and is specific to RDK implementations.",
+  "processed_at": "2024-11-14T12:39:31.931035"
+}

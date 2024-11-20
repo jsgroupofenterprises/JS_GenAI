@@ -1,0 +1,7 @@
+{
+  "entity_name": "_log_sink_get",
+  "component": "CcspWifiAgent",
+  "content_hash": "cebbac7d876d38fadabef9d5f249556e",
+  "response": "**1. Main purpose and functionality**\n\nThe `_log_sink_get` function retrieves a log module entry based on the specified log sink. It allows access to log module entries for local and remote log sinks.\n\n**2. Key operations and data flow**\n\n- Checks if the `name` parameter is provided and initializes it to an empty string.\n- Switches on the `sink` parameter:\n  - If `LOG_SINK_LOCAL`, returns the `log_module_table`.\n  - If `LOG_SINK_REMOTE`, sets `*name` to \"remote \" and returns the `log_module_remote`.\n- If the `sink` is not recognized, logs a warning and returns `NULL`.\n\n**3. Interaction with other components (if any)**\n\nThis function interacts with the log module table and the remote log module.\n\n**4. Important parameters and return values**\n\n| Parameter | Description |\n|---|---|\n| `sink` | The log sink to retrieve the log module entry for (either `LOG_SINK_LOCAL` or `LOG_SINK_REMOTE`) |\n| `name` (optional) | Pointer to a character array to receive the name of the log sink |\n| Return Value | Pointer to the log module entry or `NULL` if the log sink is unknown |\n\n**5. Any specific RDK-related operations**\n\nThis function uses the RDK-specific `log_module_table` and `log_module_remote` data structures for local and remote logging, respectively.",
+  "processed_at": "2024-11-13T15:52:27.668034"
+}

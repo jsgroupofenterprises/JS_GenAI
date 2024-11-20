@@ -1,0 +1,11 @@
+[OneWifi] 241007-14:40:26.810835<E>  CosaDmlWiFiGetFromPSM:318 psm radio feature param NULL radio_index:0
+[OneWifi] 241007-14:40:29.958065<I>  Psm_Db_Write_Global:751 update global config
+[OneWifi] 241007-14:40:29.982588<I>  Psm_Db_Write_Global:971 update global config done
+[OneWifi] 241007-14:40:29.983149<I>  Psm_Db_Write_Security:989 update security for vap index:4 mfp:Disabled
+[OneWifi] 241007-14:40:29.983346<I>  Psm_Db_Write_Security:1008 update security done for vap index:4
+[OneWifi] 241007-14:40:30.061135<I>  Psm_Db_Write_Security:989 update security for vap index:8 mfp:Disabled
+[OneWifi] 241007-14:40:30.061358<I>  Psm_Db_Write_Security:1008 update security done for vap index:8
+[OneWifi] 241007-14:40:30.175671<I>  Psm_Db_Write_Security:989 update security for vap index:5 mfp:Disabled
+[OneWifi] 241007-14:40:30.175906<I>  Psm_Db_Write_Security:1008 update security done for vap index:5
+[OneWifi] 241007-14:40:30.276267<I>  Psm_Db_Write_Security:989 update security for vap index:9 mfp:Disabled
+[OneWifi] 241007-14:40:30.276486<I>  Psm_Db_Write_Security:1008 update security done for vap index:9

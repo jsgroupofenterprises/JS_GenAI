@@ -1,0 +1,223 @@
+241007-14:40:23.652712 [mod=WIFI, lvl=WARN] [tid=2191] 
+Subsystem is eRT.
+241007-14:40:23.666308 [mod=WIFI, lvl=INFO] [tid=2191] Connect to bus daemon...
+241007-14:40:23.666739 [mod=WIFI, lvl=WARN] [tid=2191] RBus is enabled
+241007-14:40:23.666932 [mod=WIFI, lvl=INFO] [tid=2191] rbuscore.c:2326 RBus Enabled
+
+241007-14:40:23.667024 [mod=WIFI, lvl=INFO] [tid=2191] connection opened for eRT.com.cisco.spvtg.ccsp.wifi
+241007-14:40:23.669942 [mod=WIFI, lvl=INFO] [tid=2191] rbuscore.c:926 Registering method table for object eRT.com.cisco.spvtg.ccsp.wifi
+
+241007-14:40:23.670251 [mod=WIFI, lvl=INFO] [tid=2191] eRT.com.cisco.spvtg.ccsp.wifi start to check eRT.com.cisco.spvtg.ccsp.psm status
+241007-14:40:23.695167 [mod=WIFI, lvl=INFO] [tid=2191] eRT.com.cisco.spvtg.ccsp.psm is ready, eRT.com.cisco.spvtg.ccsp.wifi continue
+241007-14:40:23.695314 [mod=WIFI, lvl=INFO] [tid=2191] !!! Connected to message bus... bus_handle: 0x0x7f8c018a10 !!!
+241007-14:40:24.696714 [mod=WIFI, lvl=INFO] [tid=2191] CcspBaseIf_Register_Event_rbus : rbus_registerEvent called for event: currentSessionIDSignal
+241007-14:40:24.698736 [mod=WIFI, lvl=INFO] [tid=2191] rbuscore.c:742 Subscription for _rbus_session_mgr::currentSessionIDSignal is now active.
+
+241007-14:40:24.699953 [mod=WIFI, lvl=WARN] [tid=2191] Register empty object : com.
+241007-14:40:24.700081 [mod=WIFI, lvl=WARN] [tid=2191] Register empty object : com.cisco.
+241007-14:40:24.700176 [mod=WIFI, lvl=WARN] [tid=2191] Register empty object : com.cisco.spvtg.
+241007-14:40:24.700271 [mod=WIFI, lvl=WARN] [tid=2191] Register empty object : com.cisco.spvtg.ccsp.
+241007-14:40:24.701662 [mod=WIFI, lvl=WARN] [tid=2191] Data model XML file 1 = TR181-WiFi-USGv2.XML
+241007-14:40:24.702862 [mod=WIFI, lvl=WARN] [tid=2191] DM Library module name = CCSP Base Data Model
+241007-14:40:24.742447 [mod=WIFI, lvl=WARN] [tid=2191] DM Library module name = COSA_TR181_WiFi_USGv2
+241007-14:40:24.742674 [mod=WIFI, lvl=WARN] [tid=2191] Loading DM library libwifi.so...
+241007-14:40:24.769149 [mod=WIFI, lvl=WARN] [tid=2191]  RDKB_SYSTEM_BOOT_UP_LOG : CosaWifiInitialize - WiFi initialize. 
+241007-14:40:25.327158 [mod=WIFI, lvl=INFO] [tid=2011] rbus_asyncsubscribe.c:129 item=00:00:31.501975
+
+241007-14:40:25.327398 [mod=WIFI, lvl=INFO] [tid=2011] rbus_asyncsubscribe.c:129 item=00:00:31.512810
+
+241007-14:40:25.327501 [mod=WIFI, lvl=INFO] [tid=2011] rbus_asyncsubscribe.c:142 subs past due
+
+241007-14:40:25.327602 [mod=WIFI, lvl=INFO] [tid=2011] rbus_asyncsubscribe.c:184 Device.IP.Diagnostics.X_RDKCENTRAL-COM_SpeedTest.Status subscribing
+
+241007-14:40:25.344637 [mod=WIFI, lvl=INFO] [tid=2011] rbuscore.c:742 Subscription for Device.IP.Diagnostics.X_RDKCENTRAL-COM_SpeedTest.Status::Device.IP.Diagnostics.X_RDKCENTRAL-COM_SpeedTest.Status is now active.
+
+241007-14:40:25.344820 [mod=WIFI, lvl=INFO] [tid=2011] rbus_asyncsubscribe.c:231 Device.IP.Diagnostics.X_RDKCENTRAL-COM_SpeedTest.Status subscribe retries succeeded
+
+241007-14:40:25.382041 [mod=WIFI, lvl=INFO] [tid=2011] rbus_asyncsubscribe.c:184 Device.IP.Diagnostics.X_RDK_SpeedTest.SubscriberUnPauseTimeOut subscribing
+
+241007-14:40:25.407811 [mod=WIFI, lvl=INFO] [tid=2011] rbuscore.c:742 Subscription for Device.IP.Diagnostics.X_RDK_SpeedTest.SubscriberUnPauseTimeOut::Device.IP.Diagnostics.X_RDK_SpeedTest.SubscriberUnPauseTimeOut is now active.
+
+241007-14:40:25.408001 [mod=WIFI, lvl=INFO] [tid=2011] rbus_asyncsubscribe.c:231 Device.IP.Diagnostics.X_RDK_SpeedTest.SubscriberUnPauseTimeOut subscribe retries succeeded
+
+241007-14:40:26.590596 [mod=WIFI, lvl=INFO] [tid=2191] rbus.c:2765 rbus open for component: WebconfigDML
+
+241007-14:40:26.591279 [mod=WIFI, lvl=INFO] [tid=2191] rbus.c:2841  rbus open (WebconfigDML) success
+
+241007-14:40:26.593069 [mod=WIFI, lvl=INFO] [tid=1991] rbus.c:1014 Consumer=rbus.OneWifi.INBOX.1961 SUBSCRIBED to event=Device.WiFi.WebConfig.Data.Subdoc.North
+
+241007-14:40:26.597378 [mod=WIFI, lvl=INFO] [tid=2191] rbuscore.c:742 Subscription for Device.WiFi.WebConfig.Data.Subdoc.North::Device.WiFi.WebConfig.Data.Subdoc.North is now active.
+
+241007-14:40:26.597559 [mod=WIFI, lvl=INFO] [tid=2191] rbus.c:4777 Device.WiFi.WebConfig.Data.Subdoc.North subscribe retries succeeded
+
+241007-14:40:26.599023 [mod=WIFI, lvl=INFO] [tid=1991] rbus.c:1014 Consumer=rbus.OneWifi.INBOX.1961 SUBSCRIBED to event=Device.WiFi.WebConfig.Data.Init_dml
+
+241007-14:40:26.600630 [mod=WIFI, lvl=INFO] [tid=2191] rbuscore.c:742 Subscription for Device.WiFi.WebConfig.Data.Init_dml::Device.WiFi.WebConfig.Data.Init_dml is now active.
+
+241007-14:40:26.600791 [mod=WIFI, lvl=INFO] [tid=2191] rbus.c:4777 Device.WiFi.WebConfig.Data.Init_dml subscribe retries succeeded
+
+241007-14:40:26.685378 [mod=WIFI, lvl=WARN] [tid=2191]  RDKB_SYSTEM_BOOT_UP_LOG : CosaWifiInitialize - WiFi initialization complete. 
+241007-14:40:26.685737 [mod=WIFI, lvl=INFO] [tid=2191] rbuscore.c:2326 RBus Enabled
+
+241007-14:40:26.686386 [mod=WIFI, lvl=INFO] [tid=2191] rbus.c:2765 rbus open for component: t2_lib_ccsp-wifi-agent
+
+241007-14:40:26.686901 [mod=WIFI, lvl=INFO] [tid=2191] rbus.c:2841  rbus open (t2_lib_ccsp-wifi-agent) success
+
+241007-14:40:26.698101 [mod=WIFI, lvl=INFO] [tid=1961] rbus.c:2765 rbus open for component: WifiAppsLevl
+
+241007-14:40:26.698634 [mod=WIFI, lvl=INFO] [tid=1961] rbus.c:2841  rbus open (WifiAppsLevl) success
+
+241007-14:40:26.698857 [mod=WIFI, lvl=INFO] [tid=1961] rbus_subscriptions.c:447 file /tmp/rbus_subs_WifiAppsLevl
+
+241007-14:40:26.723566 [mod=WIFI, lvl=INFO] [tid=1991] rbus.c:2175 calling tableAddRowHandler table [Device.WiFi.Events.Radio.] alias [(null)]
+
+241007-14:40:26.723859 [mod=WIFI, lvl=INFO] [tid=1991] rbus.c:1187 publishing ObjectCreated table=Device.WiFi.Events.Radio. rowName=Device.WiFi.Events.Radio.1
+
+241007-14:40:26.728274 [mod=WIFI, lvl=INFO] [tid=1991] rbus.c:2175 calling tableAddRowHandler table [Device.WiFi.Events.Radio.] alias [(null)]
+
+241007-14:40:26.728599 [mod=WIFI, lvl=INFO] [tid=1991] rbus.c:1187 publishing ObjectCreated table=Device.WiFi.Events.Radio. rowName=Device.WiFi.Events.Radio.2
+
+241007-14:40:26.733102 [mod=WIFI, lvl=INFO] [tid=1991] rbus.c:2175 calling tableAddRowHandler table [Device.WiFi.Events.VAP.] alias [(null)]
+
+241007-14:40:26.733425 [mod=WIFI, lvl=INFO] [tid=1991] rbus.c:1187 publishing ObjectCreated table=Device.WiFi.Events.VAP. rowName=Device.WiFi.Events.VAP.1
+
+241007-14:40:26.737785 [mod=WIFI, lvl=INFO] [tid=1991] rbus.c:2175 calling tableAddRowHandler table [Device.WiFi.Events.VAP.] alias [(null)]
+
+241007-14:40:26.738153 [mod=WIFI, lvl=INFO] [tid=1991] rbus.c:1187 publishing ObjectCreated table=Device.WiFi.Events.VAP. rowName=Device.WiFi.Events.VAP.2
+
+241007-14:40:26.740444 [mod=WIFI, lvl=INFO] [tid=1991] rbus.c:2175 calling tableAddRowHandler table [Device.WiFi.Events.VAP.] alias [(null)]
+
+241007-14:40:26.740702 [mod=WIFI, lvl=INFO] [tid=1991] rbus.c:1187 publishing ObjectCreated table=Device.WiFi.Events.VAP. rowName=Device.WiFi.Events.VAP.3
+
+241007-14:40:26.743164 [mod=WIFI, lvl=INFO] [tid=1991] rbus.c:2175 calling tableAddRowHandler table [Device.WiFi.Events.VAP.] alias [(null)]
+
+241007-14:40:26.743456 [mod=WIFI, lvl=INFO] [tid=1991] rbus.c:1187 publishing ObjectCreated table=Device.WiFi.Events.VAP. rowName=Device.WiFi.Events.VAP.4
+
+241007-14:40:26.745690 [mod=WIFI, lvl=WARN] [tid=2191] getParamWifiRegionUpdateSource : Partner = RDKM 
+241007-14:40:26.746304 [mod=WIFI, lvl=INFO] [tid=2191] CosaDmlWiFi_GetRapidReconnectCountEnable WIFI DB get success Value: 1
+241007-14:40:26.746444 [mod=WIFI, lvl=INFO] [tid=2191] CosaDmlWiFi_GetRapidReconnectCountEnable WIFI DB get success Value: 1
+241007-14:40:26.746546 [mod=WIFI, lvl=INFO] [tid=2191] CosaDmlWiFi_GetRapidReconnectCountEnable WIFI DB get success Value: 0
+241007-14:40:26.746644 [mod=WIFI, lvl=INFO] [tid=2191] CosaDmlWiFi_GetRapidReconnectCountEnable WIFI DB get success Value: 0
+241007-14:40:26.746743 [mod=WIFI, lvl=INFO] [tid=2191] CosaDmlWiFi_GetRapidReconnectCountEnable WIFI DB get success Value: 0
+241007-14:40:26.746841 [mod=WIFI, lvl=INFO] [tid=2191] CosaDmlWiFi_GetRapidReconnectCountEnable WIFI DB get success Value: 0
+241007-14:40:26.746940 [mod=WIFI, lvl=INFO] [tid=2191] CosaDmlWiFi_GetRapidReconnectCountEnable WIFI DB get success Value: 0
+241007-14:40:26.747100 [mod=WIFI, lvl=INFO] [tid=2191] CosaDmlWiFi_GetRapidReconnectCountEnable WIFI DB get success Value: 0
+241007-14:40:26.747201 [mod=WIFI, lvl=INFO] [tid=2191] CosaDmlWiFi_GetRapidReconnectCountEnable WIFI DB get success Value: 0
+241007-14:40:26.747300 [mod=WIFI, lvl=INFO] [tid=2191] CosaDmlWiFi_GetRapidReconnectCountEnable WIFI DB get success Value: 0
+241007-14:40:26.747398 [mod=WIFI, lvl=INFO] [tid=2191] CosaDmlWiFi_GetRapidReconnectCountEnable WIFI DB get success Value: 0
+241007-14:40:26.747496 [mod=WIFI, lvl=INFO] [tid=2191] CosaDmlWiFi_GetRapidReconnectCountEnable WIFI DB get success Value: 0
+241007-14:40:26.747593 [mod=WIFI, lvl=INFO] [tid=2191] CosaDmlWiFi_GetRapidReconnectCountEnable WIFI DB get success Value: 0
+241007-14:40:26.747689 [mod=WIFI, lvl=INFO] [tid=2191] CosaDmlWiFi_GetRapidReconnectCountEnable WIFI DB get success Value: 0
+241007-14:40:26.747786 [mod=WIFI, lvl=INFO] [tid=2191] CosaDmlWiFi_GetRapidReconnectCountEnable WIFI DB get success Value: 0
+241007-14:40:26.747882 [mod=WIFI, lvl=INFO] [tid=2191] CosaDmlWiFi_GetRapidReconnectCountEnable WIFI DB get success Value: 0
+241007-14:40:26.747978 [mod=WIFI, lvl=INFO] [tid=2191] CosaDmlWiFi_GetFeatureMFPConfigValue MFP config value 0
+241007-14:40:26.748085 [mod=WIFI, lvl=WARN] [tid=2191] WIFI CosaDmlWiFiGetFactoryResetPsmData 
+241007-14:40:26.748160 [mod=WIFI, lvl=WARN] [tid=2191] WIFI CosaDmlWiFiGetFactoryResetPsmData :Calling PSM GET to get FactoryReset flag value
+241007-14:40:26.749795 [mod=WIFI, lvl=WARN] [tid=2191] WIFI CosaDmlWiFiGetFactoryResetPsmData :PSM GET Success eRT.com.cisco.spvtg.ccsp.tr181pa.Device.WiFi.FactoryReset = 0 
+241007-14:40:26.750092 [mod=WIFI, lvl=INFO] [tid=1991] rbus.c:2175 calling tableAddRowHandler table [Device.WiFi.Events.VAP.] alias [(null)]
+
+241007-14:40:26.750111 [mod=WIFI, lvl=WARN] [tid=2191] WIFI CosaDmlWiFiGetFactoryResetPsmData : Returning Success 
+241007-14:40:26.750315 [mod=WIFI, lvl=INFO] [tid=1991] rbus.c:1187 publishing ObjectCreated table=Device.WiFi.Events.VAP. rowName=Device.WiFi.Events.VAP.5
+
+241007-14:40:26.752598 [mod=WIFI, lvl=INFO] [tid=1991] rbus.c:2175 calling tableAddRowHandler table [Device.WiFi.Events.VAP.] alias [(null)]
+
+241007-14:40:26.752817 [mod=WIFI, lvl=INFO] [tid=1991] rbus.c:1187 publishing ObjectCreated table=Device.WiFi.Events.VAP. rowName=Device.WiFi.Events.VAP.6
+
+241007-14:40:26.755314 [mod=WIFI, lvl=INFO] [tid=1991] rbus.c:2175 calling tableAddRowHandler table [Device.WiFi.Events.VAP.] alias [(null)]
+
+241007-14:40:26.755593 [mod=WIFI, lvl=INFO] [tid=1991] rbus.c:1187 publishing ObjectCreated table=Device.WiFi.Events.VAP. rowName=Device.WiFi.Events.VAP.7
+
+241007-14:40:26.758656 [mod=WIFI, lvl=INFO] [tid=1991] rbus.c:2175 calling tableAddRowHandler table [Device.WiFi.Events.VAP.] alias [(null)]
+
+241007-14:40:26.758920 [mod=WIFI, lvl=INFO] [tid=1991] rbus.c:1187 publishing ObjectCreated table=Device.WiFi.Events.VAP. rowName=Device.WiFi.Events.VAP.8
+
+241007-14:40:26.761108 [mod=WIFI, lvl=INFO] [tid=1991] rbus.c:2175 calling tableAddRowHandler table [Device.WiFi.Events.VAP.] alias [(null)]
+
+241007-14:40:26.761360 [mod=WIFI, lvl=INFO] [tid=1991] rbus.c:1187 publishing ObjectCreated table=Device.WiFi.Events.VAP. rowName=Device.WiFi.Events.VAP.9
+
+241007-14:40:26.762220 [mod=WIFI, lvl=INFO] [tid=2191] CosaDmlWiFi_GetAssocMonitorDurationValue WIFI DB get success Value: 0
+241007-14:40:26.762369 [mod=WIFI, lvl=INFO] [tid=2191] CosaDmlWiFi_GetAssocGateTimeValue WIFI DB get success Value: 0
+241007-14:40:26.763607 [mod=WIFI, lvl=INFO] [tid=1991] rbus.c:2175 calling tableAddRowHandler table [Device.WiFi.Events.VAP.] alias [(null)]
+
+241007-14:40:26.763877 [mod=WIFI, lvl=INFO] [tid=1991] rbus.c:1187 publishing ObjectCreated table=Device.WiFi.Events.VAP. rowName=Device.WiFi.Events.VAP.10
+
+241007-14:40:26.766458 [mod=WIFI, lvl=INFO] [tid=1991] rbus.c:2175 calling tableAddRowHandler table [Device.WiFi.Events.VAP.] alias [(null)]
+
+241007-14:40:26.778968 [mod=WIFI, lvl=INFO] [tid=1991] rbus.c:1187 publishing ObjectCreated table=Device.WiFi.Events.VAP. rowName=Device.WiFi.Events.VAP.11
+
+241007-14:40:26.784816 [mod=WIFI, lvl=INFO] [tid=1991] rbus.c:2175 calling tableAddRowHandler table [Device.WiFi.Events.VAP.] alias [(null)]
+
+241007-14:40:26.785064 [mod=WIFI, lvl=INFO] [tid=1991] rbus.c:1187 publishing ObjectCreated table=Device.WiFi.Events.VAP. rowName=Device.WiFi.Events.VAP.12
+
+241007-14:40:26.787329 [mod=WIFI, lvl=INFO] [tid=1991] rbus.c:2175 calling tableAddRowHandler table [Device.WiFi.Events.VAP.] alias [(null)]
+
+241007-14:40:26.787543 [mod=WIFI, lvl=INFO] [tid=1991] rbus.c:1187 publishing ObjectCreated table=Device.WiFi.Events.VAP. rowName=Device.WiFi.Events.VAP.13
+
+241007-14:40:26.789882 [mod=WIFI, lvl=INFO] [tid=1991] rbus.c:2175 calling tableAddRowHandler table [Device.WiFi.Events.VAP.] alias [(null)]
+
+241007-14:40:26.790153 [mod=WIFI, lvl=INFO] [tid=1991] rbus.c:1187 publishing ObjectCreated table=Device.WiFi.Events.VAP. rowName=Device.WiFi.Events.VAP.14
+
+241007-14:40:26.793296 [mod=WIFI, lvl=INFO] [tid=1991] rbus.c:2175 calling tableAddRowHandler table [Device.WiFi.Events.VAP.] alias [(null)]
+
+241007-14:40:26.793537 [mod=WIFI, lvl=INFO] [tid=1991] rbus.c:1187 publishing ObjectCreated table=Device.WiFi.Events.VAP. rowName=Device.WiFi.Events.VAP.15
+
+241007-14:40:26.811091 [mod=WIFI, lvl=WARN] [tid=2191] CosaWifiInitialize - returnStatus 0
+241007-14:40:26.814167 [mod=WIFI, lvl=INFO] [tid=1991] rbus.c:2175 calling tableAddRowHandler table [Device.WiFi.Events.VAP.] alias [(null)]
+
+241007-14:40:26.814452 [mod=WIFI, lvl=INFO] [tid=1991] rbus.c:1187 publishing ObjectCreated table=Device.WiFi.Events.VAP. rowName=Device.WiFi.Events.VAP.16
+
+241007-14:40:26.830494 [mod=WIFI, lvl=INFO] [tid=1961] rbus.c:2765 rbus open for component: WifiAppsMotion
+
+241007-14:40:26.830967 [mod=WIFI, lvl=INFO] [tid=1961] rbus.c:2841  rbus open (WifiAppsMotion) success
+
+241007-14:40:26.831118 [mod=WIFI, lvl=INFO] [tid=1961] rbus_subscriptions.c:447 file /tmp/rbus_subs_WifiAppsMotion
+
+241007-14:40:27.094693 [mod=WIFI, lvl=WARN] [tid=2191] Search for empty object in 'dslhCpeCheckEmptyObject'
+241007-14:40:28.011185 [mod=WIFI, lvl=INFO] [tid=2191] Wifi Agent loaded successfully...
+241007-14:40:28.011630 [mod=WIFI, lvl=INFO] [tid=2191] Inside FUNC check_component_crash LINE 359, init file is /tmp/wifi_initialized 
+241007-14:40:28.011819 [mod=WIFI, lvl=INFO] [tid=2191] /tmp/wifi_initialized file not present, need to send component init event to webconfig 
+241007-14:40:28.011909 [mod=WIFI, lvl=INFO] [tid=2191] notifyVersion_to_Webconfig : doc name privatessid , doc version 0
+241007-14:40:28.022266 [mod=WIFI, lvl=INFO] [tid=2191] isWebCfgRbusEnabled: rbus enabled is 1 
+241007-14:40:28.022376 [mod=WIFI, lvl=INFO] [tid=2191] sendWebConfigSignal : rbus_set :: event_name : webconfigSignal :: 
+241007-14:40:28.031652 [mod=WIFI, lvl=ERROR] [tid=2191] rbus.c:3777 set by OneWifi_wbcfg failed; Received error 12 from RBUS Daemon for the object webconfigSignal
+
+241007-14:40:28.031809 [mod=WIFI, lvl=ERROR] [tid=2191] sendWebConfigSignal rbus_set for webconfigSignal failed & returns with Err: 6
+241007-14:40:28.031916 [mod=WIFI, lvl=INFO] [tid=2191] notifyVersion_to_Webconfig : doc name homessid , doc version 0
+241007-14:40:28.031993 [mod=WIFI, lvl=INFO] [tid=2191] isWebCfgRbusEnabled: rbus enabled is 1 
+241007-14:40:28.032064 [mod=WIFI, lvl=INFO] [tid=2191] sendWebConfigSignal : rbus_set :: event_name : webconfigSignal :: 
+241007-14:40:28.043208 [mod=WIFI, lvl=ERROR] [tid=2191] rbus.c:3777 set by OneWifi_wbcfg failed; Received error 12 from RBUS Daemon for the object webconfigSignal
+
+241007-14:40:28.043342 [mod=WIFI, lvl=ERROR] [tid=2191] sendWebConfigSignal rbus_set for webconfigSignal failed & returns with Err: 6
+241007-14:40:28.044828 [mod=WIFI, lvl=WARN] [tid=2191] lnf_ssid_updateBootLogTime-453 LnF SSID 6   
+241007-14:40:28.045207 [mod=WIFI, lvl=WARN] [tid=2191] RDKB_SYSTEM_BOOT_UP_LOG : Entering Wifi loop 
+241007-14:40:28.571609 [mod=WIFI, lvl=ERROR] [tid=1961] rbus.c:3311 get by WifiCtrl failed; Received error 12 from RBUS Daemon for the object Device.X_RDK_GatewayManagement.ExternalGatewayPresent
+
+241007-14:40:28.639647 [mod=WIFI, lvl=ERROR] [tid=1961] rbus.c:3777 set by WifiCtrl failed; Received error 12 from RBUS Daemon for the object Device.X_RDK_WebConfig.webcfgSubdocForceReset
+
+241007-14:40:29.076891 [mod=WIFI, lvl=INFO] [tid=1961] Init for parodus Success..!!
+241007-14:40:31.823990 [mod=WIFI, lvl=WARN] [tid=1961] rbus.c:4785 EVENT_SUBSCRIPTION_FAIL_NO_PROVIDER_COMPONENT  Device.DeviceInfo.X_RDKCENTRAL-COM_xOpsDeviceMgmt.Mesh.Enable
+
+241007-14:40:32.311616 [mod=WIFI, lvl=INFO] [tid=2046] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+241007-14:40:32.313175 [mod=WIFI, lvl=INFO] [tid=2046] webcfg_rbus_discover_component: (0-1)ret[FALSE]
+241007-14:40:32.823396 [mod=WIFI, lvl=WARN] [tid=1961] rbus.c:4785 EVENT_SUBSCRIPTION_FAIL_NO_PROVIDER_COMPONENT  Device.DeviceInfo.X_RDKCENTRAL-COM_xOpsDeviceMgmt.Mesh.Enable
+
+241118-09:32:02.204295 [mod=WIFI, lvl=INFO] [tid=1961] rbuscore.c:742 Subscription for Device.DeviceInfo.X_RDKCENTRAL-COM_xOpsDeviceMgmt.Mesh.Enable::Device.DeviceInfo.X_RDKCENTRAL-COM_xOpsDeviceMgmt.Mesh.Enable is now active.
+
+241118-09:32:02.204492 [mod=WIFI, lvl=INFO] [tid=1961] rbus.c:4777 Device.DeviceInfo.X_RDKCENTRAL-COM_xOpsDeviceMgmt.Mesh.Enable subscribe retries succeeded
+
+241118-09:32:04.918091 [mod=WIFI, lvl=INFO] [tid=1991] rbus.c:1014 Consumer=rbus.meshAgent.INBOX.2636 SUBSCRIBED to event=Device.WiFi.STA.*.Connection.Status
+
+241118-09:32:09.687729 [mod=WIFI, lvl=INFO] [tid=2046] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+241118-09:32:09.689014 [mod=WIFI, lvl=INFO] [tid=2046] webcfg_rbus_discover_component: (0-1)ret[FALSE]
+241118-09:32:19.689311 [mod=WIFI, lvl=INFO] [tid=2046] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+241118-09:32:19.690585 [mod=WIFI, lvl=INFO] [tid=2046] webcfg_rbus_discover_component: (0-1)ret[FALSE]
+241118-09:32:29.690880 [mod=WIFI, lvl=INFO] [tid=2046] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+241118-09:32:29.692155 [mod=WIFI, lvl=INFO] [tid=2046] webcfg_rbus_discover_component: (0-1)ret[FALSE]
+241118-09:32:39.692459 [mod=WIFI, lvl=INFO] [tid=2046] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+241118-09:32:39.693758 [mod=WIFI, lvl=INFO] [tid=2046] webcfg_rbus_discover_component: (0-1)ret[FALSE]
+241118-09:32:49.694000 [mod=WIFI, lvl=INFO] [tid=2046] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+241118-09:32:49.695390 [mod=WIFI, lvl=INFO] [tid=2046] webcfg_rbus_discover_component: (0-1)ret[FALSE]
+241118-09:32:59.695625 [mod=WIFI, lvl=INFO] [tid=2046] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+241118-09:32:59.701485 [mod=WIFI, lvl=INFO] [tid=2046] webcfg_rbus_discover_component: (0-1)ret[FALSE]
+241118-09:33:09.701786 [mod=WIFI, lvl=INFO] [tid=2046] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+241118-09:33:09.703224 [mod=WIFI, lvl=INFO] [tid=2046] webcfg_rbus_discover_component: (0-1)ret[FALSE]

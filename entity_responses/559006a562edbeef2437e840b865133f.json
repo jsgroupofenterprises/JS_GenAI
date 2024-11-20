@@ -1,0 +1,7 @@
+{
+  "entity_name": "strscpy",
+  "component": "CcspWifiAgent",
+  "content_hash": "559006a562edbeef2437e840b865133f",
+  "response": "**1. Main purpose and functionality:**\n   - strscpy() is a secure version of strncpy(). It copies a string from src to dest, ensuring that the destination string is null-terminated and doesn't exceed the specified size.\n\n**2. Key operations and data flow:**\n   - Checks if the size is 0, and if so, returns -E2BIG (argument too big).\n   - Calculates the length of the source string src, limited to size - 1, and stores it in len.\n   - Copies len bytes from src to dest.\n   - Adds a null-terminator to the end of dest.\n   - Checks if the source string is longer than size - 1, and if so, returns -E2BIG.\n   - Returns len as the length of the copied string.\n\n**3. Interaction with other components:**\n   - None mentioned in the provided code.\n\n**4. Important parameters and return values:**\n   - dest: Pointer to the destination string.\n   - src: Pointer to the source string.\n   - size: Maximum size of the destination string.\n   \n   - Return values:\n     - -E2BIG if the size is 0 or the source string is longer than size - 1.\n     - The length of the copied string otherwise.\n\n**5. Any specific RDK-related operations:**\n   - None mentioned in the provided code.",
+  "processed_at": "2024-11-13T15:48:53.436292"
+}

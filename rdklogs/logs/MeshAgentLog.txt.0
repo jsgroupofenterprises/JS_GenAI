@@ -1,0 +1,100 @@
+241007-14:40:28.245716 [mod=MESH, lvl=INFO] [tid=2626] Registering MeshAgent component 'MeshAgent' with CR ..
+241007-14:40:28.251011 [mod=MESH, lvl=INFO] [tid=2626] [MeshAgent] msgBusInit called with com.cisco.spvtg.ccsp.meshagent
+241007-14:40:28.257007 [mod=MESH, lvl=INFO] [tid=2636] Connect to bus daemon...
+241007-14:40:28.257418 [mod=MESH, lvl=INFO] [tid=2636] ssp_Mbi_MessageBusEngage() called
+241007-14:40:29.269293 [mod=MESH, lvl=INFO] [tid=2636] ssp_create - ComponentCommonDmInit called 
+241007-14:40:29.279655 [mod=MESH, lvl=INFO] [tid=2636] Registering the back-end apis for the data model
+241007-14:40:29.279870 [mod=MESH, lvl=INFO] [tid=2636] Initializing CosaMeshAgent
+241007-14:40:29.279948 [mod=MESH, lvl=INFO] [tid=2636] Initialize MeshAgent
+241007-14:40:29.280068 [mod=MESH, lvl=INFO] [tid=2636] oneWifi is enabled 
+241007-14:40:29.280253 [mod=MESH, lvl=INFO] [tid=2636] wanFailOver is enabled 
+241007-14:40:29.280653 [mod=MESH, lvl=INFO] [tid=2636] msgQServer thread created successfully
+241007-14:40:29.280987 [mod=MESH, lvl=INFO] [tid=2636] msgQServer thread name Mesh_msgQServer set successfully
+241007-14:40:29.281016 [mod=MESH, lvl=INFO] [tid=2754] Waiting for connections ...
+241007-14:40:29.287370 [mod=MESH, lvl=INFO] [tid=2636] meshAgent registered with sysevent daemon successfully
+241007-14:40:29.302485 [mod=MESH, lvl=INFO] [tid=2636] meshAgent-gs registered with sysevent daemon successfully
+241007-14:40:29.354732 [mod=MESH, lvl=INFO] [tid=2636] platform check XF3:0, XB3:0 HUB4:0 CBR2:0
+241007-14:40:29.354915 [mod=MESH, lvl=INFO] [tid=2636] Fetching the Redirector URL based on partnerID
+241007-14:40:29.359883 [mod=MESH, lvl=INFO] [tid=2636] Mesh_getPartnerBasedURL Returned URL for the partner = ssl:wildfire.plume.tech:443
+241007-14:40:29.360047 [mod=MESH, lvl=INFO] [tid=2636] Mesh url is ssl:wildfire.plume.tech:443
+241007-14:40:29.374754 [mod=MESH, lvl=INFO] [tid=2636] Setting initial mesh state to Full
+241007-14:40:29.374908 [mod=MESH, lvl=INFO] [tid=2636] Meshwifi state is set to Full
+241007-14:40:29.376142 [mod=MESH, lvl=INFO] [tid=2636] Setting initial mesh wifi default to disabled
+241007-14:40:29.376279 [mod=MESH, lvl=INFO] [tid=2636] meshSetSyscfg Commitsyscfg:0 Setting mesh enable in syscfg to 0
+241007-14:40:29.376352 [mod=MESH, lvl=INFO] [tid=2636] mesh enable set in the syscfg successfully
+241007-14:40:29.376494 [mod=MESH, lvl=ERROR] [tid=2636] Failed to remove Mesh Flag from persistent memory
+241007-14:40:29.376979 [mod=MESH, lvl=INFO] [tid=2636] Setting initial ethbhaul mode to false
+241007-14:40:29.377091 [mod=MESH, lvl=INFO] [tid=2636] Mesh_SetMeshEthBhaul: Ethbhaul Commit:0, Enable:0
+241007-14:40:29.377168 [mod=MESH, lvl=INFO] [tid=2636] RFC_UPDATE: param: PodEthernetGreBackhaul.Enable val:false type=3
+241007-14:40:29.377239 [mod=MESH, lvl=INFO] [tid=2636] RFC_UPDATE: Failed param: PodEthernetGreBackhaul.Enable val:false type=3
+241007-14:40:29.430633 [mod=MESH, lvl=INFO] [tid=2636] Socket bind to localhost
+241007-14:40:29.430846 [mod=MESH, lvl=INFO] [tid=2636] Created dnsmasq socket for Eth Bhaul mac update
+241007-14:40:29.431336 [mod=MESH, lvl=INFO] [tid=2636] Pod mac address sent to dnsmasq MAC: 00:00:00:00:00:00
+241007-14:40:29.431541 [mod=MESH, lvl=INFO] [tid=2636] syscfg_get failed
+241007-14:40:29.431621 [mod=MESH, lvl=INFO] [tid=2636] Syscfg get, MESH_WIFI_OPT_MODE : 0
+241007-14:40:29.431691 [mod=MESH, lvl=INFO] [tid=2636] Syscfg, Setting MESH_WIFI_OPT_MODE to default OFF
+241007-14:40:29.431767 [mod=MESH, lvl=INFO] [tid=2636] syscfg_get failed
+241007-14:40:29.431888 [mod=MESH, lvl=INFO] [tid=2636] Syscfg get, MESH_WIFI_REINIT_PERIOD : 2
+241007-14:40:29.431965 [mod=MESH, lvl=INFO] [tid=2636] Mesh_SetReinitPeriod: meshReinitPeriod: 2
+241007-14:40:29.432038 [mod=MESH, lvl=INFO] [tid=2636] Setting initial Xle Mode Cloud Ctrl Enable mode to false
+241007-14:40:29.432114 [mod=MESH, lvl=INFO] [tid=2636] Mesh_SetXleModeCloudCtrlEnable: XleModeCloudCtrlEnable Commit:0, Enable:0
+241007-14:40:29.432198 [mod=MESH, lvl=INFO] [tid=2636] RFC_UPDATE: param: XleModeCloudCtrlEnable.Enable val:false type=3
+241007-14:40:29.432276 [mod=MESH, lvl=INFO] [tid=2636] RFC_UPDATE: Failed param: XleModeCloudCtrlEnable.Enable val:false type=3
+241007-14:40:29.432515 [mod=MESH, lvl=INFO] [tid=2636] Setting initial Opensync mode to false
+241007-14:40:29.432604 [mod=MESH, lvl=INFO] [tid=2636] OpensyncSetSyscfg Setting Opensync enable in syscfg to 0
+241007-14:40:29.453711 [mod=MESH, lvl=INFO] [tid=2636] opensync enable set in the syscfg successfully
+241007-14:40:29.461547 [mod=MESH, lvl=INFO] [tid=2636] legacy opensync enable disabled in the syscfg successfully
+241007-14:40:29.461676 [mod=MESH, lvl=INFO] [tid=2636] Opensync_RFC_changed_to_enabled
+241007-14:40:29.461752 [mod=MESH, lvl=INFO] [tid=2636] Opensync will be effective after reboot
+241007-14:40:29.462007 [mod=MESH, lvl=INFO] [tid=2636] RFC_UPDATE: param: Opensync.Enable val:true type=3
+241007-14:40:29.462109 [mod=MESH, lvl=INFO] [tid=2636] RFC_UPDATE: Failed param: Opensync.Enable val:true type=3
+241007-14:40:29.462191 [mod=MESH, lvl=INFO] [tid=2636] Setting initial OVS mode to true
+241007-14:40:29.462275 [mod=MESH, lvl=INFO] [tid=2636] Mesh_SetOVS: OVS Enable Commit:0, Enable:1, XB3 Platform:0
+241007-14:40:29.462346 [mod=MESH, lvl=INFO] [tid=2636] OVS_RFC_changed_to_enabled
+241007-14:40:29.462418 [mod=MESH, lvl=INFO] [tid=2636] RFC_UPDATE: param: OVS.Enable val:true type=3
+241007-14:40:29.462489 [mod=MESH, lvl=INFO] [tid=2636] RFC_UPDATE: Failed param: OVS.Enable val:true type=3
+241007-14:40:29.462563 [mod=MESH, lvl=INFO] [tid=2636] Setting initial mesh_security_legacy to true
+241007-14:40:29.462639 [mod=MESH, lvl=INFO] [tid=2636] Mesh_SetSecuritySchemaLegacy: Enable:1, Init:1, Commit:0.
+241007-14:40:29.462711 [mod=MESH, lvl=INFO] [tid=2636] RFC_UPDATE: param: MeshSecuritySchemaLegacy.Enable val:true type=3
+241007-14:40:29.462778 [mod=MESH, lvl=INFO] [tid=2636] RFC_UPDATE: Failed param: MeshSecuritySchemaLegacy.Enable val:true type=3
+241007-14:40:29.462851 [mod=MESH, lvl=INFO] [tid=2636] Setting initial Cache Status to false
+241007-14:40:29.462930 [mod=MESH, lvl=INFO] [tid=2636] Mesh_SetCacheStatus: Enable:0, Init:1, Commit:0.
+241007-14:40:29.463002 [mod=MESH, lvl=INFO] [tid=2636] RFC_UPDATE: param: MeshGREBackhaulCache.Enable val:false type=3
+241007-14:40:29.463073 [mod=MESH, lvl=INFO] [tid=2636] RFC_UPDATE: Failed param: MeshGREBackhaulCache.Enable val:false type=3
+241007-14:40:29.463145 [mod=MESH, lvl=INFO] [tid=2636] Setting initial optimized mesh retry mode to true
+241007-14:40:29.466068 [mod=MESH, lvl=INFO] [tid=2636] Mesh_SetMeshRetryOptimized: mesh_conn_opt_retry Commit:0, Enable:1
+241007-14:40:29.466304 [mod=MESH, lvl=INFO] [tid=2636] Mesh_Register_sysevent Successful
+241007-14:40:29.466959 [mod=MESH, lvl=INFO] [tid=2636] Mesh_sysevent_handler thread created successfully
+241007-14:40:29.467358 [mod=MESH, lvl=INFO] [tid=2636] Mesh_sysevent_handler thread name Mesh_sysevent set successfully
+241007-14:40:34.468415 [mod=MESH, lvl=INFO] [tid=2636] leaseServer thread created successfully
+241007-14:40:34.474217 [mod=MESH, lvl=INFO] [tid=2636] leaseServer thread name MeshLeaseServer set successfully
+241007-14:40:34.474745 [mod=MESH, lvl=INFO] [tid=2636] parodus url is tcp://127.0.0.1:6666
+241007-14:40:34.474911 [mod=MESH, lvl=INFO] [tid=2636] parodus url formed is tcp://127.0.0.1:6666
+241007-14:40:34.489255 [mod=MESH, lvl=ERROR] [tid=2636] get_wan_bridge failed
+241007-14:40:34.532270 [mod=MESH, lvl=INFO] [tid=2636] Parameter  1:
+241007-14:40:34.532440 [mod=MESH, lvl=INFO] [tid=2636] Checking Parameter Name: Device.WiFi.STA.1.Connection.Status
+241007-14:40:34.532546 [mod=MESH, lvl=INFO] [tid=2636] Parameter  2:
+241007-14:40:34.532619 [mod=MESH, lvl=INFO] [tid=2636] Parameter  3:
+241007-14:40:34.532688 [mod=MESH, lvl=INFO] [tid=2636] Skip Parameter Name: Device.WiFi.STA.1.Bssid
+241007-14:40:34.532758 [mod=MESH, lvl=INFO] [tid=2636] Parameter  4:
+241007-14:40:34.532825 [mod=MESH, lvl=INFO] [tid=2636] Checking Parameter Name: Device.WiFi.STA.2.Connection.Status
+241007-14:40:34.532901 [mod=MESH, lvl=INFO] [tid=2636] Parameter  5:
+241007-14:40:34.532970 [mod=MESH, lvl=INFO] [tid=2636] Parameter  6:
+241007-14:40:34.533129 [mod=MESH, lvl=INFO] [tid=2636] Skip Parameter Name: Device.WiFi.STA.2.Bssid
+241007-14:40:34.533505 [mod=MESH, lvl=INFO] [tid=2636] rbus_Subscribe thread created successfully
+241007-14:40:34.533789 [mod=MESH, lvl=INFO] [tid=2636] rbus_Subscribe thread name rbus_Subscribe set successfully
+241007-14:40:34.533991 [mod=MESH, lvl=INFO] [tid=2636] Rbus events subscription start Device.IP.Diagnostics.X_RDKCENTRAL-COM_SpeedTest.Status
+241007-14:40:34.541063 [mod=MESH, lvl=INFO] [tid=3318] Rbus events subscribe sucess:Device.X_RDK_WanManager.CurrentActiveInterface count = 0
+241007-14:40:34.542517 [mod=MESH, lvl=INFO] [tid=2636] Mesh_Init: OvsAgentApi is not integrated in this platform yet
+241007-14:40:34.544057 [mod=MESH, lvl=INFO] [tid=2636] MeshAgent initialized
+241007-14:40:34.544146 [mod=MESH, lvl=INFO] [tid=2636]   Initializing WebConfig Framework!
+241007-14:40:34.544547 [mod=MESH, lvl=INFO] [tid=2771] last_set= 0, enable = 0
+241007-14:40:34.544678 [mod=MESH, lvl=INFO] [tid=2771] Skipping mesh redundant set
+241007-14:40:34.566422 [mod=MESH, lvl=INFO] [tid=2636]   Initializing WebConfig Framework done!
+241007-14:40:34.629171 [mod=MESH, lvl=INFO] [tid=2636]  ssp_engage - RegisterCcspDataModel success.  System is fully initialized.
+241007-14:40:34.645284 [mod=MESH, lvl=INFO] [tid=2636] msgBusInit - /tmp/meshagent_initialized created
+241007-14:40:34.645787 [mod=MESH, lvl=INFO] [tid=2636] Registered MeshAgent component 'MeshAgent' with CR ..
+241118-09:32:02.916325 [mod=MESH, lvl=ERROR] [tid=3318] Rbus events subscribe failed:Device.X_RDKCENTRAL-COM_DeviceControl.DeviceNetworkingMode
+241118-09:32:04.920223 [mod=MESH, lvl=INFO] [tid=3318] Rbus events subscribe sucess:Device.WiFi.STA.*.Connection.Status count = 1
+241118-09:32:04.923198 [mod=MESH, lvl=INFO] [tid=3318] Rbus events subscribe sucess:Device.X_RDKCENTRAL-COM_DeviceControl.DeviceNetworkingMode count = 2
+241118-09:32:04.923321 [mod=MESH, lvl=INFO] [tid=3318] handle_rbus_Subscribe thread exited

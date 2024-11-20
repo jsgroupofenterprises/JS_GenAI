@@ -1,0 +1,7 @@
+{
+  "entity_name": "CcspHalEthSwSetPortAdminStatus",
+  "component": "hal",
+  "content_hash": "5ec3cd5148bb6a095cab78a3082f8a34",
+  "response": "**1. Main purpose and functionality**\nThe `CcspHalEthSwSetPortAdminStatus` function sets the administrative status of an Ethernet switch port.\n\n**2. Key operations and data flow**\nThe function takes two parameters:\n* `PortId`: The ID of the port to be configured.\n* `AdminStatus`: The administrative status to be set for the port.\n\nThe function sets the administrative status of the port to the specified value. The administrative status can be either `UP` or `DOWN`.\n\n**3. Interaction with other components (if any)**\nThe function interacts with the Ethernet switch driver to set the administrative status of the port.\n\n**4. Important parameters and return values**\nThe function returns `RETURN_OK` if the operation is successful. Otherwise, it returns `RETURN_ERR`.\n\n**5. Any specific RDK-related operations**\nThe function is part of the RDK HAL API and is used to configure Ethernet switch ports.",
+  "processed_at": "2024-11-14T10:42:21.543082"
+}

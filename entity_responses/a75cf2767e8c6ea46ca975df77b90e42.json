@@ -1,0 +1,7 @@
+{
+  "entity_name": "strscat",
+  "component": "CcspWifiAgent",
+  "content_hash": "a75cf2767e8c6ea46ca975df77b90e42",
+  "response": "**1. Main Purpose and Functionality**\n\nThe `strscat` function in CcspWifiAgent concatenates two strings, `dest` and `src`, up to a maximum size specified by the `size` parameter.\n\n**2. Key Operations and Data Flow**\n\n* Checks if `size` is zero, returning an error code if true.\n* Calculates the length of `dest` using `strnlen`, storing it in `dlen`.\n* Calculates the free space in `dest` as `free = size - dlen`.\n* If `free` is zero, returns an error code.\n* Concatenates `src` to the end of `dest` using `strscpy`, storing the length of the concatenated string in `slen`.\n* If `slen` is negative, returns the error code.\n* Returns the total length of the concatenated string, `dlen + slen`.\n\n**3. Interaction with Other Components**\n\nThis function does not directly interact with other components.\n\n**4. Important Parameters and Return Values**\n\n* **dest:** The destination string to concatenate to.\n* **src:** The source string to concatenate.\n* **size:** The maximum size of the concatenated string.\n* **Return value:**\n    * Positive integer: The length of the concatenated string.\n    * Negative integer: An error code.\n\n**5. RDK-Related Operations**\n\nThis function is part of the CcspWifiAgent component, which manages Wi-Fi operations in RDK.",
+  "processed_at": "2024-11-13T15:49:04.730478"
+}

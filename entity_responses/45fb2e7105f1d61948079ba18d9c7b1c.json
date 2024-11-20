@@ -1,0 +1,7 @@
+{
+  "entity_name": "WifiClient_GetParamBoolValue",
+  "component": "CcspWifiAgent",
+  "content_hash": "45fb2e7105f1d61948079ba18d9c7b1c",
+  "response": "**1. Main purpose and functionality:**\n\nThe WifiClient_GetParamBoolValue function retrieves a boolean value for a specific parameter from the CcspWifiAgent.\n\n**2. Key operations and data flow:**\n\n* The function takes in three parameters:\n    * `hInsContext`: Handle to the instance context.\n    * `ParamName`: Name of the parameter to retrieve.\n    * `pBool`: Pointer to a boolean value where the retrieved value will be stored.\n* The function compares the `ParamName` to \"Enabled\" and if they match, it retrieves the boolean value for the \"Enabled\" parameter and stores it in `pBool`.\n* If the `ParamName` does not match \"Enabled\", the function returns FALSE.\n\n**3. Interaction with other components (if any):**\n\nThe function interacts with the CosaDmlWiFi component to retrieve the boolean value for the \"Enabled\" parameter.\n\n**4. Important parameters and return values:**\n\n* `hInsContext`: Handle to the instance context.\n* `ParamName`: Name of the parameter to retrieve.\n* `pBool`: Pointer to a boolean value where the retrieved value will be stored.\n* Return Value: TRUE if the boolean value was retrieved successfully, FALSE otherwise.\n\n**5. Any specific RDK-related operations:**\n\nThe function uses the CosaDmlWiFi component which is part of the RDK framework.",
+  "processed_at": "2024-11-13T14:59:43.096534"
+}

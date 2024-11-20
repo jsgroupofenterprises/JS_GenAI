@@ -1,0 +1,7 @@
+{
+  "entity_name": "wifi_resetApVlanCfg",
+  "component": "hal",
+  "content_hash": "3bf1e04b944aff7ce19a78aaea28f022",
+  "response": "1. **Main purpose and functionality:**\n\n    The purpose of the `wifi_resetApVlanCfg` function is to reset the VLAN configuration for the specified access point (AP). This function allows the user to restore the default VLAN configuration for the AP, which can be useful for troubleshooting or resetting the AP's network settings.\n\n2. **Key operations and data flow:**\n\n    The function takes a single argument, `apIndex`, which specifies the index of the AP for which the VLAN configuration should be reset. The function internally interacts with the driver to reset the VLAN configuration for the specified AP.\n\n3. **Interaction with other components (if any):**\n\n    The function interacts with the Wi-Fi driver to reset the VLAN configuration for the specified AP.\n\n4. **Important parameters and return values:**\n\n    * **apIndex:** The index of the AP for which the VLAN configuration should be reset.\n    * **Return value:** The function returns `RETURN_OK` if the operation is successful, and `RETURN_ERR` if any error is detected.\n\n5. **Any specific RDK-related operations:**\n\n    The function does not have any specific RDK-related operations.",
+  "processed_at": "2024-11-14T12:30:20.766467"
+}

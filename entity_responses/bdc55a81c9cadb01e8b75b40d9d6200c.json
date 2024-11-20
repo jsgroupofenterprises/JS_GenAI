@@ -1,0 +1,7 @@
+{
+  "entity_name": "wifi_r0KH_t",
+  "component": "hal",
+  "content_hash": "bdc55a81c9cadb01e8b75b40d9d6200c",
+  "response": "**1. Purpose of this structure:**\nThe purpose of the `wifi_r0KH_t` structure is to represent the R0 Key Holder (R0KH) in the Wi-Fi Radio resource. The R0KH is responsible for managing the R0 key, which is used to encrypt and decrypt data traffic between the wireless device and the access point.\n\n**2. Key fields and their significance:**\n- `mac`: The MAC address of the R0KH.\n- `nasId`: The NAS identifier of the R0KH.\n- `key`: The R0 key.\n\n**3. Usage context in RDK:**\nThe `wifi_r0KH_t` structure is used in the RDK Wi-Fi Radio component. The Radio component provides an interface to the Wi-Fi hardware and manages the Wi-Fi connection. The R0KH structure is used to configure the R0 key in the Wi-Fi hardware.\n\n**4. Related components or interfaces:**\nThe `wifi_r0KH_t` structure is related to the following components and interfaces:\n- Wi-Fi Radio component\n- Wi-Fi HAL\n- Wi-Fi API\n\n**5. Any specific RDK-related details:**\nThe `wifi_r0KH_t` structure is a part of the RDK Wi-Fi HAL. The Wi-Fi HAL provides a hardware abstraction layer for the Wi-Fi Radio component. The Wi-Fi HAL is responsible for translating the RDK Wi-Fi API calls into hardware-specific commands.",
+  "processed_at": "2024-11-14T12:49:47.966631"
+}

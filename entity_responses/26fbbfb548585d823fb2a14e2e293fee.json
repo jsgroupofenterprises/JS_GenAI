@@ -1,0 +1,7 @@
+{
+  "entity_name": "voice_hal_getConfigSoftwareVersion",
+  "component": "hal",
+  "content_hash": "26fbbfb548585d823fb2a14e2e293fee",
+  "response": "1. **Main purpose and functionality**\n   1. The 'voice_hal_getConfigSoftwareVersion' function is used to retrieve the software version of the system.\n\n2. **Key operations and data flow**\n   1. The function takes a service parameter and a pointer to a character buffer.\n   2. The function retrieves the software version of the system and stores it in the buffer provided by the caller.\n   3. The length of the software version is returned in the 'pLength' parameter.\n\n3. **Interaction with other components (if any)**\n   1. This function interacts with the lower-level voice hardware to retrieve the software version.\n\n4. **Important parameters and return values**\n   1. The 'service' parameter specifies the voice service for which the software version is being retrieved.\n   2. The 'config_version' parameter is a pointer to a character buffer that will receive the software version.\n   3. The 'pLength' parameter is a pointer to a variable that will receive the length of the software version.\n   4. The function returns RDK_SUCCESS if successful, or RDK_FAILURE if an error occurs.\n\n5. **Any specific RDK-related operations**\n   1. This function is specific to the RDK and is used to retrieve the software version of the voice system.",
+  "processed_at": "2024-11-14T11:02:17.278793"
+}

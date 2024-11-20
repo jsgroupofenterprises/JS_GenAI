@@ -1,0 +1,7 @@
+{
+  "entity_name": "_log_sink_severity_set",
+  "component": "CcspWifiAgent",
+  "content_hash": "d3babf3fe308043ef9cdf18cffd55e31",
+  "response": "**1. Main Purpose and Functionality:**\n\nThe `_log_sink_severity_set` function sets the log severity level for all modules within a specified log sink. It ensures that all logs generated from those modules meet the specified severity threshold.\n\n**2. Key Operations and Data Flow:**\n\n* Retrieves the log module table associated with the given log sink.\n* Iterates through all log modules and sets their severity to the specified value.\n* If the log sink is remote and the severity is not disabled, it enables remote logging.\n\n**3. Interaction with Other Components:**\n\n* `_log_sink_get`: Retrieves the log module table for a given log sink.\n\n**4. Important Parameters and Return Values:**\n\n* **Parameters:**\n    * `sink`: The log sink for which to set the severity.\n    * `s`: The new severity level.\n* **Return Value:** None (static void).\n\n**5. Specific RDK-related Operations:**\n\n* Configures log severity levels for RDK-related components.",
+  "processed_at": "2024-11-13T15:52:31.299087"
+}

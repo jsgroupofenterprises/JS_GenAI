@@ -1,0 +1,7 @@
+{
+  "entity_name": "platform_hal_SetWebUITimeout",
+  "component": "hal",
+  "content_hash": "51e804d3cf80f93bf721c2011362693e",
+  "response": "**1. Main purpose and functionality**\n\nThe purpose of `platform_hal_SetWebUITimeout` is to set the timeout value for the Web User Interface (WebUI). This timeout value determines how long the WebUI will remain active before it automatically logs out the user.\n\n**2. Key operations and data flow**\n\nThe function takes a single parameter, `value`, which is the new timeout value in seconds. The function sets the timeout value in the device's configuration settings.\n\n**3. Interaction with other components (if any)**\n\nThe function interacts with the WebUI component to set the timeout value.\n\n**4. Important parameters and return values**\n\nThe only parameter is `value`, which is the new timeout value in seconds. The function returns an integer status code indicating the success or failure of the operation.\n\n**5. Any specific RDK-related operations**\n\nThis function is not specific to RDK.",
+  "processed_at": "2024-11-14T10:48:45.176684"
+}

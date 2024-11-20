@@ -1,0 +1,433 @@
+241007-14:40:19.251354 [mod=NOTIFY, lvl=INFO] [tid=1754] 
+ File ReloadNotifyParam not present. Nothing to load
+241007-14:40:19.252655 [mod=NOTIFY, lvl=NOTICE] [tid=1754] Connect to bus daemon...
+241007-14:40:19.253191 [mod=NOTIFY, lvl=WARN] [tid=1754] RBus is enabled
+241007-14:40:19.253381 [mod=NOTIFY, lvl=INFO] [tid=1754] rbuscore.c:2326 RBus Enabled
+
+241007-14:40:19.253527 [mod=NOTIFY, lvl=INFO] [tid=1754] rbuscore.c:643 Broker address: unix:///tmp/rtrouted
+
+241007-14:40:19.261093 [mod=NOTIFY, lvl=INFO] [tid=1754] connection opened for eRT.com.cisco.spvtg.ccsp.notifycomponent
+241007-14:40:19.271845 [mod=NOTIFY, lvl=INFO] [tid=1754] INFO: bus_handle: 0x0x3bacdf0 
+241007-14:40:20.273307 [mod=NOTIFY, lvl=INFO] [tid=1754] CcspBaseIf_Register_Event_rbus : rbus_registerEvent called for event: currentSessionIDSignal
+241007-14:40:20.279127 [mod=NOTIFY, lvl=INFO] [tid=1754] rbuscore.c:742 Subscription for _rbus_session_mgr::currentSessionIDSignal is now active.
+
+241007-14:40:20.280138 [mod=NOTIFY, lvl=NOTICE] [tid=1754] ssp_engage 
+241007-14:40:20.280450 [mod=NOTIFY, lvl=WARN] [tid=1754] Register empty object : com.
+241007-14:40:20.280552 [mod=NOTIFY, lvl=WARN] [tid=1754] Register empty object : com.cisco.
+241007-14:40:20.280643 [mod=NOTIFY, lvl=WARN] [tid=1754] Register empty object : com.cisco.spvtg.
+241007-14:40:20.280735 [mod=NOTIFY, lvl=WARN] [tid=1754] Register empty object : com.cisco.spvtg.ccsp.
+241007-14:40:20.281716 [mod=NOTIFY, lvl=WARN] [tid=1754] DM Library module name = CCSP Base Data Model
+241007-14:40:20.284336 [mod=NOTIFY, lvl=WARN] [tid=1754] DM Library module name = COSA_TR181_USGv2
+241007-14:40:20.284738 [mod=NOTIFY, lvl=WARN] [tid=1754] Search for empty object in 'dslhCpeCheckEmptyObject'
+241007-14:40:21.627383 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241007-14:40:21.627604 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.IP.Interface.1.IPv4Address.1.IPAddress is added in the list by eRT.com.cisco.spvtg.ccsp.tr069pa 
+241007-14:40:33.039971 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241007-14:40:33.040175 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.ManagementServer.ConnectionRequestURL is added in the list by eRT.com.cisco.spvtg.ccsp.tr069pa 
+241007-14:40:34.630375 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241007-14:40:34.630558 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.NotifyComponent.X_RDKCENTRAL-COM_Connected-Client is added in the list by eRT.com.cisco.spvtg.ccsp.meshagent 
+241118-09:32:10.228266 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.228426 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.NotifyComponent.X_RDKCENTRAL-COM_Connected-Client is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.236141 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.236301 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.Bridging.Bridge.1.Port.8.Enable is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.243189 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.243312 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.Bridging.Bridge.2.Port.2.Enable is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.253904 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.254031 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.DeviceInfo.X_COMCAST_COM_xfinitywifiEnable is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.261937 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.262085 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.WiFi.AccessPoint.1.Security.ModeEnabled is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.270155 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.270292 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.WiFi.AccessPoint.1.Security.X_COMCAST-COM_KeyPassphrase is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.277542 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.277728 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.WiFi.AccessPoint.1.SSIDAdvertisementEnabled is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.284966 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.285105 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.WiFi.AccessPoint.1.X_CISCO_COM_MACFilter.Enable is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.293027 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.293181 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.WiFi.AccessPoint.1.X_CISCO_COM_MACFilter.FilterAsBlackList is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.300188 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.300311 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.WiFi.AccessPoint.2.Security.ModeEnabled is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.306959 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.307110 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.WiFi.AccessPoint.2.Security.X_COMCAST-COM_KeyPassphrase is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.313627 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.313758 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.WiFi.AccessPoint.2.SSIDAdvertisementEnabled is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.322842 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.323008 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.WiFi.AccessPoint.2.X_CISCO_COM_MACFilter.Enable is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.332212 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.332378 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.WiFi.AccessPoint.2.X_CISCO_COM_MACFilter.FilterAsBlackList is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.337835 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.337997 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.WiFi.AccessPoint.3.Security.ModeEnabled is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.345233 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.345402 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.WiFi.AccessPoint.3.Security.X_COMCAST-COM_KeyPassphrase is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.350979 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.351146 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.WiFi.AccessPoint.3.Security.KeyPassphrase is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.356771 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.356942 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.WiFi.AccessPoint.3.Security.PreSharedKey is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.362760 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.363045 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.WiFi.AccessPoint.4.Security.ModeEnabled is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.368758 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.368921 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.WiFi.AccessPoint.4.Security.X_COMCAST-COM_KeyPassphrase is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.374209 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.374378 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.WiFi.AccessPoint.4.Security.KeyPassphrase is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.380388 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.380567 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.WiFi.AccessPoint.4.Security.PreSharedKey is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.385963 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.386127 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.WiFi.Radio.1.Enable is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.391714 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.391893 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.WiFi.Radio.2.Enable is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.397259 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.397419 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.WiFi.SSID.1.Enable is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.402478 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.402634 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.WiFi.SSID.1.SSID is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.407838 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.407990 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.WiFi.SSID.2.Enable is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.413424 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.413590 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.WiFi.SSID.2.SSID is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.418809 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.418966 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.WiFi.SSID.3.Enable is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.424017 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.424286 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.WiFi.SSID.3.SSID is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.431638 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.431815 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.WiFi.SSID.4.Enable is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.440172 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.440341 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.WiFi.SSID.4.SSID is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.445576 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.445744 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.X_CISCO_COM_DeviceControl.LanManagementEntry.1.LanMode is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.451996 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.452318 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.X_CISCO_COM_Security.Firewall.FilterAnonymousInternetRequests is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.458093 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.458257 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.X_CISCO_COM_Security.Firewall.FilterHTTP is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.463901 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.464137 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.X_CISCO_COM_Security.Firewall.FilterIdent is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.469827 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.469995 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.X_CISCO_COM_Security.Firewall.FilterMulticast is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.479297 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.479478 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.X_CISCO_COM_Security.Firewall.FilterP2P is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.485320 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.485489 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.X_CISCO_COM_Security.Firewall.FirewallLevel is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.491055 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.491223 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.X_CISCO_COM_Security.Firewall.FilterAnonymousInternetRequestsV6 is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.497003 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.497168 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.X_CISCO_COM_Security.Firewall.FilterHTTPV6 is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.502699 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.502869 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.X_CISCO_COM_Security.Firewall.FilterIdentV6 is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.508547 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.508718 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.X_CISCO_COM_Security.Firewall.FilterMulticastV6 is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.517246 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.517417 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.X_CISCO_COM_Security.Firewall.FilterP2PV6 is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.522694 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.522857 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.X_CISCO_COM_Security.Firewall.FirewallLevelV6 is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.528765 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.528934 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.X_CISCO_COM_DeviceControl.LanManagementEntry.1.LanIPAddress is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.534718 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.534901 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.X_CISCO_COM_DeviceControl.LanManagementEntry.1.LanSubnetMask is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.540558 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.540728 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.DHCPv4.Server.Pool.1.MinAddress is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.546165 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.546335 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.DHCPv4.Server.Pool.1.MaxAddress is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.552537 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.552715 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.DHCPv4.Server.Pool.1.LeaseTime is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.565899 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.566073 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.NAT.X_CISCO_COM_DMZ.Enable is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.573613 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.573789 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.NAT.X_CISCO_COM_DMZ.InternalIP is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.579246 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.579419 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.NAT.X_CISCO_COM_DMZ.IPv6Host is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.584500 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.584670 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.NAT.X_Comcast_com_EnablePortMapping is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.591306 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.591487 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.DeviceInfo.X_RDKCENTRAL-COM_xOpsDeviceMgmt.Mesh.Enable is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.606126 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.606298 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.DeviceInfo.X_RDKCENTRAL-COM_CloudUIEnable is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.611458 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.611622 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.DeviceInfo.X_RDKCENTRAL-COM_AkerEnable is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.618464 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.618633 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.NotifyComponent.X_RDKCENTRAL-COM_PresenceNotification is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.623971 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.624209 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.WiFi.X_CISCO_COM_FactoryResetRadioAndAp is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.630092 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.630358 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.WiFi.SSID.5.SSID is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.635717 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.635884 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.WiFi.SSID.6.SSID is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.641170 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.641360 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.WiFi.SSID.9.SSID is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.646872 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.647053 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.WiFi.SSID.10.SSID is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.652644 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.652811 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.WiFi.SSID.5.Status is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.659080 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.659255 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.WiFi.SSID.6.Status is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.664742 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.664915 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.WiFi.SSID.9.Status is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.670674 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.670866 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.WiFi.SSID.10.Status is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.677740 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.677933 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.WiFi.AccessPoint.5.SSIDAdvertisementEnabled is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.689817 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.690001 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.WiFi.AccessPoint.6.SSIDAdvertisementEnabled is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.699554 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.699741 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.WiFi.AccessPoint.9.SSIDAdvertisementEnabled is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.705436 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.705619 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.WiFi.AccessPoint.10.SSIDAdvertisementEnabled is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.712550 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.712734 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.WiFi.AccessPoint.5.Security.RadiusServerIPAddr is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.718461 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.718632 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.WiFi.AccessPoint.6.Security.RadiusServerIPAddr is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.724294 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.724556 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.WiFi.AccessPoint.9.Security.RadiusServerIPAddr is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.730837 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.731013 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.WiFi.AccessPoint.10.Security.RadiusServerIPAddr is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.736770 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.736943 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.WiFi.SSID.5.BSSID is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.742437 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.742611 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.WiFi.SSID.6.BSSID is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.753010 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.753198 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.WiFi.SSID.9.BSSID is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.759811 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.760008 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.WiFi.SSID.10.BSSID is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.766169 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.766358 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.WiFi.AccessPoint.5.Security.ModeEnabled is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.772415 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.772599 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.WiFi.AccessPoint.6.Security.ModeEnabled is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.778187 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.778382 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.WiFi.AccessPoint.9.Security.ModeEnabled is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.784782 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.784949 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.WiFi.AccessPoint.10.Security.ModeEnabled is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.805088 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.805269 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.X_COMCAST-COM_GRE.Tunnel.1.PrimaryRemoteEndpoint is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.812655 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.812836 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.X_COMCAST-COM_GRE.Tunnel.1.SecondaryRemoteEndpoint is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.818442 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.818633 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.WiFi.Radio.1.Channel is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.827905 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.828197 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.WiFi.Radio.2.Channel is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.835967 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.836404 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.WiFi.Radio.1.OperatingFrequencyBand is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.842191 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.842372 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.WiFi.Radio.2.OperatingFrequencyBand is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.848516 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.848702 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.WiFi.Radio.1.OperatingChannelBandwidth is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.854657 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.854842 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.WiFi.Radio.2.OperatingChannelBandwidth is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.860613 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.860793 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.X_COMCAST-COM_GRE.Tunnel.1.Interface.1.VLANID is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.866678 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.866839 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.X_COMCAST-COM_GRE.Tunnel.1.Interface.1.LocalInterfaces is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.876595 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.876778 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.X_COMCAST-COM_GRE.Tunnel.1.Interface.2.VLANID is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:10.885165 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:10.885341 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.X_COMCAST-COM_GRE.Tunnel.1.Interface.2.LocalInterfaces is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:20.909547 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:20.909758 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.DeviceInfo.X_RDKCENTRAL-COM_DeviceFingerPrint.Enable is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:20.944551 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:20.944774 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.PrivacyProtection.Enable is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:20.970270 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:20.970474 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.DeviceInfo.X_RDKCENTRAL-COM_PrivacyProtection.Activate is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:21.008215 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:21.008414 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.DeviceInfo.X_RDKCENTRAL-COM_AdvancedSecurity.SafeBrowsing.Enable is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 
+241118-09:32:21.044714 [mod=NOTIFY, lvl=WARN] [tid=1759] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+241118-09:32:21.044939 [mod=NOTIFY, lvl=INFO] [tid=1759]  
+ Notification : Parameter Device.DeviceInfo.X_RDKCENTRAL-COM_AdvancedSecurity.Softflowd.Enable is added in the list by eRT.com.cisco.spvtg.ccsp.webpaagent 

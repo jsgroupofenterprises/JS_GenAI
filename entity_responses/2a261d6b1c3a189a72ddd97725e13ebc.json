@@ -1,0 +1,7 @@
+{
+  "entity_name": "CosaDmlLogging_FlushAllLogs",
+  "component": "CcspWifiAgent",
+  "content_hash": "2a261d6b1c3a189a72ddd97725e13ebc",
+  "response": "**1. Main purpose and functionality**\n\nThe `CosaDmlLogging_FlushAllLogs()` function is used to flush all the logs to the persistent storage.\n\n**2. Key operations and data flow**\n\nThe function executes the `/rdklogger/flush_logs.sh` script to flush all the logs.\n\n**3. Interaction with other components (if any)**\n\nNone.\n\n**4. Important parameters and return values**\n\n- None.\n\n- ANSC_STATUS_SUCCESS: The logs were flushed successfully.\n\n**5. Any specific RDK-related operations**\n\nThe function uses the RDK-specific `/rdklogger/flush_logs.sh` script to flush the logs.",
+  "processed_at": "2024-11-13T15:07:09.403989"
+}

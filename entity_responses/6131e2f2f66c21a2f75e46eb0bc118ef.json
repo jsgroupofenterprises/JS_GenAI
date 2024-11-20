@@ -1,0 +1,7 @@
+{
+  "entity_name": "wifi_getBandSteeringPhyRateThreshold",
+  "component": "hal",
+  "content_hash": "6131e2f2f66c21a2f75e46eb0bc118ef",
+  "response": "**1. Main purpose and functionality**\n\nThe wifi_getBandSteeringPhyRateThreshold() function is used to get the band steering physical modulation rate threshold parameters. The function takes following parameters in input:\n\n- radioIndex: Radio Index\n- pPrThreshold: Physical modulation rate threshold value\n\nand returns INT.\n\n**2. Key operations and data flow**\n\nThe key operations performed by the wifi_getBandSteeringPhyRateThreshold() function are:\n\n1. Get the physical modulation rate threshold value for the given radio index.\n\n2. Return the physical modulation rate threshold value.\n\n**3. Interaction with other components (if any)**\n\nThe function interacts with the following components:\n\n- Radio component\n- Band steering component\n\n**4. Important parameters and return values**\n\nThe important parameters of the wifi_getBandSteeringPhyRateThreshold() function are:\n\n- **radioIndex**:  Radio Index\n- **pPrThreshold**: Physical modulation rate threshold value\n\nThe function returns INT, which indicates the status of the operation.\n\n**5. RDK-related operations**\n\nThis function is part of the RDK Wi-Fi HAL API.",
+  "processed_at": "2024-11-14T12:46:57.599316"
+}

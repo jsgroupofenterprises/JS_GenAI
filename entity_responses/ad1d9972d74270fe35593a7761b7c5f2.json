@@ -1,0 +1,7 @@
+{
+  "entity_name": "CosaGetInstanceNumberByIndex",
+  "component": "CcspWifiAgent",
+  "content_hash": "ad1d9972d74270fe35593a7761b7c5f2",
+  "response": "**1. Main purpose and functionality**\n\nThe `CosaGetInstanceNumberByIndex` function retrieves the instance number of an object given its name and index.\n\n**2. Key operations and data flow**\n\nThe function first checks if the provided object name belongs to a P&M component. If it does, the function calls the `g_GetInstanceNumberByIndex` function with the P&M component's agent handle, the object name, and the index. The `g_GetInstanceNumberByIndex` function then retrieves the instance number and returns it.\n\n**3. Interaction with other components (if any)**\n\nThe function interacts with the P&M component's agent handle to retrieve the instance number.\n\n**4. Important parameters and return values**\n\n* **pObjName:** The name of the object for which the instance number is being retrieved.\n* **ulIndex:** The index of the instance.\n* **Return value:** The instance number.\n\n**5. Any specific RDK-related operations**\n\nThe function uses the `g_GetInstanceNumberByIndex` function, which is a generic function for retrieving instance numbers from RDK components.",
+  "processed_at": "2024-11-13T14:57:56.971698"
+}

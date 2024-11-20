@@ -1,0 +1,7 @@
+{
+  "entity_name": "wifi_setApDASRadiusServer",
+  "component": "hal",
+  "content_hash": "a85cf1807bd0f6a562f819a4c5bd8b81",
+  "response": "**1. Main purpose and functionality**\n\nThe wifi_setApDASRadiusServer() function sets the Access Point Digital Antenna Steering (DAS) (Radius) server settings.\n\n**2. Key operations and data flow**\n\nIt takes the following parameters as input:\n* apIndex: The index of the Access Point (AP)\n* IPAddress: The IP address of the DAS Radius server\n* port: The port number of the DAS Radius server\n* RadiusdasSecret: The secret key for the DAS Radius server\n\nThe function then makes a call to the wifi_hal_setApDASRadiusServer() function in the HAL layer to set the DAS Radius server settings.\n\n**3. Interaction with other components (if any)**\n\nThe wifi_setApDASRadiusServer() function interacts with the following components:\n* wifi_hal_setApDASRadiusServer() in the HAL layer\n\n**4. Important parameters and return values**\n\nThe wifi_setApDASRadiusServer() function returns an integer value indicating the status of the operation:\n* RETURN_OK if successful\n* RETURN_ERR if any error is detected\n\n**5. Any specific RDK-related operations**\n\nThe wifi_setApDASRadiusServer() function is part of the RDK Broadband Forum TR-181 Device.WiFi.AccessPoint.Security.RADIUSSettings.DASSettings component.",
+  "processed_at": "2024-11-14T12:37:42.379909"
+}

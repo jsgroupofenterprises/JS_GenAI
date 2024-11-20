@@ -1,0 +1,7 @@
+{
+  "entity_name": "int",
+  "component": "CcspWifiAgent",
+  "content_hash": "c7b63c5ced3ee2ef22fdca4cfcf1505d",
+  "response": "1. **Main purpose and functionality**: This function gets the Wireless Protected Setup (WPS) Access Control List (ACL).\n\n\n2. **Key Operations and Data Flow**:\n   - The function takes a pointer to a private structure and two buffers, one for the ACL and one for the buffer length.\n   - It uses the private structure to access the WPS ACL and stores it in the provided buffer.\n\n\n3. **Interaction with other components**: This function interacts with the CcspWifiAgent component to get the WPS ACL.\n\n\n4. **Important parameters and return values**:\n   - **wps_acl_get_t**: Pointer to the function that gets the WPS ACL.\n   - **priv**: Pointer to a private structure.\n   - **buf**: Buffer to store the WPS ACL.\n   - **buf_len**: Length of the buffer.\n   - **Return Type**: typedef int.\n\n\n5. **Any specific RDK-related operations**:\n   - This function is used by the RDKB-30263 Grey List control from RADIUS feature to get the SNR value of a client.",
+  "processed_at": "2024-11-13T15:27:14.732940"
+}

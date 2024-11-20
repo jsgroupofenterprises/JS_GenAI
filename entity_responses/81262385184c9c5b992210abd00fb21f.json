@@ -1,0 +1,7 @@
+{
+  "entity_name": "voice_hal_setReceiveGain",
+  "component": "hal",
+  "content_hash": "81262385184c9c5b992210abd00fb21f",
+  "response": "1. **Main purpose and functionality:**\nThe voice_hal_setReceiveGain function in RDK is used to set the post-decoding gain applied to the receive channel of a voice service. This function allows you to adjust the volume of the received audio signal.\n\n2. **Key operations and data flow:**\nThe function takes the following parameters:\n- **service**: The voice service affected.\n- **profile**: The voice profile affected.\n- **line**: The telephone line number affected.\n- **gain**: The signed post-decode gain applied in 0.1 dB steps.\n\nThe function sets the receive gain for the specified service, profile, and line.\n\n3. **Interaction with other components (if any):**\nThis function interacts with the voice service provider to set the receive gain.\n\n4. **Important parameters and return values:**\n- **service**: The voice service affected.\n- **profile**: The voice profile affected.\n- **line**: The telephone line number affected.\n- **gain**: The signed post-decode gain applied in 0.1 dB steps.\n- **Return value**: The status of the operation. RDK_SUCCESS if successful, RDK_FAILURE if any error is detected.\n\n5. **Any specific RDK-related operations:**\nThis function is part of the RDK voice HAL API.",
+  "processed_at": "2024-11-14T12:15:24.847059"
+}

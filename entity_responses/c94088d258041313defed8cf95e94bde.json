@@ -1,0 +1,7 @@
+{
+  "entity_name": "moca_aca_stat_t",
+  "component": "hal",
+  "content_hash": "c94088d258041313defed8cf95e94bde",
+  "response": "**1. Purpose**\n\nThe `moca_aca_stat_t` structure stores the statistics and configuration related to the MoCA Auto Channel Assignment (ACA) process.\n\n**2. Key Fields and Significance**\n\n* `acaCfg`: Configuration for the ACA process.\n* `stat`: Status of the ACA process (0 for success, 1 for bad channel, 2 for no EVM probe, 3 for failure, and 4 for in progress).\n* `RxPower`: Total received power in dBm.\n* `ACAPowProfile`: Power profile representation for each channel.\n* `ACATrapCompleted`: Indicates whether the ACA status trap has been completed.\n\n**3. Usage Context in RDK**\n\nThe `moca_aca_stat_t` structure is used in the RDK's MoCA Auto Channel Assignment (ACA) process. ACA is used to automatically select the optimal channel for MoCA operation. The structure stores the current configuration, status, and power profile information for the ACA process.\n\n**4. Related Components or Interfaces**\n\nThe `moca_aca_stat_t` structure is typically used by the following components:\n\n* MoCA driver\n* MoCA Manager\n\n**5. RDK-Specific Details**\n\nThe `moca_aca_stat_t` structure is defined in the `moca_hal.h` header file in the RDK HAL (Hardware Abstraction Layer) component.",
+  "processed_at": "2024-11-14T11:58:58.481628"
+}

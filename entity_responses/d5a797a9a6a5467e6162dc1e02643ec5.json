@@ -1,0 +1,7 @@
+{
+  "entity_name": "voice_hal_getBoundIfName",
+  "component": "hal",
+  "content_hash": "d5a797a9a6a5467e6162dc1e02643ec5",
+  "response": "### Main purpose and functionality\n\nThe `voice_hal_getBoundIfName` function in the HAL component of RDK gets the interface to which the specified service is bound.\n\n### Key operations and data flow\n\nThe function takes the following parameters:\n\n* `uint32_t service` - Input the voice service being configured.\n* `char *bound_if_name` - Output the name of the interface, or the special values 'Any_WAN', 'Any_LAN'.\n* `uint32_t *pLength` - Input/output the buffer length.\n\nThe function returns the status of the operation. It returns RDK_SUCCESS if successful, RDK_FAILURE if any error is detected.\n\n### Interaction with other components (if any)\n\nThis function interacts with the RDK Voice Service Manager (VSM) to get the interface to which the specified service is bound.\n\n### Important parameters and return values\n\nThe following parameters are important:\n\n* `service`: The voice service being configured.\n* `bound_if_name`: The name of the interface to which the service is bound.\n* `pLength`: The length of the buffer to receive the interface name.\n\nThe function returns the status of the operation.\n\n### Any specific RDK-related operations\n\nThis function is specific to RDK and is used to get the interface to which a voice service is bound.",
+  "processed_at": "2024-11-14T11:08:36.867456"
+}

@@ -1,0 +1,7 @@
+{
+  "entity_name": "json_get_alloc_funcs",
+  "component": "CcspWifiAgent",
+  "content_hash": "68a1c315179949675f25e956d4d811f6",
+  "response": "**1. Main purpose and functionality:**\n\nThe `json_get_alloc_funcs` function in CcspWifiAgent library retrieves the memory allocation and deallocation functions used by the JSON library.\n\n**2. Key operations and data flow:**\n\n- The function takes two pointers to function pointers, `malloc_fn` and `free_fn`, as parameters.\n- It assigns the `__json_malloc_fn` and `__json_free_fn` functions to `*malloc_fn` and `*free_fn`, respectively.\n- These assigned functions will be used by the JSON library for memory management.\n\n**3. Interaction with other components (if any):**\n\nThis function is used internally by the JSON library and does not interact with other components.\n\n**4. Important parameters and return values:**\n\n- **Parameters:**\n  - `malloc_fn`: Pointer to a function pointer that will receive the memory allocation function.\n  - `free_fn`: Pointer to a function pointer that will receive the memory deallocation function.\n- **Return value:** None\n\n**5. Any specific RDK-related operations:**\n\nNone",
+  "processed_at": "2024-11-13T15:51:55.325274"
+}

@@ -1,0 +1,7 @@
+{
+  "entity_name": "ovsdb_mon_tbl_val",
+  "component": "CcspWifiAgent",
+  "content_hash": "f0a8cbf19c33fcae679f9d8541f88d94",
+  "response": "**1. Main purpose and functionality**\n\nThe `ovsdb_mon_tbl_val` function creates a JSON object with a set of columns to monitor in an OVSDB (Open Virtual Switching Database) table and the update operations to listen for.\n\n**2. Key operations and data flow**\n\n- The function initializes a JSON object (`jo`) and a JSON array (`jcarray`).\n- It iterates over the provided arguments and adds each argument to the JSON array, optionally prefixing it with `MON_SEL_CNAME_START`.\n- If the JSON array is not empty, it is added to the JSON object with the key \"columns.\"\n- The function also creates a \"select\" sub-object and sets the \"initial,\" \"insert,\" \"delete,\" and \"modify\" keys to `true` or `false` based on the provided `mon_flags`.\n- Finally, the JSON object is returned.\n\n**3. Interaction with other components (if any)**\n\nThis function is used by the CcspWifiAgent to monitor changes in OVSDB tables.\n\n**4. Important parameters and return values**\n\n- `mon_flags`: A bitmask specifying which update operations to listen for.\n- `argc` and `argv[]`: The number of arguments and the arguments to use for constructing the \"columns\" array.\n- Return value: A JSON object representing the monitoring parameters.\n\n**5. Any specific RDK-related operations**\n\nThis function is used specifically for OVSDB monitoring in the RDK (Reference Design Kit).",
+  "processed_at": "2024-11-13T16:04:50.132441"
+}

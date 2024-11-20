@@ -1,0 +1,7 @@
+{
+  "entity_name": "logger_stdout_new",
+  "component": "CcspWifiAgent",
+  "content_hash": "008fbccd6ed9165fa6515ad973ce452d",
+  "response": "**1. Main Purpose and Functionality:**\n   - Initializes a logger object (`logger_t* self`) to output logs to stdout.\n\n**2. Key Operations and Data Flow:**\n   - Sets the logger function pointer (`logger_fn`) to `logger_stdout_log`.\n   - Initializes the `quiet` flag of the logger object's `log_stdout` member to `quiet_mode`.\n\n**3. Interaction with Other Components:**\n   - None mentioned in the provided code snippet.\n\n**4. Important Parameters and Return Values:**\n   - **Parameters**:\n     - `self`: Pointer to the logger object to be initialized.\n     - `quiet_mode`: Boolean indicating whether to suppress informational logs.\n   - **Return Value**:\n     - `true` if initialization was successful, `false` otherwise.\n\n**5. RDK-related Operations:**\n   - None mentioned in the provided code snippet.",
+  "processed_at": "2024-11-13T15:54:56.736408"
+}

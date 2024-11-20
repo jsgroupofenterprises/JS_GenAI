@@ -1,0 +1,7 @@
+{
+  "entity_name": "data_plane_queue_create_event",
+  "component": "CcspWifiAgent",
+  "content_hash": "4270c268de6e6c53eb2225b1d67d98ef",
+  "response": "**1. Main purpose and functionality:**\n\n   - The function `data_plane_queue_create_event` creates a new data plane queue event for a given type of event.\n   - It allocates memory for the event data, initializes it, and sets the event type and the flag indicating whether to set a signal thread.\n\n**2. Key operations and data flow:**\n\n   - Allocate memory for the event data.\n   - Initialize the event data with zeros.\n   - Set the event type and the flag indicating whether to set a signal thread.\n\n**3. Interaction with other components (if any):**\n\n   - This function interacts with the data plane queue component.\n\n**4. Important parameters and return values:**\n\n   - Parameters:\n      - `ptr`: A pointer to the event data.\n      - `type`: The type of event.\n      - `setSignalThread`: A flag indicating whether to set a signal thread.\n\n   - Return value: A pointer to the event data.\n\n**5. Any specific RDK-related operations:**\n\n   - This function uses the `wifi_data_plane_queue_data_t` type, which is defined in the RDK header file `wifi_data_plane_queue.h`.",
+  "processed_at": "2024-11-13T15:16:48.120818"
+}

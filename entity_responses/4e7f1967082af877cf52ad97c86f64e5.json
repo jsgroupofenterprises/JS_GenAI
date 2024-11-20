@@ -1,0 +1,7 @@
+{
+  "entity_name": "assoc_rsp_frame_sent",
+  "component": "CcspWifiAgent",
+  "content_hash": "4e7f1967082af877cf52ad97c86f64e5",
+  "response": "1. **Main purpose and functionality:**\n   - This function registers a callback to be notified when an association response (assoc_rsp) frame is sent by the Wi-Fi Access Point (AP) for the specified station (STA).\n\n2. **Key operations and data flow:**\n   - The callback is invoked when the assoc_rsp frame is successfully sent by the AP, providing the AP index, STA's MAC address, and data contained in the assoc_rsp frame.\n   - This callback is part of the Wi-Fi Agent's framework for handling Wi-Fi communication between APs and STAs.\n\n3. **Interaction with other components (if any):**\n   - This function interacts with the Wi-Fi Agent's 802.1X data plane module to process 802.1X data frames.\n\n4. **Important parameters and return values:**\n   - **ap_index**: Index of the AP that sent the assoc_rsp frame.\n   - **sta**: MAC address of the STA that received the assoc_rsp frame.\n   - **data**: Pointer to the data contained in the assoc_rsp frame.\n   - **len**: Length of the data in the assoc_rsp frame.\n   - This function does not have a return value.\n\n5. **Any specific RDK-related operations:**\n   - This function is part of the RDK's CcspWifiAgent, which is a component responsible for managing Wi-Fi connectivity and configuration in RDK-based devices.",
+  "processed_at": "2024-11-13T15:14:22.571163"
+}

@@ -1,0 +1,7 @@
+{
+  "entity_name": "ovsdb_table_update_simple_f",
+  "component": "CcspWifiAgent",
+  "content_hash": "d0939d87e62d1cff3a01afc2654ee921",
+  "response": "**1. Main purpose and functionality:**\n\n* This function updates a specified column in an OVSDB table with a given value for records that match a simple filter.\n\n**2. Key operations and data flow:**\n\n* The function first creates a simple OVSDB where clause using the specified column and value.\n* It then calls `ovsdb_table_update_where_f` to perform the update using the provided arguments.\n\n**3. Interaction with other components (if any):**\n\n* The function interacts with the OVSDB service to perform the update.\n\n**4. Important parameters and return values:**\n\n* **ovsdb_sock_path:** The path to the OVSDB UNIX socket.\n* **table:** The OVSDB table to update.\n* **column:** The column to update.\n* **value:** The value to update the column with.\n* **record:** The record to update (can be NULL).\n* **filter**: An array of filter strings (can be NULL).\n* **Return:** 0 on success, a negative error code on failure.\n\n**5. Any specific RDK-related operations:**\n\n* The function uses RDK-specific OVSDB utility functions to perform the update.",
+  "processed_at": "2024-11-13T16:12:17.272158"
+}

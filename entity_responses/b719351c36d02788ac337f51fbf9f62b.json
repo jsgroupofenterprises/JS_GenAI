@@ -1,0 +1,7 @@
+{
+  "entity_name": "ssp_WifiCCDmGetMemConsumed",
+  "component": "CcspWifiAgent",
+  "content_hash": "b719351c36d02788ac337f51fbf9f62b",
+  "response": "**1. Main purpose and functionality:**\n\nThe `ssp_WifiCCDmGetMemConsumed` function retrieves the memory consumed by the `CcspWifiAgent` component.\n\n**2. Key operations and data flow:**\n\n- The function retrieves the `hThisObject` parameter, which is a handle to the `CcspWifiAgent` component.\n- It calls the `AnscGetComponentMemorySize` function to retrieve the memory size of the `CcspWifiAgent` component.\n- If the `AnscGetComponentMemorySize` function returns -1, the function sets the memory size to 0.\n- The function returns the memory size.\n\n**3. Interaction with other components (if any):**\n\nThe function interacts with the `AnscGetComponentMemorySize` function to retrieve the memory size of the `CcspWifiAgent` component.\n\n**4. Important parameters and return values:**\n\n- `hThisObject`: A handle to the `CcspWifiAgent` component.\n- Return value: The memory size of the `CcspWifiAgent` component.\n\n**5. Any specific RDK-related operations:**\n\nThe function uses the `AnscGetComponentMemorySize` function, which is an RDK-specific function for retrieving the memory size of a component.",
+  "processed_at": "2024-11-13T14:56:08.097331"
+}

@@ -1,0 +1,3 @@
+241007-14:40:21.363715 [mod=WANCNCTVTYCHK, lvl=INFO] [tid=1744] RBUS enabled, Proceed with Wan Connectivity check
+241007-14:40:21.387315 [mod=WANCNCTVTYCHK, lvl=INFO] [tid=1744] syscfg wanconnectivity_chk_enable not available,Taking Factory Default as FALSE
+241007-14:40:21.387446 [mod=WANCNCTVTYCHK, lvl=INFO] [tid=1744] CosaWanCnctvtyChk_Init: Wan Connectivty Check Enable : false

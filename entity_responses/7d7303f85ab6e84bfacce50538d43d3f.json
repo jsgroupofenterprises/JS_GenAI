@@ -1,0 +1,7 @@
+{
+  "entity_name": "wifi_deleteAp",
+  "component": "hal",
+  "content_hash": "7d7303f85ab6e84bfacce50538d43d3f",
+  "response": "**1. Main purpose and functionality.**\n\nThe `wifi_deleteAp` function deletes an access point entry on the hardware and clears all internal variables associated with that access point.\n\n\n**2. Key operations and data flow.**\n\nThe function takes an `apIndex` parameter which specifies the index of the access point to be deleted. It then sends a message to the driver event handler task to delete the access point entry on the hardware. Once the access point entry has been deleted, the function clears all internal variables associated with that access point.\n\n\n**3. Interaction with other components (if any).**\n\nThe `wifi_deleteAp` function interacts with the driver event handler task to delete the access point entry on the hardware.\n\n\n**4. Important parameters and return values.**\n\nThe `apIndex` parameter specifies the index of the access point to be deleted. The function returns an `INT` value which indicates the status of the operation. A return value of `RETURN_OK` indicates that the operation was successful. A return value of `RETURN_ERR` indicates that an error occurred.\n\n\n**5. Any specific RDK-related operations.**\n\nThe `wifi_deleteAp` function is not specific to RDK. It can be used in any application that needs to delete an access point entry on the hardware.",
+  "processed_at": "2024-11-14T12:21:10.927867"
+}

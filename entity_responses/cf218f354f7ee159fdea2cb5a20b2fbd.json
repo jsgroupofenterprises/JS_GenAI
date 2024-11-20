@@ -1,0 +1,7 @@
+{
+  "entity_name": "rdk_wifi_SetNeighborReportActivated",
+  "component": "CcspWifiAgent",
+  "content_hash": "cf218f354f7ee159fdea2cb5a20b2fbd",
+  "response": "**1. Main purpose and functionality:**\n\nThe `rdk_wifi_SetNeighborReportActivated` function in CcspWifiAgent sets the neighbor report activation status for a specified Wi-Fi interface.\n\n**2. Key operations and data flow:**\n\n- The function takes two parameters: the Wi-Fi interface index and the neighbor report activation status.\n- It retrieves the `wifi_vap_info_t` structure for the specified Wi-Fi interface.\n- It updates the `nbrReportActivated` field in the structure with the provided activation status.\n- The updated structure is then saved back to the database.\n\n**3. Interaction with other components (if any):**\n\nThis function interacts with the Wi-Fi database to retrieve and update the Wi-Fi interface information.\n\n**4. Important parameters and return values:**\n\n- **wlanIndex**: The index of the Wi-Fi interface.\n- **bNeighborReportActivated**: The neighbor report activation status.\n- **Return value**: The function returns `CCSP_SUCCESS` on success or a negative error code on failure.\n\n**5. Any specific RDK-related operations:**\n\nThis function is part of the RDK Centralized Configuration Management (CCM) framework, which is used to manage Wi-Fi settings across devices in a home network.",
+  "processed_at": "2024-11-13T15:35:58.585664"
+}

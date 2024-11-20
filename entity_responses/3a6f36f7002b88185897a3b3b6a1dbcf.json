@@ -1,0 +1,7 @@
+{
+  "entity_name": "wifi_dml_update_config",
+  "component": "CcspWifiAgent",
+  "content_hash": "3a6f36f7002b88185897a3b3b6a1dbcf",
+  "response": "**1. Main purpose and functionality**\nThis function updates the DML configuration for a WiFi interface with new properties.\n\n**2. Key operations and data flow**\n- Fetch the DML WifiSsid and WifiAp objects for the specified interface index.\n- Update the SSID related parameters in the WifiSsid object, including enable/disable, SSID name, and SSID advertisement.\n- Update the security related parameters in the WifiAp object, including security mode, encryption method, passphrase, and MFP configuration.\n- Set the MFP configuration in PSM.\n- Save the updated DML configuration to stored and running states.\n\n**3. Interaction with other components (if any)**\n- PSM (for setting MFP configuration)\n\n**4. Important parameters and return values**\n- **Parameters**:\n   - wifi_vap_info_t *vap_cfg: Pointer to the new configuration data for the interface.\n   - uint8_t vap_index: Index of the interface to be updated.\n- **Return value**:\n   - int: RETURN_OK on success, RETURN_ERR on failure.\n\n**5. Any specific RDK-related operations**\n- This function does not perform any specific RDK-related operations.",
+  "processed_at": "2024-11-13T15:42:02.660186"
+}

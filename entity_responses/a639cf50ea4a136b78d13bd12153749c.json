@@ -1,0 +1,7 @@
+{
+  "entity_name": "clock_mono_double",
+  "component": "CcspWifiAgent",
+  "content_hash": "a639cf50ea4a136b78d13bd12153749c",
+  "response": "1. **Main purpose and functionality**:\n   - The `clock_mono_double` function returns the current time in seconds with nanosecond precision.\n\n2. **Key operations and data flow**:\n   - The function calls `clock_gettime` to retrieve the current time in a `timespec` structure.\n   - It then converts the time to a double value by adding the seconds and nanoseconds.\n\n3. **Interaction with other components**:\n   - This function is typically used by other components that need to measure time intervals or keep track of the current time.\n\n4. **Important parameters and return values**:\n   - The function takes no parameters.\n   - It returns a double value representing the current time in seconds with nanosecond precision.\n\n5. **Any specific RDK-related operations**:\n   - This function is not specific to RDK and is a standard C function.",
+  "processed_at": "2024-11-13T15:46:25.399678"
+}

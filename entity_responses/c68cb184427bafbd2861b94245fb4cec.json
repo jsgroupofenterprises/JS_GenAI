@@ -1,0 +1,7 @@
+{
+  "entity_name": "callback_Wifi_Global_Config",
+  "component": "CcspWifiAgent",
+  "content_hash": "c68cb184427bafbd2861b94245fb4cec",
+  "response": "**1. Main Purpose and Functionality:**\n   - Callback function that monitors updates to the OVSDB Wifi_Global_Config table.\n   - Prints debug messages indicating the type of update (add, delete, or modify).\n\n**2. Key Operations and Data Flow:**\n   - Checks the update type (mon_type) and prints a debug message accordingly.\n\n**3. Interaction with Other Components:**\n   - Uses the debug print function from the WifiPasspoint component to print debug messages.\n\n**4. Important Parameters and Return Values:**\n   - **mon:** OVSDB update monitor representing the table update.\n   - **old_rec:** Pointer to the old record before the update (unused).\n   - **new_rec:** Pointer to the new record after the update (unused).\n\n**5. RDK-Related Operations:**\n   - Uses RDK-specific debug print function (wifi_passpoint_dbg_print) from the WifiPasspoint component.",
+  "processed_at": "2024-11-13T15:30:14.383380"
+}

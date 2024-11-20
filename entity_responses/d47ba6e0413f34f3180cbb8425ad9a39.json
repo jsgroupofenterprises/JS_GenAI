@@ -1,0 +1,7 @@
+{
+  "entity_name": "eapol_frame_sent",
+  "component": "CcspWifiAgent",
+  "content_hash": "d47ba6e0413f34f3180cbb8425ad9a39",
+  "response": "**1. Main purpose and functionality**\n   \n   The main purpose of this function is to handle the callback when an EAPOL frame is sent.\n\n**2. Key operations and data flow**\n\n   - The function registers callbacks for sending and receiving EAPOL frames.\n   - The function processes 802.1x data timeouts.\n\n**3. Interaction with other components (if any)**\n\n   - The function interacts with the following components:\n     - Passpoint module\n     - 802.1x module\n\n**4. Important parameters and return values**\n\n**5. Any specific RDK-related operations**\n\n   - The function uses the following RDK-specific APIs:\n     - wifi_8021x_data_rx_callback_register()\n     - wifi_8021x_data_tx_callback_register()\n     - wifi_auth_frame_rx_callback_register()\n     - wifi_auth_frame_tx_callback_register()\n     - wifi_assoc_req_frame_callback_register()\n     - wifi_assoc_rsp_frame_callback_register()",
+  "processed_at": "2024-11-13T15:13:56.965284"
+}

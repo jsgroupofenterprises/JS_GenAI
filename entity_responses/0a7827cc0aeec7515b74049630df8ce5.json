@@ -1,0 +1,7 @@
+{
+  "entity_name": "wifi_getBandSteeringOverloadInactiveTime",
+  "component": "hal",
+  "content_hash": "0a7827cc0aeec7515b74049630df8ce5",
+  "response": "## Function Overview\nThe `wifi_getBandSteeringOverloadInactiveTime()` function in RDK's Wi-Fi HAL component retrieves the inactivity time (in seconds) for steering under overload conditions.\n\n## Key Operations and Data Flow\n- Acquires a lock on the RDK Wi-Fi state\n- Checks if band steering is supported on the specified radio index\n- Retrieves the overload inactive time from the Wi-Fi state\n- Releases the lock on the RDK Wi-Fi state\n\n## Interaction with Other Components\nThe `wifi_getBandSteeringOverloadInactiveTime()` function relies on the Wi-Fi state to store the band steering overload inactive time. Any external changes to the Wi-Fi state will affect the value returned by the function.\n\n## Important Parameters and Return Values\n- `radioIndex`: The index of the radio for which the overload inactive time is being retrieved.\n- `*overloadInactiveTime`: A pointer to an integer variable to store the overload inactive time.\n- If successful, the function returns `RETURN_OK`.\n- If the function fails, it returns `RETURN_ERR`.\n\n## Specific RDK-Related Operations\nThe `wifi_getBandSteeringOverloadInactiveTime()` function has no specific RDK-related operations.",
+  "processed_at": "2024-11-14T12:47:10.703744"
+}

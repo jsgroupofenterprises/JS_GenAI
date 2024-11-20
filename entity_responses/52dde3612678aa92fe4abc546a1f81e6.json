@@ -1,0 +1,7 @@
+{
+  "entity_name": "get_parodus_url",
+  "component": "CcspWifiAgent",
+  "content_hash": "52dde3612678aa92fe4abc546a1f81e6",
+  "response": "**1. Main purpose and functionality:**\n\nThe `get_parodus_url` function in `CcspWifiAgent` retrieves the parodus URL from the device properties file (`DEVICE_PROPS_FILE`) or uses a default value if the URL is not present in the file. The parodus URL is used for communication with the Parodus server.\n\n**2. Key operations and data flow:**\n\n- Opens the device properties file for reading.\n- Parses the file line by line, searching for the `PARODUS_URL=` property.\n- If the property is found, the value is extracted and stored in the `url` parameter.\n- If the property is not found, the default parodus URL is used.\n- The `url` parameter is returned to the caller.\n\n**3. Interaction with other components (if any):**\n\nThis function does not directly interact with any other components.\n\n**4. Important parameters and return values:**\n\n- `url`: A double pointer to a character array that will receive the parodus URL.\n\n**5. Any specific RDK-related operations:**\n\nThis function uses RDK-specific macros for tracing and file handling.",
+  "processed_at": "2024-11-13T15:12:06.434068"
+}

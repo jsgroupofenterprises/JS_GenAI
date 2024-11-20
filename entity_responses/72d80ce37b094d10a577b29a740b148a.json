@@ -1,0 +1,7 @@
+{
+  "entity_name": "wifi_getApName",
+  "component": "hal",
+  "content_hash": "72d80ce37b094d10a577b29a740b148a",
+  "response": "**Main purpose and functionality**\n\nThe `wifi_getApName` function outputs the access point's name (up to 16 bytes) into the provided buffer.\n\n**Key operations and data flow**\n\n1. The function takes two arguments:\n   - `apIndex`: The index of the access point, from 0 to 14.\n   - `output_string`: A pointer to a buffer in which to store the access point's name. The buffer must be at least 16 bytes long.\n2. The function retrieves the access point's name from the driver.\n3. The function copies the access point's name into the provided buffer.\n\n**Interaction with other components**\n\nThe `wifi_getApName` function interacts with the Wi-Fi driver to retrieve the access point's name.\n\n**Important parameters and return values**\n\n- `apIndex`: The index of the access point, from 0 to 14.\n- `output_string`: A pointer to a buffer in which to store the access point's name. The buffer must be at least 16 bytes long.\n- The function returns `INT`, which can be one of the following values:\n   - `RETURN_OK` if the operation was successful.\n   - `RETURN_ERR` if the operation failed.\n\n**Any specific RDK-related operations**\n\nThe `wifi_getApName` function is not specific to RDK.",
+  "processed_at": "2024-11-14T12:21:17.806562"
+}
