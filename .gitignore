@@ -3,3 +3,4 @@ myenv/
 credentials.json
 __pycache__/
 *.pyc
+rdk_assistant_new.log
