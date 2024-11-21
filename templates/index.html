@@ -357,8 +357,8 @@
             chatContainer.scrollTop = chatContainer.scrollHeight;
 
             try {
-                // Make API call
-                const response = await axios.post('/chat', { query });
+                // Make API call to Netlify serverless function
+                const response = await axios.post('/.netlify/functions/chat', { query });
                 
                 // Remove typing indicator
                 typingIndicator.remove();
@@ -376,7 +376,7 @@
                 typingIndicator.remove();
                 
                 // Add error message
-                const errorMessage = 'Sorry, there was an error processing your request.';
+                const errorMessage = error.response?.data?.error || 'Sorry, there was an error processing your request.';
                 const errorMessageElement = chatManager.createMessageElement(errorMessage, false);
                 chatContainer.appendChild(errorMessageElement);
                 chatManager.saveMessage(errorMessage, false);
