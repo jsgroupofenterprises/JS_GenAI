@@ -184,3 +184,4 @@ widgetsnbextension==4.0.13
 yarl==1.17.1
 python-dotenv
 serverless-wsgi
+gunicorn
