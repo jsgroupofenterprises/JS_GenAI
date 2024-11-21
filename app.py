@@ -1,60 +1,49 @@
-# from flask import Flask, render_template, request, jsonify
-# from flask_cors import CORS  # Add this import
-# from RDKAssistant_Class import RDKAssistant
-# import os
-# app = Flask(__name__)
-# CORS(app)  # Enable CORS
-
-# assistant = RDKAssistant(
-#     code_base_path=os.getenv('CODE_BASE_PATH'),
-#     gemini_api_key=os.getenv('GEMINI_API_KEY')
-# )
-# assistant.initialize()
-
-
-# @app.route('/')
-# def index():
-#     return render_template('index.html')
-
-# @app.route('/chat', methods=['POST'])
-# def chat():
-#     query = request.json['query']
-#     response = assistant.handle_user_query(query)
-#     return jsonify({'response': response})
-
-# if __name__ == '__main__':
-#     app.run(debug=True)
-#====================================== DEPLOYMENT ==================
-from flask import Flask, render_template, request, jsonify
-from flask_cors import CORS
-from RDKAssistant_Class import RDKAssistant
+import sys
 import os
+import json
+
+# Add the project root to the Python path
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
+
+from RDKAssistant_Class import RDKAssistant
 from dotenv import load_dotenv
-import serverless_wsgi
 
 # Load environment variables
 load_dotenv()
 
-app = Flask(__name__)
-CORS(app)
-
-# Initialize assistant with environment variables
-assistant = RDKAssistant(
-    code_base_path=os.getenv('CODE_BASE_PATH'),
-    gemini_api_key=os.getenv('GEMINI_API_KEY')
-)
-assistant.initialize()
-
-@app.route('/')
-def index():
-    return render_template('index.html')
-
-@app.route('/chat', methods=['POST'])
-def chat():
-    query = request.json['query']
-    response = assistant.handle_user_query(query)
-    return jsonify({'response': response})
-
-# Serverless handler for Netlify
 def handler(event, context):
-    return serverless_wsgi.handle_request(app, event, context)
+    try:
+        # Initialize assistant
+        assistant = RDKAssistant(
+            code_base_path=os.getenv('CODE_BASE_PATH'),
+            gemini_api_key=os.getenv('GEMINI_API_KEY')
+        )
+        assistant.initialize()
+
+        # Parse the incoming request
+        body = json.loads(event['body'])
+        query = body.get('query', '')
+    
+        # Handle the query
+        response = assistant.handle_user_query(query)
+    
+        # Return response in Netlify serverless function format
+        return {
+            'statusCode': 200,
+            'body': json.dumps({'response': response}),
+            'headers': {
+                'Content-Type': 'application/json',
+                'Access-Control-Allow-Origin': '*',
+                'Access-Control-Allow-Credentials': 'true',
+            }
+        }
+    except Exception as e:
+        print(f"Error processing request: {str(e)}")
+        return {
+            'statusCode': 500,
+            'body': json.dumps({'error': str(e)}),
+            'headers': {
+                'Content-Type': 'application/json',
+                'Access-Control-Allow-Origin': '*',
+            }
+        }
