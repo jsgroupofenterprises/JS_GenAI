@@ -409,22 +409,33 @@ class RDKAssistant:
         """Generate a response to the user query using the relevant entities"""
         try:
             # Create a prompt that combines the user query and the relevant entities
-            prompt = f"""
-            User Query: {query}
+            # prompt = f"""
+            # User Query: {query}
 
-            Relevant Code Entities:
-            {'\n'.join([f'- {entity.name} ({entity.type}) in {entity.component}' for entity in entities])}
+            # Relevant Code Entities:
+            # {'\n'.join([f'- {entity.name} ({entity.type}) in {entity.component}' for entity in entities])}
 
-            Please provide a concise and informative response to the user's query, leveraging the context provided by the relevant code entities. Focus on explaining the functionality, interactions, and RDK-specific details.
-            """
+            # Please provide a concise and informative response to the user's query, leveraging the context provided by the relevant code entities. Focus on explaining the functionality, interactions, and RDK-specific details.
+            # """
+            prompt = (
+                f"User Query: {query}\n\n"
+                f"Relevant Code Entities:\n"
+                + "\n".join(
+                    [f"- {entity.name} ({entity.type}) in {entity.component}" for entity in entities]
+                )
+                + "\n\nPlease provide a concise and informative response to the user's query, "
+                "leveraging the context provided by the relevant code entities. Focus on explaining "
+                "the functionality, interactions, and RDK-specific details."
+            )
+
 
             # Generate the response using Gemini
             response = self.gemini_model.generate_content(prompt)
 
             return response.text
         except Exception as e:
-            # logger.error(f"Error generating response from entities: {str(e)}")
-            logger.error("Error generating response from entities: %s", str(e))
+            logger.error(f"Error generating response from entities: {str(e)}")
+            # logger.error("Error generating response from entities: %s", str(e))
             # logger.error("Error generating response from entities: {}".format(str(e)))
             return "I'm sorry, I couldn't generate a response for your query. Please try again later."
 
