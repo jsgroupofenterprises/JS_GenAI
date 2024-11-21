@@ -423,7 +423,9 @@ class RDKAssistant:
 
             return response.text
         except Exception as e:
-            logger.error(f"Error generating response from entities: {str(e)}")
+            # logger.error(f"Error generating response from entities: {str(e)}")
+            logger.error("Error generating response from entities: %s", str(e))
+            # logger.error("Error generating response from entities: {}".format(str(e)))
             return "I'm sorry, I couldn't generate a response for your query. Please try again later."
 
 
