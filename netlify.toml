@@ -4,7 +4,7 @@
   publish = "."
 
 [build.environment]
-  PYTHON_VERSION = "3.9"  # Netlify has better support for 3.9
+  PYTHON_VERSION = "3.12"  # Netlify has better support for 3.9
 
 [[redirects]]
   from = "/*"
