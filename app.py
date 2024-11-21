@@ -1,59 +1,30 @@
-import sys
-import os
-import json
-
-# Add the project root to the Python path
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
-
+from flask import Flask, render_template, request, jsonify
+from flask_cors import CORS
 from RDKAssistant_Class import RDKAssistant
-from dotenv import load_dotenv
+import os
 
-# Load environment variables
-load_dotenv()
+app = Flask(__name__)
+CORS(app)
 
-def handler(event, context):
+# Use environment variables for configuration
+assistant = RDKAssistant(
+    code_base_path=os.environ.get('CODE_BASE_PATH', '/tmp/code_base'),
+    gemini_api_key=os.environ.get('GEMINI_API_KEY')
+)
+assistant.initialize()
+
+@app.route('/')
+def index():
+    return render_template('index.html')
+
+@app.route('/chat', methods=['POST'])
+def chat():
+    query = request.json['query']
     try:
-        # Detailed logging
-        print(f"Received event: {event}")
-        print(f"Environment variables: CODE_BASE_PATH={os.getenv('CODE_BASE_PATH')}")
-        
-        # Initialize assistant
-        assistant = RDKAssistant(
-            code_base_path=os.getenv('CODE_BASE_PATH'),
-            gemini_api_key=os.getenv('GEMINI_API_KEY')
-        )
-        assistant.initialize()
-
-        # Parse the incoming request
-        body = json.loads(event['body'])
-        query = body.get('query', '')
-        print(f"Received query: {query}")
-    
-        # Handle the query
         response = assistant.handle_user_query(query)
-        print(f"Generated response: {response}")
-    
-        return {
-            'statusCode': 200,
-            'body': json.dumps({'response': response}),
-            'headers': {
-                'Content-Type': 'application/json',
-                'Access-Control-Allow-Origin': '*',
-                'Access-Control-Allow-Credentials': 'true',
-            }
-        }
+        return jsonify({'response': response})
     except Exception as e:
-        # More detailed error logging
-        import traceback
-        print(f"Full error traceback: {traceback.format_exc()}")
-        return {
-            'statusCode': 500,
-            'body': json.dumps({
-                'error': str(e),
-                'traceback': traceback.format_exc()
-            }),
-            'headers': {
-                'Content-Type': 'application/json',
-                'Access-Control-Allow-Origin': '*',
-            }
-        }
+        return jsonify({'error': str(e)}), 500
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=int(os.environ.get('PORT', 5000)))
