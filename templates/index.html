@@ -357,24 +357,16 @@
             chatContainer.scrollTop = chatContainer.scrollHeight;
 
             try {
-                // Make API call to Netlify function
-                const response = await fetch('/.netlify/functions/chat', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                    },
-                    body: JSON.stringify({ query })
-                });
-                
-                const data = await response.json();
+                // Make API call
+                const response = await axios.post('/chat', { query });
                 
                 // Remove typing indicator
                 typingIndicator.remove();
                 
                 // Add assistant response
-                const assistantMessageElement = chatManager.createMessageElement(data.response, false);
+                const assistantMessageElement = chatManager.createMessageElement(response.data.response, false);
                 chatContainer.appendChild(assistantMessageElement);
-                chatManager.saveMessage(data.response, false);
+                chatManager.saveMessage(response.data.response, false);
                 
                 // Highlight code blocks and scroll to bottom
                 Prism.highlightAll();
