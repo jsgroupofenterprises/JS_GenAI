@@ -357,16 +357,24 @@
             chatContainer.scrollTop = chatContainer.scrollHeight;
 
             try {
-                // Make API call to Netlify serverless function
-                const response = await axios.post('/.netlify/functions/chat', { query });
+                // Make API call to Netlify function
+                const response = await fetch('/.netlify/functions/chat', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ query })
+                });
+                
+                const data = await response.json();
                 
                 // Remove typing indicator
                 typingIndicator.remove();
                 
                 // Add assistant response
-                const assistantMessageElement = chatManager.createMessageElement(response.data.response, false);
+                const assistantMessageElement = chatManager.createMessageElement(data.response, false);
                 chatContainer.appendChild(assistantMessageElement);
-                chatManager.saveMessage(response.data.response, false);
+                chatManager.saveMessage(data.response, false);
                 
                 // Highlight code blocks and scroll to bottom
                 Prism.highlightAll();
@@ -376,7 +384,7 @@
                 typingIndicator.remove();
                 
                 // Add error message
-                const errorMessage = error.response?.data?.error || 'Sorry, there was an error processing your request.';
+                const errorMessage = 'Sorry, there was an error processing your request.';
                 const errorMessageElement = chatManager.createMessageElement(errorMessage, false);
                 chatContainer.appendChild(errorMessageElement);
                 chatManager.saveMessage(errorMessage, false);
